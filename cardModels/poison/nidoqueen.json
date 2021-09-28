@@ -1,0 +1,29 @@
+{
+    "name": "Nidoqueen",
+    "hp": 110,
+    "stage": "stage2",
+    "evolvesFrom": "Nidorina",
+    "evolvesFromImage": "nidorina",
+    "type": "poison",
+    "image": "nidoqueen",
+    "attacks": [
+        {
+            "name": "Mommy Mode",
+            "cost": "colorless colorless",
+            "effect": "Search your deck for 2 basic Pokemon with Nido in their names. Put them on your Bench. You may attach an Energy to one of them. Either way, shuffle your deck afterwards."
+        },
+        {
+            "name": "Motherly Rage",
+            "cost": "poison poison colorless",
+            "damage": "20+",
+            "effect": "Deal 10 more damage for each card that has Nido in its name in your discard."
+        }
+    ],
+    "weakness": {
+        "type": "psychic",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 1,
+    "flavor": "The worst thing you can do to a Nido is take away their family. That's what you did to Nidoqueen."
+}

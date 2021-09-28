@@ -1,0 +1,32 @@
+{
+    "name": "Onix",
+    "hp": 80,
+    "stage": "basic",
+    "type": "ground",
+    "image": "onix2",
+    "attacks": [
+        {
+            "name": "Iron Tail",
+            "cost": "ground colorless",
+            "damage": 20,
+            "effect": "Onix takes 10 less damage from attacks next turn."
+        },
+        {
+            "name": "Magnitude",
+            "cost": "ground colorless",
+            "damage": "30",
+            "effect": "Deal 10 damage to Benched Pokemon that are not Ground Type. Apply weakness and Resistance to this attack."
+        }
+    ],
+    "weakness": {
+        "type": "water",
+        "value": 10
+    },
+    "resistance": {
+        "type": "lightning",
+        "value": 10
+    },
+    "retreat": 3,
+    "rarity": 3,
+    "flavor": "There's a story of an Onix that beat a machine digging through a mountain. It died soon after."
+}

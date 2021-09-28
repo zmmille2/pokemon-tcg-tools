@@ -1,0 +1,28 @@
+{
+    "name": "Steelix",
+    "hp": 110,
+    "stage": "stage1",
+    "evolvesFrom": "Onix",
+    "evolvesFromImage": "onix",
+    "type": "metal",
+    "image": "steelix",
+    "attacks": [
+        {
+            "name": "Screech",
+            "cost": "colorless colorless",
+            "effect": "Next turn, Steelix takes half damage from all sources, rounded up."
+        },
+        {
+            "name": "Heavy Slam",
+            "cost": "metal metal metal colorless colorless",
+            "damage": 70
+        }
+    ],
+    "weakness": {
+        "type": "fire",
+        "value": 10
+    },
+    "retreat": 5,
+    "rarity": 1,
+    "flavor": "When Onix's shell hardens far enough, it can turn to pure steel. These Pokemon are hunted for the valuable materials in their armor, but it's not easy to take them down."
+}

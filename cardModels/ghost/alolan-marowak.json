@@ -1,0 +1,30 @@
+{
+    "name": "Alolan Marowak",
+    "hp": 70,
+    "stage": "stage1",
+    "evolvesFrom": "Cubone",
+    "evolvesFromImage": "cubone",
+    "type": "ghost",
+    "image": "alolan-marowak",
+    "attacks": [
+        {
+            "name": "Vengeful Strike",
+            "cost": "ghost colorless",
+            "effect": "Deal 10 damage plus 10 more for each Prize card your opponent has taken, up to 40 total.",
+            "damage": "10+"
+        },
+        {
+            "name": "Funeral Dance",
+            "cost": "ghost ghost colorless",
+            "damage": "20+",
+            "effect": "Send as many Pokemon from your discard to the Lost Zone as you like. Add 10 damage to this attack for each Pokemon you move in this way."
+        }
+    ],
+    "resistance": {
+        "type": "lightning",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 2,
+    "flavor": "Bone time!"
+}

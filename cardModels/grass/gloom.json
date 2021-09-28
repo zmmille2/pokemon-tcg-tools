@@ -1,0 +1,32 @@
+{
+    "name": "Gloom",
+    "hp": 70,
+    "stage": "stage1",
+    "evolvesFrom": "Oddish",
+    "evolvesFromImage": "oddish",
+    "type": "grass",
+    "image": "gloom",
+    "ability": {
+        "name" : "Harvest Feast",
+        "effect": "Once during your turn, you may discard as many Grass Energies as you like from your Pokemon. For each Energy discarded this way, remove 1 damage counter from the Pokemon it was attached to."
+    },
+    "attacks": [
+        {
+            "name": "Spiral Drain",
+            "cost": "grass colorless",
+            "damage": 30,
+            "effect": "Remove 1 damage counter from Gloom."
+        }
+    ],
+    "weakness": {
+        "type": "fire",
+        "value": 20
+    },
+    "resistance": {
+        "type": "water",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 2,
+    "flavor": "Gloom overdosing is a serious crime in Celadon City after numerous outbreaks. Their odor stinks over many miles, so it was easy for the police to crack down on."
+}

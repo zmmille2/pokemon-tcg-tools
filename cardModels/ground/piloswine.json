@@ -1,0 +1,34 @@
+{
+    "name": "Piloswine",
+    "hp": 80,
+    "stage": "stage1",
+    "evolvesFrom": "Swinub",
+    "evolvesFromImage": "swinub",
+    "type": "ground",
+    "image": "piloswine",
+    "attacks": [
+        {
+            "name": "Frost Horn",
+            "cost": "ice colorless",
+            "damage": 30,
+            "effect": "The Defending Pokemon cannot retreat next turn."
+        },
+        {
+            "name": "Take Down",
+            "cost": "ground colorless",
+            "damage": 50,
+            "effect": "Piloswine does 10 damage to itself."
+        }
+    ],
+    "weakness": {
+        "type": "metal",
+        "value": 10
+    },
+    "resistance": {
+        "type": "lightning",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 2,
+    "flavor": "These big pigs are much furrier than their cousins from warmer climates. The amount of fat they produce to keep themselves warm makes them prize ramen material."
+}

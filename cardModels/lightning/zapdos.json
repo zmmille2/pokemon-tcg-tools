@@ -1,0 +1,29 @@
+{
+    "name": "Zapdos",
+    "hp": 100,
+    "stage": "basic",
+    "type": "lightning",
+    "image": "zapdos",
+    "ability": {
+        "name" : "Peal of Thunder",
+        "effect": "When you put Zapdos into play (except during setup), do 30 damage to a Pokemon other than Zapdos chosen at random (use a d6)."
+    },
+    "attacks": [
+        {
+            "name": "Big Thunder",
+            "cost": "lightning lightning lightning",
+            "effect": "Choose a Pokemon other than Zapdos at random. This attack does 70 damage to that Pokemon."
+        }
+    ],
+    "weakness": {
+        "type": "rock",
+        "value": 10
+    },
+    "resistance": {
+        "type": "ground",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 1,
+    "flavor": "This legendary bird Pokemon is said to appear when the sky turns dark and lightning showers down."
+}

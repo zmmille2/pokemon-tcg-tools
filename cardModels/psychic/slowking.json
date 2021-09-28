@@ -1,0 +1,27 @@
+{
+    "name": "Slowking",
+    "hp": 90,
+    "stage": "stage1",
+    "evolvesFrom": "Slowpoke",
+    "evolvesFromImage": "slowpoke",
+    "type": "psychic",
+    "image": "slowking",
+    "ability": {
+        "name" : "Mind Reader",
+        "effect": "While Slowking is your Active Pokemon, your opponent plays with their hand revealed."
+    },
+    "attacks": [
+        {
+            "name": "Reality Warp",
+            "cost": "psychic psychic colorless",
+            "effect": "You may move damage counters between your opponent's Pokemon as you like."
+        }
+    ],
+    "weakness": {
+        "type": "dark",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 1,
+    "flavor": "This Pokemon is weak on its own, but with minions to command, it becomes a force to be reckoned with."
+}

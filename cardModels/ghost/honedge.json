@@ -1,0 +1,35 @@
+{
+    "name": "Honedge",
+    "hp": 50,
+    "stage": "basic",
+    "type": "ghost",
+    "image": "honedge",
+    "ability": {
+        "name": "Possessed Sword",
+        "effect": "You may treat Honedge as a Pokemon Tool: When attached to a Pokemon, that Pokemon's attacks deal 20 more damage, and deal 20 damage to the attacker. When it is knocked out, the opponent picks up an extra prize card."
+    },
+    "attacks": [
+        {
+            "name": "Haunt",
+            "cost": "ghost",
+            "damage": "10+",
+            "effect": "You may discard the Defending Pokemon's Pokemon Tool. If you do, deal 20 more damage."
+        },
+        {
+            "name": "Slice",
+            "cost": "metal",
+            "damage": 20
+        }
+    ],
+    "weakness": {
+        "type": "dark",
+        "value": 10
+    },
+    "resistance": { 
+        "type": "normal",
+        "value": 20
+    },
+    "retreat": 2,
+    "rarity": 3,
+    "flavor": "Swords taken by spirits of the warriors that once wielded them. They continue to crave battle, and are known to haunt the ones that killed them."
+}

@@ -1,0 +1,36 @@
+{
+    "name": "Frosmoth",
+    "hp": 80,
+    "stage": "stage1",
+    "evolvesFrom": "Snom",
+    "evolvesFromImage": "snom",
+    "type": "ice",
+    "image": "frosmoth",
+    "ability": {
+        "name" : "Hail",
+        "effect": "If Frosmoth is your Active Pokemon, deal 10 damage after your turn to Pokemon that aren't Ice type."
+    },
+    "attacks": [
+        {
+            "name": "Quiver Dance",
+            "cost": "colorless colorless",
+            "effect": "Reveal the top 7 cards of your deck. Attach up to 3 Energies you find there to your Pokemon and discard the rest."
+        },
+        {
+            "name": "Aurora Gust",
+            "cost": "ice colorless colorless",
+            "damage": 40
+        }
+    ],
+    "weakness": {
+        "type": "rock",
+        "value": 20
+    },
+    "resistance": {
+        "type": "grass",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 1,
+    "flavor": "Frosmoth are rare moths that thrive in the wintery weather. Other bugs seem to hate the cold."
+}

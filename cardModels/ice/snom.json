@@ -1,0 +1,25 @@
+{
+    "name": "Snom",
+    "hp": 30,
+    "stage": "basic",
+    "type": "ice",
+    "image": "snom",
+    "ability": {
+        "name" : "Rapid Evolution",
+        "effect": "Snom can evolve the same turn it is played, even on your first turn."
+    },
+    "attacks": [
+        {
+            "name": "Sneeze",
+            "cost": "colorless",
+            "damage": 10
+        }
+    ],
+    "weakness": {
+        "type": "rock",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 2,
+    "flavor": "Snom are cute bugs. They survive the harsh world by hiding in the snow until the last possible moment. When they evolve, they're much more of a threat."
+}

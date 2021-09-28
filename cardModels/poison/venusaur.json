@@ -1,0 +1,30 @@
+{
+    "name": "Venusaur",
+    "hp": 100,
+    "stage": "stage2",
+    "evolvesFrom": "Ivysaur",
+    "evolvesFromImage": "ivysaur",
+    "type": "poison",
+    "image": "venusaur",
+    "attacks": [
+        {
+            "name": "Giga Drain",
+            "cost": "poison poison colorless",
+            "damage": 40,
+            "effect": "You may remove up to 2 damage counters from Venusaur."
+        },
+        {
+            "name": "Pollen Bomb",
+            "cost": "poison poison colorless colorless",
+            "damage": 60,
+            "effect": "The Defending Pokemon must pay 2 more in order to retreat."
+        }
+    ],
+    "weakness": {
+        "type": "fire",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 1,
+    "flavor": "A bewitching aroma wafts from its flower. The fragrance becalms those engaged in a battle."
+}

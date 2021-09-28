@@ -1,0 +1,35 @@
+{
+    "name": "Lickitung",
+    "hp": 80,
+    "stage": "basic",
+    "type": "colorless",
+    "image": "lickitung",
+    "ability": {
+        "name" : "Sushi Sampler",
+        "effect": "Once per turn, you may discard a Water Pokemon from your hand. If you do, remove 2 damage counters from Lickitung."
+    },
+    "attacks": [
+        {
+            "name": "Lick",
+            "cost": "colorless",
+            "damage": 10,
+            "effect": "Flip a coin. If Heads, the Defending Pokemon is Paralyzed."
+        },
+        {
+            "name": "Seek Out",
+            "cost": "colorless colorless",
+            "effect": "Reveal the top card of your deck. If it is a Water Pokemon, use the Sushi Sampler ability immediately (even if you've already used it). Otherwise, draw it."
+        }
+    ],
+    "weakness": {
+        "type": "fighting",
+        "value": 10
+    },
+    "resistance": {
+        "type": "ghost",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 2,
+    "flavor": "They love sushi. They're smart enough to pay, but sushi owners still don't like them, since customers down the belt from them will wind up hungry."
+}

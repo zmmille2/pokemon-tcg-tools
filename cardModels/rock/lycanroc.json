@@ -1,0 +1,32 @@
+{
+    "name": "Lycanroc",
+    "hp": 80,
+    "stage": "stage1",
+    "evolvesFrom": "rockruff",
+    "evolvesFromImage": "rockruff",
+    "type": "rock",
+    "image": "lycanroc",
+    "ability": {
+        "name" : "Pack Howl",
+        "effect": "While this is your Active Pokemon, once during your turn, for each Rockruff on your bench, you may reveal the top 5 cards of your deck. If any of them have Lycanroc in the name, you can evolve only one Rockruff immediately. Shuffle the other cards back into your deck."
+    },
+    "attacks": [
+        {
+            "name": "Accelerock",
+            "cost": "rock",
+            "damage": 20
+        },
+        {
+            "name": "Stone Paw",
+            "cost": "rock rock colorless",
+            "damage": 50
+        }
+    ],
+    "weakness": {
+        "type": "grass",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 0,
+    "flavor": "These loyal dogs were raised and cared for during the day. Their healthy upbringing has given them a bright, playful personality."
+}

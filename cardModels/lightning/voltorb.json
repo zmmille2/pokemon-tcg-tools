@@ -1,0 +1,30 @@
+{
+    "name": "Voltorb",
+    "hp": 50,
+    "stage": "basic",
+    "type": "electric",
+    "image": "voltorb",
+    "ability": {
+        "name" : "Magnetic Field",
+        "effect": "When you move an Energy to or from Voltorb, you may draw a card."
+    },
+    "attacks": [
+        {
+            "name": "Discharge",
+            "cost": "lightning lightning",
+            "damage": 20,
+            "effect": "Move a Lightning Energy from Voltorb to a Benched Pokemon."
+        }
+    ],
+    "weakness": {
+        "type": "ground",
+        "value": 10
+    },
+    "resistance": {
+        "type": "metal",
+        "value": 10
+    },
+    "retreat": 0,
+    "rarity": 3,
+    "flavor": "Frequently mistaken for Pokeballs. Thomas Pokeball got the idea for Pokeballs from something different."
+}

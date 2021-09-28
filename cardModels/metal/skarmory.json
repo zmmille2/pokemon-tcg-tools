@@ -1,0 +1,31 @@
+{
+    "name": "Skarmory",
+    "hp": 80,
+    "stage": "basic",
+    "type": "metal",
+    "image": "skarmory",
+    "attacks": [
+        {
+            "name": "Spearhead",
+            "cost": "colorless",
+            "effect": "Draw a card."
+        },
+        {
+            "name": "Heavy Metal",
+            "cost": "metal colorless",
+            "damage": "20+",
+            "effect": "If the Defending Pokemon's Retreat Cost is 0 or 1, this attack deals 10 more damage."
+        }
+    ],
+    "weakness": {
+        "type": "fire",
+        "value": 10
+    },
+    "resistance": {
+        "type": "ground",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 2,
+    "flavor": "These big metal birds spend most of their time near the ground. The weight of their armor protects them from predators, but also keeps them landlocked."
+}

@@ -1,0 +1,38 @@
+{
+    "name": "Lucario",
+    "hp": 70,
+    "stage": "stage1",
+    "evolvesFrom": "Riolu",
+    "evolvesFromImage": "riolu",
+    "type": "fighting",
+    "image": "lucario",
+    "ability": {
+        "name" : "Strike Back",
+        "effect": "When this Pokemon takes damage from an attack, put 2 damage counters on the Defending Pokemon."
+    },
+    "attacks": [
+        {
+            "name": "Feint",
+            "cost": "colorless",
+            "damage": "30",
+            "effect": "This attack is not affected by Resistance."
+        },
+        {
+            "name": "Aura Sphere",
+            "cost": "fighting colorless",
+            "damage": 30,
+            "effect": "Deal 10 damage to an opposing Benched Pokemon."
+        }
+    ],
+    "weakness": {
+        "type": "ground",
+        "value": 10
+    },
+    "resistance": {
+        "type": "dark",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 2,
+    "flavor": "These Pokemon brawl relentlessly. Their refined style shows it."
+}

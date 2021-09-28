@@ -1,0 +1,27 @@
+{
+    "name": "Tentacool",
+    "hp": 50,
+    "stage": "basic",
+    "type": "water",
+    "image": "tentacool",
+    "attacks": [
+        {
+            "name": "Jelly Swarm",
+            "cost": "water",
+            "effect": "Reveal the top 7 cards of your deck. Put any Tentacool or Tentacruel you find there into your hand. Shuffle the other cards back into your deck."
+        },
+        {
+            "name": "Poison Sting",
+            "cost": "poison colorless",
+            "damage": 20,
+            "effect": "Your opponent's Active Pokemon is now Poisoned."
+        }
+    ],
+    "weakness": {
+        "type": "psychic",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "Trying to be cool can make you cruel. The Pokemon universe is truly deep."
+}

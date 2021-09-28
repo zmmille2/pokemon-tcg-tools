@@ -1,0 +1,36 @@
+{
+    "name": "Oricorio",
+    "hp": 60,
+    "stage": "basic",
+    "type": "flying",
+    "image": "oricorio",
+    "ability": {
+        "name": "Dancer",
+        "effect": "While Oricorio is Benched, when your Active Pokemon uses an attack or ability with \"Dance\" in its name, Oricorio may also use that attack or ability as if it were the Active Pokemon. You may only use one Dancer ability per turn."
+    },
+    "attacks": [
+        {
+            "name": "Passionate Dance",
+            "cost": "flying",
+            "damage": "10+",
+            "effect": "You may discard a Fire Energy to deal 20 more damage. You may move a Lightning Energy to a Benched Pokemon to deal 20 more damage."
+        },
+        {
+            "name": "Hypnotizing Dance",
+            "cost": "flying",
+            "damage": 10,
+            "effect": "If Oricorio has a Ghost Energy attached to it, you may put 2 Curses on top of the opponent's deck, then shuffle it. If Oricorio has a Fairy Energy attached to it, you may heal 20 damage from one of your Benched Pokemon."
+        }
+    ],
+    "weakness": {
+        "type": "lightning",
+        "value": 10
+    },
+    "resistance": {
+        "type": "ground",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 2,
+    "flavor": "Their dancing form makes them great additions at parties. Children love them, and skilled dancers have been known to imitate their movements."
+}

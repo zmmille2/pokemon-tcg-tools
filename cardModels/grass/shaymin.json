@@ -1,0 +1,30 @@
+{
+    "name": "Shaymin",
+    "hp": 80,
+    "stage": "basic",
+    "type": "grass",
+    "image": "shaymin",
+    "ability": {
+        "name" : "Flower Gift",
+        "effect": "Once per turn, you may draw a card. Your opponent may also draw a card."
+    },
+    "attacks": [
+        {
+            "name": "Rest",
+            "cost": "colorless",
+            "effect": "Remove all damage counters and special conditions from Shaymin. Shaymin is now asleep."
+        },
+        {
+            "name": "Soothing Scent",
+            "cost": "grass colorless",
+            "effect": "Your opponent switches one of their Benched Pokemon with a new Active Pokemon. If they do, the new Active Pokemon is now asleep."
+        }
+    ],
+    "weakness": {
+        "type": "fire",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 1,
+    "flavor": "It just wants to hang out with its friends. There's no need to fight, let's all take a nice nap."
+}

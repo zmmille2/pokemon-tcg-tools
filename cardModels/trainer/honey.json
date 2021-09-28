@@ -1,0 +1,7 @@
+{ 
+    "name": "Honey", 
+    "type": "tool", 
+    "image": "honey", 
+    "effect": "You may discard this Tool at any time to heal 10 HP. You may use this effect as a normal trainer without attaching the tool."
+} 
+ 

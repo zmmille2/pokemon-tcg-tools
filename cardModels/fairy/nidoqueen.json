@@ -1,0 +1,37 @@
+{
+    "name": "Nidoqueen",
+    "hp": 110,
+    "stage": "stage2",
+    "evolvesFrom": "Nidorina",
+    "evolvesFromImage": "nidorina",
+    "type": "fairy",
+    "image": "nidoqueen1",
+    "ability": {
+        "name": "Flower Field",
+        "effect": "At the end of your turn, remove 1 damage counter from each of your Basic Pokemon."
+    },
+    "attacks": [
+        {
+            "name": "Take Down",
+            "cost": "colorless colorless",
+            "damage": 40
+        },
+        {
+            "name": "Playful Shove",
+            "cost": "fairy colorless",
+            "damage": "20",
+            "effect": "If your opponent has any Benched Pokemon, you can choose one of them to be the new Active Pokemon after dealing damage."
+        }
+    ],
+    "weakness": {
+        "type": "steel",
+        "value": 10
+    },
+    "resistance": {
+        "type": "darkness",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 1,
+    "flavor": "Nidoqueen is better at defense than offense. With scales like armor, this Pokemon will shield its children from any kind of attack."
+}

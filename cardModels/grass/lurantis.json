@@ -1,0 +1,27 @@
+{
+    "name": "Lurantis",
+    "hp": 70,
+    "stage": "stage1",
+    "evolvesFrom": "Fomantis",
+    "evolvesFromImage": "fomantis",
+    "type": "grass",
+    "image": "lurantis",
+    "ability": {
+        "name" : "Solar Power",
+        "effect": "Whenever a Fire Energy is discarded, remove 1 damage counter from Lurantis."
+    },
+    "attacks": [
+        {
+            "name": "Solar Blade",
+            "cost": "grass fire",
+            "damage": 50
+        }
+    ],
+    "weakness": {
+        "type": "flying",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 1,
+    "flavor": "After mating, the female tries to eat the male."
+}

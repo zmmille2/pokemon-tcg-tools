@@ -1,0 +1,28 @@
+{
+    "name": "Furret",
+    "hp": 70,
+    "stage": "stage1",
+    "evolvesFrom": "Sentret",
+    "evolvesFromImage": "sentret",
+    "type": "colorless",
+    "image": "furret",
+    "attacks": [
+        {
+            "name": "Pickup",
+            "cost": "colorless",
+            "effect": "Open a new pack from the current set. Add one card to your hand and add the rest to your board."
+        },
+        {
+            "name": "He Walk",
+            "cost": "colorless colorless",
+            "damage": 30
+        }
+    ],
+    "weakness": {
+        "type": "fighting",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 2,
+    "flavor": "These things just love walking around. They've been spotted in the desert, in the jungle, in the ocean, and even on the moon."
+}

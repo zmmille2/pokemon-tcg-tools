@@ -1,0 +1,6 @@
+{ 
+    "name": "Swagger", 
+    "type": "standard", 
+    "image": "swagger", 
+    "effect": "You may choose a new Active Pokemon for the opponent. They may decline, but if they do, your next attack deals 10 more damage to the Defending Pokemon." 
+} 

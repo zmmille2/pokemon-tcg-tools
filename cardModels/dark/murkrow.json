@@ -1,0 +1,26 @@
+{
+    "name": "Murkrow",
+    "hp": 50,
+    "stage": "basic",
+    "type": "dark",
+    "image": "murkrow",
+    "attacks": [
+        {
+            "name": "Murder of Crows",
+            "cost": "dark",
+            "damage": "10+",
+            "effect": "Deal 10 more damage for each Murkrow or Honchkrow you have on the Bench."
+        }
+    ],
+    "weakness": {
+        "type": "fairy",
+        "value": 10
+    },
+    "resistance": {
+        "type": "ground",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "Shockingly intelligent, when these pests get into a group, they are known to bring down much larger targets."
+}

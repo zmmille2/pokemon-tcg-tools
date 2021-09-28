@@ -1,0 +1,25 @@
+{
+    "name": "Mareep",
+    "hp": 50,
+    "stage": "basic",
+    "type": "lightning",
+    "image": "mareep",
+    "ability": {
+        "name" : "Cotton Spore",
+        "effect": "Whenever the Defending Pokemon deals damage to Mareep, flip a coin. If heads, the Defending Pokemon is now Paralyzed."
+    },
+    "attacks": [
+        {
+            "name": "Spark",
+            "cost": "lightning colorless",
+            "damage": 20
+        }
+    ],
+    "weakness": {
+        "type": "ground",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "Its fluffy coat builds up a shocking amount of static electricity."
+}

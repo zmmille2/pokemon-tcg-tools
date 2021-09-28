@@ -1,0 +1,25 @@
+{
+    "name": "Delibird",
+    "hp": 50,
+    "stage": "basic",
+    "type": "ice",
+    "image": "delibird",
+    "attacks": [
+        {
+            "name": "Present",
+            "cost": "colorless colorless",
+            "effect": "Flip 3 coins. For each heads, open two new packs. For each tails, your opponent opens a new pack."
+        }
+    ],
+    "weakness": {
+        "type": "rock",
+        "value": 20
+    },
+    "resistance": {
+        "type": "ground",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 2,
+    "flavor": "These birds aren't much use in a battle, but they're deeply appreciated all the same."
+}

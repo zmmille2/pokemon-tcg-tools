@@ -1,0 +1,32 @@
+{
+    "name": "Ribombee",
+    "hp": 60,
+    "stage": "stage1",
+    "evolvesFrom": "Cutiefly",
+    "evolvesFromImage": "cutiefly",
+    "type": "fairy",
+    "image": "ribombee",
+    "ability": {
+        "name" : "Healing Pollen",
+        "effect": "Once per turn, you may heal 20 damage from 1 of your Pokemon."
+    },
+    "attacks": [
+        {
+            "name": "Fairy Wind",
+            "cost": "fairy",
+            "damage": 30,
+            "effect": "Switch Ribombee with a Benched Pokemon."
+        }
+    ],
+    "weakness": {
+        "type": "steel",
+        "value": 20
+    },
+    "resistance": {
+        "type": "dark",
+        "value": 20
+    },
+    "retreat": 0,
+    "rarity": 2,
+    "flavor": "Ribombee's pollen puffs are highly nutritious. They're widely used in Bee Caps."
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Bergmite",
+    "hp": 80,
+    "stage": "basic",
+    "type": "ice",
+    "image": "bergmite",
+    "attacks": [
+        {
+            "name": "Ice Lurch",
+            "cost": "ice",
+            "damage": 10
+        }
+    ],
+    "weakness": {
+        "type": "fire",
+        "value": 20
+    },
+    "retreat": 3,
+    "rarity": 3,
+    "flavor": "Lots of people see these Pokemon in zoos, but in the Arctic they run wild. They require a lot of cold."
+}

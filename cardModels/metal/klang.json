@@ -1,0 +1,29 @@
+{
+    "name": "Klang",
+    "hp": 90,
+    "stage": "stage1",
+    "evolvesFrom": "Klink",
+    "evolvesFromImage": "klink",
+    "type": "metal",
+    "image": "klang",
+    "attacks": [
+        {
+            "name": "Gear Up",
+            "cost": "colorless colorless",
+            "damage": 20,
+            "effect": "Search your deck for a Metal Energy. Reveal it to your opponent and put it into your hand. Shuffle your deck afterwards."
+        },
+        {
+            "name": "Gear Grind",
+            "cost": "metal colorless colorless",
+            "damage": 40
+        }
+    ],
+    "weakness": {
+        "type": "fire",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 2,
+    "flavor": "Ever feel like a cog in a great big machine?"
+}

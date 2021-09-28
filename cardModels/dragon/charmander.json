@@ -1,0 +1,31 @@
+{
+    "name": "Charmander",
+    "hp": 50,
+    "stage": "basic",
+    "type": "dragon",
+    "image": "charmander",
+    "attacks": [
+        {
+            "name": "Tail Swipe",
+            "cost": "dragon",
+            "damage": 10
+        },
+        {
+            "name": "Fire Spit",
+            "cost": "fire",
+            "damage": 20,
+            "effect": "Discard a Fire Energy attached to Charmander to use this attack."
+        }
+    ],
+    "weakness": {
+        "type": "water",
+        "value": 20
+    },
+    "resistance": {
+        "type": "fire",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "They desparately protect their tail. If the flame goes out, they die."
+}

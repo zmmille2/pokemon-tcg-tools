@@ -1,0 +1,32 @@
+{
+    "name": "Aegislash",
+    "hp": 90,
+    "stage": "stage2",
+    "type": "ghost",
+    "image": "aegislash",
+    "evolvesFrom": "Doublade",
+    "evolvesFromImage": "doublade",
+    "attacks": [
+        {
+            "name": "King's Shield",
+            "cost": "metal colorless colorless",
+            "effect": "Aegislash takes 20 less damage during your opponent's next turn. If Aegislash used King's Shield last turn, it takes 40 less instead, and deal any damage prevented to the Defending Pokemon."
+        },
+        {
+            "name": "Buster Swing",
+            "cost": "ghost colorless colorless",
+            "effect": "Put 4 damage counters on the Defending Pokemon. If Aegislash used Buster Swing last turn, put 4 more damage counters on the Defending Pokemon."
+        }
+    ],
+    "weakness": {
+        "type": "dark",
+        "value": 10
+    },
+    "resistance": { 
+        "type": "normal",
+        "value": 20
+    },
+    "retreat": 2,
+    "rarity": 1,
+    "flavor": "These fearsome spirits take more than just a medium to dispel - oftentimes, a fully armored knight is dispatched to keep them at bay."
+}

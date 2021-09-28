@@ -1,0 +1,30 @@
+{
+    "name": "Castform",
+    "hp": 60,
+    "stage": "basic",
+    "type": "colorless",
+    "image": "castform",
+    "ability": {
+        "name": "Forecast",
+        "effect": "When you attach an Energy to Castform, you may search your deck for another card named Castform, replace it with this one, and shuffle your deck."
+    },
+    "attacks": [
+        {
+            "name": "Weather Ball",
+            "cost": "colorless",
+            "damage": 10
+        },
+        {
+            "name": "Weather Vane",
+            "cost": "colorless colorless",
+            "effect": "Reveal cards from the top of your deck until you reveal an Fire, Ice, Rock, or Water Energy. Draw that card, and shuffle the others back into your deck."
+        }
+    ],
+    "weakness": {
+        "type": "fighting",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 2,
+    "flavor": "Castform are pernicious creatures that change with the weather."
+}

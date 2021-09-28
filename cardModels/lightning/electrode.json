@@ -1,0 +1,32 @@
+{
+    "name": "Electrode",
+    "hp": 80,
+    "stage": "stage1",
+    "evolvesFrom": "Voltorb",
+    "evolvesFromImage": "voltorb",
+    "type": "lightning",
+    "image": "electrode",
+    "ability": {
+        "name" : "Dangerous Charge",
+        "effect": "Once per turn, you may attach as many Energy as you like to Electrode from your discard. If you do, flip a coin: If tails, Electrode takes 10 damage for each Energy gained this way. If Electrode loses an Energy, it takes 10 damage."
+    },
+    "attacks": [
+        {
+            "name": "Explode",
+            "cost": "lightning",
+            "damage": "10x",
+            "effect": "Deal 10 damage times the number of Energy attached to Electrode to Electrode and to the Defending Pokemon"
+        }
+    ],
+    "weakness": {
+        "type": "ground",
+        "value": 10
+    },
+    "resistance": {
+        "type": "metal",
+        "value": 10
+    },
+    "retreat": 0,
+    "rarity": 2,
+    "flavor": "Electrode hoard energy. Ancient Electrodes would have to survive on sparks of static Energy. Modern ones act like batteries, but frequently suck up more Energy than they can handle."
+}

@@ -1,0 +1,6 @@
+{
+    "name": "Daring Adventure",
+    "image": "daring-adventure",
+    "type": "standard",
+    "effect": "Shuffle up to 3 Basic Pokemon without damage counters on them and all cards attached to them into your deck. For each Pokemon shuffled into your deck, reveal cards from the top of your deck until you find a Pokemon Tool, an Energy Card, or a Stage 1 card that evolves from one of those Basic Pokemon. Put those cards into your hand, and shuffle the rest into your deck."
+}

@@ -1,0 +1,22 @@
+{
+    "name": "Scyther",
+    "hp": 70,
+    "stage": "basic",
+    "type": "bug",
+    "image": "scyther",
+    "attacks": [
+        {
+            "name": "Fury Cutter",
+            "cost": "bug",
+            "damage": "10x",
+            "effect": "Flip 4 coins. Deal 10 times the number of heads."
+        }
+    ],
+    "weakness": {
+        "type": "rock",
+        "value": 20
+    },
+    "retreat": 1,
+    "rarity": 2,
+    "flavor": "Their blades can cut through almost anything. They don't socialize well. Many of their trainers have lost hands going for high-fives."
+}

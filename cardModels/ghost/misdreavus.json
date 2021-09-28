@@ -1,0 +1,26 @@
+{
+    "name": "Misdreavus",
+    "hp": 50,
+    "stage": "basic",
+    "type": "ghost",
+    "image": "misdreavus",
+    "attacks": [
+        {
+            "name": "Vengeful Spirit",
+            "cost": "ghost colorless",
+            "damage": 10,
+            "effect": "Place 3 damage counters on your opponent's Prize Cards however you like. When your opponent takes a Prize with damage counters on it, put them on their Active Pokemon."
+        }
+    ],
+    "weakness": {
+        "type": "dark",
+        "value": 10
+    },
+    "resistance": {
+        "type": "colorless",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "A Pokemon that startles people in the middle of the night. It gathers fear for energy."
+}

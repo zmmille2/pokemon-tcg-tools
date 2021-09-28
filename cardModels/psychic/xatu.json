@@ -1,0 +1,31 @@
+{
+    "name": "Xatu",
+    "hp": 80,
+    "stage": "stage1",
+    "evolvesFrom": "Natu",
+    "evolvesFromImage": "natu",
+    "type": "psychic",
+    "image": "xatu",
+    "ability": {
+        "name" : "Time Seer",
+        "effect": "While Xatu is your Active Pokemon, play with your deck and Prize Cards face-up."
+    },
+    "attacks": [
+        {
+            "name": "Future Sight",
+            "cost": "psychic colorless",
+            "effect": "Take the top 3 cards of your opponent's deck, put a Future Sight card on their deck (which deals 50 damage when drawn), rearrange the 3 cards as you like and return them to the top of their deck."
+        }
+    ],
+    "weakness": {
+        "type": "dark",
+        "value": 10
+    },
+    "resistance": {
+        "type": "fighting",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 1,
+    "flavor": "It's said that while this Pokemon has the power to predict the future, it's not powerful enough to change what it sees."
+}

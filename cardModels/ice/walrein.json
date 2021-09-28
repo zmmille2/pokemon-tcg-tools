@@ -1,0 +1,38 @@
+{
+    "name": "Walrein",
+    "hp": 100,
+    "stage": "stage2",
+    "evolvesFrom": "Sealeo",
+    "evolvesFromImage": "sealeo",
+    "type": "ice",
+    "image": "walrein",
+    "ability": {
+        "name" : "Frozen Roar",
+        "effect": "As often as you like during your turn, you can attach an Ice Energy from your hand to any one of your Pokemon."
+    },
+    "attacks": [
+        {
+            "name": "Frost Breath",
+            "cost": "ice",
+            "damage": 20
+        },
+        {
+            "name": "Cold Revenge",
+            "cost": "ice colorless colorless",
+            "effect": "If your Active Pokemon was Knocked Out during your or your opponent's last turn, this attack deals 80 damage."
+        },
+        {
+            "name": "Sheer Cold",
+            "cost": "ice ice ice ice",
+            "damage": "20+",
+            "effect": "Deal 10 more damage for each damage counter on Walrein."
+        }
+    ],
+    "weakness": {
+        "type": "lightning",
+        "value": 20
+    },
+    "retreat": 3,
+    "rarity": 1,
+    "flavor": "These giant terrors are feared by Pokemon far and wide. Spheal are delicious targets, but are mostly left alone due to their horrifying parents."
+}

@@ -1,0 +1,27 @@
+{
+    "name": "Klinklang",
+    "hp": 110,
+    "stage": "stage2",
+    "evolvesFrom": "Klang",
+    "evolvesFromImage": "klang",
+    "type": "metal",
+    "image": "klinklang",
+    "ability": {
+        "name" : "Clockwork",
+        "effect": "Once per turn, if Klinklang is your Active Pokemon, you may search your deck for a Metal Energy, reveal it to your opponent, and add it to your hand. Shuffle your deck afterwards."
+    },
+    "attacks": [
+        {
+            "name": "Gear Grind",
+            "cost": "metal metal colorless",
+            "damage": 60
+        }
+    ],
+    "weakness": {
+        "type": "fire",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 1,
+    "flavor": "This Pokemon grinds smaller ones to dust between its irrevocably interlinked gears. If the gears ever separate, this Pokemon dies."
+}

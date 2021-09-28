@@ -1,0 +1,30 @@
+{
+    "name": "Moltres",
+    "hp": 100,
+    "stage": "Basic",
+    "type": "fire",
+    "image": "moltres",
+    "ability": {
+        "name" : "Firegiver",
+        "effect": "When you put Moltres into play (except during setup) roll a d4. Generate that many Fire Energies and put them into your hand."
+    },
+    "attacks": [
+        {
+            "name": "Dive Bomb",
+            "cost": "fire fire fire",
+            "damage": 70,
+            "effect": "Flip a coin. If tails, this attack does nothing."
+        }
+    ],
+    "weakness": {
+        "type": "rock",
+        "value": 20
+    },
+    "resistance": {
+        "type": "ground",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 1,
+    "flavor": "A legendary bird Pokemon. As it flaps its wings, even the night sky will turn red."
+}

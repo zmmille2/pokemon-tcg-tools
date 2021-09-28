@@ -1,0 +1,22 @@
+{
+    "name": "Dratini",
+    "hp": 40,
+    "stage": "Basic",
+    "type": "dragon",
+    "image": "dratini",
+    "attacks": [
+        {
+            "name": "Wrap",
+            "cost": "colorless colorless",
+            "damage": 10,
+            "effect": "Flip a coin. If heads, the Defending Pokemon is Paralyzed. Either way, it cannot retreat next turn."
+        }
+    ],
+    "weakness": {
+        "type": "fairy",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 2,
+    "flavor": "These Pokemon are rare. While in this form, they're still quite weak."
+}

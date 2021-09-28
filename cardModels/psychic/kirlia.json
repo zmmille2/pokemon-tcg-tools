@@ -1,0 +1,24 @@
+{
+    "name": "Kirlia",
+    "hp": 60,
+    "stage": "stage1",
+    "evolvesFrom": "Ralts",
+    "evolvesFromImage": "ralts",
+    "type": "psychic",
+    "image": "kirlia",
+    "attacks": [
+        {
+            "name": "Super Psywave",
+            "cost": "psychic colorless colorless",
+            "damage": "40+",
+            "effect": "If Kirlia and the Defending Pokemon have the same number of Energy attached to them, this attack does 20 more damage."
+        }
+    ],
+    "weakness": {
+        "type": "metal",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 2,
+    "flavor": "Their control of their psychic powers is growing, but so too is their physical prowess."
+}

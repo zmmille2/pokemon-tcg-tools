@@ -1,0 +1,31 @@
+{
+    "name": "Snubbull",
+    "hp": 50,
+    "stage": "basic",
+    "type": "fairy",
+    "image": "snubbull",
+    "attacks": [
+        {
+            "name": "Bite",
+            "cost": "dark",
+            "damage": 20
+        },
+        {
+            "name": "Play Rough",
+            "cost": "fairy",
+            "damage": "10+",
+            "effect": "Flip a coin. If heads,deal 10 more damage. If tails,Snubbull takes 10 less damage from all sources next turn."
+        }
+    ],
+    "weakness": {
+        "type": "steel",
+        "value": 10
+    },
+    "resistance": {
+        "type": "darkness",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "Small Pokemon flee from its scary face. It is, however, considered by women to be cute."
+}

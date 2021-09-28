@@ -1,0 +1,32 @@
+{
+    "name": "Haunter",
+    "hp": 60,
+    "stage": "stage1",
+    "type": "ghost",
+    "image": "haunter",
+    "evolvesFrom": "Gastly",
+    "evolvesFromImage": "gastly",
+    "attacks": [
+        {
+            "name": "Curse",
+            "cost": "ghost colorless",
+            "effect": "Deal 20 damage to Haunter. Shuffle 5 Curses into your opponent's deck, which deal damage when drawn."
+        },
+        {
+            "name": "Shadow Punch",
+            "cost": "ghost colorless colorless",
+            "damage": 40
+        }
+    ],
+    "weakness": {
+        "type": "dark",
+        "value": 10
+    },
+    "resistance": { 
+        "type": "normal",
+        "value": 10
+    },
+    "retreat": 0,
+    "rarity": 2,
+    "flavor": "They're slowly incorporating into a physical form."
+}

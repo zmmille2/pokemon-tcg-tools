@@ -1,0 +1,37 @@
+{
+    "name": "Lycanroc Midnight",
+    "hp": 60,
+    "stage": "stage1",
+    "evolvesFrom": "Rockruff",
+    "evolvesFromImage": "rockruff",
+    "type": "dark",
+    "image": "lycanroc-midnight",
+    "ability": {
+        "name" : "Lone Wolf",
+        "effect": "While there are no Pokemon on your bench, Lycanroc Midnight deals 30 more damage with attacks."
+    },
+    "attacks": [
+        {
+            "name": "Accelerock",
+            "cost": "rock",
+            "damage": 20
+        },
+        {
+            "name": "Scary Face",
+            "cost": "colorless colorless",
+            "effect": "If the Defending Pokemon's retreat cost is 1 or less, switch the Defending Pokemon with a Pokemon on the opponent's bench."
+        },
+        {
+            "name": "Rock Fang",
+            "cost": "dark rock colorless",
+            "damage": 40
+        }
+    ],
+    "weakness": {
+        "type": "fighting",
+        "value": 20
+    },
+    "retreat": 1,
+    "rarity": 0,
+    "flavor": "When Rockruff is abandoned and forced to fend for itself, it becomes The Joker."
+}

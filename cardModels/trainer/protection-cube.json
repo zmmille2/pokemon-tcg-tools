@@ -1,0 +1,6 @@
+{
+    "name": "Protection Cube", 
+    "type": "tool", 
+    "image": "protection-cube", 
+    "effect": "If this Pokemon does damage to itself, put it on Protection Cube instead. When Protection Cube has 10 damage counters on it, discard it, and put the remaining damage on the Pokemon Protection Cube is attached to." 
+}

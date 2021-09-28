@@ -1,0 +1,34 @@
+{
+    "name": "Avalugg",
+    "hp": 150,
+    "stage": "stage1",
+    "evolvesFrom": "Bergmite",
+    "evolvesFromImage": "bergmite",
+    "type": "ice",
+    "image": "avalugg",
+    "ability": {
+        "name" : "Unmoveable Object",
+        "effect": "Once Avalugg is an Active Pokemon, it cannot move back to the bench."
+    },
+    "attacks": [
+        {
+            "name": "Slam",
+            "cost": "colorless colorless",
+            "damage": "10x",
+            "effect": "Deals 10 damage times the difference in Avalugg and the Defending Pokemon's retreat cost."
+        },
+        {
+            "name": "Avalanche",
+            "cost": "ice ice ice ice colorless",
+            "damage": "50+",
+            "effect": "If Avalugg has 30 or less HP left, deal 40 more damage."
+        }
+    ],
+    "weakness": {
+        "type": "fire",
+        "value": 20
+    },
+    "retreat": 5,
+    "rarity": 1,
+    "flavor": "These Pokemon are big. Recently they've been melting."
+}

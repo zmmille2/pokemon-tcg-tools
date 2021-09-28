@@ -1,0 +1,29 @@
+{
+    "name": "Dwebble",
+    "hp": 40,
+    "stage": "basic",
+    "type": "rock",
+    "image": "dwebble",
+    "ability": {
+        "name" : "Sturdy",
+        "effect": "If Dwebble has no damage counters on it, reduce any damage it takes above 30 to 30, and it cannot be Knocked Out."
+    },
+    "attacks": [
+        {
+            "name": "Scratch",
+            "cost": "colorless",
+            "damage": 10
+        }
+    ],
+    "weakness": {
+        "type": "water",
+        "value": 10
+    },
+    "resistance": {
+        "type": "colorless",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 3,
+    "flavor": "These beach dwellers have a tough time with Water Pokemon, but their thick shells do provide some advantage."
+}

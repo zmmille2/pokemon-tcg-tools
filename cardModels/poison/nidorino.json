@@ -1,0 +1,30 @@
+{
+    "name": "Nidorino",
+    "hp": 80,
+    "stage": "stage1",
+    "evolvesFrom": "Nidoran M",
+    "evolvesFromImage": "nidoran-m",
+    "type": "poison",
+    "image": "nidorino",
+    "attacks": [
+        {
+            "name": "Fury Swipes",
+            "cost": "poison",
+            "damage": "10x",
+            "effect": "Flip 5 coins. This attack does 10 damage times the number of heads."
+        },
+        {
+            "name": "Confident Charge",
+            "cost": "poison colorless",
+            "damage": "30+",
+            "effect": "If Nidorina is in play, this attack does 20 more damage."
+        }
+    ],
+    "weakness": {
+        "type": "psychic",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 2,
+    "flavor": "I don't have friends, I have a family."
+}

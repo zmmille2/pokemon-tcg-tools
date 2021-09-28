@@ -1,0 +1,38 @@
+{
+    "name": "Gardevoir",
+    "hp": 90,
+    "stage": "stage2",
+    "evolvesFrom": "Kirlia",
+    "evolvesFromImage": "kirlia",
+    "type": "psychic",
+    "image": "gardevoir",
+    "ability": {
+        "name" : "Mind Meld",
+        "effect": "Each Psychic Energy attached to your Pokemon provides two Psychic Energy instead of one."
+    },
+    "attacks": [
+        {
+            "name": "Pain Split",
+            "cost": "psychic psychic",
+            "effect": "Combine the damage counters between Gardevoir and the Defending Pokemon. Gardevoir takes half rounded down. The Defending Pokemon takes half rounded up."
+        },
+        {
+            "name": "Black Hole",
+            "cost": "psychic psychic dark",
+            "damage": 40,
+            "effect": "Move the top 5 cards in your opponent's discard to the Lost Zone."
+        },
+        {
+            "name": "Psychic",
+            "cost": "psychic psychic psychic psychic psychic",
+            "damage": 60
+        }
+    ],
+    "weakness": {
+        "type": "metal",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 1,
+    "flavor": "It can make black holes. This is directly from the lore, it happened in the anime and it wasn't really that big of a deal. Anyways"
+}

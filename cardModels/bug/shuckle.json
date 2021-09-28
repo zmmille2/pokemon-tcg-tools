@@ -1,0 +1,30 @@
+{
+    "name": "Shuckle",
+    "hp": 60,
+    "stage": "Basic",
+    "type": "bug",
+    "image": "shuckle",
+    "ability": {
+        "name" : "Juice Lover",
+        "effect": "Once per turn, you may search your deck for a card with Berry in its name and attach it to Shuckle. If you do, shuffle your deck. When Shuckle uses a Berry, in addition to its effect, remove 2 damage counters from Shuckle."
+    },
+    "attacks": [
+        {
+            "name": "Donation",
+            "cost": "colorless",
+            "effect": "If Shuckle has a Pokemon Tool attached to it, you may move it to another Pokemon."
+        },
+        {
+            "name": "Toxic",
+            "cost": "bug",
+            "effect": "The Defending Pokemon is now Poisoned. Put 2 damage counters on it between turns instead of 1."
+        }
+    ],
+    "weakness": {
+        "type": "water",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 2,
+    "flavor": "In their shell, strange juices are produced. Some are nice and shared with friends, while some are reserved for their predators."
+}

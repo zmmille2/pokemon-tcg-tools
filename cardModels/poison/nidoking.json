@@ -1,0 +1,29 @@
+{
+    "name": "Nidoking",
+    "hp": 110,
+    "stage": "stage2",
+    "evolvesFrom": "Nidorino",
+    "evolvesFromImage": "nidorino",
+    "type": "poison",
+    "image": "nidoking",
+    "attacks": [
+        {
+            "name": "Daddy Mode",
+            "cost": "colorless colorless",
+            "effect": "Search your deck for 2 basic Pokemon with Nido in their names. Put them on your Bench. You may attach an Energy to one of them. Either way, shuffle your deck afterwards."
+        },
+        {
+            "name": "Family Issues",
+            "cost": "poison poison colorless",
+            "damage": "20x",
+            "effect": "Deal 20 damage for each Pokemon with Nido in its name on your Bench."
+        }
+    ],
+    "weakness": {
+        "type": "psychic",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 1,
+    "flavor": "You know nothing's more powerful than the love of family, but you turn that into anger and resentment? Nothing's more dangerous."
+}

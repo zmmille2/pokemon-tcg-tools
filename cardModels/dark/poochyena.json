@@ -1,0 +1,30 @@
+{
+    "name": "Poochyena",
+    "hp": 60,
+    "stage": "basic",
+    "type": "dark",
+    "image": "poochyena",
+    "attacks": [
+        {
+            "name": "Pack Howl",
+            "cost": "colorless",
+            "effect": "Search your deck for an Electrike, Entei, Growlithe, Houndoor, Lillipup, Poochyena, Raikou, Riolu, Rockruff, Snubbull, Suicune, Zacian, Zamazenta, or Zorua. Show it to your opponent and put it into your hand. Shuffle your deck afterwards."
+        },
+        {
+            "name": "Bite",
+            "cost": "dark colorless",
+            "damage": 20
+        }
+    ],
+    "weakness": {
+        "type": "fighting",
+        "value": 10
+    },
+    "resistance": {
+        "type": "psychic",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "Who let the dogs out?"
+}

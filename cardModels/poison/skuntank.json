@@ -1,0 +1,32 @@
+{
+    "name": "Skuntank",
+    "hp": 80,
+    "stage": "stage1",
+    "evolvesFrom": "Stunky",
+    "evolvesFromImage": "stunky",
+    "type": "poison",
+    "image": "skuntank",
+    "ability": {
+        "name" : "Stench",
+        "effect": "Enemy Benched Pokemon can remain Poisoned, but only take Damage while Active. If an effect would remove Poison from an Active Pokemon, it may target a Benched Pokemon instead."
+    },
+    "attacks": [
+        {
+            "name": "Spray",
+            "cost": "poison colorless",
+            "damage": 20,
+            "effect": "The Defending Pokemon is now Poisoned. It costs 1 less for it to retreat during your opponent's next turn."
+        }
+    ],
+    "weakness": {
+        "type": "ground",
+        "value": 10
+    },
+    "resistance": {
+        "type": "psychic",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 1,
+    "flavor": "For inexperienced trainers trying to raise a Skuntank, tomato juice is a must."
+}

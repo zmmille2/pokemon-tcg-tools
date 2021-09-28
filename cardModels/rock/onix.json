@@ -1,0 +1,35 @@
+{
+    "name": "Onix",
+    "hp": 90,
+    "stage": "basic",
+    "type": "rock",
+    "image": "onix1",
+    "ability": {
+        "name" : "Stealth Rocks",
+        "effect": "While Onix is your Active Pokemon, when the opponent's Active Pokemon changes, deal 20 damage to that Pokemon (apply weakness and resistance for this damage as if it were Rock-type damage)."
+    },
+    "attacks": [
+        {
+            "name": "Sand Whip",
+            "cost": "rock colorless",
+            "effect": "Put one damage counter on all of your opponent's Benched Pokemon."
+        },
+        {
+            "name": "Concrete Clash",
+            "cost": "rock colorless colorless",
+            "damage": 30,
+            "effect": "During your opponent's next turn, reduce damage done to Onix by 10 for every 2 more it has in its Retreat Cost than the opponent's Active Pokemon."
+        }
+    ],
+    "weakness": {
+        "type": "grass",
+        "value": 20
+    },
+    "resistance": {
+        "type": "lightning",
+        "value": 10
+    },
+    "retreat": 4,
+    "rarity": 2,
+    "flavor": "They dig tunnels at rapid speeds. An eccentric billionaire has started digging tunnels under cities using them."
+}

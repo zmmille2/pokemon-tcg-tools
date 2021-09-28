@@ -1,0 +1,33 @@
+{
+    "name": "Probopass",
+    "hp": 110,
+    "stage": "stage1",
+    "evolvesFrom": "Nosepass",
+    "evolvesFromImage": "nosepass",
+    "type": "metal",
+    "image": "probopass",
+    "attacks": [
+        {
+            "name": "Shock",
+            "cost": "lightning",
+            "damage": 20
+        },
+        {
+            "name": "Magnet Bomb",
+            "cost": "metal lightning",
+            "damage": 40,
+            "effect": "If the opposing Active Pokemon retreats next turn, discard an energy you choose from that Pokemon."
+        }
+    ],
+    "weakness": {
+        "type": "ground",
+        "value": 20
+    },
+    "resistance": {
+        "type": "flying",
+        "value": 20
+    },
+    "retreat": 3,
+    "rarity": 2,
+    "flavor": "Its large nose acts as a magnet. Its mustache is made of iron filings stuck to that magnet. People with pacemakers avoid this Pokemon."
+}

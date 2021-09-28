@@ -1,0 +1,38 @@
+{
+    "name": "Froslass",
+    "hp": 80,
+    "stage": "stage1",
+    "evolvesFrom": "Snorunt",
+    "evolvesFromImage": "snorunt",
+    "type": "ice",
+    "image": "froslass",
+    "ability": {
+        "name" : "Freezing Gaze",
+        "effect": "When Froslass takes damage, attach an Ice Energy to the Defending Pokemon. If the Defending Pokemon is not Ice Type, Froslass takes 10 less damage for each Ice Energy attached to the Defending Pokemon."
+    },
+    "attacks": [
+        {
+            "name": "Icy Wind",
+            "cost": "ice colorless",
+            "damage": "20",
+            "effect": "Generate an Ice Energy and attach it to Defending Pokemon."
+        },
+        {
+            "name": "Blizzard",
+            "cost": "ice ice colorless",
+            "damage": "30x",
+            "effect": "Deal 30 damage for each Ice Energy on the Defending Pokemon."
+        }
+    ],
+    "weakness": {
+        "type": "dark",
+        "value": 10
+    },
+    "resistance": {
+        "type": "colorless",
+        "value": 10
+    },
+    "retreat": 0,
+    "rarity": 1,
+    "flavor": "Froslass are horrifying ghosts that steal the souls of their enemies. These Pokemon are outlawed for being demons."
+}

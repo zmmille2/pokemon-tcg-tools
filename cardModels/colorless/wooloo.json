@@ -1,0 +1,35 @@
+{
+    "name": "Wooloo",
+    "hp": 30,
+    "stage": "basic",
+    "type": "colorless",
+    "image": "wooloo",
+    "ability": {
+        "name" : "Fluffy",
+        "effect": "Wooloo takes 20 less damage from all attacks."
+    },
+    "attacks": [
+        {
+            "name": "Bounce",
+            "cost": "colorless",
+            "damage": 10,
+            "effect": "Switch Wooloo with one of your Benched Pokemon."
+        },
+        {
+            "name": "Rolling Tackle",
+            "cost": "colorless colorless",
+            "damage": 20
+        }
+    ],
+    "weakness": {
+        "type": "fighting",
+        "value": 10
+    },
+    "resistance": {
+        "type": "ghost",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "These fluffy sheep are adorable, they have a lot of fans."
+}

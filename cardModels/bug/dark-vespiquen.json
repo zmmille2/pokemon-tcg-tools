@@ -1,0 +1,37 @@
+{
+    "name": "Dark Vespiquen",
+    "hp": 60,
+    "stage": "stage1",
+    "evolvesFrom": "Combee",
+    "evolvesFromImage": "combee",
+    "type": "bug",
+    "image": "Vespiquen",
+    "ability": {
+        "name": "Hive Guard",
+        "effect": "Whenever Vespiquen would receive 20 damage or less from any effect, you may deal that damage to a Combee on your bench, instead."
+    },
+    "attacks": [
+        {
+            "name": "Medic Drones",
+            "cost": "bug",
+            "effect": "Flip a coin for each Combee on your bench. For each heads, remove 1 damage counter from Vespiquen."
+        },
+        {
+            "name": "Swarm",
+            "cost": "bug colorless",
+            "damage": "20+",
+            "effect": "Deal 10 more damage for each Combee on your bench. You may search your deck for a Combee, reveal it to your opponent, and put it on your bench."
+        }
+    ],
+    "weakness": {
+        "type": "rock",
+        "value": 10
+    },
+    "resistance": {
+        "type": "ground",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "These powerful Pokemon run entire hives of Combee. Their control is so complete that some scientists prefer to think of their hives as a single organism."
+}

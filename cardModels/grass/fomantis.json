@@ -1,0 +1,21 @@
+{
+    "name": "Formantis",
+    "hp": 30,
+    "stage": "basic",
+    "type": "grass",
+    "image": "fomantis",
+    "attacks": [
+        {
+            "name": "Leaf Blade",
+            "cost": "grass",
+            "damage": 30
+        }
+    ],
+    "weakness": {
+        "type": "flying",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 2,
+    "flavor": "These Pokemon are incredibly dangerous. Once evolved, even more so."
+}

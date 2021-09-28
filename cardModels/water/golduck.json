@@ -1,0 +1,29 @@
+{
+    "name": "Golduck",
+    "hp": 80,
+    "stage": "stage1",
+    "type": "water",
+    "image": "golduck",
+    "evolvesFrom": "Psyduck",
+    "evolvesFromImage": "psyduck",
+    "attacks": [
+        {
+            "name": "Mind Blast",
+            "cost": "psychic colorless colorless",
+            "damage": "10x",
+            "effect": "This attack does 10 damage times the number of cards in your opponent's hand minus the number of cards in your hand."
+        },
+        {
+            "name": "Beak Blast",
+            "cost": "water colorless colorless",
+            "damage": 40
+        }
+    ],
+    "weakness": {
+        "type": "lightning",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 2,
+    "flavor": "While Psyduck are known for having headaches, Golduck are known for giving them."
+}

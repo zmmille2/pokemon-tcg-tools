@@ -1,0 +1,38 @@
+{
+    "name": "Honchkrow",
+    "hp": 110,
+    "stage": "stage1",
+    "evolvesFrom": "Murkrow",
+    "evolvesFromImage": "murkrow",
+    "type": "dark",
+    "image": "honchkrow",
+    "ability": {
+        "name" : "Tool Hunter",
+        "effect": "Once per turn, you may search your deck or discard for a Tool, show it to your opponent, and add it to your hand. Shuffle your deck afterwards."
+    },
+    "attacks": [
+        {
+            "name": "Thief",
+            "cost": "dark",
+            "damage": 20,
+            "effect": "If the Defending Pokemon has a Tool attached, you may discard it and attach a copy to Honchkrow."
+        },
+        {
+            "name": "Harass",
+            "cost": "dark colorless colorless",
+            "damage": "40-",
+            "effect": "Pick 3 cards at random from your opponents hand. They may discard each of them. For each one that they do, this attack does 10 less damage."
+        }
+    ],
+    "weakness": {
+        "type": "fairy",
+        "value": 10
+    },
+    "resistance": {
+        "type": "ground",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 2,
+    "flavor": "These crows run the show. They've been seen bribing other Pokemon with food to betray their trainers."
+}

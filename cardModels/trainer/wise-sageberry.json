@@ -1,0 +1,6 @@
+{ 
+    "name": "Wise Sageberry", 
+    "type": "tool", 
+    "image": "wise-sageberry", 
+    "effect": "If the Pokemon this card is attached to is an evolved Pokemon, then when it's Knocked Out, draw 5 cards." 
+}

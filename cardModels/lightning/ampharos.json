@@ -1,0 +1,32 @@
+{
+    "name": "Ampharos",
+    "hp": 80,
+    "stage": "stage2",
+    "evolvesFrom": "Flaaffy",
+    "evolvesFromImage": "flaaffy",
+    "type": "lightning",
+    "image": "ampharos",
+    "ability": {
+        "name" : "Lightningrod",
+        "effect": "When you would discard a Lightning Energy from any attack (except by Ampharos's Discharge), you may move it instead. All moved Energies must go to Ampharos."
+    },
+    "attacks": [
+        {
+            "name": "Discharge",
+            "cost": "lightning",
+            "damage": "30x",
+            "effect": "Discard 3 Lightning Energies from Ampharos. Deal 30 damage for each Energy discarded this way."
+        }
+    ],
+    "weakness": {
+        "type": "ground",
+        "value": 10
+    },
+    "resistance": {
+        "type": "metal",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 1,
+    "flavor": "Because of the electrical output of this Pokemon, it frequently works at lighthouses to help bring in ships safely."
+}

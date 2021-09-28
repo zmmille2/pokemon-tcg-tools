@@ -1,0 +1,25 @@
+{
+    "name": "Zorua",
+    "hp": 50,
+    "stage": "basic",
+    "type": "dark",
+    "image": "zorua",
+    "attacks": [
+        {
+            "name": "Gnaw",
+            "cost": "colorless",
+            "damage": 10
+        }
+    ],
+    "weakness": {
+        "type": "fighting",
+        "value": 10
+    },
+    "resistance": {
+        "type": "psychic",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "They love playing tricks on people. They take a lot of patience to raise."
+}

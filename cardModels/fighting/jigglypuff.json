@@ -1,0 +1,31 @@
+{
+    "name": "Jigglypuff",
+    "hp": 50,
+    "stage": "basic",
+    "type": "fighting",
+    "image": "jigglypuff",
+    "attacks": [
+        {
+            "name": "Pound",
+            "cost": "fighting",
+            "damage": "10"
+        },
+        {
+            "name": "Rest",
+            "cost": "colorless colorless",
+            "damage": "10+",
+            "effect": "Flip 3 coins. For each heads, add 10 damage. Jigglypuff is now asleep."
+        }
+    ],
+    "weakness": {
+        "type": "flying",
+        "value": 10
+    },
+    "resistance": {
+        "type": "dark",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 2,
+    "flavor": "After eating many mangoes, some Jigglypuff seem to gain a strange fighting spirit."
+}

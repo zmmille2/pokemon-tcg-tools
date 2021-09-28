@@ -1,0 +1,30 @@
+{
+    "name": "Slowpoke",
+    "hp": 60,
+    "stage": "basic",
+    "type": "psychic",
+    "image": "slowpoke",
+    "ability": {
+        "name" : "Unaware",
+        "effect": "When your opponent's attacks target Slowpoke, they don't have any additional effects."
+    },
+    "attacks": [
+        {
+            "name": "Lazy Tail",
+            "cost": "colorless colorless",
+            "damage": 10
+        },
+        {
+            "name": "Empty Mind",
+            "cost": "psychic colorless",
+            "effect": "Your opponent cannot use Trainer cards next turn."
+        }
+    ],
+    "weakness": {
+        "type": "dark",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 3,
+    "flavor": "These things are so stupid!"
+}

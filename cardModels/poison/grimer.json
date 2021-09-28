@@ -1,0 +1,27 @@
+{
+    "name": "Grimer",
+    "hp": 50,
+    "stage": "basic",
+    "type": "poison",
+    "image": "grimer",
+    "attacks": [
+        {
+            "name": "Acid Armor",
+            "cost": "poison",
+            "effect": "Discard an Energy attached to Grimer. It takes 30 damage less next turn."
+        },
+        {
+            "name": "Slime Goo",
+            "cost": "poison colorless",
+            "damage": 10,
+            "effect": "Flip a coin: If Heads, the Defending Pokemon is now poisoned. If Tails, the Defending Pokemon is now confused."
+        }
+    ],
+    "weakness": {
+        "type": "psychic",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "These things are gross."
+}

@@ -1,0 +1,29 @@
+{
+    "name": "Medicham",
+    "hp": 80,
+    "stage": "stage1",
+    "evolvesFrom": "Meditite",
+    "evolvesFromImage": "meditite",
+    "type": "fighting",
+    "image": "medicham",
+    "attacks": [
+        {
+            "name": "Focus Punch",
+            "cost": "fighting colorless",
+            "effect": "Draw a card for each energy attached to Medicham. If Medicham takes no damage next turn, deal 40 damage to the Defending Pokemon."
+        },
+        {
+            "name": "High Jump Kick",
+            "cost": "fighting colorless colorless",
+            "damage": 60,
+            "effect": "Flip 2 coins. If both are tails, deal 30 damage to Medicham."
+        }
+    ],
+    "weakness": {
+        "type": "fairy",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 2,
+    "flavor": "Their focus, when uninterrupted, is incredibly dangerous. They're known to strike suddenly after long silences."
+}

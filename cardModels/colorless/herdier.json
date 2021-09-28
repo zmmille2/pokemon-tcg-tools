@@ -1,0 +1,32 @@
+{
+    "name": "Herdier",
+    "hp": 70,
+    "stage": "stage1",
+    "evolvesFrom": "Lillipup",
+    "evolvesFromImage": "lillipup",
+    "type": "colorless",
+    "image": "herdier",
+    "attacks": [
+        {
+            "name": "Fetch",
+            "cost": "colorless colorless",
+            "effect": "Your opponent picks either Trainer, Pokemon, or Energy. Search your deck for a card that matches that category, reveal it to them, put it into your hand and shuffle your deck."
+        },
+        {
+            "name": "Bite",
+            "cost": "colorless colorless",
+            "damage": 30
+        }
+    ],
+    "weakness": {
+        "type": "fighting",
+        "value": 10
+    },
+    "resistance": {
+        "type": "ghost",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "These Pokemon are a bit more reliable. Most trainers are able to get to this stage without too much sweat and training."
+}

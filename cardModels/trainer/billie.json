@@ -1,0 +1,6 @@
+{ 
+    "name": "Billie", 
+    "image": "billie", 
+    "type": "standard", 
+    "effect": "Search your deck for up to two Poison Energies, reveal them to your opponent, and add them to your hand. If either Active Pokemon is not Poison type, flip a coin. If tails, poison that Pokemon." 
+} 

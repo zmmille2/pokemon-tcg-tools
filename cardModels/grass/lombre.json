@@ -1,0 +1,33 @@
+{
+    "name": "Lombre",
+    "hp": 70,
+    "stage": "stage1",
+    "evolvesFrom": "Lotad",
+    "evolvesFromImage": "lotad",
+    "type": "grass",
+    "image": "lombre",
+    "ability": {
+        "name" : "Rain Dish",
+        "effect": "Whenever a Water Energy is attached to Lombre, remove 1 damage counter from Lombre."
+    },
+    "attacks": [
+        {
+            "name": "Nature Power",
+            "cost": "grass colorless colorless",
+            "damage": "10+",
+            "effect": "If there is a Stadium in play, this attack deals 20 more damage."
+        },
+        {
+            "name": "Pond Punch",
+            "cost": "grass water colorless colorless",
+            "damage": 40
+        }
+    ],
+    "weakness": {
+        "type": "flying",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 2,
+    "flavor": "Lombre guard their kin well. They sit just off the water and strike at anything that comes too near."
+}

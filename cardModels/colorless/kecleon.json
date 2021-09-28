@@ -1,0 +1,29 @@
+{
+    "name": "Kecleon",
+    "hp": 70,
+    "stage": "basic",
+    "type": "colorless",
+    "image": "kecleon",
+    "ability": {
+        "name" : "Color Change",
+        "effect": "Once during your turn, you can pick one of your Pokemon. Kecleon also has the ability, and exclusively the type, weakness, and resistance of that Pokemon."
+    },
+    "attacks": [
+        {
+            "name": "Slash",
+            "cost": "colorless colorless",
+            "damage": 20
+        }
+    ],
+    "weakness": {
+        "type": "fighting",
+        "value": 10
+    },
+    "resistance": {
+        "type": "ghost",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 1,
+    "flavor": "These creatures imitate other Pokemon very well. While they can't change form like Ditto, they can still off some wild tricks."
+}

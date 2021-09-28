@@ -1,0 +1,33 @@
+{
+    "name": "Galvantula",
+    "hp": 80,
+    "stage": "stage1",
+    "type": "bug",
+    "evolvesFrom": "Joltik",
+    "evolvesFromImage": "joltik",
+    "image": "galvantula",
+    "ability": {
+        "name": "Electroweb",
+        "effect": "While Galvantula is your Active Pokemon, if the opposing Active Pokemon switches out, the new Active Pokemon's attacks cannot do damage or put status on Galvantula."
+    },
+    "attacks": [
+        {
+            "name": "Slash",
+            "cost": "colorless colorless",
+            "damage": 20
+        },
+        {
+            "name": "Bug Buzz",
+            "cost": "bug bug colorless",
+            "damage": "70-",
+            "effect": "Deals 70 damage minus 10 for each damage counter on Galvantula."
+        }
+    ],
+    "weakness": {
+        "type": "ground",
+        "value": 20
+    },
+    "retreat": 1,
+    "rarity": 2,
+    "flavor": "These massive tarantulas are horribly misunderstood, they make for loyal allies to the non-arachnaphobic trainer."
+}

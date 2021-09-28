@@ -1,0 +1,30 @@
+{
+    "name": "Houndour",
+    "hp": 50,
+    "stage": "basic",
+    "type": "fire",
+    "image": "houndour",
+    "attacks": [
+        {
+            "name": "Bite",
+            "cost": "dark",
+            "damage": 20
+        },
+        {
+            "name": "Ember",
+            "cost": "fire",
+            "damage": 20
+        }
+    ],
+    "weakness": {
+        "type": "water",
+        "value": 10
+    },
+    "resistance": {
+        "type": "psychic",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "These dogs can be nasty. Some owners can raise them well, but it takes a lot more work than other Pokemon."
+}

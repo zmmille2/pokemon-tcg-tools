@@ -1,0 +1,25 @@
+{
+    "name": "Joltik",
+    "hp": 30,
+    "stage": "basic",
+    "type": "bug",
+    "image": "joltik",
+    "ability": {
+        "name": "Electroweb",
+        "effect": "While Joltik is your Active Pokemon, if the opposing Active Pokemon switches out, the new Active Pokemon's attacks cannot do damage or put status on Joltik."
+    },
+    "attacks": [
+        {
+            "name": "Bug Bite",
+            "cost": "bug",
+            "damage": "10"
+        }
+    ],
+    "weakness": {
+        "type": "ground",
+        "value": 10
+    },
+    "retreat": 0,
+    "rarity": 3,
+    "flavor": "While they have their fans, a Joltik infestation can require lightningians to clear."
+}

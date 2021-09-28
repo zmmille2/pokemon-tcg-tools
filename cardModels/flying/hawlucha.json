@@ -1,0 +1,36 @@
+{
+    "name": "Hawlucha",
+    "hp": 60,
+    "stage": "basic",
+    "type": "flying",
+    "image": "hawlucha",
+    "ability": {
+        "name" : "Si Rudo Si Technico",
+        "effect": "If Hawlucha has a Dark Energy and no Fighting Energy attached to it, you may shuffle it into your deck at any time. Discard any attached cards if you do this."
+    },
+    "attacks": [
+        {
+            "name": "Rage",
+            "cost": "flying colorless",
+            "damage": "20+",
+            "effect": "Deal 10 more damage for each damage counter on Hawlucha."
+        },
+        {
+            "name": "Flying Press",
+            "cost": "flying fighting",
+            "damage": 30,
+            "effect": "This attack is Flying and Fighting type."
+        }
+    ],
+    "weakness": {
+        "type": "ice",
+        "value": 10
+    },
+    "resistance": {
+        "type": "dark",
+        "value": 10
+    },
+    "retreat": 0,
+    "rarity": 1,
+    "flavor": "These Luchador Pokemon have very different styles. Some fight honorably, but some are cheats and liars. They choose their mask based on what fits their style better."
+}

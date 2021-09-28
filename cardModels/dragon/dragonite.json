@@ -1,0 +1,37 @@
+{
+    "name": "Dragonite",
+    "hp": 120,
+    "stage": "stage2",
+    "evolvesFrom": "Dragonair",
+    "evolvesFromImage": "dragonair",
+    "type": "dragon",
+    "image": "dragonite",
+    "ability": {
+        "name": "Delivery Service",
+        "effect": "If Dragonite is your Active Pokemon, once per turn, you may pick a Prize Card. If it is face-down, reveal it. Either way, you may swap it with a card in your hand. If you do, reveal that card permanently."
+    },
+    "attacks": [
+        {
+            "name": "Rainbow Flurry",
+            "cost": "dragon",
+            "damage": "20x",
+            "effect": "Discard as many energies as you like attached to Dragonite. For each different type of energy discarded, this attack does 20 damage."
+        },
+        {
+            "name": "Dragon Claw",
+            "cost": "dragon dragon colorless",
+            "damage": 60
+        }
+    ],
+    "weakness": {
+        "type": "ice",
+        "value": 20
+    },
+    "resistance": {
+        "type": "ground",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 1,
+    "flavor": "These Pokemon can fend for themselves. Remote islands use them to ferry mail to and from distant lands."
+}

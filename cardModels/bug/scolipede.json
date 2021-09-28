@@ -1,0 +1,32 @@
+{
+    "name": "Scolipede",
+    "hp": 80,
+    "stage": "stage2",
+    "evolvesFrom": "Whirlipede",
+    "evolvesFromImage": "whirlipede",
+    "type": "bug",
+    "image": "Scolipede",
+    "ability": {
+        "name": "Towering Menace",
+        "effect": "Defending Basic Pokemon deal 10 less damage to Scolipede."
+    },
+    "attacks": [
+        {
+            "name": "Venom Drench",
+            "cost": "bug poison colorless colorless",
+            "damage": 40,
+            "effect": "The Defending Pokemon is now Poisoned. It takes 20 damage between turns instead of 10."
+        }
+    ],
+    "weakness": {
+        "type": "flying",
+        "value": 10
+    },
+    "resistance": {
+        "type": "poison",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "This centipede is gigantic. It takes a dedicated trainer to raise this bug, and they were much more common in ancient times."
+}

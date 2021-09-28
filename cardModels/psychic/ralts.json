@@ -1,0 +1,26 @@
+{
+    "name": "Ralts",
+    "hp": 50,
+    "stage": "basic",
+    "type": "psychic",
+    "image": "ralts",
+    "ability": {
+        "name" : "Teleport",
+        "effect": "If Ralts is your Active Pokemon, you may search your deck for a Basic Pokemon. Shuffle Ralts and all attached cards into your deck, and that becomes your new Active Pokemon."
+    },
+    "attacks": [
+        {
+            "name": "Psywave",
+            "cost": "psychic",
+            "damage": "10x",
+            "effect": "Deal 10 damage for each Energy attached to the Defending Pokemon."
+        }
+    ],
+    "weakness": {
+        "type": "metal",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "Ralts seem incredibly timid, but against powerful Pokemon they can surprisingly hold their own."
+}

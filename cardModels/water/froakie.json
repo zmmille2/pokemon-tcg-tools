@@ -1,0 +1,26 @@
+{
+    "name": "Froakie",
+    "hp": 50,
+    "stage": "basic",
+    "type": "water",
+    "image": "froakie",
+    "attacks": [
+        {
+            "name": "Tongue Stretch",
+            "cost": "colorless colorless",
+            "effect": "Deal 20 damage to any of your opponent's Pokemon."
+        },
+        {
+            "name": "Water Shuriken",
+            "cost": "water colorless",
+            "effect": "Put 1 damage counter on 3 of your opponent's different Pokemon."
+        }
+    ],
+    "weakness": {
+        "type": "grass",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "These frogs will sneak up on ya. And they'll kill ya!"
+}

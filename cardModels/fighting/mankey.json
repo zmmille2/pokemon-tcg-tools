@@ -1,0 +1,22 @@
+{
+    "name": "Mankey",
+    "hp": 40,
+    "stage": "Basic",
+    "type": "fighting",
+    "image": "mankey",
+    "attacks": [
+        {
+            "name": "Fury Swipes",
+            "effect": "Deal 10 damage to the Defending Pokemon twice. Apply effects, weakness, and resistance as if this were two attacks.",
+            "cost": "fighting",
+            "damage": "10+"
+        }
+    ],
+    "weakness": {
+        "type": "psychic",
+        "value": 10
+    },
+    "retreat": 0,
+    "rarity": 3,
+    "flavor": "Has a pig mouth and beady fearful eyes."
+}

@@ -1,0 +1,30 @@
+{
+    "name": "Nidoran M",
+    "hp": 50,
+    "stage": "basic",
+    "type": "poison",
+    "image": "nidoran",
+    "ability": {
+        "name" : "Poison Point",
+        "effect": "When Nidoran M takes damage, flip a coin. If heads, the Defending Pokemon is Poisoned."
+    },
+    "attacks": [
+        {
+            "name": "Call for Family",
+            "cost": "colorless",
+            "effect": "Search your deck for up to 2 cards with Nido in their name. Reveal them to your opponent, add them to your hand, and shuffle your deck."
+        },
+        {
+            "name": "Scratch",
+            "cost": "colorless",
+            "damage": 10
+        }
+    ],
+    "weakness": {
+        "type": "psychic",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "You don’t turn your back on family, even when they do."
+}

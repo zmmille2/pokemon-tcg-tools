@@ -1,0 +1,22 @@
+{
+    "name": "Durant",
+    "hp": 70,
+    "stage": "basic",
+    "type": "bug",
+    "image": "durant",
+    "attacks": [
+        {
+            "name": "Crunch",
+            "cost": "bug",
+            "damage": 40,
+            "effect": "Discard the top 5 cards of your deck."
+        }
+    ],
+    "weakness": {
+        "type": "fire",
+        "value": 20
+    },
+    "retreat": 2,
+    "rarity": 2,
+    "flavor": "Durant caused a major bridge collapse and killed many people. Strict border controls keep these pests out of cities."
+}

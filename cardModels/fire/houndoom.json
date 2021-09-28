@@ -1,0 +1,37 @@
+{
+    "name": "Houndoom",
+    "hp": 80,
+    "stage": "stage1",
+    "evolvesFrom": "Houndour",
+    "evolvesFromImage": "houndour",
+    "type": "fire",
+    "image": "houndoom",
+    "ability": {
+        "name" : "Flash Fire",
+        "effect": "Whenever a Fire Energy is discarded, flip a coin. If heads, generate a Fire Energy and put it into your hand."
+    },
+    "attacks": [
+        {
+            "name": "Devil Dog",
+            "cost": "dark colorless",
+            "damage": 30
+        },
+        {
+            "name": "Dark Fire",
+            "cost": "dark fire colorless",
+            "damage": "30+",
+            "effect": "Discard all Fire Energy attached to Houndoom to use this attack. For each Energy discarded this way, this attack deals 10 more damage."
+        }
+    ],
+    "weakness": {
+        "type": "water",
+        "value": 10
+    },
+    "resistance": {
+        "type": "psychic",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 2,
+    "flavor": "Some say these dogs literally guard hell. Needless to say, they're not the most popular Pokemon. They do look badass tho."
+}

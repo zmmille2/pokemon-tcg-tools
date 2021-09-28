@@ -1,0 +1,27 @@
+{
+    "name": "Crystal Onix",
+    "hp": 90,
+    "stage": "Basic",
+    "type": "ice",
+    "image": "crystal-onix",
+    "attacks": [
+        {
+            "name": "Deep Dive",
+            "cost": "ice",
+            "effect": "Put a card on the bottom of your deck. Draw a card."
+        },
+        {
+            "name": "Crystal Shatter",
+            "cost": "ice colorless colorless",
+            "damage": 30,
+            "effect": "You may generate an Ice Energy and shuffle it into your opponent's deck."
+        }
+    ],
+    "weakness": {
+        "type": "fire",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 3,
+    "flavor": "These Onix are known for living in a crystal cave in the Orange Islands. While the rest of the world considers them rare, it's all the islanders know."
+}

@@ -1,0 +1,29 @@
+{
+    "name": "Riolu",
+    "hp": 40,
+    "stage": "basic",
+    "type": "fighting",
+    "image": "riolu",
+    "ability": {
+        "name" : "Learning",
+        "effect": "You cannot attach Energy Cards to Riolu normally. If your Active Pokemon's attack deals damage to the Defending Pokemon, you may attach an Energy from your hand to Riolu."
+    },
+    "attacks": [
+        {
+            "name": "Jab",
+            "cost": "colorless",
+            "damage": 10
+        }
+    ],
+    "weakness": {
+        "type": "ground",
+        "value": 10
+    },
+    "resistance": {
+        "type": "dark",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "These Pokemon haven't gotten their style down yet, but they're quick studies."
+}

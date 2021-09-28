@@ -1,0 +1,39 @@
+{
+    "name": "Whirlipede",
+    "hp": 60,
+    "stage": "stage1",
+    "evolvesFrom": "Venipede",
+    "evolvesFromImage": "venipede",
+    "type": "bug",
+    "image": "whirlipede",
+    "attacks": [
+        {
+            "name": "Rollout",
+            "cost": "rock",
+            "damage": "10x",
+            "effect": "Deals 10 damage for each Rock Energy on Whirlipede. You may search your deck for a Rock Energy and attach it to Whirlipede. If you do, shuffle your deck."
+        },
+        {
+            "name": "Curl Up",
+            "cost": "colorless colorless",
+            "effect": "Flip 2 coins. If either is heads, reduce damage taken next turn by 20. If both are heads, reduce damage taken next turn by 30. Either way, you may search your deck for a Rock Energy and attach it to Whirlipede. If you do, shuffle your deck."
+        },
+        {
+            "name": "Venom Spit",
+            "cost": "bug poison colorless",
+            "damage": "20",
+            "effect": "The Defending Pokemon is now Poisoned."
+        }
+    ],
+    "weakness": {
+        "type": "flying",
+        "value": 10
+    },
+    "resistance": {
+        "type": "poison",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 2,
+    "flavor": "Surprisingly agile, some trainers take an unorthodox approach raising this Pokemon. Whirlipede races draw huge bets."
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Flygon",
+    "hp": 110,
+    "stage": "stage2",
+    "evolvesFrom": "Vibrava",
+    "evolvesFromImage": "vibrava",
+    "type": "dragon",
+    "image": "flygon",
+    "ability": {
+        "name" : "Sandstorm",
+        "effect": "If Flygon is your Active Pokemon, in between turns, put one damage counter on all Pokemon that are not Rock, Metal, or Ground type, or do not have a Rock, Metal, or Ground Energy attached."
+    },
+    "attacks": [
+        {
+            "name": "Dragon Claw",
+            "cost": "dragon dragon colorless",
+            "damage": 60
+        },
+        {
+            "name": "Evolutionary Quake",
+            "cost": "ground ground colorless colorless",
+            "damage": "30+",
+            "effect": "Deal 20 more damage for each Evolved Pokemon on your bench."
+        }
+    ],
+    "weakness": {
+        "type": "ice",
+        "value": 20
+    },
+    "resistance": {
+        "type": "lightning",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 1,
+    "flavor": "Flygon is awesome :)"
+}

@@ -1,0 +1,30 @@
+{
+    "name": "Stunky",
+    "hp": 50,
+    "stage": "basic",
+    "type": "poison",
+    "image": "stunky",
+    "attacks": [
+        {
+            "name": "Spray and Walk Away",
+            "cost": "colorless",
+            "effect": "You may switch Stunky with a Benched Pokemon. If you do, draw two cards, then discard one."
+        },
+        { 
+            "name": "Poison Gas",
+            "cost": "poison",
+            "effect": "The Defending Pokemon is now Poisoned."
+        }
+    ],
+    "weakness": {
+        "type": "ground",
+        "value": 10
+    },
+    "resistance": { 
+        "type": "dark",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "These rodents fill city streets with their stinky gas. Removal teams are very careful to not draw their ire or their fire."
+}

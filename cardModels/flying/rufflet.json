@@ -1,0 +1,26 @@
+{
+    "name": "Rufflet",
+    "hp": 50,
+    "stage": "basic",
+    "type": "flying",
+    "image": "rufflet",
+    "attacks": [
+        {
+            "name": "Head Bash",
+            "cost": "flying colorless",
+            "damage": 30,
+            "effect": "Rufflet does 10 damage to itself."
+        }
+    ],
+    "weakness": {
+        "type": "lightning",
+        "value": 10
+    },
+    "resistance": {
+        "type": "ground",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "They take a while to grow into their big heads. The eagles they grow into fare much better than these awkward babies."
+}

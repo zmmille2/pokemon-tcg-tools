@@ -1,0 +1,37 @@
+{
+    "name": "Araquanid",
+    "hp": 110,
+    "stage": "stage1",
+    "evolvesFrom": "Dewpider",
+    "evolvesFromImage": "dewpider",
+    "type": "water",
+    "image": "araquanid",
+    "ability": {
+        "name" : "Water Tension",
+        "effect": "While Araquanid is your Active Pokemon, whenever the opponent discards an Energy, draw a card."
+    },
+    "attacks": [
+        {
+            "name": "Spider Web",
+            "cost": "colorless colorless",
+            "damage": 20,
+            "effect": "The Defending Pokemon cannot retreat next turn."
+        },
+        {
+            "name": "Bubble Net",
+            "cost": "water colorless",
+            "effect": "If the Defending Pokemon has 60 or less maximum HP, deal 40 damage."
+        }
+    ],
+    "weakness": {
+        "type": "flying",
+        "value": 10
+    },
+    "resistance": {
+        "type": "fire",
+        "value": 20
+    },
+    "retreat": 2,
+    "rarity": 1,
+    "flavor": "Using water tension, they hunt and capture prey. Small prey especially have a tough time escaping the bubble Araquanid inhabits."
+}

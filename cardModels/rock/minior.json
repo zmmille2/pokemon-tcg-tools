@@ -1,0 +1,26 @@
+{
+    "name": "Minior",
+    "hp": 50,
+    "stage": "basic",
+    "type": "rock",
+    "image": "minior",
+    "attacks": [
+        {
+            "name": "Starfall",
+            "cost": "rock",
+            "damage": "20+",
+            "effect": "If Minior has less than 30 HP remaining, this attack does 20 more damage. Either way, deal 10 damage to Minior."
+        }
+    ],
+    "weakness": {
+        "type": "ice",
+        "value": 10
+    },
+    "resistance": {
+        "type": "ground",
+        "value": 10
+    },
+    "retreat": 0,
+    "rarity": 3,
+    "flavor": "While some of these pokemon make it to the surface from space, some of the weaker ones burn up in the atmosphere."
+}

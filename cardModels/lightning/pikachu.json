@@ -1,0 +1,26 @@
+{
+    "name": "Pikachu",
+    "hp": 60,
+    "stage": "basic",
+    "type": "lightning",
+    "image": "pikachu1",
+    "ability": {
+        "name" : "Lightning Rod",
+        "effect": "Whenever you discard an Energy attached to 1 of your other Pokemon, flip a coin. If heads, attached it to Pikachu instead."
+    },
+    "attacks": [
+        {
+            "name": "Volt Tackle",
+            "cost": "lightning lightning colorless",
+            "damage": 60,
+            "effect": "You may discard 3 Energies attached to Pikachu. If you don't, move 2 Energies from Pikachu and Pikachu does 40 damage to itself."
+        }
+    ],
+    "weakness": {
+        "type": "ground",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 2,
+    "flavor": "There are power plants that run on rooms full of hamster wheels running with these charged rodents."
+}

@@ -1,0 +1,38 @@
+{
+    "name": "Muk",
+    "hp": 80,
+    "stage": "stage1",
+    "evolvesFrom": "Grimer",
+    "evolvesFromImage": "grimer",
+    "type": "poison",
+    "image": "muk",
+    "ability": {
+        "name" : "Sticky Goo",
+        "effect": "As long as Muk is your Active Pokemon, add 2 to the Defending Pokemon's Retreat Cost."
+    },
+    "attacks": [
+        {
+            "name": "Slimy Water",
+            "cost": "colorless colorless",
+            "damage": "10x",
+            "effect": "Deal 10 damage times the Defending Pokemon's Retreat Cost."
+        },
+        {
+            "name": "Acidic Gas",
+            "cost": "poison colorless",
+            "damage": "10",
+            "effect": "The Defending Pokemon is now Burned and Poisoned."
+        }
+    ],
+    "weakness": {
+        "type": "psychic",
+        "value": 10
+    },
+    "resistance": {
+        "type": "grass",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 1,
+    "flavor": "These slimy creatures are notoriously difficult to clean out of sewer systems. Small cities have been abandoned due to infestations."
+}

@@ -1,0 +1,30 @@
+{
+    "name": "Sealeo",
+    "hp": 80,
+    "stage": "stage1",
+    "evolvesFrom": "Spheal",
+    "evolvesFromImage": "spheal",
+    "type": "ice",
+    "image": "sealeo",
+    "attacks": [
+        {
+            "name": "Ice Ball",
+            "cost": "ice",
+            "damage": "10x",
+            "effect": "Deal 10 damage times the number of Ice Energy attached to Sealeo."
+        },
+        {
+            "name": "Cold Slide",
+            "cost": "ice colorless",
+            "damage": 30,
+            "effect": "You may switch Sealeo with one of your Benched Pokemon."
+        }
+    ],
+    "weakness": {
+        "type": "lightning",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 2,
+    "flavor": "These seals swim through freezing ice with such speed that they can launch themselves onto floating sheets to hunt prey."
+}

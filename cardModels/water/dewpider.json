@@ -1,0 +1,31 @@
+{
+    "name": "Dewpider",
+    "hp": 60,
+    "stage": "basic",
+    "type": "water",
+    "image": "dewpider",
+    "attacks": [
+        {
+            "name": "String Shot",
+            "cost": "colorless",
+            "damage": 10,
+            "effect": "The Defending Pokemon must pay 1 more to retreat next turn."
+        },
+        {
+            "name": "Bubble",
+            "cost": "water colorless",
+            "damage": 20
+        }
+    ],
+    "weakness": {
+        "type": "flying",
+        "value": 10
+    },
+    "resistance": {
+        "type": "fire",
+        "value": 20
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "While they look thin, to small Pokemon, these are terrifying hunters that will drown them in water tension."
+}

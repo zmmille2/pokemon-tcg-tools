@@ -1,0 +1,32 @@
+{
+    "name": "Greninja",
+    "hp": 80,
+    "stage": "stage2",
+    "evolvesFrom": "Frogadier",
+    "evolvesFromImage": "frogadier",
+    "type": "water",
+    "image": "greninja",
+    "ability": {
+        "name" : "Substitute",
+        "effect": "Once per turn, if Greninja would take damage, you may discard a Trainer card to take half that damage."
+    },
+    "attacks": [
+        {
+            "name": "Water Shuriken",
+            "cost": "water water colorless",
+            "effect": "Put 3 damage counters on 4 of your opponent's Pokemon."
+        },
+        {
+            "name": "Assassinate",
+            "cost": "water water water water",
+            "effect": "You may shuffle Greninja and all cards attached to it into your deck. If you do, Knock Out the Defending Pokemon."
+        }
+    ],
+    "weakness": {
+        "type": "lightning",
+        "value": 10
+    },
+    "retreat": 0,
+    "rarity": 1,
+    "flavor": "Many kings guards were left useless by a small group of these elite Pokemon. It takes a long time to train them, but the results speak for themselves."
+}

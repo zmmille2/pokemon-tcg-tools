@@ -1,0 +1,31 @@
+{
+    "name": "Venipede",
+    "hp": 40,
+    "stage": "basic",
+    "type": "bug",
+    "image": "venipede",
+    "attacks": [
+        {
+            "name": "Scratch",
+            "cost": "colorless",
+            "damage": "10"
+        },
+        {
+            "name": "Venom Spit",
+            "cost": "poison",
+            "damage": "10",
+            "effect": "The Defending Pokemon is now Poisoned."
+        }
+    ],
+    "weakness": {
+        "type": "flying",
+        "value": 10
+    },
+    "resistance": {
+        "type": "poison",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 1,
+    "flavor": "Venipede uses its poison to subdue its prey through persistence. It maintains a safe distance while its target suffers."
+}

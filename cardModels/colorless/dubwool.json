@@ -1,0 +1,36 @@
+{
+    "name": "Dubwool",
+    "hp": 50,
+    "stage": "stage1",
+    "evolvesFrom": "Wooloo",
+    "evolvesFromImage": "wooloo",
+    "type": "colorless",
+    "image": "dubwool",
+    "ability": {
+        "name" : "Springy Wool",
+        "effect": "If Dubwool takes damage from an attack, the opponent switches the Defending Pokemon. Dubwool takes 20 less damage from attacks."
+    },
+    "attacks": [
+        {
+            "name": "Ram",
+            "cost": "colorless",
+            "damage": 20
+        },
+        {
+            "name": "Double Horn",
+            "cost": "colorless colorless",
+            "damage": 30
+        }
+    ],
+    "weakness": {
+        "type": "fighting",
+        "value": 10
+    },
+    "resistance": {
+        "type": "ghost",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 2,
+    "flavor": "Not flashy, but reliable. While Dubwool is a strong Pokemon, there are plenty of trainers who prefer the cuteness of Wooloo."
+}

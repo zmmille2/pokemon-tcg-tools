@@ -1,0 +1,17 @@
+{
+    "name": "Porygon",
+    "hp": 50,
+    "stage": "basic",
+    "type": "colorless",
+    "image": "porygon",
+    "attacks": [
+        {
+            "name": "Crazy Code",
+            "cost": "colorless colorless",
+            "effect": "For each Pokemon on your bench, reveal cards from the top of your deck until you reveal an energy. Attach that energy to that Pokemon. Porygon cannot attack or retreat next turn. Shuffle the other revealed cards into your deck."
+        }
+    ],
+    "retreat": 2,
+    "rarity": 2,
+    "flavor": "This badly-programmed Pokemon spreads to whole teams. Trainers seem to find \"glitchy\" behavior in their other Pokemon as well."
+}

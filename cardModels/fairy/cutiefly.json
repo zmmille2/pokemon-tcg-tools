@@ -1,0 +1,22 @@
+{ 
+    "name": "Cutiefly",
+    "hp": 40,
+    "stage": "basic",
+    "type": "fairy",
+    "image": "cutiefly",
+    "attacks": [ 
+        { 
+            "name": "Fairy Wind",
+            "cost": "fairy",
+            "damage": 10,
+            "effect": "You may remove 1 damage counter from one of your other Pokemon." 
+        } 
+    ],
+    "weakness": { 
+        "type": "poison",
+        "value": 10 
+    },
+    "retreat": 0,
+    "rarity": 3,
+    "flavor": "When living creatures are excited, it seems that their auras resemble those of flowers in full bloom. As a result, these Pokemon tend to gather near people or Pokemon feeling particularly happy or sad." 
+}

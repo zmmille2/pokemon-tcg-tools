@@ -1,0 +1,28 @@
+{
+    "name": "Sawk",
+    "hp": 60,
+    "stage": "basic",
+    "type": "fighting",
+    "image": "sawk",
+    "attacks": [
+        {
+            "name": "One-Two Punch",
+            "cost": "fighting",
+            "damage": 10,
+            "effect": "You may switch Sawk with a Benched Pokemon."
+        },
+        {
+            "name": "Chop Through",
+            "cost": "fighting colorless",
+            "damage": 20,
+            "effect": "Discard the top card of your opponent's deck."
+        }
+    ],
+    "weakness": {
+        "type": "fairy",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 2,
+    "flavor": "These pokemon are incredibly powerful. Their resemblance to Sesame Street drew a lawsuit."
+}

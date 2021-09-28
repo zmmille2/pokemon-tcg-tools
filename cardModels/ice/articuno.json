@@ -1,0 +1,29 @@
+{
+    "name": "Articuno",
+    "hp": 100,
+    "stage": "basic",
+    "type": "ice",
+    "image": "articuno",
+    "ability": {
+        "name" : "Quickfreeze",
+        "effect": "When you put Articuno into play (except during setup) flip a coin. If heads, the Defending Pokemon is now Paralyzed."
+    },
+    "attacks": [
+        {
+            "name": "Ice Breath",
+            "cost": "ice ice ice",
+            "effect": "Deal 40 damage to one of your opponent's Pokemon at random (use a d6)."
+        }
+    ],
+    "weakness": {
+        "type": "rock",
+        "value": 20
+    },
+    "resistance": {
+        "type": "ground",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 1,
+    "flavor": "A legendary bird Pokemon. It freezes water that is contained in winter air and makes it snow."
+}

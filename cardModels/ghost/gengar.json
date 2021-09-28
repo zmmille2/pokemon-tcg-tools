@@ -1,0 +1,32 @@
+{
+    "name": "Gengar",
+    "hp": 100,
+    "stage": "stage2",
+    "evolvesFrom": "Haunter",
+    "evolvesFromImage": "haunter",
+    "type": "ghost",
+    "image": "gengar",
+    "ability": {
+        "name" : "Haunted Energy",
+        "effect": "You can use Ghost Energies as a substitute for any ability or effect that requires any other type of Energy. Your Pokemon are also Ghost Type."
+    },
+    "attacks": [
+        {
+            "name": "Haunt",
+            "cost": "ghost ghost colorless",
+            "damage": 30,
+            "effect": "Next turn, your Ghost-type attacks deal double damage."
+        }
+    ],
+    "weakness": {
+        "type": "ghost",
+        "value": 10
+    },
+    "resistance": {
+        "type": "normal",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 1,
+    "flavor": "You're 700 haunted"
+}

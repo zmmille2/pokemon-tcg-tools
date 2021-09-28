@@ -1,0 +1,30 @@
+{
+    "name": "Hoothoot",
+    "hp": 50,
+    "stage": "basic",
+    "type": "colorless",
+    "image": "hoothoot",
+    "attacks": [
+        {
+            "name": "Night Hunter",
+            "cost": "empty",
+            "effect": "Reveal the bottom 7 cards of your deck. Your opponent picks one, then you pick a different one. Put the card you picked into your hand, shuffle the other cards, and put them back on the bottom of your deck."
+        },
+        {
+            "name": "Peck",
+            "cost": "colorless",
+            "damage": "10"
+        }
+    ],
+    "weakness": {
+        "type": "lightning",
+        "value": 10
+    },
+    "resistance": {
+        "type": "fighting",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "Hoothoot hunt at night. Their feathers are incredibly silent, and oftentimes their prey never knows what hit them."
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Lycanroc Dusk",
+    "hp": 70,
+    "stage": "stage1",
+    "evolvesFrom": "Rockruff",
+    "evolvesFromImage": "rockruff",
+    "type": "fighting",
+    "image": "lycanroc-dusk",
+    "ability": {
+        "name" : "Resilient",
+        "effect": "Lycanroc Dusk takes 10 less damage from attacks for each time the Defending Pokemon has evolved."
+    },
+    "attacks": [
+        {
+            "name": "Accelerock",
+            "cost": "rock",
+            "damage": 20
+        },
+        {
+            "name": "Finish the Fight",
+            "cost": "fighting rock colorless",
+            "damage": "10x",
+            "effect": "Deals 10 damage for every 5 cards in your discard pile."
+        }
+    ],
+    "weakness": {
+        "type": "psychic",
+        "value": 10
+    },
+    "resistance": {
+        "type": "dark",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 1,
+    "flavor": "It overcame great adversity and maintained a belief in the goodness of the world to take this rare form."
+}

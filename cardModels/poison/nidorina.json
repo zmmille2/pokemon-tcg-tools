@@ -1,0 +1,24 @@
+{
+    "name": "Nidorina",
+    "hp": 70,
+    "stage": "stage1",
+    "evolvesFrom": "Nidoran F",
+    "evolvesFromImage": "nidoran-f",
+    "type": "poison",
+    "image": "nidorina",
+    "attacks": [
+        {
+            "name": "Big Sister",
+            "cost": "poison colorless",
+            "damage": "20+",
+            "effect": "Deal 10 more damage for each Nidoran or Nidorino on your Bench."
+        }
+    ],
+    "weakness": {
+        "type": "poison",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 2,
+    "flavor": "We've got some rough times ahead, but it's going to be OK, because we're family."
+}

@@ -1,0 +1,30 @@
+{
+    "name": "Growlithe",
+    "hp": 50,
+    "stage": "basic",
+    "type": "fire",
+    "image": "growlithe",
+    "attacks": [
+        {
+            "name": "Bite",
+            "cost": "colorless colorless",
+            "damage": 20
+        },
+        {
+            "name": "Flame Wheel",
+            "cost": "fire fire",
+            "damage": 30
+        }
+    ],
+    "weakness": {
+        "type": "water",
+        "value": 10
+    },
+    "resistance": {
+        "type": "grass",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "Fires often start while these Pokemon are playing around. It might surprise you, but because of their natural heat, they're most popular in cold climates."
+}

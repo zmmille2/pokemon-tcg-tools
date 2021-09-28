@@ -1,0 +1,30 @@
+{
+    "name": "Zamazenta",
+    "hp": 120,
+    "stage": "Basic",
+    "type": "metal",
+    "image": "zamazenta",
+    "ability": {
+        "name": "Guardian",
+        "effect": "While Zamazenta is your Active Pokemon, your Benched Pokemon are immune to effects and damage. Zamazenta takes 30 less damage from attacks, minus 10 for each time the attacker has evolved."
+    },
+    "attacks": [
+        {
+            "name": "Protective Paw",
+            "cost": "colorless",
+            "effect": "Draw a card. If you have 3 Basic Pokemon on your Bench, draw another card."
+        },
+        {
+            "name": "Shield Bash",
+            "cost": "metal colorless",
+            "damage": "30"
+        }
+    ],
+    "weakness": {
+        "type": "ground",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 1,
+    "flavor": "This dog is fiercely protective. Its fur is harder than steel."
+}

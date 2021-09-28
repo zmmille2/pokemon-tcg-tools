@@ -1,0 +1,26 @@
+{
+    "name": "Klink",
+    "hp": 60,
+    "stage": "basic",
+    "type": "metal",
+    "image": "klink",
+    "attacks": [
+        {
+            "name": "Rising Volage",
+            "cost": "colorless",
+            "effect": "Search your deck for a Lightning, Fire, or Psychic Energy. Reveal it to your opponent, and put it into your hand."
+        },
+        {
+            "name": "Gear Grind",
+            "cost": "metal metal",
+            "damage": 30
+        }
+    ],
+    "weakness": {
+        "type": "fire",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "Interlocking two bodies and spinning around generates the energy they need to live."
+}

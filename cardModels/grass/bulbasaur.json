@@ -1,0 +1,26 @@
+{
+    "name": "Bulbasaur",
+    "hp": 60,
+    "stage": "basic",
+    "type": "grass",
+    "image": "bulbasaur1",
+    "attacks": [
+        {
+            "name": "Razor Leaf",
+            "cost": "grass",
+            "damage": 20
+        },
+        {
+            "name": "Sweet Scent",
+            "cost": "colorless",
+            "effect": "Choose one of your opponent's Benched Pokemon to become their new Active Pokemon."
+        }
+    ],
+    "weakness": {
+        "type": "fire",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 0,
+    "flavor": "They say that Bulbasaur is the least-chosen starter of the originals. Good on you for being generous!"
+}

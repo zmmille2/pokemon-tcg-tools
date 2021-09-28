@@ -1,0 +1,31 @@
+{
+    "name": "Stoutland",
+    "hp": 90,
+    "stage": "stage2",
+    "evolvesFrom": "Herdier",
+    "evolvesFromImage": "herdier",
+    "type": "colorless",
+    "image": "stoutland",
+    "ability": {
+        "name" : "Sniff Out",
+        "effect": "Once per turn, while Stoutland is your Active Pokemon, flip a coin. If heads, search your deck for a Pokemon or Trainer and put it into your hand. If tails, search your deck for an Energy and put it into your hand. Either way, shuffle your deck afterwards."
+    },
+    "attacks": [
+        {
+            "name": "Pooch Attack",
+            "cost": "colorless colorless colorless",
+            "damage": 40
+        }
+    ],
+    "weakness": {
+        "type": "fighting",
+        "value": 10
+    },
+    "resistance": {
+        "type": "ghost",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 2,
+    "flavor": "These Pokemon take quite a bit of training to reach their final form. They have contests where the biggest fans of them fly in and show off their bond."
+}

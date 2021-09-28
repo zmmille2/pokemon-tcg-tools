@@ -1,0 +1,34 @@
+{
+    "name": "Golem",
+    "hp": 100,
+    "stage": "stage2",
+    "evolvesFrom": "Graveler",
+    "evolvesFromImage": "graveler",
+    "type": "ground",
+    "image": "golem",
+    "attacks": [
+        {
+            "name": "Explode",
+            "cost": "colorless colorless",
+            "damage": 120,
+            "effect": "Golem deals 120 damage to itself. Deal 20 damage to all Benched Pokemon. Do not apply Weakness and Resistance for Benched Pokemon."
+        },
+        {
+            "name": "Massive Quake",
+            "cost": "ground ground ground colorless",
+            "damage": 80,
+            "effect": "Deal 20 damage to all Benched Pokemon that are not Ground Type. Apply Weakness and Resistance for Benched Pokemon."
+        }
+    ],
+    "weakness": {
+        "type": "grass",
+        "value": 20
+    },
+    "resistance": {
+        "type": "lightning",
+        "value": 10
+    },
+    "retreat": 3,
+    "rarity": 1,
+    "flavor": "A little pressure has turned this Pokemon into a ticking time bomb. It's best to lead them away from population centers and try to get them to explode."
+}

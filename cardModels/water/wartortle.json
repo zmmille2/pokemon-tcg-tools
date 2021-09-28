@@ -1,0 +1,29 @@
+{
+    "name": "Wartortle",
+    "hp": 70,
+    "stage": "stage1",
+    "evolvesFrom": "Squirtle",
+    "evolvesFromImage": "squirtle",
+    "type": "water",
+    "image": "wartortle",
+    "attacks": [
+        {
+            "name": "Shell Smash",
+            "cost": "colorless",
+            "effect": "Wartortle deals 20 damage to itself. Search your deck for 2 Water Energies, attach them to Wartortle, and shuffle your deck."
+        },
+        {
+            "name": "Water Gun",
+            "cost": "water colorless",
+            "damage": "30+",
+            "effect": "Deal 10 more damage for each Water Energy attached to Wartortle not used to pay for this attack's cost, up to 20."
+        }
+    ],
+    "weakness": {
+        "type": "lightning",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 2,
+    "flavor": "Turtle time. Kowabunga."
+}

@@ -1,0 +1,34 @@
+{
+    "name": "Crystal Steelix",
+    "hp": 110,
+    "stage": "stage1",
+    "evolvesFrom": "Crystal Onix",
+    "evolvesFromImage": "crystal-onix",
+    "type": "ice",
+    "image": "crystal-steelix",
+    "ability": {
+        "name": "Crystal Shell",
+        "effect": "When Steelix is Knocked Out, you may discard Crystal Steelix and remove all damage counters and status effects from the Basic Pokemon. Crystal Steelix is still knocked out."
+    },
+    "attacks": [
+        {
+            "name": "Cold Revenge",
+            "cost": "ice colorless",
+            "damage": "10x",
+            "effect": "Deal 10 damage for each damage counter on Crystal Steelix."
+        },
+        {
+            "name": "Avalanche",
+            "cost": "ice ice colorless colorless",
+            "damage": 40,
+            "effect": "You may generate 3 Ice Energy and shuffle them into your opponent's deck."
+        }
+    ],
+    "weakness": {
+        "type": "fire",
+        "value": 10
+    },
+    "retreat": 4,
+    "rarity": 2,
+    "flavor": "Their shells are touch to penetrate. While they can't dish out a lot of damage, they're incredibly tough, even under the outer layer of crystal."
+}

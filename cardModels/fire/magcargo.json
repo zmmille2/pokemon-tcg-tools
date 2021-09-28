@@ -1,0 +1,28 @@
+{
+    "name": "Magcargo",
+    "hp": 70,
+    "stage": "stage1",
+    "evolvesFrom": "Slugma",
+    "evolvesFromImage": "slugma",
+    "type": "fire",
+    "image": "magcargo",
+    "ability": {
+        "name" : "Burning Hunger",
+        "effect": "Attach discarded cards to Magcargo instead. You may only move cards from Magcargo via Inferno. Pokemon are Basic Energies of their type. Trainers are Colorless."
+    },
+    "attacks": [
+        {
+            "name": "Inferno",
+            "cost": "fire rock colorless",
+            "damage": "30+",
+            "effect": "You may move up to 10 cards attached to Magcargo to the Lost Zone. This attack deals 10 more damage for every 2 cards moved this way."
+        }
+    ],
+    "weakness": {
+        "type": "water",
+        "value": 20
+    },
+    "retreat": 3,
+    "rarity": 2,
+    "flavor": "My man hungry."
+}

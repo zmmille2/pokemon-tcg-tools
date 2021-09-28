@@ -1,0 +1,35 @@
+{
+    "name": "Castform",
+    "hp": 60,
+    "stage": "basic",
+    "type": "fire",
+    "image": "castform-sun",
+    "ability": {
+        "name": "Sunny Day",
+        "effect": "When you discard a Fire Energy, you may add it to your hand instead. When you attach an Energy to Castform, you may search your deck for another card named Castform, replace it with this one, and shuffle your deck."
+    },
+    "attacks": [
+        {
+            "name": "Weather Ball",
+            "cost": "fire colorless",
+            "damage": 30
+        },
+        {
+            "name": "Flamethrower",
+            "cost": "fire fire colorless",
+            "damage": 50,
+            "effect": "Discard a Fire Energy to use this attack."
+        }
+    ],
+    "weakness": {
+        "type": "water",
+        "value": 10
+    },
+    "resistance": {
+        "type": "grass",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 2,
+    "flavor": "Castform are pernicious creatures that change with the weather."
+}

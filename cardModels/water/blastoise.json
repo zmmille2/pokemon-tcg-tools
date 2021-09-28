@@ -1,0 +1,32 @@
+{
+    "name": "Blastoise",
+    "hp": 100,
+    "stage": "stage2",
+    "evolvesFrom": "Wartortle",
+    "evolvesFromImage": "wartortle",
+    "type": "water",
+    "image": "blastoise",
+    "ability": {
+        "name" : "Overflow",
+        "effect": "For each additional Water Energy attached to your Active Pokemon not used to pay for its attack, it deals 10 more damage, up to 30."
+    },
+    "attacks": [
+        {
+            "name": "Aqua Tail",
+            "cost": "water colorless",
+            "damage": 40
+        },
+        {
+            "name": "Rain Dance",
+            "cost": "water water water water",
+            "effect": "Reveal the top 10 cards of your deck. You may attach up to 4 Water Energies to your Pokemon as you like. Shuffle the rest back into your deck."
+        }
+    ],
+    "weakness": {
+        "type": "lightning",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 1,
+    "flavor": "These tanks bring torrential floods while fighting. Beach frequenters will rile them up just to ride the waves."
+}

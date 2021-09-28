@@ -1,0 +1,36 @@
+{
+    "name": "Rayquaza",
+    "hp": 100,
+    "stage": "basic",
+    "type": "flying",
+    "image": "rayquaza",
+    "ability": {
+        "name" : "Ozone Wall",
+        "effect": "Your Benched Pokemon take no damage from attacks."
+    },
+    "attacks": [
+        {
+            "name": "Atmospheric Storm",
+            "cost": "flying",
+            "damage": 20,
+            "effect": "You may search your discard pile for a Basic Energy, show it to your opponent, and put it into your hand."
+        },
+        {
+            "name": "Hyper Beam",
+            "cost": "colorless colorless colorless",
+            "damage": 100,
+            "effect": "Rayquaza is Paralyzed next turn."
+        }
+    ],
+    "weakness": {
+        "type": "ice",
+        "value": 20
+    },
+    "resistance": {
+        "type": "ground",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 1,
+    "flavor": "This Pokemon is famous for keeping the squabbling Kyogre and Groudon from fighting and destroying the world. It would prefer to enjoy the skies, but everybody's got a 9-5."
+}

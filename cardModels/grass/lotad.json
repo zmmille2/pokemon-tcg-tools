@@ -1,0 +1,22 @@
+{
+    "name": "Lotad",
+    "hp": 40,
+    "stage": "basic",
+    "type": "grass",
+    "image": "lotad",
+    "attacks": [
+        {
+            "name": "Bubble",
+            "cost": "colorless",
+            "damage": 10,
+            "effect": "Flip a coin. If heads, the Defending Pokemon is Paralyzed."
+        }
+    ],
+    "weakness": {
+        "type": "flying",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "Lakes are filled with these mostly harmless creatures. They breed quickly and keep local predator populations fed."
+}

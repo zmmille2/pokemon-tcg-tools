@@ -1,0 +1,38 @@
+{
+    "name": "Arcanine",
+    "hp": 100,
+    "stage": "stage1",
+    "evolvesFrom": "Growlithe",
+    "evolvesFromImage": "growlithe",
+    "type": "fire",
+    "image": "arcanine",
+    "ability": {
+        "name" : "Honorbound",
+        "effect": "While Arcanine is your Active Pokemon, place a coin face-up on the table. For all effects that flip a coin, each player uses the face-up side. Whenever you do, flip the coin to the other side."
+    },
+    "attacks": [
+        {
+            "name": "Fire Fang",
+            "cost": "fire colorless colorless",
+            "damage": 20,
+            "effect": "The Defending Pokemon is now Burned."
+        },
+        {
+            "name": "Flamethrower",
+            "cost": "fire fire colorless colorless",
+            "damage": 60,
+            "effect": "Flip a coin. If tails, discard a Fire Energy attached to Arcanine."
+        }
+    ],
+    "weakness": {
+        "type": "water",
+        "value": 10
+    },
+    "resistance": {
+        "type": "grass",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 2,
+    "flavor": "These Pokemon are loyal to a fault. Some trainers are frustrated by their lack of ambition, but others praise their code of honor."
+}

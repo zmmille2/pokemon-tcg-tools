@@ -1,0 +1,31 @@
+{
+    "name": "Aggron",
+    "hp": 130,
+    "stage": "stage2",
+    "evolvesFrom": "lairon",
+    "evolvesFromImage": "lairon",
+    "type": "metal",
+    "image": "aggron2",
+    "ability": {
+        "name" : "Metal Hunger",
+        "effect": "When you draw a card, flip a coin. On heads, discard a Metal energy from Aggron."
+    },
+    "attacks": [
+        {
+            "name": "Power Claw",
+            "cost": "metal metal metal rock rock",
+            "damage": 100
+        }
+    ],
+    "weakness": {
+        "type": "fire",
+        "value": 20
+    },
+    "resistance": {
+        "type": "colorless",
+        "value": 20
+    },
+    "retreat": 5,
+    "rarity": 1,
+    "flavor": "Fuck!"
+}

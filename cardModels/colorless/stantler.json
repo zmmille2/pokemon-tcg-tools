@@ -1,0 +1,41 @@
+{
+    "name": "Stantler",
+    "hp": 70,
+    "stage": "basic",
+    "type": "colorless",
+    "image": "stantler",
+    "ability": {
+        "name" : "Forest Mystic",
+        "effect": "Once per turn, you may search your deck for a Grass or Psychic Pokemon. Reveal the card to your opponent, shuffle your deck, and place that card on top of your deck."
+    },
+    "attacks": [
+        {
+            "name": "Antler Strike",
+            "cost": "colorless colorless",
+            "damage": 20
+        },
+        {
+            "name": "Green Horn",
+            "cost": "grass colorless colorless",
+            "damage": 20,
+            "effect": "Heal 10 damage and any Special Conditions from Stantler."
+        },
+        {
+            "name": "Psybeam",
+            "cost": "psychic colorless colorless",
+            "damage": 30,
+            "effect": "The Defending Pokemon is now confused."
+        }
+    ],
+    "weakness": {
+        "type": "fighting",
+        "value": 10
+    },
+    "resistance": {
+        "type": "ghost",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 2,
+    "flavor": "These deer protect forests from overdevelopment. As human technology has progressed, they've become more and more rare."
+}

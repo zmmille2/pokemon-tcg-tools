@@ -1,0 +1,32 @@
+{
+    "name": "Lairon",
+    "hp": 70,
+    "stage": "stage1",
+    "evolvesFrom": "Aron",
+    "evolvesFromImage": "aron",
+    "type": "rock",
+    "image": "lairon",
+    "attacks": [
+        {
+            "name": "Chomp",
+            "cost": "rock colorless colorless",
+            "damage": 40
+        },
+        {
+            "name": "Metal Jaw",
+            "cost": "metal colorless colorless colorless",
+            "damage": 60
+        }
+    ],
+    "weakness": {
+        "type": "fire",
+        "value": 10
+    },
+    "resistance": {
+        "type": "colorless",
+        "value": 10
+    },
+    "retreat": 3,
+    "rarity": 2,
+    "flavor": "These beasts have lost their cuteness after feasting on raw iron and rock."
+}

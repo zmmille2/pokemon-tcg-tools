@@ -1,0 +1,31 @@
+{
+    "name": "Castform",
+    "hp": 60,
+    "stage": "basic",
+    "type": "ice",
+    "image": "castform-hail",
+    "ability": {
+        "name": "Hail",
+        "effect": "Whenever you generate any Ice Energy, you may generate one more. When you attach an Energy to Castform, you may search your deck for another card named Castform, replace it with this one, and shuffle your deck."
+    },
+    "attacks": [
+        {
+            "name": "Weather Ball",
+            "cost": "ice colorless",
+            "damage": 30
+        },
+        {
+            "name": "Blizzard",
+            "cost": "ice ice colorless",
+            "damage": 40,
+            "effect": "Flip a coin. Generate an Ice Energy: If heads, put it into your opponent's hand. If tails, shuffle it into your opponent's deck."
+        }
+    ],
+    "weakness": {
+        "type": "fire",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 2,
+    "flavor": "Castform are pernicious creatures that change with the weather."
+}

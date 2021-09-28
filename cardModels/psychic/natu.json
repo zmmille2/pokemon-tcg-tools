@@ -1,0 +1,25 @@
+{
+    "name": "Natu",
+    "hp": 40,
+    "stage": "Basic",
+    "type": "psychic",
+    "image": "natu",
+    "attacks": [
+        {
+            "name": "Parallel Future",
+            "cost": "psychic colorless",
+            "effect": "At the end of your opponent's next turn, put damage counters on your opponent's Active Pokemon equal to the difference in the number of cards in your hands."
+        }
+    ],
+    "weakness": {
+        "type": "lightning",
+        "value": 10
+    },
+    "resistance": {
+        "type": "ground",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "It carefully observes its surroundings. A fringe group of scientists believe that they can see the past and the future."
+}

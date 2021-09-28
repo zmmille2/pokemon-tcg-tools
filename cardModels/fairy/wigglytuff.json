@@ -1,0 +1,33 @@
+{
+    "name": "Wigglytuff",
+    "hp": 90,
+    "stage": "stage1",
+    "evolvesFrom": "Jigglypuff",
+    "evolvesFromImage": "jigglypuff",
+    "type": "fairy",
+    "image": "wigglytuff",
+    "attacks": [
+        {
+            "name": "Lucky Chant",
+            "cost": "fairy",
+            "effect": "Draw a card."
+        },
+        {
+            "name": "All Together",
+            "cost": "fairy colorless colorless",
+            "damage": "10x",
+            "effect": "Deals 10 damage for every Pokemon you have in play."
+        }
+    ],
+    "weakness": {
+        "type": "poison",
+        "value": 20
+    },
+    "resistance": {
+        "type": "dragon",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 2,
+    "flavor": "These big puffs are social butterflies."
+}

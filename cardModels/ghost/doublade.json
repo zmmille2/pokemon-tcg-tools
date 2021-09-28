@@ -1,0 +1,33 @@
+{
+    "name": "Doublade",
+    "hp": 60,
+    "stage": "stage1",
+    "type": "ghost",
+    "image": "doublade",
+    "evolvesFrom": "Honedge",
+    "evolvesFromImage": "honedge",
+    "attacks": [
+        {
+            "name": "Double Slice",
+            "cost": "metal colorless",
+            "damage": "20x",
+            "effect": "Deal 20 damage to the Defending Pokemon twice. Apply effects, weakness, and resistance as if this were two attacks."
+        },
+        {
+            "name": "Haunted Harry",
+            "cost": "ghost colorless",
+            "effect": "Put 3 damage counters on the Defending Pokemon."
+        }
+    ],
+    "weakness": {
+        "type": "dark",
+        "value": 10
+    },
+    "resistance": { 
+        "type": "normal",
+        "value": 20
+    },
+    "retreat": 2,
+    "rarity": 2,
+    "flavor": "The spirit inhabiting this sword has possessed another. Two swords are better than one, indeed."
+}

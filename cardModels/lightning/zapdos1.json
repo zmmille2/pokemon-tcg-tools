@@ -1,0 +1,30 @@
+{
+    "name": "Zapdos",
+    "hp": 70,
+    "stage": "basic",
+    "type": "lightning",
+    "image": "zapdos1",
+    "attacks": [
+        {
+            "name": "Rumble",
+            "cost": "lightning",
+            "effect": "Search your discard for up to two Energies and attach them to Zapdos."
+        },
+        {
+            "name": "Thunderstorm",
+            "cost": "lightning lightning lightning",
+            "effect": "Discard all Energies attached to Zapdos. For each Energy discarded this way, deal 20 damage to a random Pokemon other than Zapdos. This attach ignores Weakness and Resistance."
+        }
+    ],
+    "weakness": {
+        "type": "rock",
+        "value": 10
+    },
+    "resistance": {
+        "type": "ground",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 1,
+    "flavor": "This legendary bird Pokemon is said to appear when the sky turns dark and lightning showers down."
+}

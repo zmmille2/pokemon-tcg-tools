@@ -1,0 +1,32 @@
+{
+    "name": "Mightyena",
+    "hp": 70,
+    "stage": "stage1",
+    "evolvesFrom": "Poochyena",
+    "evolvesFromImage": "poochyena",
+    "type": "dark",
+    "image": "mightyena",
+    "ability": {
+        "name": "Scoundrel",
+        "effect": "Whenever you are supposed to shuffle your deck, flip a coin. If heads, skip that step."
+    },
+    "attacks": [
+        {
+            "name": "Pack Tactics",
+            "cost": "dark colorless",
+            "damage": "20+",
+            "effect": "Deal 10 more damage for each Electrike, Entei, Growlithe, Houndoor, Lillipup, Poochyena, Raikou, Riolu, Rockruff, Snubbull, Suicune, Zacien, Zamazenta, or Zorua on your bench, or for any card that evolves from them."
+        }
+    ],
+    "weakness": {
+        "type": "fighting",
+        "value": 10
+    },
+    "resistance": {
+        "type": "psychic",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 2,
+    "flavor": "These vicious dogs don't fight fair. They bring down much bigger prey by coordinating their attacks."
+}

@@ -1,0 +1,25 @@
+{
+    "name": "Eevee",
+    "hp": 40,
+    "stage": "basic",
+    "type": "colorless",
+    "image": "eevee",
+    "attacks": [
+        {
+            "name": "Buddy System",
+            "cost": "colorless",
+            "effect": "If another Pokemon Evolved this turn, you may search your deck for a card that evolves from Eevee that is the same type as that Pokemon. Put that card on Eevee, evolving it."
+        }
+    ],
+    "weakness": {
+        "type": "fighting",
+        "value": 10
+    },
+    "resistance": {
+        "type": "ghost",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 2,
+    "flavor": "Eevee are very versitile Pokemon. They can evolve into almost any type. Lots of trainers love them!"
+}

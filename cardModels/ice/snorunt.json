@@ -1,0 +1,25 @@
+{
+    "name": "Snorunt",
+    "hp": 50,
+    "stage": "basic",
+    "type": "ice",
+    "image": "snorunt",
+    "attacks": [
+        {
+            "name": "Ice Blast",
+            "cost": "ice",
+            "damage": 20
+        }
+    ],
+    "weakness": {
+        "type": "dark",
+        "value": 10
+    },
+    "resistance": {
+        "type": "colorless",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "These cute triangles are the ghosts of Pokemon and people that passed away in blizzards."
+}

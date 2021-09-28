@@ -1,0 +1,18 @@
+{
+    "name": "Chris Kyle's Pikachu",
+    "hp": 40,
+    "stage": "basic",
+    "type": "lightning",
+    "image": "chris-kyles-pikachu",
+    "ability": {
+        "name" : "Thundershot",
+        "effect": "You may move an Electric Energy and discard an Electric Energy from Chris Kyle's Pikachu. If you do, deal 40 damage to an opponent's Pokemon and make Chris Kyle's Pikachu the Active Pokemon. This ends your turn."
+    },
+    "weakness": {
+        "type": "ground",
+        "value": 20
+    },
+    "retreat": 2,
+    "rarity": 1,
+    "flavor": "\"The joke was that President Bush only declared war when Starbucks was hit. You can mess with the U.N. all you want, but when you start interfering with the right to get caffeinated, someone has to pay.\""
+}

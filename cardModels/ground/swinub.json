@@ -1,0 +1,31 @@
+{
+    "name": "Swinub",
+    "hp": 60,
+    "stage": "basic",
+    "type": "ground",
+    "image": "swinub",
+    "attacks": [
+        {
+            "name": "Icicle Impale",
+            "cost": "ice",
+            "damage": 10,
+            "effect": "The Defending Pokemon cannot retreat during your opponent's next turn."
+        },
+        {
+            "name": "Headbutt",
+            "cost": "ground",
+            "damage": 20
+        }
+    ],
+    "weakness": {
+        "type": "metal",
+        "value": 10
+    },
+    "resistance": {
+        "type": "lightning",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 3,
+    "flavor": "Their noses are powerful. If they smell something enticing, they just start running!"
+}

@@ -1,0 +1,28 @@
+{
+    "name": "Dragonair",
+    "hp": 80,
+    "stage": "stage1",
+    "evolvesFrom": "Dratini",
+    "evolvesFromImage": "dratini",
+    "type": "dragon",
+    "image": "dragonair",
+    "ability": {
+        "name" : "Rainbow Bridge",
+        "effect": "When you play Dragonair to evolve another Pokemon, you may search your deck for up to 3 Basic Pokemon that are different types. Reveal them to your opponent. They discard one, you put as many as will fit on your Bench, and shuffle the rest into your deck."
+    },
+    "attacks": [
+        {
+            "name": "Rainbow Beam",
+            "cost": "dragon colorless colorless",
+            "damage": "30+",
+            "effect": "This attack does 10 more damage for every different type of Energy attached to Dragonair."
+        }
+    ],
+    "weakness": {
+        "type": "fairy",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 2,
+    "flavor": "These Pokemon fly through the sky as if they were swimming in water. They're frequently seen near rainbows."
+}

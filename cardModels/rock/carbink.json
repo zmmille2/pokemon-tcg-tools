@@ -1,0 +1,26 @@
+{
+    "name": "Carbink",
+    "hp": 50,
+    "stage": "basic",
+    "type": "rock",
+    "image": "carbink",
+    "ability": {
+        "name" : "Trick Room",
+        "effect": "To retreat, Pokemon pay 4 minus their retreat cost instead. If this makes their cost negative, they may attach energies upon retreating."
+    },
+    "attacks": [
+        {
+            "name": "Diamond Storm",
+            "cost": "rock colorless",
+            "damage": "20+",
+            "effect": "Reveal 3 cards from the top of your deck. For each Rock or Fairy Energy revealed, you may either draw it, or add 10 damage to this attack. Return any cards undrawn to the top of your deck in any order."
+        }
+    ],
+    "weakness": {
+        "type": "metal",
+        "value": 20
+    },
+    "retreat": 3,
+    "rarity": 2,
+    "flavor": "The caves these creatures inhabit are strange places. Huge Pokemon move quickly, while normally rapid ones slow to a crawl."
+}

@@ -1,0 +1,28 @@
+{
+    "name": "Glaceon",
+    "hp": 80,
+    "stage": "stage1",
+    "evolvesFrom": "Eevee",
+    "evolvesFromImage": "eevee",
+    "type": "ice",
+    "image": "glaceon",
+    "ability": {
+        "name" : "Crystal Genome",
+        "effect": "Attacks from Pokemon that evolve from Eevee are not affected by Weakness, Resistance, or other abilities on your opponent's Pokemon."
+    },
+    "attacks": [
+        {
+            "name": "Chilling Out",
+            "cost": "ice colorless",
+            "damage": 60,
+            "effect": "Shuffle 3 cards from your hand into your deck, or this attack does nothing."
+        }
+    ],
+    "weakness": {
+        "type": "metal",
+        "value": 20
+    },
+    "retreat": 2,
+    "rarity": 1,
+    "flavor": "A scientist wanted her Eevee to live forever and cryogenically froze it. Eevee reacted to this experiment in a very unexpected way."
+}

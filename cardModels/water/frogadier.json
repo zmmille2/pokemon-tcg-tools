@@ -1,0 +1,27 @@
+{
+    "name": "Frogadier",
+    "hp": 60,
+    "stage": "stage1",
+    "evolvesFrom": "Froakie",
+    "evolvesFromImage": "froakie",
+    "type": "water",
+    "image": "frogadier",
+    "ability": {
+        "name" : "Substitute",
+        "effect": "Once per turn, if Frogadier would take damage, you may discard a Trainer card to take half that damage."
+    },
+    "attacks": [
+        {
+            "name": "Water Shuriken",
+            "cost": "water colorless",
+            "effect": "Put 2 damage counters on 3 of your opponent's Pokemon."
+        }
+    ],
+    "weakness": {
+        "type": "lightning",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 2,
+    "flavor": "Their mastery of ninjutsu has their shurikens getting more and more accurate. While they've put away their tongues, proper dojos will teach them to rely more on the water."
+}

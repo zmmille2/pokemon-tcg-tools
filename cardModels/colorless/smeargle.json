@@ -1,0 +1,18 @@
+{
+    "name": "Smeargle",
+    "hp": 50,
+    "stage": "basic",
+    "type": "colorless",
+    "image": "smeargle",
+    "ability": {
+        "name": "Artist",
+        "effect": "Smeargle can use any move from any pokemon on either bench. You must still pay the energy cost for this move."
+    },
+    "weakness": {
+        "type": "fighting",
+        "value": 20
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "Does art imitate life?"
+}

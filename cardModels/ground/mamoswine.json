@@ -1,0 +1,39 @@
+{
+    "name": "Mamoswine",
+    "hp": 140,
+    "stage": "stage2",
+    "evolvesFrom": "Piloswine",
+    "evolvesFromImage": "piloswine",
+    "type": "ground",
+    "image": "Mamoswine",
+    "attacks": [
+        {
+            "name": "Ancient Power",
+            "cost": "ground colorless colorless",
+            "damage": "30+",
+            "effect": "Flip 3 coins. If all of them are heads, this attack does 30 more damage, and remove 2 damage counters from Mamoswine."
+        },
+        {
+            "name": "Earthquake",
+            "cost": "ground ground colorless colorless",
+            "damage": "60",
+            "effect": "Deal 10 damage to all Benched Pokemon that are not Ground Type. Apply Weakness and Resistance for Benched Pokemon."
+        },
+        {
+            "name": "Blizzard",
+            "cost": "ice ice colorless colorless",
+            "damage": 70
+        }
+    ],
+    "weakness": {
+        "type": "metal",
+        "value": 10
+    },
+    "resistance": {
+        "type": "lightning",
+        "value": 10
+    },
+    "retreat": 4,
+    "rarity": 1,
+    "flavor": "A frozen Mamoswine was unearthed in the Arctic after 10,000 years. There is debate on whether early humans hunted these Pokemon to extinction. This Pokemon is prehistoric!"
+}

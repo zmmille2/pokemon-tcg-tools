@@ -1,0 +1,31 @@
+{
+    "name": "Castform",
+    "hp": 60,
+    "stage": "basic",
+    "type": "water",
+    "image": "castform-rain",
+    "ability": {
+        "name" : "Rain Dance",
+        "effect": "When you attach a Water Energy to a Pokemon, remove a damage counter from that Pokemon. When you attach an Energy to Castform, you may search your deck for another card named Castform, replace it with this one, and shuffle your deck."
+    },
+    "attacks": [
+        {
+            "name": "Weather Ball",
+            "cost": "water colorless",
+            "damage": 30
+        },
+        {
+            "name": "Splash",
+            "cost": "water water colorless",
+            "damage": 30,
+            "effect": "Put a damage counter on two of your opponent's Benched Pokemon."
+        }
+    ],
+    "weakness": {
+        "type": "grass",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 2,
+    "flavor": "Castform are pernicious creatures that change with the weather."
+}

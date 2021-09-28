@@ -1,0 +1,28 @@
+{
+    "name": "Arbok",
+    "hp": 70,
+    "type": "poison",
+    "image": "arbok",
+    "stage": "stage1",
+    "evolvesFrom": "ekans",
+    "evolvesFromImage": "ekans",
+    "attacks": [
+        {
+            "name": "Venomous Gaze",
+            "effect": "The defending Pokemon is Poisoned. It cannot retreat next turn.",
+            "cost": "poison colorless"
+        },
+        {
+            "name": "Bite",
+            "damage": 40,
+            "cost": "poison colorless colorless"
+        }
+    ],
+    "weakness": {
+        "type": "psychic",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 2,
+    "flavor": "These Pokemon are favored by evil teams because of their intimidating marks."
+}

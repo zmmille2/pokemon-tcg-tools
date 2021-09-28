@@ -1,0 +1,31 @@
+{
+    "name": "Aerodactyl",
+    "hp": 90,
+    "stage": "stage1",
+    "evolvesFrom": "Mysterious Fossil",
+    "evolvesFromImage": "mysterious-fossil",
+    "type": "rock",
+    "image": "aerodactyl",
+    "ability": {
+        "name" : "Ancient Power",
+        "effect": "You may play Aerodactyl as a Basic Pokemon. If you do, place 4 damage counters on it. It has a retreat cost of 0."
+    },
+    "attacks": [
+        {
+            "name": "Rock Slide",
+            "cost": "rock colorless",
+            "damage": 30
+        }
+    ],
+    "weakness": {
+        "type": "ice",
+        "value": 20
+    },
+    "resistance": {
+        "type": "ground",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 2,
+    "flavor": "Recently revived from fossils, these Pokemon have started inhabiting rocky mountains again. Despite their appearence in the wild, some still don't believe in ancient Pokemon."
+}

@@ -1,0 +1,31 @@
+{
+    "name": "Castform",
+    "hp": 60,
+    "stage": "basic",
+    "type": "rock",
+    "image": "castform-sand",
+    "ability": {
+        "name": "Sandstorm",
+        "effect": "When your opponent attaches an Energy to a Pokemon, deal 10 damage to that Pokemon, unless it is a Ground, Rock, or Metal Energy. When you attach an Energy to Castform, you may search your deck for another card named Castform, replace it with this one, and shuffle your deck."
+    },
+    "attacks": [
+        {
+            "name": "Weather Ball",
+            "cost": "rock colorless",
+            "damage": 30
+        },
+        {
+            "name": "Stone Edge",
+            "cost": "rock rock colorless",
+            "damage": 60,
+            "effect": "Flip two coins. If both are tails, this attack does nothing."
+        }
+    ],
+    "weakness": {
+        "type": "grass",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 2,
+    "flavor": "Castform are pernicious creatures that change with the weather."
+}

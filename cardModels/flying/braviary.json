@@ -1,0 +1,34 @@
+{
+    "name": "Braviary",
+    "hp": 90,
+    "stage": "stage1",
+    "evolvesFrom": "Rufflet",
+    "evolvesFromImage": "rufflet",
+    "type": "flying",
+    "image": "braviary",
+    "attacks": [
+        {
+            "name": "Sky Drop",
+            "cost": "flying",
+            "damage": "20x",
+            "effect": "This attack does 20 damage times the opponent's Retreat Cost."
+        },
+        {
+            "name": "Dive Bomb",
+            "cost": "flying flying colorless",
+            "damage": 80,
+            "effect": "Braviary deals 20 damage to itself."
+        }
+    ],
+    "weakness": {
+        "type": "lightning",
+        "value": 10
+    },
+    "resistance": {
+        "type": "ground",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 1,
+    "flavor": "These birds of prey's shadows are well known and feared by smaller Pokemon."
+}

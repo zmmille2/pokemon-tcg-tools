@@ -1,0 +1,26 @@
+{
+    "name": "Throh",
+    "hp": 60,
+    "stage": "Basic",
+    "type": "fighting",
+    "image": "throh",
+    "ability": {
+        "name" : "Finisher",
+        "effect": "When the opponent discards a card, flip a coin. If heads, put it in the Lost Zone instead."
+    },
+    "attacks": [
+        {
+            "name": "Toprope Slam",
+            "cost": "fighting colorless",
+            "damage": "10+",
+            "effect": "If Throh switched in this or last turn, deal 20 more damage."
+        }
+    ],
+    "weakness": {
+        "type": "fairy",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 2,
+    "flavor": "Throh work well with Sawk or on their own. Their karate skills are put on display in tournaments often."
+}

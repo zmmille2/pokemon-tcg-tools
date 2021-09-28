@@ -1,0 +1,28 @@
+{
+    "name": "Graveler",
+    "hp": 70,
+    "stage": "stage1",
+    "evolvesFrom": "Geodude",
+    "evolvesFromImage": "geodude",
+    "type": "ground",
+    "image": "graveler",
+    "attacks": [
+        {
+            "name": "Magnitude",
+            "cost": "ground ground colorless",
+            "damage": 40,
+            "effect": "Deal 10 damage to all Benched Pokemon that are not Ground Type. Apply Weakness and Resistance for Benched Pokemon."
+        }
+    ],
+    "weakness": {
+        "type": "grass",
+        "value": 20
+    },
+    "resistance": {
+        "type": "lightning",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 2,
+    "flavor": "I like that boulder. That's a nice boulder."
+}

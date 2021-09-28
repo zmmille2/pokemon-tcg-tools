@@ -1,0 +1,34 @@
+{
+    "name": "Granbull",
+    "hp": 80,
+    "stage": "stage1",
+    "evolvesFrom": "Snubbull",
+    "evolvesFromImage": "snubbull",
+    "type": "fairy",
+    "image": "granbull",
+    "attacks": [
+        {
+            "name": "Cruel Crunch",
+            "cost": "dark colorless",
+            "damage": "30+",
+            "effect": "If the Defending Pokemon doesn't have any Energies attached to it,this attack deals 20 more damage."
+        },
+        {
+            "name": "Play Rough",
+            "cost": "fairy colorless",
+            "damage": "20+",
+            "effect": "Flip a coin. If heads,deal 20 more damage. If tails,Snubbull takes 10 less damage from all sources next turn."
+        }
+    ],
+    "weakness": {
+        "type": "metal",
+        "value": 10
+    },
+    "resistance": {
+        "type": "darkness",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 2,
+    "flavor": "It is timid in spite of its looks. If it becomes enraged, however, it will strike with its huge fangs."
+}

@@ -1,0 +1,28 @@
+{
+    "name": "Ivysaur",
+    "hp": 80,
+    "stage": "stage1",
+    "evolvesFrom": "Bulbasaur",
+    "evolvesFromImage": "bulbasaur",
+    "type": "poison",
+    "image": "ivysaur",
+    "ability": {
+        "name" : "Sleep Powder",
+        "effect": "If Ivysaur is your Active Pokemon, the Defending Pokemon must pay 2 more in order to retreat."
+    },
+    "attacks": [
+        {
+            "name": "Leech Seed",
+            "cost": "poison poison colorless",
+            "damage": 30,
+            "effect": "You may remove 1 damage counter from Ivysaur."
+        }
+    ],
+    "weakness": {
+        "type": "fire",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 2,
+    "flavor": "He's three feet tall and he smells like piss."
+}

@@ -1,0 +1,28 @@
+{
+    "name": "Ludicolo",
+    "hp": 90,
+    "stage": "stage2",
+    "evolvesFrom": "Lombre",
+    "evolvesFromImage": "lombre",
+    "type": "grass",
+    "image": "ludicolo",
+    "ability": {
+        "name" : "Rain Dance",
+        "effect": "As often as you like during your turn, you may attach a Water Energy to a Pokemon with a Grass Energy attached to it."
+    },
+    "attacks": [
+        {
+            "name": "Agua Fiesta",
+            "cost": "grass water colorless",
+            "damage": "30+",
+            "effect": "For each Water Energy attached to Ludicolo not used to pay for this attack's cost, this attack deals 10 more damage."
+        }
+    ],
+    "weakness": {
+        "type": "flying",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 1,
+    "flavor": "Ducks? Plants? Who knows, these things just like to party."
+}

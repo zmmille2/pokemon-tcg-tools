@@ -1,0 +1,6 @@
+{ 
+    "name": "Winged Strawberry", 
+    "type": "tool", 
+    "image": "winged-strawberry", 
+    "effect": "At the end of your turn, remove 1 damage counter from the Pokemon this card is attached to. If that Pokemon is not the Active Pokemon, discard this card immediately." 
+} 

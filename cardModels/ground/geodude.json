@@ -1,0 +1,30 @@
+{
+    "name": "Geodude",
+    "hp": 40,
+    "stage": "basic",
+    "type": "ground",
+    "image": "geodude",
+    "ability": {
+        "name" : "Sturdy",
+        "effect": "If Geodude has no damage counters on it, reduce any damage it takes above 30 to 30, and it cannot be Knocked Out."
+    },
+    "attacks": [
+        {
+            "name": "Smack Down",
+            "cost": "ground",
+            "damage": "10+",
+            "effect": "If the Defending Pokemon resists Ground Type, this attack ignores resistance and deals 20 more damage."
+        }
+    ],
+    "weakness": {
+        "type": "grass",
+        "value": 20
+    },
+    "resistance": {
+        "type": "lightning",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 3,
+    "flavor": "Strong arms let it adapt well to flying foes. A tossed stone can catch other Pokemon unaware."
+}

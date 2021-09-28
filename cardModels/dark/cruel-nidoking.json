@@ -1,0 +1,28 @@
+{
+    "name": "Cruel Nidoking",
+    "hp": 100,
+    "stage": "stage2",
+    "evolvesFrom": "Nidorino",
+    "evolvesFromImage": "nidorino",
+    "type": "dark",
+    "image": "cruel-nidoking",
+    "ability": {
+        "name" : "King's Tax",
+        "effect": "When either player Knocks Out a Pokemon, they collect an additional Prize Card."
+    },
+    "attacks": [
+        {
+            "name": "Thrash",
+            "cost": "dark dark colorless colorless",
+            "damage": "40+",
+            "effect": "This attack does 10 more damage for each damage counter on Cruel Nidoking."
+        }
+    ],
+    "weakness": {
+        "type": "psychic",
+        "value": 20
+    },
+    "retreat": 1,
+    "rarity": 1,
+    "flavor": "It strikes me profoundly that the world is more often than not a bad and cruel place."
+}

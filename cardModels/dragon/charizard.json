@@ -1,0 +1,33 @@
+{
+    "name": "Charizard",
+    "hp": 100,
+    "stage": "stage2",
+    "evolvesFrom": "Charmeleon",
+    "evolvesFromImage": "charmeleon",
+    "type": "dragon",
+    "image": "Charizard",
+    "attacks": [
+        {
+            "name": "Dragon Claw",
+            "cost": "dragon dragon colorless",
+            "damage": 40
+        },
+        {
+            "name": "Flamethrower",
+            "cost": "fire fire colorless colorless",
+            "damage": 80,
+            "effect": "Discard all Fire Energies attached to Charizard. Reveal the top 3 cards of your deck. Attach any Fire Energies you find to Charizard and discard the rest."
+        }
+    ],
+    "weakness": {
+        "type": "rock",
+        "value": 20
+    },
+    "resistance": {
+        "type": "ground",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 1,
+    "flavor": "These menacing beasts will blast through whole cities. Their hot breath is terrifying but their claws aren't much more welcoming."
+}

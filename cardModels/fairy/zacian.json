@@ -1,0 +1,26 @@
+{
+    "name": "Zacian",
+    "hp": 70,
+    "stage": "Basic",
+    "type": "fairy",
+    "image": "zacian",
+    "attacks": [
+        {
+            "name": "Buster Sword",
+            "cost": "fairy fairy colorless",
+            "damage": 50
+        },
+        {
+            "name": "Master Sword",
+            "cost": "fairy fairy fairy colorless",
+            "effect": "Discard 3 Energies from this Pokemon. If you do, the Defending Pokemon is Knocked Out."
+        }
+    ],
+    "weakness": {
+        "type": "ground",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 1,
+    "flavor": "This epic pooch has a sword in its mouth. Even while eating, it keeps it close. Legend says that whoever manages to take its sword will become the next King of England."
+}

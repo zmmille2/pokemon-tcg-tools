@@ -1,0 +1,28 @@
+{
+    "name": "Bellossom",
+    "hp": 90,
+    "stage": "stage2",
+    "evolvesFrom": "Gloom",
+    "evolvesFromImage": "gloom",
+    "type": "grass",
+    "image": "bellossom",
+    "ability": {
+        "name" : "Heal Dance",
+        "effect": "If Bellossom is your Active Pokemon, once per turn, remove 1 damage counter from each of your Pokemon."
+    },
+    "attacks": [
+        {
+            "name": "Full Bloom",
+            "cost": "grass colorless colorless",
+            "damage": "30+",
+            "effect": "Deal 20 more damage for each Bellossom in play (including this one)."
+        }
+    ],
+    "weakness": {
+        "type": "ice",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 1,
+    "flavor": "The intense sun dispersed Gloom's gloom and led it to a life of dancing and socializing."
+}

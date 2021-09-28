@@ -1,0 +1,28 @@
+{
+    "name": "Tentacruel",
+    "hp": 100,
+    "stage": "stage1",
+    "evolvesFrom": "Tentacool",
+    "evolvesFromImage": "tentacool",
+    "type": "poison",
+    "image": "tentacruel",
+    "ability": {
+        "name" : "Toxic Behavior",
+        "effect": "As long as Tentacruel has any damage counters on it, whenever a Pokemon takes damage from Poison, you may remove 1 damage counter from Tentacruel."
+    },
+    "attacks": [
+        {
+            "name": "Sludge Wave",
+            "cost": "poison colorless",
+            "damage": 30,
+            "effect": "This attack does 10 damage to all of your opponent's Benched Pokemon"
+        }
+    ],
+    "weakness": {
+        "type": "psychic",
+        "value": 20
+    },
+    "retreat": 3,
+    "rarity": 2,
+    "flavor": "Fans of this Pokemon say it is misunderstood. That said, it is an invasive species in a few corners of the world."
+}

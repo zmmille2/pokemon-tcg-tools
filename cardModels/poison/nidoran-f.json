@@ -1,0 +1,22 @@
+{
+    "name": "Nidoran F",
+    "hp": 60,
+    "stage": "basic",
+    "type": "poison",
+    "image": "nidoran",
+    "attacks": [
+        {
+            "name": "Big Sister",
+            "cost": "poison",
+            "damage": "10+",
+            "effect": "Deal 10 more damage for each Nidoran M on the Bench."
+        }
+    ],
+    "weakness": {
+        "type": "psychic",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "There's nothing stronger than family."
+}

@@ -1,0 +1,32 @@
+{
+    "name": "",
+    "hp": 0,
+    "stage": "",
+    "evolvesFrom": "",
+    "evolvesFromImage": "",
+    "type": "",
+    "image": "",
+    "ability": {
+        "name" : "",
+        "effect": ""
+    },
+    "attacks": [
+        {
+            "name": "",
+            "cost": "",
+            "damage": 0,
+            "effect": ""
+        }
+    ],
+    "weakness": {
+        "type": "",
+        "value": 0
+    },
+    "resistance": {
+        "type": "",
+        "value": 0
+    },
+    "retreat": 4,
+    "rarity": 0,
+    "flavor": ""
+}

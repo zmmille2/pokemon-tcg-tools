@@ -1,0 +1,32 @@
+{
+    "name": "Pidgey",
+    "hp": 40,
+    "stage": "basic",
+    "type": "flying",
+    "image": "pidgey",
+    "attacks": [
+        {
+            "name": "Quick Attack",
+            "cost": "colorless colorless",
+            "damage": "10+",
+            "effect": "Flip a coin. If heads, this attack does 10 more damage."
+        },
+        {
+            "name": "Gust",
+            "cost": "flying colorless",
+            "damage": "20",
+            "effect": "The opponent picks a Benched Pokemon to switch with their Active Pokemon."
+        }
+    ],
+    "weakness": {
+        "type": "rock",
+        "value": 10
+    },
+    "resistance": {
+        "type": "ground",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "These Pokemon are incredibly common. Globally, it's one of the most commonly seen Pokemon."
+}

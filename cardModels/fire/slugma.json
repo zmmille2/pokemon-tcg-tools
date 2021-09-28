@@ -1,0 +1,30 @@
+{
+    "name": "Slugma",
+    "hp": 50,
+    "stage": "basic",
+    "type": "fire",
+    "image": "slugma",
+    "ability": {
+        "name" : "Burning Hunger",
+        "effect": "Attach discarded Energies to Slugma instead. You may not move cards from Slugma."
+    },
+    "attacks": [
+        {
+            "name": "Crawl",
+            "cost": "colorless",
+            "effect": "Draw a card."
+        },
+        {
+            "name": "Flame Tongue",
+            "cost": "fire",
+            "damage": 10
+        }
+    ],
+    "weakness": {
+        "type": "water",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 3,
+    "flavor": "Compost piles commonly contain these slugs. The smoke is a good warning that you should leave the pile alone."
+}

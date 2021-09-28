@@ -1,0 +1,32 @@
+{
+    "name": "Wooper",
+    "hp": 50,
+    "stage": "basic",
+    "type": "water",
+    "image": "wooper",
+    "attacks": [
+        {
+            "name": "Water Gun",
+            "cost": "water colorless",
+            "damage": "20+",
+            "effect": "Deals 10 more damage for each additional Water Energy attached to Wooper not used to pay for this attack's cost, up to 20."
+        },
+        {
+            "name": "Mud Shot",
+            "cost": "ground colorless",
+            "damage": 20,
+            "effect": "Treat this damage as if Wooper were Ground type."
+        }
+    ],
+    "weakness": {
+        "type": "grass",
+        "value": 20
+    },
+    "resistance": {
+        "type": "lightning",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "They're muddy mudders. They love to be disguisting and wallow in mud and"
+}

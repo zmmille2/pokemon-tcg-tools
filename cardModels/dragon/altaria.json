@@ -1,0 +1,33 @@
+{
+    "name": "Altaria",
+    "hp": 90,
+    "stage": "stage1",
+    "evolvesFrom": "Swablu",
+    "evolvesFromImage": "swablu",
+    "type": "dragon",
+    "image": "altaria",
+    "ability": {
+        "name" : "Raise Up",
+        "effect": "Once per turn, you may search your deck for a Stage 1 Pokemon. If you do, shuffle your deck afterwards."
+    },
+    "attacks": [
+        {
+            "name": "Dragon Claw",
+            "cost": "dragon dragon colorless",
+            "damage": 30
+        },
+        {
+            "name": "Cloud Cover",
+            "cost": "flying flying colorless colorless",
+            "damage": "20",
+            "effect": "Heal 20 damage from each of your Pokemon."
+        }
+    ],
+    "weakness": {
+        "type": "ice",
+        "value": 20
+    },
+    "retreat": 2,
+    "rarity": 1,
+    "flavor": "They are often mistaken by meteorologists for weather fronts. They hate the havoc they wreak on weather forecasts."
+}

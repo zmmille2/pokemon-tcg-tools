@@ -1,0 +1,29 @@
+{
+    "name": "Combee",
+    "hp": 30,
+    "stage": "basic",
+    "type": "bug",
+    "image": "combee",
+    "ability": {
+        "name" : "Honey Gather",
+        "effect": "Once per turn, you may flip a coin. If heads, add a Honey to your hand, which heals 10 hp."
+    },
+    "attacks": [
+        {
+            "name": "Sweet Scent",
+            "cost": "bug",
+            "effect": "Draw a card."
+        }
+    ],
+    "weakness": {
+        "type": "rock",
+        "value": 10
+    },
+    "resistance": {
+        "type": "ground",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "These things are nice to keep around, just don't try to put them in combat. Their sweet honey is loved by many Pokemon."
+}

@@ -1,0 +1,32 @@
+{
+    "name": "Pidgeot",
+    "hp": 80,
+    "stage": "stage2",
+    "evolvesFrom": "Pidgeotto",
+    "evolvesFromImage": "pidgeotto",
+    "type": "flying",
+    "image": "pidgeot",
+    "ability": {
+        "name" : "Beating Wings",
+        "effect": "Once per turn, you may shuffle one of your Benched Pokemon and all cards attached to it into your deck."
+    },
+    "attacks": [
+        {
+            "name": "Hurricane",
+            "cost": "flying flying colorless",
+            "damage": 40,
+            "effect": "After doing damage, choose an opponent's Benched Pokemon to swap with their Active Pokemon."
+        }
+    ],
+    "weakness": {
+        "type": "rock",
+        "value": 10
+    },
+    "resistance": {
+        "type": "ground",
+        "value": 10
+    },
+    "retreat": 0,
+    "rarity": 1,
+    "flavor": "Now that's a real fine Pokemon, real fine Pokemon. You can get yourself a first class partner there."
+}

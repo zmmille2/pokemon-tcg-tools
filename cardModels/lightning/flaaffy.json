@@ -1,0 +1,28 @@
+{
+    "name": "Flaaffy",
+    "hp": 60,
+    "stage": "stage1",
+    "evolvesFrom": "Mareep",
+    "evolvesFromImage": "mareep",
+    "type": "lightning",
+    "image": "flaaffy",
+    "ability": {
+        "name" : "Cotton Spore",
+        "effect": "Whenever the Defending Pokemon deals damage to Flaaffy, flip a coin. If heads, the Defending Pokemon is now Paralyzed."
+    },
+    "attacks": [
+        {
+            "name": "Thunderbolt",
+            "cost": "lightning lightning colorless",
+            "damage": 50,
+            "effect": "Flip two coins. If both are tails, this attack does nothing. If both are heads, the Defending Pokemon is Paralyzed."
+        }
+    ],
+    "weakness": {
+        "type": "ground",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 2,
+    "flavor": "Mareep's wool has started falling out as it's grown more powerful. Those that raise Mareep for wool tend to keep them from evolving."
+}

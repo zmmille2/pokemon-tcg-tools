@@ -1,0 +1,37 @@
+{
+    "name": "Crustle",
+    "hp": 110,
+    "stage": "stage1",
+    "evolvesFrom": "dwebble",
+    "evolvesFromImage": "dwebble",
+    "type": "rock",
+    "image": "crustle",
+    "ability": {
+        "name" : "Strudy",
+        "effect": "If Crustle has no damage counters on it, reduce any damage it takes above 40 to 40, and it cannot be Knocked Out."
+    },
+    "attacks": [
+        {
+            "name": "Rest",
+            "cost": "colorless colorless",
+            "effect": "Remove 6 damage counters from Crustle. Next turn, Crustle is paralyzed."
+        },
+        {
+            "name": "Rock Toss",
+            "cost": "rock colorless colorless",
+            "damage": "40",
+            "effect": "Place one damage counter on a Benched Pokemon."
+        }
+    ],
+    "weakness": {
+        "type": "water",
+        "value": 20
+    },
+    "resistance": {
+        "type": "colorless",
+        "value": 20
+    },
+    "retreat": 3,
+    "rarity": 2,
+    "flavor": "These massive crustaceans are huge problems for farmers. Seeing a crop walk away after months of work is too much for some to take."
+}

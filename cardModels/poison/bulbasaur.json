@@ -1,0 +1,26 @@
+{
+    "name": "Bulbasaur",
+    "hp": 60,
+    "stage": "basic",
+    "type": "poison",
+    "image": "bulbasaur",
+    "attacks": [
+        {
+            "name": "Tackle",
+            "cost": "colorless",
+            "damage": 10
+        },
+	{
+	    "name": "Vine Whip",
+	    "cost": "poison colorless",
+	    "damage": 20
+	}
+    ],
+    "weakness": {
+        "type": "fire",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "My parents at 25. Let's buy a house. Me at 25 I love bulbasaur"
+}

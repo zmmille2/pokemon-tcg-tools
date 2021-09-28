@@ -1,0 +1,21 @@
+{
+    "name": "Ditto",
+    "hp": 50,
+    "stage": "basic",
+    "type": "colorless",
+    "image": "ditto",
+    "ability": {
+        "name" : "Aspirational",
+        "effect": "You may treat Ditto as any Basic Pokemon when evolving."
+    },
+    "attacks": [
+        {
+            "name": "Pound",
+            "cost": "colorless",
+            "damage": 10
+        }
+    ],
+    "retreat": 1,
+    "rarity": 2,
+    "flavor": "These blobs are perfect imitators of other Pokemon. Once they become experienced enough, there's no telling between them and the real thing."
+}

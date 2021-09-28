@@ -1,0 +1,18 @@
+{
+    "name": "Feebas",
+    "hp": 30,
+    "stage": "basic",
+    "type": "water",
+    "image": "feebas",
+    "ability": {
+        "name" : "Glow Up",
+        "effect": "When you attach a Fairy Energy to Feebas, you may search your deck for a Milotic, reveal it to your opponent, and add it to your hand. Shuffle your deck afterwards."
+    },
+    "weakness": {
+        "type": "lightning",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "These ugly fish are worthless."
+}

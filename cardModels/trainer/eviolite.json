@@ -1,0 +1,6 @@
+{
+    "name": "Eviolite",
+    "type": "tool",
+    "image": "eviolite",
+    "effect": "If the Pokemon this Tool is attached to cannot evolve, discard this Tool. This Pokemon has 30 more HP."
+}

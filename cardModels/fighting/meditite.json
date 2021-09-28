@@ -1,0 +1,27 @@
+{
+    "name": "Meditite",
+    "hp": 50,
+    "stage": "basic",
+    "type": "fighting",
+    "image": "meditite",
+    "attacks": [
+        {
+            "name": "Focus",
+            "cost": "colorless",
+            "effect": "Draw a card for each energy attached to Meditite."
+        },
+        {
+            "name": "Jump Kick",
+            "cost": "fighting colorless",
+            "damage": 20,
+            "effect": "Flip 2 coins. If both are tails, deal 20 damage to Meditite."
+        }
+    ],
+    "weakness": {
+        "type": "fairy",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "These Pokemon focus intensely. Interrupting their focus is the best way to defeat them."
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Charmeleon",
+    "hp": 70,
+    "stage": "stage1",
+    "evolvesFrom": "Charmander",
+    "evolvesFromImage": "charmander",
+    "type": "dragon",
+    "image": "charmeleon",
+    "ability": {
+        "name" : "Fire Spreader",
+        "effect": "Once per turn, you may generate a Fire Energy and put it on top of your deck."
+    },
+    "attacks": [
+        {
+            "name": "Flame Breath",
+            "cost": "fire colorless",
+            "damage": 30,
+            "effect": "Discard a Fire Energy to use this attack."
+        },
+        {
+            "name": "Dragon Claw",
+            "cost": "dragon colorless",
+            "damage": 20
+        }
+    ],
+    "weakness": {
+        "type": "water",
+        "value": 10
+    },
+    "resistance": {
+        "type": "fire",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 2,
+    "flavor": "As these lizards grow up, they become more and more aggressive. Villages near a nest pray for rain."
+}

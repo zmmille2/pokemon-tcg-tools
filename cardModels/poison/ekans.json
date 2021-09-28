@@ -1,0 +1,22 @@
+{
+    "name": "Ekans",
+    "hp": 40,
+    "stage": "basic",
+    "type": "poison",
+    "image": "ekans",
+    "attacks": [
+        {
+            "name": "Swallow",
+            "effect": "If the Defending Pokemon has less HP remaining than Ekans, it is Knocked Out. Otherwise, deal damage normally.",
+            "cost": "colorless",
+            "damage": "10"
+        }
+    ],
+    "weakness": {
+        "type": "psychic",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 3,
+    "flavor": "They prey on smaller Pokemon. While simple pests to many, to their prey, Ekans are a menace."
+}

@@ -1,0 +1,33 @@
+{
+    "name": "Pidgeotto",
+    "hp": 60,
+    "stage": "stage1",
+    "evolvesFrom": "Pidgey",
+    "evolvesFromImage": "pidgey",
+    "type": "flying",
+    "image": "pidgeotto",
+    "attacks": [
+        {
+            "name": "Roost",
+            "cost": "flying",
+            "effect": "Remove 2 damage counters and any Special Conditions from Pidgeotto. It loses its resistance this turn."
+        },
+        {
+            "name": "Tailwind",
+            "cost": "flying colorless",
+            "damage": 30,
+            "effect": "Next turn, Pidgeotto can retreat for free."
+        }
+    ],
+    "weakness": {
+        "type": "rock",
+        "value": 10
+    },
+    "resistance": {
+        "type": "ground",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "Now that's a real fine Pokemon, real fine Pokemon. You can get yourself a first class partner there."
+}

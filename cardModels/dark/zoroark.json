@@ -1,0 +1,32 @@
+{
+    "name": "Zoroark",
+    "hp": 80,
+    "stage": "stage1",
+    "evolvesFrom": "Zorua",
+    "evolvesFromImage": "zorua",
+    "type": "dark",
+    "image": "zoroark",
+    "ability": {
+        "name" : "Illusion",
+        "effect": "Before your Active Pokemon takes damage, you can switch the highest stage of that card with this card from your hand. Place Zoroark on the lower stage Pokemon (if there is one), and keep all Energies, Tools, Damage Counters, and Special Conditions the same."
+    },
+    "attacks": [
+        {
+            "name": "Sneak Off",
+            "cost": "dark",
+            "damage": 20,
+            "effect": "Switch Zoroark with a Pokemon from your Bench."
+        }
+    ],
+    "weakness": {
+        "type": "fighting",
+        "value": 10
+    },
+    "resistance": {
+        "type": "psychic",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 1,
+    "flavor": "These Pokemon look strong, but their real strength is in imitating other Pokemon to trick their opponents."
+}
