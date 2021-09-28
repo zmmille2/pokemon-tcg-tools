@@ -1,3 +1,14 @@
+# Custom Pokemon Card Generator Script
+
+I made this for my own personal use, so it's not the most polished thing in the world.
+If I've used something of yours and you'd like me to remove it, please contact me and I will be happy to do so.
+
+## Making Cards
+
+See [DEVELOPER.md](./DEVELOPER.md)
+
+## Rules
+
 tl;dr
 We'll play on Tabletop Simulator.
 If you want to make cards, read below and see how.
@@ -32,22 +43,9 @@ In between games, you'll have 7 minutes to make changes to your deck.
 
 After each set, you'll keep your deck the other cards you've pulled, so adapt!
 
-3. CUSTOM CARDS
-
-We're going to be using custom cards.
-I'm currently working on a script that will generate a custom card.
-I'll release more information when that's ready.
-For now, feel free to use this website:
-
-https://www.pokecard.net/
-
-While anyone can make cards, I get to decide if it's well-balanced, and ultimately what will be in the set, and I can tell you to go to hell if you make ultimate pikachu that does 1000 damage.
-Before the event, I'll make the full card list publicly available so you can plan your deck.
-
 ## TODO:
 
-Ability/Attack Planning
-Attack Symbol Planning
+TODO Turn these into issues
 Dynamic Font Sizing
 Retreat Symbol Planning
 Trainer Layout
@@ -61,8 +59,6 @@ Rework/More Steel
 Adjust rarity
 Pikachu
 Pikachu's Lament
-Spheal
-Squirtle
 
 Water Fighting Goog
 Ice Rock Flying Bad
