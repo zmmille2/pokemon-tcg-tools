@@ -3,7 +3,7 @@
     "hp": 50,
     "stage": "basic",
     "type": "poison",
-    "image": "nidoran",
+    "image": "nidoran-m",
     "ability": {
         "name" : "Poison Point",
         "effect": "When Nidoran M takes damage, flip a coin. If heads, the Defending Pokemon is Poisoned."

@@ -1,0 +1,33 @@
+{
+    "name": "Kleavor",
+    "hp": 80,
+    "stage": "stage1",
+    "evolvesFrom": "Scyther",
+    "evolvesFromImage": "scyther",
+    "type": "bug",
+    "image": "kleavor",
+    "ability": {
+        "name": "Tree Cutting",
+        "effect": "Once per turn, you may discard one or three cards from the top of your deck to draw one or two cards respectively."
+    },
+    "attacks": [
+        {
+            "name": "Swipe",
+            "cost": "colorless",
+            "damage": "20"
+        },
+        {
+            "name": "Axe Crush",
+            "cost": "bug rock colorless",
+            "damage": "30+",
+            "effect": "Deals 20 more damage if there are 15 or fewer cards in your discard pile."
+        }
+    ],
+    "weakness": {
+        "type": "water",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 2,
+    "flavor": "Their giant axes are used to chop down trees. Early societies used the axes as tools."
+}

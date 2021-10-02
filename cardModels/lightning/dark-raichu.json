@@ -1,0 +1,27 @@
+{
+    "name": "Dark Raichu",
+    "hp": 70,
+    "stage": "stage1",
+    "evolvesFrom": "Pikachu",
+    "evolvesFromImage": "pikachu",
+    "type": "lightning",
+    "image": "raichu",
+    "ability": {
+        "name": "Chaos Panic",
+        "effect": "Whenever one of your Pokemon attack, move all your Lightning Energy to different Pokemon."
+    },
+    "attacks": [
+        {
+            "name": "Sheer Shock",
+            "cost": "lightning",
+            "effect": "Deal 20 damage to a random Pokemon that isn't Lightning type for each Lightning Energy attached to Raichu."
+        }
+    ],
+    "weakness": {
+        "type": "ground",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 1,
+    "flavor": "Some Pikachu get tired of being used for power generation. The electricity they were used to generate has made them literally mad with power."
+}

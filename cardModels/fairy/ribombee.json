@@ -8,7 +8,7 @@
     "image": "ribombee",
     "ability": {
         "name" : "Healing Pollen",
-        "effect": "Once per turn, you may heal 20 damage from 1 of your Pokemon."
+        "effect": "While Active, once per turn, you may heal 20 damage from 1 of your Pokemon."
     },
     "attacks": [
         {

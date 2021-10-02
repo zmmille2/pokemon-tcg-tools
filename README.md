@@ -45,63 +45,43 @@ After each set, you'll keep your deck the other cards you've pulled, so adapt!
 
 ## TODO:
 
-TODO Turn these into issues
-Dynamic Font Sizing
-Retreat Symbol Planning
 Trainer Layout
-Pokemon Stage adjustments
 Smarter picture scaling
 
 Make it more color agnostic
+Add Aggron
 Add Delphox
 More Fairy
 Rework/More Steel
 Adjust rarity
-Pikachu
-Pikachu's Lament
 
 Water Fighting Goog
 Ice Rock Flying Bad
 
-## Deck 6
-
-Braviary
-Cutiefly
-Crystal Onix
-Crystal Steelix
-Daring Adventure
-Dog Poker
-Fieldworker
-Golduck
-Lickitung
-Mightyna
-Minior
-Nas
-Nidoqueen
-Oricorio
-Poochyena
-Protection Cube
-Sawk
-Throh
-Zacian
-Zamazenta
-
-# TODO
-
-Ribombee = while Active
-Honedge attack = shuffle 2 curses into deck, add 10 damage
-Combee = Heads = deal 10 damage to itself?
-    - If you have a Bug Pokemon on your Bench not named Combee, you may this
-Zamazenta = No ability, Protective Paw = draw a card and your benched Pokemon are immune from damage next turn.
-    Shield Bash = 20 base + 20 for 3 or more damaged benched pokemon
-    HP to 90
 Metal Rework
 More Lightning
 Grass Self Love
-Ditto deal damage to the stage 1
-Stoutland not just when active
 Label Greninja
 More Eevee stuff
 Glaceon Buff
 Ice overhaul
 Fomantis
+
+## Updates
+
+Carbink
+Combee
+Dark Raichu
+Ditto
+Honedge
+Kleavor
+Nidoran F
+Nidoran M
+Pikachu
+Pikachu's Lament
+Ribombee
+Spheal
+Stoutland
+Squirtle
+Sunset Pasture
+Zamazenta

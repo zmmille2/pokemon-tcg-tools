@@ -6,7 +6,7 @@
     "image": "combee",
     "ability": {
         "name" : "Honey Gather",
-        "effect": "Once per turn, you may flip a coin. If heads, add a Honey to your hand, which heals 10 hp."
+        "effect": "Once per turn, if there is a Bug Pokemon on your Bench not named Combee, you may flip a coin. If heads, add a Honey to your hand, which heals 10 hp."
     },
     "attacks": [
         {

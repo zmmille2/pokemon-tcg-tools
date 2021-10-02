@@ -1,0 +1,27 @@
+{
+    "name": "Squirtle",
+    "hp": 40,
+    "stage": "basic",
+    "type": "water",
+    "image": "squirtle",
+    "attacks": [
+        {
+            "name": "Dredge Up",
+            "cost": "colorless",
+            "effect": "You may search your discard for a Water Pokemon and put it on top of your deck."
+        },
+        {
+            "name": "Water Gun",
+            "cost": "water colorless",
+            "damage": "10+",
+            "effect": "Deal 10 more damage for each Water Energy attached to Squirtle not used to pay for this attack's cost, up to 20."
+        }
+    ],
+    "weakness": {
+        "type": "lightning",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 2,
+    "flavor": "Some Squirtle just want to hang out on the beach."
+}

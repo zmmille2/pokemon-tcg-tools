@@ -6,7 +6,7 @@
     "image": "honedge",
     "ability": {
         "name": "Possessed Sword",
-        "effect": "You may treat Honedge as a Pokemon Tool: When attached to a Pokemon, that Pokemon's attacks deal 20 more damage, and deal 20 damage to the attacker. When it is knocked out, the opponent picks up an extra prize card."
+        "effect": "You may treat Honedge as a Pokemon Tool: When attached to a Pokemon, that Pokemon's attacks deal 10 more damage, but generate 2 Curses and shuffle them into the owner's deck. When it is knocked out, the opponent picks up an extra prize card."
     },
     "attacks": [
         {

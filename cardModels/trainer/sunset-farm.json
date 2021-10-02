@@ -1,0 +1,6 @@
+{
+    "name": "Sunset Pasture",
+    "image": "sunset-pasture",
+    "type": "stadium",
+    "effect": "Once per turn, you may generate a copy of a Basic Pokemon in play and put it on your bench (name it for easy cleanup). Damage counters and status conditions are also copied, but other attached cards are not."
+}

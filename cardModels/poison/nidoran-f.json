@@ -3,7 +3,7 @@
     "hp": 60,
     "stage": "basic",
     "type": "poison",
-    "image": "nidoran",
+    "image": "nidoran-f",
     "attacks": [
         {
             "name": "Big Sister",
