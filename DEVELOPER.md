@@ -12,7 +12,7 @@ Create a python environment and install the dependencies.
 ```
 
 To generate cards, make a new card in `./cardModels`.
-This script depends on the following subfolders, which you'll have to create:
+This script depends on the following folders, which you'll have to create in the same directory as your .git folder:
 
 * blanks: Contains card background blanks.
 * cardArt: Contains card art.
