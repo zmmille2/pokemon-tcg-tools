@@ -1,0 +1,27 @@
+{
+    "name": "Mew",
+    "hp": 30,
+    "stage": "Basic",
+    "type": "psychic",
+    "image": "mew",
+    "passive": {
+        "name": "Primordial Echo",
+        "effect": "Whenever you use a Supporter, create a copy and place it under Mew. The effect of the Supporter is the effect of all the cards under Mew. Whenever Mew is discarded for any reason, move all cards under it to the Lost Zone.",
+        "type": "poke-body"
+    },
+    "attacks": [
+        {
+            "name": "Mind Melt",
+            "cost": "psychic colorless",
+            "effect": "Deal 10 damage for each Supporter under Mew.",
+            "damage": "10x"
+        }
+    ],
+    "weakness": {
+        "type": "dark",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 1,
+    "flavor": "There are those that reject the teachings that Arceus made the world, and instead believe that Mew was the first Pokemon."
+}

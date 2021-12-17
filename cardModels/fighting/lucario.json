@@ -6,9 +6,10 @@
     "evolvesFromImage": "riolu",
     "type": "fighting",
     "image": "lucario",
-    "ability": {
+    "passive": {
         "name" : "Strike Back",
-        "effect": "When this Pokemon takes damage from an attack, put 2 damage counters on the Defending Pokemon."
+        "effect": "When this Pokemon takes damage from an attack, put 2 damage counters on the Defending Pokemon.",
+        "type": "poke-power"
     },
     "attacks": [
         {

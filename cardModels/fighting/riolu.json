@@ -4,9 +4,10 @@
     "stage": "basic",
     "type": "fighting",
     "image": "riolu",
-    "ability": {
+    "passive": {
         "name" : "Learning",
-        "effect": "You cannot attach Energy Cards to Riolu normally. If your Active Pokemon's attack deals damage to the Defending Pokemon, you may attach an Energy from your hand to Riolu."
+        "effect": "You cannot attach Energy Cards to Riolu normally. If your Active Pokemon's attack deals damage to the Defending Pokemon, you may attach an Energy from your hand to Riolu.",
+        "type": "ability"
     },
     "attacks": [
         {

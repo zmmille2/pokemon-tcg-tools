@@ -4,9 +4,10 @@
     "stage": "basic",
     "type": "colorless",
     "image": "wooloo",
-    "ability": {
+    "passive": {
         "name" : "Fluffy",
-        "effect": "Wooloo takes 20 less damage from all attacks."
+        "effect": "Wooloo takes 20 less damage from all attacks.",
+        "type": "ability"
     },
     "attacks": [
         {

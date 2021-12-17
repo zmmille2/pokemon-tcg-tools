@@ -4,9 +4,10 @@
     "stage": "basic",
     "type": "water",
     "image": "castform-rain",
-    "ability": {
+    "passive": {
         "name" : "Rain Dance",
-        "effect": "When you attach a Water Energy to a Pokemon, remove a damage counter from that Pokemon. When you attach an Energy to Castform, you may search your deck for another card named Castform, replace it with this one, and shuffle your deck."
+        "effect": "When you attach a Water Energy to a Pokemon, remove a damage counter from that Pokemon. When you attach an Energy to Castform, you may search your deck for another card named Castform, replace it with this one, and shuffle your deck.",
+        "type": "poke-body"
     },
     "attacks": [
         {

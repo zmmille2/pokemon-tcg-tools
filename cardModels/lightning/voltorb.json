@@ -4,9 +4,10 @@
     "stage": "basic",
     "type": "electric",
     "image": "voltorb",
-    "ability": {
+    "passive": {
         "name" : "Magnetic Field",
-        "effect": "When you move an Energy to or from Voltorb, you may draw a card."
+        "effect": "When you move an Energy to or from Voltorb, you may draw a card.",
+        "type": "ability"
     },
     "attacks": [
         {

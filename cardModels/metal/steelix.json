@@ -15,7 +15,7 @@
         {
             "name": "Heavy Slam",
             "cost": "metal metal metal colorless colorless",
-            "damage": 70
+            "damage": 80
         }
     ],
     "weakness": {

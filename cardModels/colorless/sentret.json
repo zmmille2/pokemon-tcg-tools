@@ -4,9 +4,10 @@
     "stage": "basic",
     "type": "colorless",
     "image": "sentret",
-    "ability": {
+    "passive": {
         "name" : "Alert",
-        "effect": "If Sentret is your Active Pokemon, when a new Defending Pokemon comes in or when the Defending Pokemon evolves, you may retreat immediately."
+        "effect": "When a new Defending Pokemon comes in or when the Defending Pokemon evolves, Sentret may retreat immediately.",
+        "type": "ability"
     },
     "attacks": [
         {

@@ -4,9 +4,10 @@
     "stage": "basic",
     "type": "lightning",
     "image": "mareep",
-    "ability": {
+    "passive": {
         "name" : "Cotton Spore",
-        "effect": "Whenever the Defending Pokemon deals damage to Mareep, flip a coin. If heads, the Defending Pokemon is now Paralyzed."
+        "effect": "Whenever the Defending Pokemon deals damage to Mareep, flip a coin. If heads, the Defending Pokemon is now Paralyzed.",
+        "type": "poke-power"
     },
     "attacks": [
         {

@@ -4,9 +4,10 @@
     "stage": "basic",
     "type": "lightning",
     "image": "zapdos",
-    "ability": {
+    "passive": {
         "name" : "Peal of Thunder",
-        "effect": "When you put Zapdos into play (except during setup), do 30 damage to a Pokemon other than Zapdos chosen at random (use a d6)."
+        "effect": "When you put Zapdos into play (except during setup), do 30 damage to a Pokemon other than Zapdos chosen at random (use a d6).",
+        "type": "ability"
     },
     "attacks": [
         {

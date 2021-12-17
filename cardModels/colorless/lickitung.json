@@ -4,9 +4,10 @@
     "stage": "basic",
     "type": "colorless",
     "image": "lickitung",
-    "ability": {
+    "passive": {
         "name" : "Sushi Sampler",
-        "effect": "Once per turn, you may discard a Water Pokemon from your hand. If you do, remove 2 damage counters from Lickitung."
+        "effect": "Once per turn, you may discard a Water Pokemon from your hand. If you do, remove 2 damage counters from Lickitung.",
+        "type": "ability"
     },
     "attacks": [
         {
@@ -18,7 +19,7 @@
         {
             "name": "Seek Out",
             "cost": "colorless colorless",
-            "effect": "Reveal the top card of your deck. If it is a Water Pokemon, use the Sushi Sampler ability immediately (even if you've already used it). Otherwise, draw it."
+            "effect": "Reveal the top card of your deck. If it is a Water Pokemon, use the Sushi Sampler passive immediately (even if you've already used it). Otherwise, draw it."
         }
     ],
     "weakness": {

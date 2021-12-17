@@ -4,9 +4,10 @@
     "stage": "basic",
     "type": "fire",
     "image": "slugma",
-    "ability": {
+    "passive": {
         "name" : "Burning Hunger",
-        "effect": "Attach discarded Energies to Slugma instead. You may not move cards from Slugma."
+        "effect": "Attach discarded Energies to Slugma instead. You may not move cards from Slugma.",
+        "type": "ability"
     },
     "attacks": [
         {

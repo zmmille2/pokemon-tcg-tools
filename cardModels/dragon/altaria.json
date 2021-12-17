@@ -6,9 +6,10 @@
     "evolvesFromImage": "swablu",
     "type": "dragon",
     "image": "altaria",
-    "ability": {
+    "passive": {
         "name" : "Raise Up",
-        "effect": "Once per turn, you may search your deck for a Stage 1 Pokemon. If you do, shuffle your deck afterwards."
+        "effect": "Once per turn, you may search your deck for a Stage 1 Pokemon. If you do, shuffle your deck afterwards.",
+        "type": "poke-body"
     },
     "attacks": [
         {

@@ -6,15 +6,17 @@
     "evolvesFromImage": "klang",
     "type": "metal",
     "image": "klinklang",
-    "ability": {
+    "passive": {
         "name" : "Clockwork",
-        "effect": "Once per turn, if Klinklang is your Active Pokemon, you may search your deck for a Metal Energy, reveal it to your opponent, and add it to your hand. Shuffle your deck afterwards."
+        "effect": "Once per turn, you may search your deck for a Metal Energy, reveal it to your opponent, and add it to your hand. Shuffle your deck afterwards.",
+        "type": "poke-power"
     },
     "attacks": [
         {
-            "name": "Gear Grind",
-            "cost": "metal metal colorless",
-            "damage": 60
+            "name": "Smoke and Industry",
+            "cost": "metal-lightning metal-fire metal-psychic",
+            "damage": "100-",
+            "effect": "This attack deals 10 less damage for each Metal Energy attached to Klinklang."
         }
     ],
     "weakness": {

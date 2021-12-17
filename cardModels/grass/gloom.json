@@ -6,9 +6,10 @@
     "evolvesFromImage": "oddish",
     "type": "grass",
     "image": "gloom",
-    "ability": {
+    "passive": {
         "name" : "Harvest Feast",
-        "effect": "Once during your turn, you may discard as many Grass Energies as you like from your Pokemon. For each Energy discarded this way, remove 1 damage counter from the Pokemon it was attached to."
+        "effect": "Once during your turn, you may discard as many Grass Energies as you like from your Pokemon. For each Energy discarded this way, remove 1 damage counter from the Pokemon it was attached to.",
+        "type": "ability"
     },
     "attacks": [
         {

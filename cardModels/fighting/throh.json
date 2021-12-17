@@ -4,9 +4,10 @@
     "stage": "Basic",
     "type": "fighting",
     "image": "throh",
-    "ability": {
+    "passive": {
         "name" : "Finisher",
-        "effect": "When the opponent discards a card, flip a coin. If heads, put it in the Lost Zone instead."
+        "effect": "When the opponent discards a card, flip a coin. If heads, put it in the Lost Zone instead.",
+        "type": "poke-body"
     },
     "attacks": [
         {

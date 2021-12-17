@@ -1,0 +1,32 @@
+{
+    "name": "Magnezone",
+    "hp": 90,
+    "stage": "stage2",
+    "evolvesFrom": "Magneton",
+    "evolvesFromImage": "magneton",
+    "type": "lightning",
+    "image": "magnezone",
+    "passive": {
+        "name" : "Super Connectivity",
+        "effect": "As often as you like during your turn, you may a Lightning or Metal energy from one of your Pokemon to another of your Pokemon.",
+        "type": "ability"
+    },
+    "attacks": [
+        {
+            "name": "Zap Cannon",
+            "cost": "metal-lightning",
+            "damage": 60
+        }
+    ],
+    "weakness": {
+        "type": "ground",
+        "value": 10
+    },
+    "resistance": {
+        "type": "poison",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 1,
+    "flavor": "These highly efficient Pokemon feed on the leaky radio and EM waves that humanity generates. They can cause global outages, and are frequently mistaken for UFOs."
+}

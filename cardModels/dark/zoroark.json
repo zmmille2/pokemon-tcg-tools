@@ -6,9 +6,10 @@
     "evolvesFromImage": "zorua",
     "type": "dark",
     "image": "zoroark",
-    "ability": {
+    "passive": {
         "name" : "Illusion",
-        "effect": "Before your Active Pokemon takes damage, you can switch the highest stage of that card with this card from your hand. Place Zoroark on the lower stage Pokemon (if there is one), and keep all Energies, Tools, Damage Counters, and Special Conditions the same."
+        "effect": "Before your Active Pokemon takes damage, you can switch the highest stage of that card with this card from your hand. Place Zoroark on the lower stage Pokemon (if there is one), and keep all Energies, Tools, Damage Counters, and Special Conditions the same.",
+        "type": "ability"
     },
     "attacks": [
         {

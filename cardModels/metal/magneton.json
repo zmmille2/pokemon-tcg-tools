@@ -6,9 +6,10 @@
     "evolvesFromImage": "magnemite",
     "type": "metal",
     "image": "magneton",
-    "ability": {
+    "passive": {
         "name": "Enforced Alignment",
-        "effect": "No player can attach more than 1 Energy per turn. If any effect would cause extra energies to be attached, ignore it."
+        "effect": "No player can attach more than 1 Energy per turn. If any effect would cause extra energies to be attached, ignore it.",
+        "type": "poke-body"
     },
     "attacks": [
         {

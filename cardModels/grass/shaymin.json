@@ -4,15 +4,16 @@
     "stage": "basic",
     "type": "grass",
     "image": "shaymin",
-    "ability": {
+    "passive": {
         "name" : "Flower Gift",
-        "effect": "Once per turn, you may draw a card. Your opponent may also draw a card."
+        "effect": "Once per turn, you may draw a card. Your opponent may also draw a card.",
+        "type": "ability"
     },
     "attacks": [
         {
             "name": "Rest",
             "cost": "colorless",
-            "effect": "Remove all damage counters and special conditions from Shaymin. Shaymin is now asleep."
+            "effect": "Remove all damage counters and special conditions from Shaymin. Shaymin is now asleep. You cannot use Rest next turn."
         },
         {
             "name": "Soothing Scent",

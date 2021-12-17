@@ -1,17 +1,18 @@
 {
     "name": "Aron",
-    "hp": 40,
+    "hp": 60,
     "stage": "basic",
-    "type": "rock",
+    "type": "metal",
     "image": "aron",
-    "ability": {
-        "name" : "Mountain Eater",
-        "effect": "Three times during your turn, you may discard a card from the top of your deck. If it is a Rock or Metal energy, attach it to Aron."
+    "passive": {
+        "name" : "Metal Hunger",
+        "effect": "If you attach a Metal Energy to Aron and it already has a Metal Energy attached to it, you may search your deck for a Lairon and evolve Aron. Shuffle your deck afterwards.",
+        "type": "ability"
     },
     "attacks": [
         {
             "name": "Take Down",
-            "cost": "rock colorless colorless",
+            "cost": "metal-rock colorless",
             "damage": 30
         }
     ],

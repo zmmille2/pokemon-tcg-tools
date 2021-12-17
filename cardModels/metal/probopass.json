@@ -9,12 +9,12 @@
     "attacks": [
         {
             "name": "Shock",
-            "cost": "lightning",
+            "cost": "metal-lightning",
             "damage": 20
         },
         {
             "name": "Magnet Bomb",
-            "cost": "metal lightning",
+            "cost": "metal-lightning colorless",
             "damage": 40,
             "effect": "If the opposing Active Pokemon retreats next turn, discard an energy you choose from that Pokemon."
         }

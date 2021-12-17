@@ -4,9 +4,10 @@
     "stage": "basic",
     "type": "colorless",
     "image": "smeargle",
-    "ability": {
+    "passive": {
         "name": "Artist",
-        "effect": "Smeargle can use any move from any pokemon on either bench. You must still pay the energy cost for this move."
+        "effect": "Smeargle can use any move from any pokemon on either bench. You must still pay the energy cost for this move.",
+        "type": "poke-power"
     },
     "weakness": {
         "type": "fighting",

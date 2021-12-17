@@ -4,9 +4,10 @@
     "stage": "basic",
     "type": "ice",
     "image": "spheal1",
-    "ability": {
+    "passive": {
         "name": "Aurora Admiration",
-        "effect": "Once per turn, when you generate an Ice Energy anywhere, you may generate an Ice Energy into your hand."
+        "effect": "Once per turn, when you generate an Ice Energy anywhere, you may generate an Ice Energy into your hand.",
+        "type": "poke-body"
     },
     "attacks": [
         {

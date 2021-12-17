@@ -6,9 +6,10 @@
     "evolvesFromImage": "kirlia",
     "type": "psychic",
     "image": "gardevoir",
-    "ability": {
+    "passive": {
         "name" : "Mind Meld",
-        "effect": "Each Psychic Energy attached to your Pokemon provides two Psychic Energy instead of one."
+        "effect": "Each Psychic Energy attached to your Pokemon provides two Psychic Energy instead of one.",
+        "type": "poke-power"
     },
     "attacks": [
         {
@@ -18,7 +19,7 @@
         },
         {
             "name": "Black Hole",
-            "cost": "psychic psychic dark",
+            "cost": "psychic dark",
             "damage": 40,
             "effect": "Move the top 5 cards in your opponent's discard to the Lost Zone."
         },

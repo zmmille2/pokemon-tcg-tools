@@ -12,7 +12,7 @@
         },
         {
             "name": "Gear Grind",
-            "cost": "metal metal",
+            "cost": "metal colorless",
             "damage": 30
         }
     ],

@@ -1,0 +1,6 @@
+{
+    "name": "Ulaz Berry",
+    "type": "tool",
+    "image": "ulaz-berry",
+    "effect": "After this Pokemon takes damage, if it has exactly 10 HP left, you may discard Ulaz Berry to search your discard pile for up to two Energy Cards and attach them to this Pokemon."
+}

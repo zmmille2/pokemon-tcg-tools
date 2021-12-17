@@ -6,9 +6,10 @@
     "evolvesFromImage": "pidgeotto",
     "type": "flying",
     "image": "pidgeot",
-    "ability": {
+    "passive": {
         "name" : "Beating Wings",
-        "effect": "Once per turn, you may shuffle one of your Benched Pokemon and all cards attached to it into your deck."
+        "effect": "Once per turn, you may shuffle one of your Benched Pokemon and all cards attached to it into your deck.",
+        "type": "poke-body"
     },
     "attacks": [
         {

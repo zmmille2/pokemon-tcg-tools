@@ -6,9 +6,10 @@
     "evolvesFromImage": "sealeo",
     "type": "ice",
     "image": "walrein",
-    "ability": {
+    "passive": {
         "name" : "Frozen Roar",
-        "effect": "As often as you like during your turn, you can attach an Ice Energy from your hand to any one of your Pokemon."
+        "effect": "As often as you like during your turn, you can attach an Ice Energy from your hand to any one of your Pokemon.",
+        "type": "ability"
     },
     "attacks": [
         {

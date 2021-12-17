@@ -4,9 +4,10 @@
     "stage": "basic",
     "type": "fairy",
     "image": "jigglypuff2",
-    "ability": {
+    "passive": {
         "name" : "Puffball",
-        "effect": "When Jigglypuff takes damage from any attack, you may draw a card."
+        "effect": "When Jigglypuff takes damage from any attack, you may draw a card.",
+        "type": "ability"
     },
     "attacks": [
         {

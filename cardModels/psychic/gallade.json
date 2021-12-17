@@ -6,9 +6,10 @@
     "evolvesFromImage": "kirlia",
     "type": "psychic",
     "image": "gallade",
-    "ability": {
+    "passive": {
         "name" : "Counterattack",
-        "effect": "When Gallade takes damage from any attack, deal 20 damage to the Defending Pokemon."
+        "effect": "When Gallade takes damage from any attack, deal 20 damage to the Defending Pokemon.",
+        "type": "poke-power"
     },
     "attacks": [
         {
@@ -29,5 +30,5 @@
     },
     "retreat": 1,
     "rarity": 1,
-    "flavor": "It uses its psychic ability to focus its punches. Many trainers are surprised by this departure from the evolutionary line."
+    "flavor": "It uses its psychic passive to focus its punches. Many trainers are surprised by this departure from the evolutionary line."
 }

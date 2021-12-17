@@ -6,9 +6,10 @@
     "evolvesFromImage": "",
     "type": "",
     "image": "",
-    "ability": {
+    "passive": {
         "name" : "",
-        "effect": ""
+        "effect": "",
+        "type": ""
     },
     "attacks": [
         {

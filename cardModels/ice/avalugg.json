@@ -6,9 +6,10 @@
     "evolvesFromImage": "bergmite",
     "type": "ice",
     "image": "avalugg",
-    "ability": {
+    "passive": {
         "name" : "Unmoveable Object",
-        "effect": "Once Avalugg is an Active Pokemon, it cannot move back to the bench."
+        "effect": "Avalugg cannot move or be returned to the bench.",
+        "type": "poke-power"
     },
     "attacks": [
         {

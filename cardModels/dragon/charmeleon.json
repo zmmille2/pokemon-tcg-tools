@@ -6,9 +6,10 @@
     "evolvesFromImage": "charmander",
     "type": "dragon",
     "image": "charmeleon",
-    "ability": {
+    "passive": {
         "name" : "Fire Spreader",
-        "effect": "Once per turn, you may generate a Fire Energy and put it on top of your deck."
+        "effect": "Once per turn, you may generate a Fire Energy and put it on top of your deck.",
+        "type": "ability"
     },
     "attacks": [
         {

@@ -4,19 +4,20 @@
     "stage": "basic",
     "type": "ghost",
     "image": "rotom",
-    "ability": {
+    "passive": {
         "name": "Power Tool",
-        "effect": "When you attach a tool to Rotom, you may search your discard for a Lightning Energy and attach it to Rotom. The tool cannot be discarded, and Rotom has 20 extra HP."
+        "effect": "When you attach a tool to Rotom, you may search your discard for a Lightning Energy and attach it to Rotom. The tool cannot be discarded, and Rotom has 20 extra HP.",
+        "type": "ability"
     },
     "attacks": [
         {
             "name": "Incorporeal Movement",
-            "cost": "ghost",
+            "cost": "ghost-lightning",
             "effect": "Reveal cards from the top of your deck until you find a Pokemon Tool. Attach it to Rotom, and shuffle the other revealed cards into your deck."
         },
         {
             "name": "Object Obliterate",
-            "cost": "ghost lightning",
+            "cost": "ghost-lightning colorless",
             "damage": "10+",
             "effect": "If Rotom has a Pokemon Tool attached to it, this attack deals 20 more damage."
         }

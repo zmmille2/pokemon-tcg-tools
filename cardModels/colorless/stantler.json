@@ -4,9 +4,10 @@
     "stage": "basic",
     "type": "colorless",
     "image": "stantler",
-    "ability": {
+    "passive": {
         "name" : "Forest Mystic",
-        "effect": "Once per turn, you may search your deck for a Grass or Psychic Pokemon. Reveal the card to your opponent, shuffle your deck, and place that card on top of your deck."
+        "effect": "Once per turn, you may search your deck for a Grass or Psychic Pokemon. Reveal the card to your opponent, shuffle your deck, and place that card on top of your deck.",
+        "type": "poke-body"
     },
     "attacks": [
         {

@@ -6,9 +6,10 @@
     "evolvesFromImage": "slowpoke",
     "type": "psychic",
     "image": "slowking",
-    "ability": {
+    "passive": {
         "name" : "Mind Reader",
-        "effect": "While Slowking is your Active Pokemon, your opponent plays with their hand revealed."
+        "effect": "Your opponent plays with their hand revealed.",
+        "type": "poke-power"
     },
     "attacks": [
         {

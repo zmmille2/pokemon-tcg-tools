@@ -6,9 +6,10 @@
     "evolvesFromImage": "snom",
     "type": "ice",
     "image": "frosmoth",
-    "ability": {
+    "passive": {
         "name" : "Hail",
-        "effect": "If Frosmoth is your Active Pokemon, deal 10 damage after your turn to Pokemon that aren't Ice type."
+        "effect": "Deal 10 damage after your turn to Pokemon that aren't Ice type.",
+        "type": "poke-power"
     },
     "attacks": [
         {

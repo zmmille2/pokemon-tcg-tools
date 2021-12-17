@@ -6,9 +6,10 @@
     "evolvesFromImage": "wartortle",
     "type": "water",
     "image": "blastoise",
-    "ability": {
+    "passive": {
         "name" : "Overflow",
-        "effect": "For each additional Water Energy attached to your Active Pokemon not used to pay for its attack, it deals 10 more damage, up to 30."
+        "effect": "For each additional Water Energy attached to your Active Pokemon not used to pay for its attack, it deals 10 more damage, up to 30.",
+        "type": "poke-body"
     },
     "attacks": [
         {

@@ -6,9 +6,10 @@
     "evolvesFromImage": "tentacool",
     "type": "poison",
     "image": "tentacruel",
-    "ability": {
+    "passive": {
         "name" : "Toxic Behavior",
-        "effect": "As long as Tentacruel has any damage counters on it, whenever a Pokemon takes damage from Poison, you may remove 1 damage counter from Tentacruel."
+        "effect": "As long as Tentacruel has any damage counters on it, whenever a Pokemon takes damage from Poison, you may remove 1 damage counter from Tentacruel.",
+        "type": "poke-body"
     },
     "attacks": [
         {

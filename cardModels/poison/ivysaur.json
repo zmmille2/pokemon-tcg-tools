@@ -6,9 +6,10 @@
     "evolvesFromImage": "bulbasaur",
     "type": "poison",
     "image": "ivysaur",
-    "ability": {
+    "passive": {
         "name" : "Sleep Powder",
-        "effect": "If Ivysaur is your Active Pokemon, the Defending Pokemon must pay 2 more in order to retreat."
+        "effect": "The Defending Pokemon must pay 2 more in order to retreat.",
+        "type": "poke-power"
     },
     "attacks": [
         {

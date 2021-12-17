@@ -4,9 +4,10 @@
     "stage": "basic",
     "type": "rock",
     "image": "dwebble",
-    "ability": {
+    "passive": {
         "name" : "Sturdy",
-        "effect": "If Dwebble has no damage counters on it, reduce any damage it takes above 30 to 30, and it cannot be Knocked Out."
+        "effect": "If Dwebble has no damage counters on it, reduce any damage it takes above 30 to 30, and it cannot be Knocked Out.",
+        "type": "ability"
     },
     "attacks": [
         {

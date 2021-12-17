@@ -6,9 +6,10 @@
     "evolvesFromImage": "natu",
     "type": "psychic",
     "image": "xatu",
-    "ability": {
+    "passive": {
         "name" : "Time Seer",
-        "effect": "While Xatu is your Active Pokemon, play with your deck and Prize Cards face-up."
+        "effect": "Play with your deck and Prize Cards face-up.",
+        "type": "poke-power"
     },
     "attacks": [
         {

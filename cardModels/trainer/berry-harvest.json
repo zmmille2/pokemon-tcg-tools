@@ -1,0 +1,6 @@
+{
+    "name": "Berry Harvest",
+    "type": "supporter",
+    "image": "berry-harvest",
+    "effect": "Search your deck for a card with Berry in its name, show it to your opponent, and put it into your hand. Shuffle your deck. Search your discard for a card with Berry in its name, show it to your opponent, and put it into your hand."
+}
