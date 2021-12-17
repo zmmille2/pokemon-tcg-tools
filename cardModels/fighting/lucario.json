@@ -15,8 +15,7 @@
         {
             "name": "Feint",
             "cost": "colorless",
-            "damage": "30",
-            "effect": "This attack is not affected by Resistance."
+            "effect": "Put 3 damage counters on the Defending Pokemon. This number cannot be reduced or increased."
         },
         {
             "name": "Aura Sphere",
