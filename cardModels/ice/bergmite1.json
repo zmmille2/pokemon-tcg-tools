@@ -4,9 +4,10 @@
     "stage": "basic",
     "type": "ice",
     "image": "bergmite1",
-    "ability": {
+    "passive": {
         "name": "Pure Cold",
-        "effect": "If Bergmite has an Ice energy attached to it, Frost Bite also does 10 damage."
+        "effect": "If Bergmite has an Ice energy attached to it, Frost Bite also does 10 damage.",
+        "type": "ability"
     },
     "attacks": [
         {
