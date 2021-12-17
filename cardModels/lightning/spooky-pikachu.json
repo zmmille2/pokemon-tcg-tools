@@ -1,0 +1,31 @@
+{
+    "name": "Spooky Pikachu",
+    "hp": 60,
+    "stage": "basic",
+    "type": "lightning",
+    "image": "pikachu3",
+    "ability": {
+        "name": "Halloween Costume",
+        "effect": "If Pikachu has a Ghost energy attached to it, treat it as a Ghost-type Pokemon as well as a Lightning-type Pokemon."
+    },
+    "attacks": [
+        {
+            "name": "Spooky Seance",
+            "cost": "colorless",
+            "effect": "Take a Lightning energy from your discard and put it into your hand. If Pikachu has a Ghost energy attached to it, you may take a Lightning-type Pokemon, too."
+        },
+        {
+            "name": "Shocking Tackle",
+            "cost": "lightning",
+            "damage": 20,
+            "effect": "Scar the Defending Pokemon."
+        }
+    ],
+    "weakness": {
+        "type": "ground",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 2,
+    "flavor": "We're reaching levels of mimicry that shouldn't even be possible."
+}

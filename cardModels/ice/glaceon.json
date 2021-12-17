@@ -14,8 +14,8 @@
         {
             "name": "Chilling Out",
             "cost": "ice colorless",
-            "damage": 60,
-            "effect": "Shuffle 3 cards from your hand into your deck, or this attack does nothing."
+            "damage": 30,
+            "effect": "You may generate up to 3 Ice energy and attach them to your opponent's Pokemon in any way you like."
         }
     ],
     "weakness": {

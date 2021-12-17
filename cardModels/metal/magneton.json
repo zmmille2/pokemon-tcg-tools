@@ -1,0 +1,33 @@
+{
+    "name": "Magneton",
+    "hp": 80,
+    "stage": "stage1",
+    "evolvesFrom": "Magnemite",
+    "evolvesFromImage": "magnemite",
+    "type": "metal",
+    "image": "magneton",
+    "ability": {
+        "name": "Enforced Alignment",
+        "effect": "No player can attach more than 1 Energy per turn. If any effect would cause extra energies to be attached, ignore it."
+    },
+    "attacks": [
+        {
+            "name": "Magnet Pull",
+            "cost": "metal colorless",
+            "effect": "Search your deck for a Metal Pokemon. Reveal it to your opponent and put it into your hand. Shuffle your deck afterwards."
+        },
+        {
+            "name": "Magnet Pulse",
+            "cost": "metal colorless",
+            "damage": 30,
+            "effect": "If Magneton has a Lightning energy attached, this attach does 10 more damage."
+        }
+    ],
+    "weakness": {
+        "type": "fire",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 2,
+    "flavor": "Ever feel like a magnet in a great big machine?"
+}

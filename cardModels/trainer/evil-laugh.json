@@ -1,0 +1,6 @@
+{ 
+    "name": "Evil Laugh", 
+    "type": "tool", 
+    "image": "evil-laugh", 
+    "effect": "If the Pokemon this is attached to is the Active Pokemon, then shuffle a Curse card into your opponent's deck at the end of your turn. If the Pokemon this is attached to takes damage, discard Evil Laugh immediately." 
+} 

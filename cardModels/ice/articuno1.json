@@ -1,0 +1,35 @@
+{
+    "name": "Articuno",
+    "hp": 80,
+    "stage": "basic",
+    "type": "ice",
+    "image": "articuno1",
+    "ability": {
+        "name" : "Heavy Snowstorm",
+        "effect": "While Articuno is Active, non-Ice Pokemon take 10 damage when discarding an Ice energy to retreat. Any non-Ice Pokemon with Ice energy attached must pay 1 more to retreat."
+    },
+    "attacks": [
+        {
+            "name": "Wing Attack",
+            "cost": "colorless colorless",
+            "damage": 30,
+            "effect": "If Articuno has a Flying energy attached, it takes 10 less damage from all sources next turn."
+        },
+        {
+            "name": "Blizzard",
+            "cost": "ice ice colorless",
+            "effect": "Generate an Ice energy and attach it to an opponent's Pokemon with the lowest number of Ice energies attached. Repeat that effect three times. Then, all opponent's Pokemon take 10 damage for each Ice energy they have attached."
+        }
+    ],
+    "weakness": {
+        "type": "rock",
+        "value": 20
+    },
+    "resistance": {
+        "type": "ground",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 1,
+    "flavor": "A legendary bird Pokemon. It freezes water that is contained in winter air and makes it snow."
+}

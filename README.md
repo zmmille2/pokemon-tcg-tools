@@ -57,15 +57,11 @@ Rework/More Steel
 Adjust rarity
 
 Water Fighting Goog
-Ice Rock Flying Bad
 
-Metal Rework
 More Lightning
 Grass Self Love
 Label Greninja
 More Eevee stuff
-Glaceon Buff
-Ice overhaul
 Fomantis
 All Castform forms should only apply once.
 Errata Flourishing Energy only while Active

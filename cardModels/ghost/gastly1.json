@@ -1,0 +1,25 @@
+{
+    "name": "Gastly",
+    "hp": 30,
+    "stage": "basic",
+    "type": "ghost",
+    "image": "gastly1",
+    "attacks": [
+        {
+            "name": "Haunt",
+            "cost": "ghost",
+            "effect": "Poison and Scar the Defending Pokemon. That Pokemon stays poisoned and scarred even if it is no longer the Defending Pokemon. If Gastly is Knocked Out, that Pokemon is no longer poisoned or scarred."
+        }
+    ],
+    "weakness": {
+        "type": "dark",
+        "value": 10
+    },
+    "resistance": {
+        "type": "normal",
+        "value": 10
+    },
+    "retreat": 0,
+    "rarity": 1,
+    "flavor": "He's three feet tall and he smells like piss."
+}

@@ -78,21 +78,21 @@ abilityEffectFont = ImageFont.truetype("fonts/gill-rp.TTF", 16) # Not sure about
 damageFont = ImageFont.truetype("fonts/gill-rp.TTF", 40) # Not sure about this
 attackNameEffectFont = ImageFont.truetype("fonts/gill-cb.ttf", 20)
 attackNameNoEffectFont = ImageFont.truetype("fonts/gill-cb.ttf", 20) # Only size will change
-attackEffectFont = ImageFont.truetype("fonts/gill-rp.ttf", 16)
+attackEffectFont = ImageFont.truetype("fonts/gill-rp.TTF", 16)
 weaknessResistanceFont = ImageFont.truetype("fonts/gill-cb.ttf", 12)
-pokedexFont = ImageFont.truetype("fonts/gill-rbi.ttf", 10)
+pokedexFont = ImageFont.truetype("fonts/gill-rbi.TTF", 10)
 
 trainerTitleFont = ImageFont.truetype("timesbd.ttf", 30)
 
 mediumAttackNameEffectFont = ImageFont.truetype("fonts/gill-cb.ttf", 18)
 mediumAttackNameNoEffectFont = ImageFont.truetype("fonts/gill-cb.ttf", 18)
-mediumAttackEffectFont = ImageFont.truetype("fonts/gill-rp.ttf", 16)
+mediumAttackEffectFont = ImageFont.truetype("fonts/gill-rp.TTF", 16)
 mediumAbilityNameFont = ImageFont.truetype("fonts/gill-cb.ttf", 16)
 mediumAbilityEffectFont = ImageFont.truetype("fonts/gill-rp.TTF", 14)
 
 smallAttackNameEffectFont = ImageFont.truetype("fonts/gill-cb.ttf", 14)
 smallAttackNameNoEffectFont = ImageFont.truetype("fonts/gill-cb.ttf", 14)
-smallAttackEffectFont = ImageFont.truetype("fonts/gill-rp.ttf", 12)
+smallAttackEffectFont = ImageFont.truetype("fonts/gill-rp.TTF", 12)
 smallAbilityNameFont = ImageFont.truetype("fonts/gill-cb.ttf", 14)
 smallAbilityEffectFont = ImageFont.truetype("fonts/gill-rp.TTF", 12)
 
@@ -477,6 +477,8 @@ for _, subdirectories, _ in os.walk(cardModelsDirectory):
             for pokemonFilename in pokemonFilenames:
                 pokemonFilepath = os.path.join(cardModelsDirectory, subdirectory, pokemonFilename)
                 pokemonFile = open(pokemonFilepath)
+                print(pokemonFile)
+                print(pokemonFilepath)
                 pokemonData = json.load(pokemonFile)
                 try:
                     draw_card(subdirectory, pokemonData)

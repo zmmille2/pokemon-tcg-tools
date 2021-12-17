@@ -1,0 +1,34 @@
+{
+    "name": "Haunter",
+    "hp": 80,
+    "stage": "stage1",
+    "type": "ghost",
+    "image": "haunter1",
+    "evolvesFrom": "Gastly",
+    "evolvesFromImage": "gastly",
+    "attacks": [
+        {
+            "name": "Hypnosis",
+            "cost": "ghost",
+            "damage": 20,
+            "effect": "If the current Defending Pokemon retreats during your opponent's next turn, it has to pay 1 more."
+        },
+        {
+            "name": "Dream Eater",
+            "cost": "ghost colorless",
+            "effect": "You can't use this attack unless you used Hypnosis on the current Defending Pokemon last turn, or the Defending Pokemon is asleep. Your opponent discards a card from their hand.",
+            "damage": 40
+        }
+    ],
+    "weakness": {
+        "type": "dark",
+        "value": 10
+    },
+    "resistance": {
+        "type": "normal",
+        "value": 10
+    },
+    "retreat": 0,
+    "rarity": 2,
+    "flavor": "I hardly know her."
+}

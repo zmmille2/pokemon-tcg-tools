@@ -1,0 +1,6 @@
+{
+    "name": "Frozen Field",
+    "image": "frozen-field",
+    "type": "stadium",
+    "effect": "If you discard 2 cards from your hand, your Ice-type Pokemon can retreat without paying any Energy."
+}
