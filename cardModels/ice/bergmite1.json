@@ -1,0 +1,25 @@
+{
+    "name": "Bergmite",
+    "hp": 70,
+    "stage": "basic",
+    "type": "ice",
+    "image": "bergmite1",
+    "ability": {
+        "name": "Pure Cold",
+        "effect": "If Bergmite has an Ice energy attached to it, Frost Bite also does 10 damage."
+    },
+    "attacks": [
+        {
+            "name": "Frost Bite",
+            "cost": "colorless",
+            "effect": "Your opponent takes a card from their hand and puts it face-down on the table. They cannot use or discard that card during their turn. At the end of their turn, they may pick it back up."
+        }
+    ],
+    "weakness": {
+        "type": "fire",
+        "value": 20
+    },
+    "retreat": 1,
+    "rarity": 2,
+    "flavor": "If you touch this Pokemon for even a second, your hand might get frozen!"
+}

@@ -1,0 +1,26 @@
+{
+    "name": "Magnemite",
+    "hp": 60,
+    "stage": "basic",
+    "type": "metal",
+    "image": "magnemite",
+    "attacks": [
+        {
+            "name": "Calibrate",
+            "cost": "metal",
+            "effect": "At the end of your next turn, draw 2 cards."
+        },
+        {
+            "name": "Iron Tackle",
+            "cost": "metal colorless",
+            "damage": 30
+        }
+    ],
+    "weakness": {
+        "type": "fire",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "Magne might not"
+}

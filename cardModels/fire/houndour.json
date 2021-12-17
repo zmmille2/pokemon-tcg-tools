@@ -8,7 +8,8 @@
         {
             "name": "Bite",
             "cost": "dark",
-            "damage": 20
+            "damage": 20, 
+            "effect": "Scar the Defending Pokemon."
         },
         {
             "name": "Ember",

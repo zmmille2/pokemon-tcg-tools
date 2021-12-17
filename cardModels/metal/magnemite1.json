@@ -1,0 +1,27 @@
+{
+    "name": "Magnemite",
+    "hp": 50,
+    "stage": "basic",
+    "type": "metal",
+    "image": "magnemite1",
+    "attacks": [
+        {
+            "name": "Light Screen",
+            "cost": "metal",
+            "effect": "Create 3 Light Screen tokens. Reduce damage to your active Pokemon by 10 if there are any Light Screen tokens. At the end of your turn, get rid of a Light Screen Token. You cannot use this attack if you have Light Screen Tokens."
+        },
+        {
+            "name": "Flash",
+            "cost": "colorless",
+            "damage": 10,
+            "effect": "Draw a card for each Light Screen token you have."
+        }
+    ],
+    "weakness": {
+        "type": "fire",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "They pulsate with magnetic power"
+}

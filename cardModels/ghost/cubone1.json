@@ -1,0 +1,31 @@
+{
+    "name": "Cubone",
+    "hp": 50,
+    "stage": "basic",
+    "type": "ghost",
+    "image": "cubone1",
+    "ability": {
+        "name": "Spooky Energy",
+        "effect": "You can treat Ghost energy as a basic energy of the same type as any Pokemon you have in your discard pile."
+    },
+    "attacks": [
+        {
+            "name": "Haunting Cry",
+            "cost": "ghost",
+            "effect": "Search your deck for a Basic Ghost-type Pokemon, reveal it, and put it into your hand."
+        },
+        {
+            "name": "Candy Club",
+            "cost": "colorless",
+            "damage": "10",
+            "effect": "Remove a damage counter from Cubone."
+        }
+    ],
+    "resistance": {
+        "type": "lightning",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "Loves helping do a haunt!"
+}

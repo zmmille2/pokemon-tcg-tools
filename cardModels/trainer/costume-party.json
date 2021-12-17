@@ -1,0 +1,6 @@
+{ 
+    "name": "Costume Party", 
+    "type": "tool", 
+    "image": "costume-party", 
+    "effect": "When you play this card, you may place any Pokemon of the next highest stage onto the Pokemon this is attached to, even if the higher Pokemon doesn't evolve from the lower one. This counts as evolving it. The new Pokemon can use any attacks from its lower stage(s). The Pokemon this card is attached to cannot evolve again. Once the Pokemon this is attached to has taken 30 damage, discard this tool and the higher stage Pokemon." 
+} 

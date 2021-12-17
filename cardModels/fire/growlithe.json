@@ -6,13 +6,14 @@
     "image": "growlithe",
     "attacks": [
         {
-            "name": "Bite",
-            "cost": "colorless colorless",
-            "damage": 20
+            "name": "Sudden Chomp",
+            "cost": "colorless",
+            "damage": 20,
+            "effect": "Growlithe can't use Sudden Chomp next turn."
         },
         {
             "name": "Flame Wheel",
-            "cost": "fire fire",
+            "cost": "fire colorless",
             "damage": 30
         }
     ],

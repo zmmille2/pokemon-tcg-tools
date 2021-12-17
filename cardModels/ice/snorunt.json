@@ -4,6 +4,10 @@
     "stage": "basic",
     "type": "ice",
     "image": "snorunt",
+    "ability": {
+        "name": "Sticking Snow",
+        "effect": "If an opponent's Pokemon is not Ice-type, it pays 1 more to retreat for each Ice energy attached to it. This ability does not stack."
+    },
     "attacks": [
         {
             "name": "Ice Blast",

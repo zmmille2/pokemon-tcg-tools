@@ -1,0 +1,35 @@
+{
+    "name": "Interdimensional Zigzagoon",
+    "hp": 60,
+    "stage": "basic",
+    "type": "colorless",
+    "image": "interdimensional-zigzagoon",
+    "ability": {
+        "name": "Wrong Place, Wrong Time",
+        "effect": "Interdimensional Zigzagoon is confused. If Interdimensional Zigzagoon is Knocked Out, he goes to the Lost Zone."
+    },
+    "attacks": [
+        {
+            "name": "Slash",
+            "cost": "colorless",
+            "damage": 20
+        },
+        {
+            "name": "Rabid Bite",
+            "cost": "colorless colorless",
+            "damage": 40,
+            "effect": "The Defending Pokemon is now Poisoned."
+        }
+    ],
+    "weakness": {
+        "type": "fighting",
+        "value": 10
+    },
+    "resistance": {
+        "type": "ghost",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 1,
+    "flavor": "guys i lost mom at the grocery store i need help finding her mom if you are reading this im at the candy isle im scared"
+}
