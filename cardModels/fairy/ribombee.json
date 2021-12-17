@@ -6,9 +6,10 @@
     "evolvesFromImage": "cutiefly",
     "type": "fairy",
     "image": "ribombee",
-    "ability": {
+    "passive": {
         "name" : "Healing Pollen",
-        "effect": "While Active, once per turn, you may heal 20 damage from 1 of your Pokemon."
+        "effect": "Once per turn, you may heal 20 damage from 1 of your Pokemon.",
+        "type": "poke-power"
     },
     "attacks": [
         {

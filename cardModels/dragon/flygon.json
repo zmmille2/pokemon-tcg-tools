@@ -6,9 +6,10 @@
     "evolvesFromImage": "vibrava",
     "type": "dragon",
     "image": "flygon",
-    "ability": {
+    "passive": {
         "name" : "Sandstorm",
-        "effect": "If Flygon is your Active Pokemon, in between turns, put one damage counter on all Pokemon that are not Rock, Metal, or Ground type, or do not have a Rock, Metal, or Ground Energy attached."
+        "effect": "In between turns, put one damage counter on all Pokemon that are not Rock, Metal, or Ground type, or do not have a Rock, Metal, or Ground Energy attached.",
+        "type": "poke-power"
     },
     "attacks": [
         {

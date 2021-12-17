@@ -4,9 +4,10 @@
     "stage": "basic",
     "type": "water",
     "image": "magikarp",
-    "ability": {
+    "passive": {
         "name" : "Jump the Waterfall",
-        "effect": "You may only attach Energies to Magikarp while it is your Active Pokemon. When Magikarp has 3 Water Energies attached to it, you may search your deck for a Gyrados and place it on Magikarp, evolving it."
+        "effect": "You may only attach Energies to Magikarp while it is your Active Pokemon. When Magikarp has 3 Water Energies attached to it, you may search your deck for a Gyrados and place it on Magikarp, evolving it.",
+        "type": "ability"
     },
     "attacks": [
         {

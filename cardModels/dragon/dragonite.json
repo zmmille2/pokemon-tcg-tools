@@ -6,9 +6,10 @@
     "evolvesFromImage": "dragonair",
     "type": "dragon",
     "image": "dragonite",
-    "ability": {
+    "passive": {
         "name": "Delivery Service",
-        "effect": "If Dragonite is your Active Pokemon, once per turn, you may pick a Prize Card. If it is face-down, reveal it. Either way, you may swap it with a card in your hand. If you do, reveal that card permanently."
+        "effect": "Once per turn, you may pick a Prize Card. If it is face-down, reveal it. Either way, you may swap it with a card in your hand. If you do, reveal that card permanently.",
+        "type": "poke-power"
     },
     "attacks": [
         {

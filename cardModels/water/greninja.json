@@ -6,9 +6,10 @@
     "evolvesFromImage": "frogadier",
     "type": "water",
     "image": "greninja",
-    "ability": {
+    "passive": {
         "name" : "Substitute",
-        "effect": "Once per turn, if Greninja would take damage, you may discard a Trainer card to take half that damage."
+        "effect": "Once per turn, if Greninja would take damage, you may discard a Trainer card to take half that damage.",
+        "type": "ability"
     },
     "attacks": [
         {

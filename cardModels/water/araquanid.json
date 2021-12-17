@@ -6,9 +6,10 @@
     "evolvesFromImage": "dewpider",
     "type": "water",
     "image": "araquanid",
-    "ability": {
+    "passive": {
         "name" : "Water Tension",
-        "effect": "While Araquanid is your Active Pokemon, whenever the opponent discards an Energy, draw a card."
+        "effect": "Whenever the opponent discards an Energy, draw a card.",
+        "type": "poke-power"
     },
     "attacks": [
         {

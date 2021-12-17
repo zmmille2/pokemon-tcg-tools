@@ -1,0 +1,37 @@
+{
+    "name": "Magnemite",
+    "hp": 40,
+    "stage": "basic",
+    "type": "lightning",
+    "image": "magnemite2",
+    "passive": {
+        "name" : "Magnetic Evolution",
+        "effect": "If there are two other Magnemite on your bench, you may discard them to search your deck for a Magneton and put it on this card, evolving it. If you do, move their damage counters to the Magneton.",
+        "type": "ability"
+    },
+    "attacks": [
+        {
+            "name": "Sonicboom",
+            "cost": "metal-lightning",
+            "damage": 20,
+            "effect": "Ignore weakness, resistance, and other effects for this attack."
+        },
+        {
+            "name": "Self-destruct",
+            "cost": "metal-lightning colorless",
+            "damage": 40,
+            "effect": "Deal 10 damage to all Benched Pokemon. You may move an Energy from Magnemite. Either way, it deals 50 damage to itself."
+        }
+    ],
+    "weakness": {
+        "type": "ground",
+        "value": 10
+    },
+    "resistance": {
+        "type": "poison",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "Magnemite are pests that feed off waste electromagnetic energy at power plants. Their magnetic fields mess with equipment, and they give nasty shocks to operators."
+}

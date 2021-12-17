@@ -4,9 +4,10 @@
     "stage": "basic",
     "type": "rock",
     "image": "onix1",
-    "ability": {
+    "passive": {
         "name" : "Stealth Rocks",
-        "effect": "While Onix is your Active Pokemon, when the opponent's Active Pokemon changes, deal 20 damage to that Pokemon (apply weakness and resistance for this damage as if it were Rock-type damage)."
+        "effect": "When the opponent's Active Pokemon changes, deal 20 damage to that Pokemon (apply weakness and resistance for this damage as if it were Rock-type damage).",
+        "type": "poke-power"
     },
     "attacks": [
         {

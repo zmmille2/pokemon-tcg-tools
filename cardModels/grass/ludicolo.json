@@ -6,9 +6,10 @@
     "evolvesFromImage": "lombre",
     "type": "grass",
     "image": "ludicolo",
-    "ability": {
+    "passive": {
         "name" : "Rain Dance",
-        "effect": "As often as you like during your turn, you may attach a Water Energy to a Pokemon with a Grass Energy attached to it."
+        "effect": "As often as you like during your turn, you may attach a Water Energy to a Pokemon with a Grass Energy attached to it.",
+        "type": "ability"
     },
     "attacks": [
         {

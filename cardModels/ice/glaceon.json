@@ -6,9 +6,10 @@
     "evolvesFromImage": "eevee",
     "type": "ice",
     "image": "glaceon",
-    "ability": {
+    "passive": {
         "name" : "Crystal Genome",
-        "effect": "Attacks from Pokemon that evolve from Eevee are not affected by Weakness, Resistance, or other abilities on your opponent's Pokemon."
+        "effect": "Attacks from Pokemon that evolve from Eevee are not affected by Weakness, Resistance, or other abilities on your opponent's Pokemon.",
+        "type": "ability"
     },
     "attacks": [
         {

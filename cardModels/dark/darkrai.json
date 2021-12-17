@@ -1,0 +1,30 @@
+{
+    "name": "Darkrai",
+    "hp": 60,
+    "stage": "basic",
+    "type": "dark",
+    "image": "darkrai",
+    "passive": {
+        "name": "Waking Nightmare",
+        "effect": "To play Darkrai, you must discard 3 Pokemon (they are not knocked out). Distribute their damage counters among your remaining Pokemon. While Darkrai is your Active Pokemon, if an effect says your opponent may do something, if they do not, put 4 damage counters on the Defending Pokemon.",
+        "type": "ability"
+    },
+    "attacks": [
+        {
+            "name": "Endless Void",
+            "cost": "dark dark dark",
+            "effect": "Your opponent may put their Defending Pokemon to sleep. Your opponent may move 3 cards from their discard to the Lost Zone."
+        }
+    ],
+    "weakness": {
+        "type": "fairy",
+        "value": 10
+    },
+    "resistance": {
+        "type": "psychic",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 1,
+    "flavor": "This creature embodys darkness. Rural villages keep flashlights and torches handy in case one of these monsters unleashes their horrors on the denizens."
+}

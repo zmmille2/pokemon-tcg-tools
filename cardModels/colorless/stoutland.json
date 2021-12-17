@@ -6,9 +6,10 @@
     "evolvesFromImage": "herdier",
     "type": "colorless",
     "image": "stoutland",
-    "ability": {
+    "passive": {
         "name" : "Sniff Out",
-        "effect": "Once per turn, flip a coin. If heads, search your deck for a Pokemon or Trainer and put it into your hand. If tails, search your deck for an Energy and put it into your hand. Either way, shuffle your deck afterwards."
+        "effect": "Once per turn, flip a coin. If heads, search your deck for a Pokemon or Trainer and put it into your hand. If tails, search your deck for an Energy and put it into your hand. Either way, shuffle your deck afterwards.",
+        "type": "ability"
     },
     "attacks": [
         {

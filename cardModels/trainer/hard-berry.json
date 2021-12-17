@@ -1,0 +1,6 @@
+{
+    "name": "Hard Berry",
+    "type": "tool",
+    "image": "hard-berry",
+    "effect": "If you would take damage above 40, you may discard Hard Berry to negate that damage."
+}

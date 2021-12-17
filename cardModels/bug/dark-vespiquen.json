@@ -6,9 +6,10 @@
     "evolvesFromImage": "combee",
     "type": "bug",
     "image": "Vespiquen",
-    "ability": {
+    "passive": {
         "name": "Hive Guard",
-        "effect": "Whenever Vespiquen would receive 20 damage or less from any effect, you may deal that damage to a Combee on your bench, instead."
+        "effect": "Whenever Vespiquen would receive 20 damage or less from any effect, you may deal that damage to a Combee on your bench, instead.",
+        "type": "poke-power"
     },
     "attacks": [
         {

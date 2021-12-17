@@ -6,9 +6,10 @@
     "evolvesFromImage": "stunky",
     "type": "poison",
     "image": "skuntank",
-    "ability": {
+    "passive": {
         "name" : "Stench",
-        "effect": "Enemy Benched Pokemon can remain Poisoned, but only take Damage while Active. If an effect would remove Poison from an Active Pokemon, it may target a Benched Pokemon instead."
+        "effect": "Enemy Benched Pokemon can remain Poisoned, but only take Damage while Active. If an effect would remove Poison from an Active Pokemon, it may target a Benched Pokemon instead.",
+        "type": "ability"
     },
     "attacks": [
         {

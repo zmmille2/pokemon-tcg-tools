@@ -4,9 +4,10 @@
     "stage": "basic",
     "type": "lightning",
     "image": "pikachu3",
-    "ability": {
+    "passive": {
         "name": "Halloween Costume",
-        "effect": "If Pikachu has a Ghost energy attached to it, treat it as a Ghost-type Pokemon as well as a Lightning-type Pokemon."
+        "effect": "If Pikachu has a Ghost energy attached to it, treat it as a Ghost-type Pokemon as well as a Lightning-type Pokemon.",
+        "type": "ability"
     },
     "attacks": [
         {

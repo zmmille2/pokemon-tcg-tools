@@ -6,9 +6,10 @@
     "evolvesFromImage": "haunter",
     "type": "ghost",
     "image": "gengar",
-    "ability": {
+    "passive": {
         "name" : "Haunted Energy",
-        "effect": "You can use Ghost Energies as a substitute for any ability or effect that requires any other type of Energy. Your Pokemon are also Ghost Type."
+        "effect": "You can use Ghost Energies as a substitute for any passive or effect that requires any other type of Energy. Your Pokemon are also Ghost Type.",
+        "type": "ability"
     },
     "attacks": [
         {

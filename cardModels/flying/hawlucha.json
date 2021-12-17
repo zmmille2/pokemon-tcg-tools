@@ -4,9 +4,10 @@
     "stage": "basic",
     "type": "flying",
     "image": "hawlucha",
-    "ability": {
+    "passive": {
         "name" : "Si Rudo Si Technico",
-        "effect": "If Hawlucha has a Dark Energy and no Fighting Energy attached to it, you may shuffle it into your deck at any time. Discard any attached cards if you do this."
+        "effect": "If Hawlucha has a Dark Energy and no Fighting Energy attached to it, you may shuffle it into your deck at any time. Discard any attached cards if you do this.",
+        "type": "ability"
     },
     "attacks": [
         {

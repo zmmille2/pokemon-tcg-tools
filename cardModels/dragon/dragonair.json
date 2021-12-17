@@ -6,9 +6,10 @@
     "evolvesFromImage": "dratini",
     "type": "dragon",
     "image": "dragonair",
-    "ability": {
+    "passive": {
         "name" : "Rainbow Bridge",
-        "effect": "When you play Dragonair to evolve another Pokemon, you may search your deck for up to 3 Basic Pokemon that are different types. Reveal them to your opponent. They discard one, you put as many as will fit on your Bench, and shuffle the rest into your deck."
+        "effect": "When you play Dragonair to evolve another Pokemon, you may search your deck for up to 3 Basic Pokemon that are different types. Reveal them to your opponent. They discard one, you put as many as will fit on your Bench, and shuffle the rest into your deck.",
+        "type": "ability"
     },
     "attacks": [
         {

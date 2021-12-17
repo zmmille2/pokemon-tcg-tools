@@ -4,9 +4,10 @@
     "stage": "basic",
     "type": "colorless",
     "image": "ditto",
-    "ability": {
+    "passive": {
         "name" : "Aspirational",
-        "effect": "You may treat deal 20 damage to Ditto to treat it as any Basic Pokemon when evolving."
+        "effect": "You may treat deal 20 damage to Ditto to treat it as any Basic Pokemon when evolving.",
+        "type": "ability"
     },
     "attacks": [
         {

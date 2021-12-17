@@ -6,14 +6,15 @@
     "evolvesFromImage": "houndour",
     "type": "fire",
     "image": "houndoom",
-    "ability": {
+    "passive": {
         "name" : "Flash Fire",
-        "effect": "Whenever a Fire Energy is discarded, flip a coin. If heads, generate a Fire Energy and put it into your hand."
+        "effect": "Whenever a Fire Energy is discarded, flip a coin. If heads, generate a Fire Energy and put it into your hand.",
+        "type": "ability"
     },
     "attacks": [
         {
             "name": "Devil Dog",
-            "cost": "dark colorless",
+            "cost": "dark-fire colorless",
             "damage": 30
         },
         {

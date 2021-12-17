@@ -6,9 +6,10 @@
     "evolvesFromImage": "scyther",
     "type": "bug",
     "image": "kleavor",
-    "ability": {
+    "passive": {
         "name": "Tree Cutting",
-        "effect": "Once per turn, you may discard one or three cards from the top of your deck to draw one or two cards respectively."
+        "effect": "Once per turn, you may discard one or three cards from the top of your deck to draw one or two cards respectively.",
+        "type": "ability"
     },
     "attacks": [
         {
@@ -18,9 +19,9 @@
         },
         {
             "name": "Axe Crush",
-            "cost": "bug rock colorless",
+            "cost": "bug-rock colorless",
             "damage": "30+",
-            "effect": "Deals 20 more damage if there are 15 or fewer cards in your discard pile."
+            "effect": "Deals 30 more damage if there are 7 or fewer cards in your discard pile."
         }
     ],
     "weakness": {

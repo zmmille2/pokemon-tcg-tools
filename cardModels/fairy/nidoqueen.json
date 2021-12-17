@@ -6,9 +6,10 @@
     "evolvesFromImage": "nidorina",
     "type": "fairy",
     "image": "nidoqueen1",
-    "ability": {
+    "passive": {
         "name": "Flower Field",
-        "effect": "At the end of your turn, remove 1 damage counter from each of your Basic Pokemon."
+        "effect": "At the end of your turn, remove 1 damage counter from each of your Basic Pokemon.",
+        "type": "ability"
     },
     "attacks": [
         {

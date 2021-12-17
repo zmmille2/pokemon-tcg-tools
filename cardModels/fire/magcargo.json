@@ -6,9 +6,10 @@
     "evolvesFromImage": "slugma",
     "type": "fire",
     "image": "magcargo",
-    "ability": {
+    "passive": {
         "name" : "Burning Hunger",
-        "effect": "Attach discarded cards to Magcargo instead. You may only move cards from Magcargo via Inferno. Pokemon are Basic Energies of their type. Trainers are Colorless."
+        "effect": "Attach discarded cards to Magcargo instead. You may only move cards from Magcargo via Inferno. Pokemon are Basic Energies of their type. Trainers are Colorless.",
+        "type": "ability"
     },
     "attacks": [
         {

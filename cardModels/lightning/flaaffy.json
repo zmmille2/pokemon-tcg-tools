@@ -6,9 +6,10 @@
     "evolvesFromImage": "mareep",
     "type": "lightning",
     "image": "flaaffy",
-    "ability": {
+    "passive": {
         "name" : "Cotton Spore",
-        "effect": "Whenever the Defending Pokemon deals damage to Flaaffy, flip a coin. If heads, the Defending Pokemon is now Paralyzed."
+        "effect": "Whenever the Defending Pokemon deals damage to Flaaffy, flip a coin. If heads, the Defending Pokemon is now Paralyzed.",
+        "type": "poke-power"
     },
     "attacks": [
         {

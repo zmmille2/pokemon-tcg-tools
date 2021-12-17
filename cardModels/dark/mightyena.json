@@ -6,9 +6,10 @@
     "evolvesFromImage": "poochyena",
     "type": "dark",
     "image": "mightyena",
-    "ability": {
+    "passive": {
         "name": "Scoundrel",
-        "effect": "Whenever you are supposed to shuffle your deck, flip a coin. If heads, skip that step."
+        "effect": "Whenever you are supposed to shuffle your deck, flip a coin. If heads, skip that step.",
+        "type": "poke-body"
     },
     "attacks": [
         {

@@ -6,9 +6,10 @@
     "evolvesFromImage": "froakie",
     "type": "water",
     "image": "frogadier",
-    "ability": {
+    "passive": {
         "name" : "Substitute",
-        "effect": "Once per turn, if Frogadier would take damage, you may discard a Trainer card to take half that damage."
+        "effect": "Once per turn, if Frogadier would take damage, you may discard a Trainer card to take half that damage.",
+        "type": "ability"
     },
     "attacks": [
         {

@@ -1,8 +1,10 @@
 import json
-from typing import Any, List, Tuple
+from typing import Any, Dict, List, Tuple
 from PIL import Image, ImageDraw, ImageFont
 import os
 import shutil
+
+from PIL.ImageColor import colormap
 
 # ===========================
 # COLORS
@@ -10,6 +12,8 @@ import shutil
 black = (0, 0, 0, 255)
 white = (255, 255, 255, 255)
 red = (255, 0, 0, 255)
+green = (0, 255, 0, 255)
+blue = (0, 0, 255, 255)
 
 # ===========================
 # DIRECTORIES
@@ -27,7 +31,7 @@ preEvolutionDirectory = "preEvolutionArt"
 # ===========================
 emptyFilepath = "empty.png"
 symbolsFilepath = "symbols.png"
-symbolsDict = {}
+symbolsDict: Dict[str, Image.Image] = {}
 symbolWidth = 25
 y0 = 12
 y1 = 72
@@ -73,8 +77,8 @@ pokemonNameFont = ImageFont.truetype("fonts/gill-cb.ttf", 25)
 pokemonNameEvolutionFont = ImageFont.truetype("fonts/gill-cb.ttf", 40)
 hpFont = ImageFont.truetype("fonts/Futura LT Condensed Bold.ttf", 18)
 evolvesFromFont = ImageFont.truetype("fonts/gill-rbi.TTF", 12)
-abilityNameFont = ImageFont.truetype("fonts/gill-cb.ttf", 20)
-abilityEffectFont = ImageFont.truetype("fonts/gill-rp.TTF", 16) # Not sure about this
+passiveNameFont = ImageFont.truetype("fonts/gill-cb.ttf", 20)
+passiveEffectFont = ImageFont.truetype("fonts/gill-rp.TTF", 16) # Not sure about this
 damageFont = ImageFont.truetype("fonts/gill-rp.TTF", 40) # Not sure about this
 attackNameEffectFont = ImageFont.truetype("fonts/gill-cb.ttf", 20)
 attackNameNoEffectFont = ImageFont.truetype("fonts/gill-cb.ttf", 20) # Only size will change
@@ -87,14 +91,14 @@ trainerTitleFont = ImageFont.truetype("timesbd.ttf", 30)
 mediumAttackNameEffectFont = ImageFont.truetype("fonts/gill-cb.ttf", 18)
 mediumAttackNameNoEffectFont = ImageFont.truetype("fonts/gill-cb.ttf", 18)
 mediumAttackEffectFont = ImageFont.truetype("fonts/gill-rp.TTF", 16)
-mediumAbilityNameFont = ImageFont.truetype("fonts/gill-cb.ttf", 16)
-mediumAbilityEffectFont = ImageFont.truetype("fonts/gill-rp.TTF", 14)
+mediumPassiveNameFont = ImageFont.truetype("fonts/gill-cb.ttf", 16)
+mediumPassiveEffectFont = ImageFont.truetype("fonts/gill-rp.TTF", 14)
 
 smallAttackNameEffectFont = ImageFont.truetype("fonts/gill-cb.ttf", 14)
 smallAttackNameNoEffectFont = ImageFont.truetype("fonts/gill-cb.ttf", 14)
 smallAttackEffectFont = ImageFont.truetype("fonts/gill-rp.TTF", 12)
-smallAbilityNameFont = ImageFont.truetype("fonts/gill-cb.ttf", 14)
-smallAbilityEffectFont = ImageFont.truetype("fonts/gill-rp.TTF", 12)
+smallPassiveNameFont = ImageFont.truetype("fonts/gill-cb.ttf", 14)
+smallPassiveEffectFont = ImageFont.truetype("fonts/gill-rp.TTF", 12)
 
 # ===========================
 # SIZES
@@ -109,7 +113,7 @@ trainerArtHeight = (int) (cardWidth * 0.5)
 absoluteTextBoxTop = 370
 absoluteTextBoxBottom = 540
 attackOffset = 80
-abilityOffset = 60
+passiveOffset = 60
 
 # ===========================
 # FUNCTIONS
@@ -231,22 +235,56 @@ def get_wrapped_text(text: str, font: ImageFont.ImageFont,
                 lines.append(word)
         return lines
 
-def draw_ability_box(draw, ability, textBoxTop, textBoxBottom, color):
+def draw_passive_box(draw, passive, textBoxTop, textBoxBottom, color):
+    prefix = passive["type"].title().strip() + ": "
+
+    if prefix == "Ability: ": # No restrictions
+        passive_color = blue
+    elif prefix == "Poke-Body: ": # Unique to this pokemon
+        passive_color = green
+    elif prefix == "Poke-Power: ": # Unique to this pokemon while Active
+        passive_color = red
+    else:
+        raise Exception(f"I don't know what a ${prefix} is")
+
     draw_title_and_description(
         draw,
-        "Ability: " + ability["name"].title().strip(),
-        abilityNameFont,
-        ability["effect"].strip(),
-        abilityEffectFont,
+        prefix + passive["name"].title().strip(),
+        passiveNameFont,
+        passive["effect"].strip(),
+        passiveEffectFont,
         (60, textBoxTop),
         (cardWidth - 100, textBoxBottom),
         color,
-        red,
-        smallAbilityNameFont,
-        smallAbilityEffectFont,
-        mediumAbilityNameFont,
-        mediumAbilityEffectFont,
+        passive_color,
+        smallPassiveNameFont,
+        smallPassiveEffectFont,
+        mediumPassiveNameFont,
+        mediumPassiveEffectFont,
     )
+
+mask = Image.new('L', (symbolWidth, 1), color=0xFF)
+for x in range(symbolWidth):
+    if x <= 11:
+        mask.putpixel((x, 0), 0)
+    if x < 13 and x > 11:
+        mask.putpixel((x, 0), 128)
+    if x >= 13:
+        mask.putpixel((x, 0), 255)
+
+gradient = mask.resize((symbolWidth, symbolWidth)).rotate(-45)
+
+def generate_symbol(icon: str):
+    if icon in symbolsDict:
+        return symbolsDict[icon]
+    elif icon.find("-"):
+        [first, second] = icon.split("-")
+        first_symbol = symbolsDict[first].copy()
+        second_symbol = symbolsDict[second]
+
+        first_symbol.paste(second_symbol, None, gradient)
+
+        return first_symbol
 
 def draw_attack_box(card, draw, attack, textBoxTop, textBoxBottom, color):
     center_y = int((textBoxTop + textBoxBottom) / 2)
@@ -276,7 +314,9 @@ def draw_attack_box(card, draw, attack, textBoxTop, textBoxBottom, color):
         symbol_center = center_y - 12
 
         num_icons = len(icons)
-        symbols = [symbolsDict[icon] for icon in icons]
+
+        symbols = [generate_symbol(icon) for icon in icons]
+
         if num_icons == 1:
             card.paste(symbols[0], (40, symbol_center), symbols[0])
         if num_icons == 2:
@@ -301,9 +341,9 @@ def draw_attack_box(card, draw, attack, textBoxTop, textBoxBottom, color):
     if "damage" in attack:
         draw.text((390, center_y), str(attack["damage"]), font=damageFont, fill=color, anchor="lm")
 
-def draw_boxes(card, draw, cardData, color):
+def draw_boxes(card: Image.Image, draw: ImageDraw.ImageDraw, cardData, color):
     count = 0
-    if "ability" in cardData:
+    if "passive" in cardData:
         count += 1
     if "attacks" in cardData:
         count += len(cardData["attacks"])
@@ -311,8 +351,8 @@ def draw_boxes(card, draw, cardData, color):
     if count == 0:
         print("No abilities or attacks found. Do you have a typo?")
     elif count == 1:
-        if "ability" in cardData:
-            draw_ability_box(draw, cardData["ability"], absoluteTextBoxTop, absoluteTextBoxBottom, color)
+        if "passive" in cardData:
+            draw_passive_box(draw, cardData["passive"], absoluteTextBoxTop, absoluteTextBoxBottom, color)
         else:
             draw_attack_box(card, draw, cardData["attacks"][0], absoluteTextBoxTop, absoluteTextBoxBottom, color)
     elif count < 5 and count >= 2:
@@ -321,8 +361,8 @@ def draw_boxes(card, draw, cardData, color):
         textBoxBottom = interval + absoluteTextBoxTop
         attack_index = 0
 
-        if "ability" in cardData:
-            draw_ability_box(draw, cardData["ability"], textBoxTop, textBoxBottom, color)
+        if "passive" in cardData:
+            draw_passive_box(draw, cardData["passive"], textBoxTop, textBoxBottom, color)
             draw.rectangle((60, textBoxBottom, 380, textBoxBottom + 1), fill=color)
             textBoxTop += interval
             textBoxBottom += interval
@@ -335,13 +375,13 @@ def draw_boxes(card, draw, cardData, color):
             textBoxTop += interval
             textBoxBottom += interval
     else: 
-        print("Currently up to 4 attacks or 3 attacks with 1 ability are supported.")
+        print("Currently up to 4 attacks or 3 attacks with 1 passive are supported.")
 
 def draw_card(cardType, cardData):
     color = black
     if (cardType == "trainer"):
-        trainerType = cardType + cardData["type"].strip() + ".png"
-        cardBackgroundFilepath = os.path.join(blanksDirectory, trainerType)
+        trainerType = cardType + cardData["type"].strip()
+        cardBackgroundFilepath = os.path.join(blanksDirectory, trainerType + ".png")
         cardArtFilepath = os.path.join(cardArtDirectory, cardData["image"].lower().strip() + ".png")
 
         newCard = Image.new('RGBA', (cardWidth, cardHeight))
@@ -354,10 +394,17 @@ def draw_card(cardType, cardData):
                 newCard.paste(resizedBackground, (0, 0), resizedBackground)
             
                 draw = ImageDraw.Draw(newCard)
-
-                description = get_wrapped_text(cardData["effect"], attackEffectFont, 375)
                 draw.text((50, 110), cardData["name"], font=trainerTitleFont, fill=black)
-                draw.text((50, 420), "\n".join(description), font=attackEffectFont, fill=black)
+
+                if cardData["type"].strip() in ["tm"]:
+                    draw_boxes(newCard, draw, cardData, black)
+                else:
+
+                    description = get_wrapped_text(cardData["effect"], attackEffectFont, 375)
+                    if cardData["type"].strip() in ["supporter", "stadium"]:
+                        draw.text((50, 470), "\n".join(description), font=attackEffectFont, fill=black)
+                    else:
+                        draw.text((50, 420), "\n".join(description), font=attackEffectFont, fill=black)
 
                 print("\tGenerating " + cardData["name"] + " as " + cardData["type"] + " " + cardType)
                 outputFilename = os.path.join(outputDirectory, cardData["name"])
@@ -405,7 +452,6 @@ def draw_card(cardType, cardData):
             # =============================================
             # WEAKNESS, RESISTANCE, RETREAT, AND FLAVOR
             # =============================================
-            # TODO: Handle unique generation for fairy stage 1 and 2, including drawing correct symbol over
             if cardData["type"].lower() == "fairy" and cardData["stage"].lower().startswith("stage"):
                 fairy = symbolsDict["fairy"].resize((40, 40), Image.BICUBIC)
                 newCard.paste(fairy, (405, 25), fairy)
@@ -426,8 +472,11 @@ def draw_card(cardType, cardData):
 
                 description = get_wrapped_text(cardData["flavor"], pokedexFont, 175)
                 draw.text((242, 560), "\n".join(description), font=pokedexFont, fill=color)
-
             else:
+                if cardData["type"].lower() == "flying":
+                    flying = symbolsDict["flying"].resize((35, 35), Image.BICUBIC)
+                    newCard.paste(flying, (388, 33), flying)
+
                 if "weakness" in cardData:
                     weakness = symbolsDict[cardData["weakness"]["type"].lower().strip()]
                     weaknessAmount = str(cardData["weakness"]["value"])
@@ -477,8 +526,6 @@ for _, subdirectories, _ in os.walk(cardModelsDirectory):
             for pokemonFilename in pokemonFilenames:
                 pokemonFilepath = os.path.join(cardModelsDirectory, subdirectory, pokemonFilename)
                 pokemonFile = open(pokemonFilepath)
-                print(pokemonFile)
-                print(pokemonFilepath)
                 pokemonData = json.load(pokemonFile)
                 try:
                     draw_card(subdirectory, pokemonData)

@@ -45,41 +45,16 @@ After each set, you'll keep your deck the other cards you've pulled, so adapt!
 
 ## TODO:
 
-Trainer Layout
-Smarter picture scaling
-
 Make it more color agnostic
-Add Aggron
 Add Delphox
-Add Beach Combing
 More Fairy
-Rework/More Steel
 Adjust rarity
 
-Water Fighting Goog
-
-More Lightning
 Grass Self Love
-Label Greninja
+Fomantis
+
 More Eevee stuff
 Fomantis
-All Castform forms should only apply once.
 Errata Flourishing Energy only while Active
-Shaymin Rest: You cannot use Rest next turn.
-Lycanroc Midnight 80 HP
-Lycanroc Rock Fang => Darkness Colorless Dark Fang 40
-Lycanroc Lone Wolf = You may shuffle one of your Benched Pokemon with no damage counters into your deck. If you do, Lycanroc's attacks deal 20 more damage this turn.
-Sunset Pasture => Supporter you can this once.
-Chatot Encore "If they can pay for the attack and do not retreat, they must use ___ next turn."
-Blastoise => Overflow only apply once.
-Keyword for only once.
-Rayquaza only block if he's Active.
-Lombre remove 1 colorless from each.
-Nature Power base 20
-Honey is not item.
-Ralts should say "if you find a Basic Pokemon, then..."
-Trapinch should say "While Trapinch is Active..."
-Nas and Billie should be supporters.
-Nidoran-m apostrophe change.
 
 ## Updates

@@ -4,9 +4,10 @@
     "stage": "basic",
     "type": "ice",
     "image": "articuno1",
-    "ability": {
+    "passive": {
         "name" : "Heavy Snowstorm",
-        "effect": "While Articuno is Active, non-Ice Pokemon take 10 damage when discarding an Ice energy to retreat. Any non-Ice Pokemon with Ice energy attached must pay 1 more to retreat."
+        "effect": "Non-Ice Pokemon take 10 damage when discarding an Ice energy to retreat. Any non-Ice Pokemon with Ice energy attached must pay 1 more to retreat.",
+        "type": "poke-power"
     },
     "attacks": [
         {

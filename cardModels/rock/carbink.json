@@ -4,9 +4,10 @@
     "stage": "basic",
     "type": "rock",
     "image": "carbink",
-    "ability": {
+    "passive": {
         "name" : "Trick Room",
-        "effect": "To retreat, Pokemon pay 4 minus their retreat cost instead. If this makes their cost negative, they may attach energies upon retreating."
+        "effect": "To retreat, Pokemon pay 4 minus their retreat cost instead. If this makes their cost negative, they may attach energies upon retreating.",
+        "type": "poke-body"
     },
     "attacks": [
         {

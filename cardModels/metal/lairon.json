@@ -1,10 +1,10 @@
 {
     "name": "Lairon",
-    "hp": 70,
+    "hp": 90,
     "stage": "stage1",
     "evolvesFrom": "Aron",
     "evolvesFromImage": "aron",
-    "type": "rock",
+    "type": "metal",
     "image": "lairon",
     "attacks": [
         {
@@ -15,7 +15,8 @@
         {
             "name": "Metal Jaw",
             "cost": "metal colorless colorless colorless",
-            "damage": 60
+            "damage": 60,
+            "effect": "Your opponent looks at the top two cards of their deck and discards one."
         }
     ],
     "weakness": {

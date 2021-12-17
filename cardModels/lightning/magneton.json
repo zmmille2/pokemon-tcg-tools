@@ -1,0 +1,32 @@
+{
+    "name": "Magneton",
+    "hp": 70,
+    "stage": "stage1",
+    "evolvesFrom": "Magnemite",
+    "evolvesFromImage": "magnemite",
+    "type": "lightning",
+    "image": "magneton1",
+    "passive": {
+        "name": "Current Capacitor",
+        "effect": "Once per turn, if you moved 3 Energies to or from Magneton this turn, deal 30 damage to an opponent's Benched Pokemon.",
+        "type": "poke-body"
+    },
+    "attacks": [
+        {
+            "name": "Shock",
+            "damage": 30,
+            "cost": "metal-lightning metal-lightning colorless"
+        }
+    ],
+    "weakness": {
+        "type": "ground",
+        "value": 10
+    },
+    "resistance": {
+        "type": "poison",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 2,
+    "flavor": "These things have trouble coordinating, but that doesn't mean they're not dangerous."
+}

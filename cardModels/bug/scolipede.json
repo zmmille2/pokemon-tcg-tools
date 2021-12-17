@@ -6,9 +6,10 @@
     "evolvesFromImage": "whirlipede",
     "type": "bug",
     "image": "Scolipede",
-    "ability": {
+    "passive": {
         "name": "Towering Menace",
-        "effect": "Defending Basic Pokemon deal 10 less damage to Scolipede."
+        "effect": "Defending Basic Pokemon deal 10 less damage to Scolipede.",
+        "type": "poke-power"
     },
     "attacks": [
         {

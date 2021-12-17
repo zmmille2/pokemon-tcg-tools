@@ -6,9 +6,10 @@
     "evolvesFromImage": "flaaffy",
     "type": "lightning",
     "image": "ampharos",
-    "ability": {
+    "passive": {
         "name" : "Lightningrod",
-        "effect": "When you would discard a Lightning Energy from any attack (except by Ampharos's Discharge), you may move it instead. All moved Energies must go to Ampharos."
+        "effect": "When you would discard a Lightning Energy from any attack (except by Ampharos's Discharge), you may move it instead. All moved Energies must go to Ampharos.",
+        "type": "ability"
     },
     "attacks": [
         {

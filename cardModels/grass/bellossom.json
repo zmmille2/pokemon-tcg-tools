@@ -6,9 +6,10 @@
     "evolvesFromImage": "gloom",
     "type": "grass",
     "image": "bellossom",
-    "ability": {
+    "passive": {
         "name" : "Heal Dance",
-        "effect": "If Bellossom is your Active Pokemon, once per turn, remove 1 damage counter from each of your Pokemon."
+        "effect": "Once per turn, remove 1 damage counter from each of your Pokemon.",
+        "type": "poke-body"
     },
     "attacks": [
         {

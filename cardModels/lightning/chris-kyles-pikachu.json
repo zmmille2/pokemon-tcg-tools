@@ -4,9 +4,10 @@
     "stage": "basic",
     "type": "lightning",
     "image": "chris-kyles-pikachu",
-    "ability": {
+    "passive": {
         "name" : "Thundershot",
-        "effect": "You may move an Electric Energy and discard an Electric Energy from Chris Kyle's Pikachu. If you do, deal 40 damage to an opponent's Pokemon and make Chris Kyle's Pikachu the Active Pokemon. This ends your turn."
+        "effect": "You may move an Electric Energy and discard an Electric Energy from Chris Kyle's Pikachu. If you do, deal 40 damage to an opponent's Pokemon and make Chris Kyle's Pikachu the Active Pokemon. This ends your turn.",
+        "type": "ability"
     },
     "weakness": {
         "type": "ground",

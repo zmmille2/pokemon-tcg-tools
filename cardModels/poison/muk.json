@@ -6,9 +6,10 @@
     "evolvesFromImage": "grimer",
     "type": "poison",
     "image": "muk",
-    "ability": {
+    "passive": {
         "name" : "Sticky Goo",
-        "effect": "As long as Muk is your Active Pokemon, add 2 to the Defending Pokemon's Retreat Cost."
+        "effect": "Add 2 to the Defending Pokemon's Retreat Cost.",
+        "type": "poke-power"
     },
     "attacks": [
         {

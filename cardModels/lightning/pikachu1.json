@@ -4,9 +4,10 @@
     "stage": "basic",
     "type": "lightning",
     "image": "pikachu1",
-    "ability": {
+    "passive": {
         "name" : "Lightning Rod",
-        "effect": "Whenever you discard an Energy attached to 1 of your other Pokemon, flip a coin. If heads, attached it to Pikachu instead."
+        "effect": "Whenever you discard an Energy attached to 1 of your other Pokemon, flip a coin. If heads, attached it to Pikachu instead.",
+        "type": "ability"
     },
     "attacks": [
         {

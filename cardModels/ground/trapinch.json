@@ -4,9 +4,10 @@
     "stage": "basic",
     "type": "ground",
     "image": "trapinch",
-    "ability": {
+    "passive": {
         "name" : "Arena Trap",
-        "effect": "The Defending Pokemon cannot retreat."
+        "effect": "The Defending Pokemon cannot retreat.",
+        "type": "poke-power"
     },
     "attacks": [
         {

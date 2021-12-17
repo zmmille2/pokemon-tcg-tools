@@ -6,9 +6,10 @@
     "evolvesFromImage": "murkrow",
     "type": "dark",
     "image": "honchkrow",
-    "ability": {
+    "passive": {
         "name" : "Tool Hunter",
-        "effect": "Once per turn, you may search your deck or discard for a Tool, show it to your opponent, and add it to your hand. Shuffle your deck afterwards."
+        "effect": "Once per turn, you may search your deck or discard for a Tool, show it to your opponent, and add it to your hand. Shuffle your deck afterwards.",
+        "type": "ability"
     },
     "attacks": [
         {

@@ -6,9 +6,10 @@
     "evolvesFromImage": "voltorb",
     "type": "lightning",
     "image": "electrode",
-    "ability": {
+    "passive": {
         "name" : "Dangerous Charge",
-        "effect": "Once per turn, you may attach as many Energy as you like to Electrode from your discard. If you do, flip a coin: If tails, Electrode takes 10 damage for each Energy gained this way. If Electrode loses an Energy, it takes 10 damage."
+        "effect": "Once per turn, you may attach as many Energy as you like to Electrode from your discard. If you do, flip a coin: If tails, Electrode takes 10 damage for each Energy gained this way. If Electrode loses an Energy, it takes 10 damage.",
+        "type": "ability"
     },
     "attacks": [
         {

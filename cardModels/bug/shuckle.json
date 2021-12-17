@@ -4,9 +4,10 @@
     "stage": "Basic",
     "type": "bug",
     "image": "shuckle",
-    "ability": {
+    "passive": {
         "name" : "Juice Lover",
-        "effect": "Once per turn, you may search your deck for a card with Berry in its name and attach it to Shuckle. If you do, shuffle your deck. When Shuckle uses a Berry, in addition to its effect, remove 2 damage counters from Shuckle."
+        "effect": "Once per turn, you may search your deck for a card with Berry in its name and attach it to Shuckle. If you do, shuffle your deck. When Shuckle uses a Berry, in addition to its effect, remove 2 damage counters from Shuckle.",
+        "type": "ability"
     },
     "attacks": [
         {

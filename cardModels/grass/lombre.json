@@ -6,20 +6,21 @@
     "evolvesFromImage": "lotad",
     "type": "grass",
     "image": "lombre",
-    "ability": {
+    "passive": {
         "name" : "Rain Dish",
-        "effect": "Whenever a Water Energy is attached to Lombre, remove 1 damage counter from Lombre."
+        "effect": "Whenever a Water Energy is attached to Lombre, remove 1 damage counter from Lombre.",
+        "type": "ability"
     },
     "attacks": [
         {
             "name": "Nature Power",
-            "cost": "grass colorless colorless",
-            "damage": "10+",
+            "cost": "grass colorless",
+            "damage": "20+",
             "effect": "If there is a Stadium in play, this attack deals 20 more damage."
         },
         {
             "name": "Pond Punch",
-            "cost": "grass water colorless colorless",
+            "cost": "grass water colorless",
             "damage": 40
         }
     ],

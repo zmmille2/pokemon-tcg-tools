@@ -6,9 +6,10 @@
     "evolvesFromImage": "dwebble",
     "type": "rock",
     "image": "crustle",
-    "ability": {
-        "name" : "Strudy",
-        "effect": "If Crustle has no damage counters on it, reduce any damage it takes above 40 to 40, and it cannot be Knocked Out."
+    "passive": {
+        "name": "Strudy",
+        "effect": "If Crustle has no damage counters on it, reduce any damage it takes above 40 to 40, and it cannot be Knocked Out.",
+        "type": "ability"
     },
     "attacks": [
         {

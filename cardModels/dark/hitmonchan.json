@@ -4,9 +4,10 @@
     "stage": "basic",
     "type": "dark",
     "image": "hitmonchan",
-    "ability": {
+    "passive": {
         "name": "Forbidden Technique",
-        "effect": "Hitmonchan is Fighting type, as well as Dark type. Dark and Fighting energies attached to Hitmonchan count as both Dark and Fighting type."
+        "effect": "Hitmonchan is Fighting type, as well as Dark type. Dark and Fighting energies attached to Hitmonchan count as both Dark and Fighting type.",
+        "type": "ability"
     },
     "attacks": [
         {

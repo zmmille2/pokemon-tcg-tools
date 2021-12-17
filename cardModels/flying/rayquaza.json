@@ -4,9 +4,10 @@
     "stage": "basic",
     "type": "flying",
     "image": "rayquaza",
-    "ability": {
+    "passive": {
         "name" : "Ozone Wall",
-        "effect": "Your Benched Pokemon take no damage from attacks."
+        "effect": "Your Benched Pokemon take no damage from attacks.",
+        "type": "poke-power"
     },
     "attacks": [
         {

@@ -4,9 +4,10 @@
     "stage": "basic",
     "type": "rock",
     "image": "shiny-shuckle",
-    "ability": {
+    "passive": {
         "name" : "Momentum",
-        "effect": "Each turn, attach an Energy to Shuckle from your Discard. If you cannot, or when Shuckle becomes your Active Pokemon, discard all Energy attached to Shuckle."
+        "effect": "Each turn, attach an Energy to Shuckle from your Discard. If you cannot, or when Shuckle becomes your Active Pokemon, discard all Energy attached to Shuckle.",
+        "type": "ability"
     },
     "attacks": [
         {

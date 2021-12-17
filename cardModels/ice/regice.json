@@ -1,0 +1,21 @@
+{
+    "name": "Regice",
+    "hp": 80,
+    "stage": "basic",
+    "type": "ice",
+    "image": "regice",
+    "attacks": [
+        {
+            "name": "Sheer Cold",
+            "cost": "ice ice colorless",
+            "damage": "50"
+        }
+    ],
+    "weakness": {
+        "type": "fighting",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 1,
+    "flavor": "This frozen golem is a creation of the ancients. The history channel has a show about these things. Sometimes they wake up and destroy a city."
+}

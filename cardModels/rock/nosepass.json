@@ -4,9 +4,10 @@
     "stage": "basic",
     "type": "rock",
     "image": "nosepass",
-    "ability": {
+    "passive": {
         "name" : "True North",
-        "effect": "Once during your turn, you may search your deck for a card. Take the top 5 cards of your deck, and add that card. Shuffle your deck and the top 6 cards separately, then put the top 6 cards back on your deck."
+        "effect": "Once during your turn, you may search your deck for a card. Take the top 5 cards of your deck, and add that card. Shuffle your deck and the top 6 cards separately, then put the top 6 cards back on your deck.",
+        "type": "ability"
     },
     "attacks": [
         {

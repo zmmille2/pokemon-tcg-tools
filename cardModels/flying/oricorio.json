@@ -4,9 +4,10 @@
     "stage": "basic",
     "type": "flying",
     "image": "oricorio",
-    "ability": {
+    "passive": {
         "name": "Dancer",
-        "effect": "While Oricorio is Benched, when your Active Pokemon uses an attack or ability with \"Dance\" in its name, Oricorio may also use that attack or ability as if it were the Active Pokemon. You may only use one Dancer ability per turn."
+        "effect": "When your Active Pokemon (other than this Oricorio) uses an attack or passive with \"Dance\" in its name, Oricorio may also use that attack or passive as if it were the Active Pokemon.",
+        "type": "poke-body"
     },
     "attacks": [
         {

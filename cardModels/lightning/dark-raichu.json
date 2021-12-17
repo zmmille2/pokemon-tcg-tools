@@ -6,9 +6,10 @@
     "evolvesFromImage": "pikachu",
     "type": "lightning",
     "image": "raichu",
-    "ability": {
+    "passive": {
         "name": "Chaos Panic",
-        "effect": "Whenever one of your Pokemon attack, move all your Lightning Energy to different Pokemon."
+        "effect": "Whenever one of your Pokemon attack, move all your Lightning Energy to a random Pokemon.",
+        "type": "ability"
     },
     "attacks": [
         {

@@ -6,15 +6,17 @@
     "evolvesFromImage": "lairon",
     "type": "metal",
     "image": "aggron2",
-    "ability": {
-        "name" : "Metal Hunger",
-        "effect": "When you draw a card, flip a coin. On heads, discard a Metal energy from Aggron."
+    "passive": {
+        "name" : "Hard Armor",
+        "effect": "When Aggron takes damage, you may draw a card.",
+        "type": "ability"
     },
     "attacks": [
         {
             "name": "Power Claw",
-            "cost": "metal metal metal rock rock",
-            "damage": 100
+            "cost": "metal-rock metal-rock metal-rock colorless colorless",
+            "damage": 100,
+            "effect": "Your opponent looks at the top three cards of their deck and discards two."
         }
     ],
     "weakness": {

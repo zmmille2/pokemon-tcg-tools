@@ -1,0 +1,12 @@
+{
+    "name": "TM 02 - Snow Grave",
+    "type": "tm",
+    "image": "snow-grave",
+    "attacks": [
+        {
+            "name": "Snow Grave",
+            "cost": "ice ice ice",
+            "effect": "If this Pokemon has used its other attacks, the Defending Pokemon is Knocked Out. Shuffle this Pokemon, and any cards attached to it, into your deck."
+        }
+    ]
+}

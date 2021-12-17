@@ -1,14 +1,15 @@
 {
     "name": "Lycanroc Midnight",
-    "hp": 60,
+    "hp": 80,
     "stage": "stage1",
     "evolvesFrom": "Rockruff",
     "evolvesFromImage": "rockruff",
     "type": "dark",
     "image": "lycanroc-midnight",
-    "ability": {
+    "passive": {
         "name" : "Lone Wolf",
-        "effect": "While there are no Pokemon on your bench, Lycanroc Midnight deals 30 more damage with attacks."
+        "effect": "You may shuffle a Benched Pokemon into your deck. If you do, put its damage counters on Lycanroc Midnight, and its attacks deal 20 more damage this turn.",
+        "type": "poke-power"
     },
     "attacks": [
         {
@@ -22,8 +23,8 @@
             "effect": "If the Defending Pokemon's retreat cost is 1 or less, switch the Defending Pokemon with a Pokemon on the opponent's bench."
         },
         {
-            "name": "Rock Fang",
-            "cost": "dark rock colorless",
+            "name": "Dark Fang",
+            "cost": "dark colorless",
             "damage": 40
         }
     ],

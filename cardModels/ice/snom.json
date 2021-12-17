@@ -4,9 +4,10 @@
     "stage": "basic",
     "type": "ice",
     "image": "snom",
-    "ability": {
+    "passive": {
         "name" : "Rapid Evolution",
-        "effect": "Snom can evolve the same turn it is played, even on your first turn."
+        "effect": "Snom can evolve the same turn it is played, even on your first turn.",
+        "type": "ability"
     },
     "attacks": [
         {

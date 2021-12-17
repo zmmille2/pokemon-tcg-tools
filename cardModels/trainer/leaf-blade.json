@@ -1,0 +1,13 @@
+{
+    "name": "TM 01 - Leaf Blade",
+    "type": "tm",
+    "image": "leaf-blade",
+    "attacks": [
+        {
+            "name": "Leaf Blade",
+            "cost": "grass",
+            "damage": 20,
+            "effect": "Damage done by Leaf Blade is Grass Type."
+        }
+    ]
+}

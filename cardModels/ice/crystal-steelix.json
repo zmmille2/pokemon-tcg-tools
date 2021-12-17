@@ -6,9 +6,10 @@
     "evolvesFromImage": "crystal-onix",
     "type": "ice",
     "image": "crystal-steelix",
-    "ability": {
+    "passive": {
         "name": "Crystal Shell",
-        "effect": "When Steelix is Knocked Out, you may discard Crystal Steelix and remove all damage counters and status effects from the Basic Pokemon. Crystal Steelix is still knocked out."
+        "effect": "When Crystal Steelix is Knocked Out, you may discard Crystal Steelix and remove all damage counters and status effects from the Basic Pokemon. Crystal Steelix is still knocked out.",
+        "type": "ability"
     },
     "attacks": [
         {

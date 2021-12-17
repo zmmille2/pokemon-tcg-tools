@@ -4,14 +4,15 @@
     "stage": "basic",
     "type": "bug",
     "image": "joltik",
-    "ability": {
+    "passive": {
         "name": "Electroweb",
-        "effect": "While Joltik is your Active Pokemon, if the opposing Active Pokemon switches out, the new Active Pokemon's attacks cannot do damage or put status on Joltik."
+        "effect": "If the opposing Active Pokemon switches out, the new Active Pokemon's attacks cannot do damage or put status on Joltik.",
+        "type": "poke-power"
     },
     "attacks": [
         {
             "name": "Bug Bite",
-            "cost": "bug",
+            "cost": "bug-lightning",
             "damage": "10"
         }
     ],

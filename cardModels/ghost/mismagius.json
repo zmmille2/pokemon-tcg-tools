@@ -6,9 +6,10 @@
     "evolvesFromImage": "misdreavus",
     "type": "ghost",
     "image": "mismagius",
-    "ability": {
+    "passive": {
         "name": "Vengeful Spirits",
-        "effect": "Whenever a Pokemon is Knocked Out, add 6 damage counters as spread out as possible among your opponent's Prizes."
+        "effect": "Whenever a Pokemon is Knocked Out, add 6 damage counters as spread out as possible among your opponent's Prizes.",
+        "type": "ability"
     },
     "attacks": [
         {

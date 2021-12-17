@@ -6,9 +6,10 @@
     "evolvesFromImage": "nidorino",
     "type": "dark",
     "image": "cruel-nidoking",
-    "ability": {
+    "passive": {
         "name" : "King's Tax",
-        "effect": "When either player Knocks Out a Pokemon, they collect an additional Prize Card."
+        "effect": "When either player Knocks Out a Pokemon, they collect an additional Prize Card.",
+        "type": "ability"
     },
     "attacks": [
         {

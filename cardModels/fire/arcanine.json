@@ -6,9 +6,10 @@
     "evolvesFromImage": "growlithe",
     "type": "fire",
     "image": "arcanine",
-    "ability": {
+    "passive": {
         "name" : "Honorbound",
-        "effect": "While Arcanine is your Active Pokemon, place a coin face-up on the table. For all effects that flip a coin, each player uses the face-up side. Whenever you do, flip the coin to the other side."
+        "effect": "Place a coin face-up on the table. For all effects that flip a coin, each player uses the face-up side. Whenever you do, flip the coin to the other side.",
+        "type": "poke-power"
     },
     "attacks": [
         {

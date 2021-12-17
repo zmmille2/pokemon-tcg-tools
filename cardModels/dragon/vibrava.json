@@ -6,9 +6,10 @@
     "evolvesFromImage": "trapinch",
     "type": "dragon",
     "image": "vibrava",
-    "ability": {
+    "passive": {
         "name": "Compound Eyes",
-        "effect": "Once per turn, you may reveal the top 5 cards of your deck. If none of them are the same type, you may put one into your hand. Shuffle the rest into your deck."
+        "effect": "Once per turn, you may reveal the top 5 cards of your deck. If none of them are the same type, you may put one into your hand. Shuffle the rest into your deck.",
+        "type": "ability"
     },
     "attacks": [
         {
