@@ -7,3 +7,5 @@ fonts/
 outputs/
 preEvolutionArt/
 premade/
+
+.venv

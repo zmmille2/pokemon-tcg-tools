@@ -1,8 +1,10 @@
+import argparse
 import json
 from typing import Dict, Tuple
 from PIL import Image, ImageDraw, ImageFont
 import os
 import shutil
+import sys
 
 from PIL.ImageColor import colormap
 
@@ -510,28 +512,43 @@ def draw_card(cardType, cardData):
 # MAIN
 # ===========================
 def main():
-  if os.path.exists(outputDirectory):
-    shutil.rmtree(outputDirectory)
-  os.mkdir(outputDirectory)
+  parser = argparse.ArgumentParser()
 
-  for _, _, premadeFilenames in os.walk(premadeDirectory):
-    for premadeFilename in premadeFilenames:
-      premadeFilepath = os.path.join(premadeDirectory, premadeFilename)
-      print("Copying " + premadeFilepath + " to outputs")
-      shutil.copy(premadeFilepath, outputDirectory)
+  parser.add_argument("-a", "--all", help="Should cards all be refreshed.", action="store_true")
 
-  for _, subdirectories, _ in os.walk(cardModelsDirectory):
-    for subdirectory in subdirectories:
-      print("Generating cards in " + subdirectory + " subdirectory")
-      for _, _, pokemonFilenames in os.walk(os.path.join(cardModelsDirectory, subdirectory)):
-        for pokemonFilename in pokemonFilenames:
-          pokemonFilepath = os.path.join(cardModelsDirectory, subdirectory, pokemonFilename)
-          pokemonFile = open(pokemonFilepath)
-          pokemonData = json.load(pokemonFile)
-          try:
-            draw_card(subdirectory, pokemonData)
-          except:
-            print("Could not print " + pokemonFilepath + ", skipping")
+  arguments = parser.parse_args()
+  if arguments.all:
+    print("All parsed.")
+  # Regenerate card if:
+  #   all flag is true
+  #   generateCard.py is newer than output
+  #   cardModel is newer than output
+  #   cardArt is newer than output
+
+  # if os.path.exists(outputDirectory):
+  #   shutil.rmtree(outputDirectory)
+  # os.mkdir(outputDirectory)
+
+  # for _, _, premadeFilenames in os.walk(premadeDirectory):
+  #   for premadeFilename in premadeFilenames:
+  #     premadeFilepath = os.path.join(premadeDirectory, premadeFilename)
+  #     print("Copying " + premadeFilepath + " to outputs")
+  #     outputFilepath = os.path.join(outputDirectory, premadeFilename)
+  #     if os.path.getmtime(outputFilepath) < os.path.getmtime(premadeFilepath):
+  #       shutil.copy(premadeFilepath, outputDirectory)
+
+  # for _, subdirectories, _ in os.walk(cardModelsDirectory):
+  #   for subdirectory in subdirectories:
+  #     print("Generating cards in " + subdirectory + " subdirectory")
+  #     for _, _, pokemonFilenames in os.walk(os.path.join(cardModelsDirectory, subdirectory)):
+  #       for pokemonFilename in pokemonFilenames:
+  #         pokemonFilepath = os.path.join(cardModelsDirectory, subdirectory, pokemonFilename)
+  #         pokemonFile = open(pokemonFilepath)
+  #         pokemonData = json.load(pokemonFile)
+  #         try:
+  #           draw_card(subdirectory, pokemonData)
+  #         except:
+  #           print("Could not print " + pokemonFilepath + ", skipping")
 
 if __name__ == "__main__":
   main()
