@@ -6,8 +6,6 @@ import os
 import shutil
 import sys
 
-from PIL.ImageColor import colormap
-
 # ===========================
 # COLORS
 # ===========================
@@ -514,7 +512,7 @@ def draw_card(cardType, cardData):
 def main():
   parser = argparse.ArgumentParser()
 
-  parser.add_argument("-a", "--all", help="Should cards all be refreshed.", action="store_true")
+  parser.add_argument("-a", "--all", help="Should cards all be refreshed? Defaults to false.", action="store_true")
 
   arguments = parser.parse_args()
   if arguments.all:
