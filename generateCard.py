@@ -73,32 +73,32 @@ with Image.open(emptyFilepath) as empty:
 # FONTS
 # ===========================
 # thank you https://www.deviantart.com/icycatelf/art/Neo-Font-Guide-for-GIMP-Users-390305613
-pokemonNameFont = ImageFont.truetype("fonts/gill-cb.ttf", 25)
-pokemonNameEvolutionFont = ImageFont.truetype("fonts/gill-cb.ttf", 40)
-hpFont = ImageFont.truetype("fonts/Futura LT Condensed Bold.ttf", 18)
-evolvesFromFont = ImageFont.truetype("fonts/gill-rbi.TTF", 12)
-passiveNameFont = ImageFont.truetype("fonts/gill-cb.ttf", 20)
-passiveEffectFont = ImageFont.truetype("fonts/gill-rp.TTF", 16) # Not sure about this
-damageFont = ImageFont.truetype("fonts/gill-rp.TTF", 40) # Not sure about this
-attackNameEffectFont = ImageFont.truetype("fonts/gill-cb.ttf", 20)
-attackNameNoEffectFont = ImageFont.truetype("fonts/gill-cb.ttf", 20) # Only size will change
-attackEffectFont = ImageFont.truetype("fonts/gill-rp.TTF", 16)
-weaknessResistanceFont = ImageFont.truetype("fonts/gill-cb.ttf", 12)
-pokedexFont = ImageFont.truetype("fonts/gill-rbi.TTF", 10)
-
-trainerTitleFont = ImageFont.truetype("timesbd.ttf", 30)
-
-mediumAttackNameEffectFont = ImageFont.truetype("fonts/gill-cb.ttf", 18)
-mediumAttackNameNoEffectFont = ImageFont.truetype("fonts/gill-cb.ttf", 18)
-mediumAttackEffectFont = ImageFont.truetype("fonts/gill-rp.TTF", 16)
-mediumPassiveNameFont = ImageFont.truetype("fonts/gill-cb.ttf", 16)
-mediumPassiveEffectFont = ImageFont.truetype("fonts/gill-rp.TTF", 14)
-
-smallAttackNameEffectFont = ImageFont.truetype("fonts/gill-cb.ttf", 14)
-smallAttackNameNoEffectFont = ImageFont.truetype("fonts/gill-cb.ttf", 14)
-smallAttackEffectFont = ImageFont.truetype("fonts/gill-rp.TTF", 12)
-smallPassiveNameFont = ImageFont.truetype("fonts/gill-cb.ttf", 14)
-smallPassiveEffectFont = ImageFont.truetype("fonts/gill-rp.TTF", 12)
+# pokemonNameFont = ImageFont.truetype("fonts/gill-cb.ttf", 25)
+# pokemonNameEvolutionFont = ImageFont.truetype("fonts/gill-cb.ttf", 40)
+# hpFont = ImageFont.truetype("fonts/Futura LT Condensed Bold.ttf", 18)
+# evolvesFromFont = ImageFont.truetype("fonts/gill-rbi.TTF", 12)
+# passiveNameFont = ImageFont.truetype("fonts/gill-cb.ttf", 20)
+# passiveEffectFont = ImageFont.truetype("fonts/gill-rp.TTF", 16) # Not sure about this
+# damageFont = ImageFont.truetype("fonts/gill-rp.TTF", 40) # Not sure about this
+# attackNameEffectFont = ImageFont.truetype("fonts/gill-cb.ttf", 20)
+# attackNameNoEffectFont = ImageFont.truetype("fonts/gill-cb.ttf", 20) # Only size will change
+# attackEffectFont = ImageFont.truetype("fonts/gill-rp.TTF", 16)
+# weaknessResistanceFont = ImageFont.truetype("fonts/gill-cb.ttf", 12)
+# pokedexFont = ImageFont.truetype("fonts/gill-rbi.TTF", 10)
+# 
+# trainerTitleFont = ImageFont.truetype("timesbd.ttf", 30)
+# 
+# mediumAttackNameEffectFont = ImageFont.truetype("fonts/gill-cb.ttf", 18)
+# mediumAttackNameNoEffectFont = ImageFont.truetype("fonts/gill-cb.ttf", 18)
+# mediumAttackEffectFont = ImageFont.truetype("fonts/gill-rp.TTF", 16)
+# mediumPassiveNameFont = ImageFont.truetype("fonts/gill-cb.ttf", 16)
+# mediumPassiveEffectFont = ImageFont.truetype("fonts/gill-rp.TTF", 14)
+# 
+# smallAttackNameEffectFont = ImageFont.truetype("fonts/gill-cb.ttf", 14)
+# smallAttackNameNoEffectFont = ImageFont.truetype("fonts/gill-cb.ttf", 14)
+# smallAttackEffectFont = ImageFont.truetype("fonts/gill-rp.TTF", 12)
+# smallPassiveNameFont = ImageFont.truetype("fonts/gill-cb.ttf", 14)
+# smallPassiveEffectFont = ImageFont.truetype("fonts/gill-rp.TTF", 12)
 
 # ===========================
 # SIZES
@@ -515,38 +515,57 @@ def main():
   parser.add_argument("-a", "--all", help="Should cards all be refreshed? Defaults to false.", action="store_true")
 
   arguments = parser.parse_args()
+  if not os.path.exists(outputDirectory):
+    os.mkdir(outputDirectory)
+
   if arguments.all:
-    print("All parsed.")
-  # Regenerate card if:
-  #   all flag is true
-  #   generateCard.py is newer than output
-  #   cardModel is newer than output
-  #   cardArt is newer than output
+    print(f"Recreating all files.")
 
-  # if os.path.exists(outputDirectory):
-  #   shutil.rmtree(outputDirectory)
-  # os.mkdir(outputDirectory)
+  for _, _, premadeFilenames in os.walk(premadeDirectory):
+    for premadeFilename in premadeFilenames:
+      premadeFilepath = os.path.join(premadeDirectory, premadeFilename)
+      outputFilepath = os.path.join(outputDirectory, premadeFilename)
+      shouldCopy = False
+      if arguments.all:
+        shouldCopy = True
+      elif os.path.getmtime("./generateCard.py") > os.path.getmtime(outputFilepath):
+        print(f"Copying {premadeFilepath} to {outputDirectory} because generateCard.py is newer than {outputFilepath}.")
+        shouldCopy = True
 
-  # for _, _, premadeFilenames in os.walk(premadeDirectory):
-  #   for premadeFilename in premadeFilenames:
-  #     premadeFilepath = os.path.join(premadeDirectory, premadeFilename)
-  #     print("Copying " + premadeFilepath + " to outputs")
-  #     outputFilepath = os.path.join(outputDirectory, premadeFilename)
-  #     if os.path.getmtime(outputFilepath) < os.path.getmtime(premadeFilepath):
-  #       shutil.copy(premadeFilepath, outputDirectory)
+      if shouldCopy:
+        shutil.copy(premadeFilepath, outputDirectory)
 
-  # for _, subdirectories, _ in os.walk(cardModelsDirectory):
-  #   for subdirectory in subdirectories:
-  #     print("Generating cards in " + subdirectory + " subdirectory")
-  #     for _, _, pokemonFilenames in os.walk(os.path.join(cardModelsDirectory, subdirectory)):
-  #       for pokemonFilename in pokemonFilenames:
-  #         pokemonFilepath = os.path.join(cardModelsDirectory, subdirectory, pokemonFilename)
-  #         pokemonFile = open(pokemonFilepath)
-  #         pokemonData = json.load(pokemonFile)
-  #         try:
-  #           draw_card(subdirectory, pokemonData)
-  #         except:
-  #           print("Could not print " + pokemonFilepath + ", skipping")
+  for _, subdirectories, _ in os.walk(cardModelsDirectory):
+    for subdirectory in subdirectories:
+      print("Generating cards in " + subdirectory + " subdirectory")
+      for _, _, pokemonFilenames in os.walk(os.path.join(cardModelsDirectory, subdirectory)):
+        for pokemonFilename in pokemonFilenames:
+          pokemonFilepath = os.path.join(cardModelsDirectory, subdirectory, pokemonFilename)
+          pokemonFile = open(pokemonFilepath)
+          pokemonData = json.load(pokemonFile)
+          try:
+            shouldCreate = False
+            outputFilename = os.path.join(outputDirectory, f"{pokemonData['name']}.png")
+            cardArtFilename = os.path.join(outputDirectory, f"{pokemonData['image']}.png")
+            if arguments.all:
+              shouldCreate = True
+            elif not os.path.exists():
+              print(f"Creating new card {pokemonFilepath} at {outputFilename} because generateCard.py is newer than {outputFilename}.")
+              shouldCreate = True
+            elif os.path.getmtime("./generateCard.py") > os.path.getmtime(outputFilename):
+              print(f"Creating {pokemonFilepath} at {outputFilename} because generateCard.py is newer than {outputFilename}.")
+              shouldCreate = True
+            elif os.path.getmtime(cardArtFilename) > os.path.getmtime(outputFilename):
+              print(f"Creating {pokemonFilepath} at {outputFilename} because there is new card art.")
+              shouldCreate = True
+            elif os.path.getmtime(pokemonFilepath) > os.path.getmtime(outputFilename):
+              print(f"Creating {pokemonFilepath} at {outputFilename} because the model was updated/created.")
+              shouldCreate = True
+
+            if shouldCreate:
+              draw_card(subdirectory, pokemonData)
+          except:
+            print(f"Could not create {pokemonFilepath}, skipping")
 
 if __name__ == "__main__":
   main()
