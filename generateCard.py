@@ -85,15 +85,15 @@ with Image.open(emptyFilepath) as empty:
 # attackEffectFont = ImageFont.truetype("fonts/gill-rp.TTF", 16)
 # weaknessResistanceFont = ImageFont.truetype("fonts/gill-cb.ttf", 12)
 # pokedexFont = ImageFont.truetype("fonts/gill-rbi.TTF", 10)
-# 
+
 # trainerTitleFont = ImageFont.truetype("timesbd.ttf", 30)
-# 
+
 # mediumAttackNameEffectFont = ImageFont.truetype("fonts/gill-cb.ttf", 18)
 # mediumAttackNameNoEffectFont = ImageFont.truetype("fonts/gill-cb.ttf", 18)
 # mediumAttackEffectFont = ImageFont.truetype("fonts/gill-rp.TTF", 16)
 # mediumPassiveNameFont = ImageFont.truetype("fonts/gill-cb.ttf", 16)
 # mediumPassiveEffectFont = ImageFont.truetype("fonts/gill-rp.TTF", 14)
-# 
+
 # smallAttackNameEffectFont = ImageFont.truetype("fonts/gill-cb.ttf", 14)
 # smallAttackNameNoEffectFont = ImageFont.truetype("fonts/gill-cb.ttf", 14)
 # smallAttackEffectFont = ImageFont.truetype("fonts/gill-rp.TTF", 12)
@@ -478,13 +478,13 @@ def draw_card(cardType, cardData):
           newCard.paste(flying, (388, 33), flying)
 
         if "weakness" in cardData:
-          weakness = symbolsDict[cardData["weakness"]["type"].lower().strip()]
+          weakness = generate_symbol(cardData["weakness"]["type"].lower().strip())
           weaknessAmount = str(cardData["weakness"]["value"])
           newCard.paste(weakness, (60, 555), weakness)
           draw.text((87, 560), "+" + weaknessAmount, font=weaknessResistanceFont, fill=color)
 
         if "resistance" in cardData:
-          resistance = symbolsDict[cardData["resistance"]["type"].lower().strip()]
+          resistance = generate_symbol(cardData["resistance"]["type"].lower().strip())
           resistanceAmount = str(cardData["resistance"]["value"])
           newCard.paste(resistance, (215, 555), resistance)
           draw.text((242, 560), "-" + resistanceAmount, font=weaknessResistanceFont, fill=color)
