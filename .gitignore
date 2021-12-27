@@ -8,4 +8,7 @@ outputs/
 preEvolutionArt/
 premade/
 
+.DS_Store
+.DS_Store/
 .venv
+output.txt
