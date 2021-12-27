@@ -73,32 +73,32 @@ with Image.open(emptyFilepath) as empty:
 # FONTS
 # ===========================
 # thank you https://www.deviantart.com/icycatelf/art/Neo-Font-Guide-for-GIMP-Users-390305613
-# pokemonNameFont = ImageFont.truetype("fonts/gill-cb.ttf", 25)
-# pokemonNameEvolutionFont = ImageFont.truetype("fonts/gill-cb.ttf", 40)
-# hpFont = ImageFont.truetype("fonts/Futura LT Condensed Bold.ttf", 18)
-# evolvesFromFont = ImageFont.truetype("fonts/gill-rbi.TTF", 12)
-# passiveNameFont = ImageFont.truetype("fonts/gill-cb.ttf", 20)
-# passiveEffectFont = ImageFont.truetype("fonts/gill-rp.TTF", 16) # Not sure about this
-# damageFont = ImageFont.truetype("fonts/gill-rp.TTF", 40) # Not sure about this
-# attackNameEffectFont = ImageFont.truetype("fonts/gill-cb.ttf", 20)
-# attackNameNoEffectFont = ImageFont.truetype("fonts/gill-cb.ttf", 20) # Only size will change
-# attackEffectFont = ImageFont.truetype("fonts/gill-rp.TTF", 16)
-# weaknessResistanceFont = ImageFont.truetype("fonts/gill-cb.ttf", 12)
-# pokedexFont = ImageFont.truetype("fonts/gill-rbi.TTF", 10)
+pokemonNameFont = ImageFont.truetype("fonts/gill-cb.ttf", 25)
+pokemonNameEvolutionFont = ImageFont.truetype("fonts/gill-cb.ttf", 40)
+hpFont = ImageFont.truetype("fonts/Futura LT Condensed Bold.ttf", 18)
+evolvesFromFont = ImageFont.truetype("fonts/gill-rbi.TTF", 12)
+passiveNameFont = ImageFont.truetype("fonts/gill-cb.ttf", 20)
+passiveEffectFont = ImageFont.truetype("fonts/gill-rp.TTF", 16) # Not sure about this
+damageFont = ImageFont.truetype("fonts/gill-rp.TTF", 40) # Not sure about this
+attackNameEffectFont = ImageFont.truetype("fonts/gill-cb.ttf", 20)
+attackNameNoEffectFont = ImageFont.truetype("fonts/gill-cb.ttf", 20) # Only size will change
+attackEffectFont = ImageFont.truetype("fonts/gill-rp.TTF", 16)
+weaknessResistanceFont = ImageFont.truetype("fonts/gill-cb.ttf", 12)
+pokedexFont = ImageFont.truetype("fonts/gill-rbi.TTF", 10)
 
-# trainerTitleFont = ImageFont.truetype("timesbd.ttf", 30)
+trainerTitleFont = ImageFont.truetype("fonts/timesbd.ttf", 30) if os.path.exists("fonts/timesbd.ttf") else ImageFont.truetype("timesbd.ttf", 30)
 
-# mediumAttackNameEffectFont = ImageFont.truetype("fonts/gill-cb.ttf", 18)
-# mediumAttackNameNoEffectFont = ImageFont.truetype("fonts/gill-cb.ttf", 18)
-# mediumAttackEffectFont = ImageFont.truetype("fonts/gill-rp.TTF", 16)
-# mediumPassiveNameFont = ImageFont.truetype("fonts/gill-cb.ttf", 16)
-# mediumPassiveEffectFont = ImageFont.truetype("fonts/gill-rp.TTF", 14)
+mediumAttackNameEffectFont = ImageFont.truetype("fonts/gill-cb.ttf", 18)
+mediumAttackNameNoEffectFont = ImageFont.truetype("fonts/gill-cb.ttf", 18)
+mediumAttackEffectFont = ImageFont.truetype("fonts/gill-rp.TTF", 16)
+mediumPassiveNameFont = ImageFont.truetype("fonts/gill-cb.ttf", 16)
+mediumPassiveEffectFont = ImageFont.truetype("fonts/gill-rp.TTF", 14)
 
-# smallAttackNameEffectFont = ImageFont.truetype("fonts/gill-cb.ttf", 14)
-# smallAttackNameNoEffectFont = ImageFont.truetype("fonts/gill-cb.ttf", 14)
-# smallAttackEffectFont = ImageFont.truetype("fonts/gill-rp.TTF", 12)
-# smallPassiveNameFont = ImageFont.truetype("fonts/gill-cb.ttf", 14)
-# smallPassiveEffectFont = ImageFont.truetype("fonts/gill-rp.TTF", 12)
+smallAttackNameEffectFont = ImageFont.truetype("fonts/gill-cb.ttf", 14)
+smallAttackNameNoEffectFont = ImageFont.truetype("fonts/gill-cb.ttf", 14)
+smallAttackEffectFont = ImageFont.truetype("fonts/gill-rp.TTF", 12)
+smallPassiveNameFont = ImageFont.truetype("fonts/gill-cb.ttf", 14)
+smallPassiveEffectFont = ImageFont.truetype("fonts/gill-rp.TTF", 12)
 
 # ===========================
 # SIZES
@@ -238,14 +238,17 @@ def get_wrapped_text(text: str, font: ImageFont.ImageFont,
 def draw_passive_box(draw, passive, textBoxTop, textBoxBottom, color):
   prefix = passive["type"].title().strip() + ": "
 
-  if prefix == "Passive Ability: ": # No restrictions
+  if prefix == "Passive Ability: " or prefix == "Ability: ": # No restrictions
     passive_color = blue
-  elif prefix == "Unique Ability: ": # Unique to this pokemon
+    prefix = "Passive Ability: "
+  elif prefix == "Unique Ability: " or prefix == "Poke-Body: ": # Unique to this pokemon
     passive_color = green
-  elif prefix == "Active Ability: ": # Unique to this pokemon while Active
+    prefix = "Unique Ability: "
+  elif prefix == "Active Ability: " or prefix == "Poke-Power: ": # Unique to this pokemon while Active
     passive_color = red
+    prefix = "Active Ability: "
   else:
-    raise Exception(f"I don't know what a ${prefix} is")
+    raise Exception(f"I don't know what a {prefix} is")
 
   draw_title_and_description(
     draw,
@@ -377,7 +380,7 @@ def draw_boxes(card: Image.Image, draw: ImageDraw.ImageDraw, cardData, color):
   else:
     print("Currently up to 4 attacks or 3 attacks with 1 passive are supported.")
 
-def draw_card(cardType, cardData):
+def draw_card(cardType: str, cardData, filename: str):
   color = black
   if (cardType == "trainer"):
     trainerType = cardType + cardData["type"].strip()
@@ -495,16 +498,13 @@ def draw_card(cardType, cardData):
         draw.text((45, 590), "\n".join(description), font=pokedexFont, fill=color)
 
   print("\tGenerating " + cardData["name"] + " as " + cardData["stage"] + " " + cardType)
-  outputFilename = os.path.join(outputDirectory, cardData["name"])
+  outputFilename = os.path.join(outputDirectory, filename)
 
-  if os.path.exists(outputFilename + ".png"):
-    i = 1
-    while os.path.exists(outputFilename + str(i) + ".png"):
-      i += 1
-    outputFilename += str(i)
+  if os.path.exists(outputFilename):
+    print(f"WARNING: Overwriting {outputFilename}")
 
   print("\tSaving to " + outputFilename)
-  newCard.save(outputFilename + ".png", "png")
+  newCard.save(outputFilename, "png")
 
 # ===========================
 # MAIN
@@ -526,7 +526,7 @@ def main():
       premadeFilepath = os.path.join(premadeDirectory, premadeFilename)
       outputFilepath = os.path.join(outputDirectory, premadeFilename)
       shouldCopy = False
-      if arguments.all:
+      if arguments.all or not os.path.exists(outputFilepath):
         shouldCopy = True
       elif os.path.getmtime("./generateCard.py") > os.path.getmtime(outputFilepath):
         print(f"Copying {premadeFilepath} to {outputDirectory} because generateCard.py is newer than {outputFilepath}.")
@@ -545,26 +545,31 @@ def main():
           pokemonData = json.load(pokemonFile)
           try:
             shouldCreate = False
-            outputFilename = os.path.join(outputDirectory, f"{pokemonData['name']}.png")
-            cardArtFilename = os.path.join(outputDirectory, f"{pokemonData['image']}.png")
+            outputFilename = pokemonFilename.removesuffix(".json") + ".png"
+            outputFilepath = os.path.join(outputDirectory, outputFilename)
+            cardArtFilename = os.path.join(cardArtDirectory, f"{pokemonData['image']}.png")
             if arguments.all:
               shouldCreate = True
-            elif not os.path.exists():
-              print(f"Creating new card {pokemonFilepath} at {outputFilename} because generateCard.py is newer than {outputFilename}.")
+            # update outputFilename
+            elif not os.path.exists(outputFilepath):
+              print(f"Creating new card {pokemonFilepath} at {outputFilepath} because generateCard.py is newer than {outputFilename}.")
               shouldCreate = True
-            elif os.path.getmtime("./generateCard.py") > os.path.getmtime(outputFilename):
-              print(f"Creating {pokemonFilepath} at {outputFilename} because generateCard.py is newer than {outputFilename}.")
+            elif os.path.getmtime("./generateCard.py") > os.path.getmtime(outputFilepath):
+              print(f"Creating {pokemonFilepath} at {outputFilepath} because generateCard.py is newer than {outputFilename}.")
               shouldCreate = True
-            elif os.path.getmtime(cardArtFilename) > os.path.getmtime(outputFilename):
-              print(f"Creating {pokemonFilepath} at {outputFilename} because there is new card art.")
+            elif os.path.getmtime(cardArtFilename) > os.path.getmtime(outputFilepath):
+              print(f"Creating {pokemonFilepath} at {outputFilepath} because there is new card art.")
               shouldCreate = True
-            elif os.path.getmtime(pokemonFilepath) > os.path.getmtime(outputFilename):
-              print(f"Creating {pokemonFilepath} at {outputFilename} because the model was updated/created.")
+            elif os.path.getmtime(pokemonFilepath) > os.path.getmtime(outputFilepath):
+              print(f"Creating {pokemonFilepath} at {outputFilepath} because the model was updated/created.")
               shouldCreate = True
+            else:
+              print(f"Skipping {pokemonFilepath} due to collision with preexisting {outputFilepath}")
 
             if shouldCreate:
-              draw_card(subdirectory, pokemonData)
-          except:
+              draw_card(subdirectory, pokemonData, outputFilename)
+          except Exception as e:
+            print(e)
             print(f"Could not create {pokemonFilepath}, skipping")
 
 if __name__ == "__main__":
