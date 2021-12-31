@@ -1,0 +1,30 @@
+{
+    "name": "Mewtwo",
+    "hp": 70,
+    "stage": "basic",
+    "type": "psychic",
+    "image": "mewtwo",
+    "attacks": [
+        {
+            "name": "Energy Absorbtion",
+            "cost": "psychic",
+            "effect": "You may attach up to 2 Psychic Energy cards from your discard pile to Mewtwo."
+        },
+        {
+            "name": "Psychic",
+            "cost": "psychic psychic colorless",
+            "damage": "40"
+        }
+    ],
+    "weakness": {
+        "type": "ghost-dark",
+        "value": 10
+    },
+    "resistance": {
+        "type": "fighting-poison",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 1,
+    "flavor": "Scientists tried to genetically engineer Mew. They failed, and created this monster instead."
+}

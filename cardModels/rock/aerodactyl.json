@@ -8,7 +8,7 @@
     "image": "aerodactyl",
     "passive": {
         "name" : "Ancient Power",
-        "effect": "You may play Aerodactyl as a Basic Pokemon. If you do, place 4 damage counters on it. It has a retreat cost of 0.",
+        "effect": "You may play Aerodactyl from your hand as a Basic Pokemon. If you do, place 4 damage counters on it. It has a retreat cost of 0.",
         "type": "ability"
     },
     "attacks": [
@@ -16,6 +16,12 @@
             "name": "Rock Slide",
             "cost": "rock colorless",
             "damage": 30
+        },
+        {
+            "name": "Primal Jaw",
+            "cost": "rock rock",
+            "damage": 30,
+            "effect": "Your opponent cannot evolve the Defending Pokemon next turn."
         }
     ],
     "weakness": {

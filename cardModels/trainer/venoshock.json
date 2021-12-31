@@ -1,0 +1,13 @@
+{
+    "name": "TM 10 - Venoshock",
+    "type": "tm",
+    "image": "venoshock",
+    "attacks": [
+        {
+            "name": "Venoshock",
+            "cost": "poison colorless",
+            "damage": "30+",
+            "effect": "Damage done by Venoshock is Poison type. If the Defending Pokemon is affected by a Special Condition, this attack deals 50 more damage."
+        }
+    ]
+}

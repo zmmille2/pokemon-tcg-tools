@@ -1,0 +1,39 @@
+{
+    "name": "Whiscash",
+    "hp": 90,
+    "stage": "stage1",
+    "evolvesFrom": "Barboach",
+    "evolvesFromImage": "barboach",
+    "type": "ground",
+    "image": "whiscash",
+    "passive": {
+        "name": "Submerge",
+        "effect": "While Whiscash is on the Bench, it is immune to all effects of attacks.",
+        "type": "ability"
+    },
+    "attacks": [
+        {
+            "name": "Splash",
+            "cost": "water",
+            "damage": "20",
+            "effect": "Put a damage counter on 2 of your opponent's Benched Pokemon."
+        },
+        {
+            "name": "Earthquake",
+            "cost": "ground ground colorless colorless",
+            "damage": 70,
+            "effect": "Put 2 damage counters on all Benched Pokemon."
+        }
+    ],
+    "weakness": {
+        "type": "grass",
+        "value": 20
+    },
+    "resistance": {
+        "type": "lightning-fire",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 2,
+    "flavor": "These invasive predators can take over whole river systems."
+}

@@ -1,0 +1,36 @@
+{
+    "name": "Illumise",
+    "hp": 60,
+    "stage": "basic",
+    "type": "bug",
+    "image": "illumise",
+    "passive": {
+        "name": "Encouraging Gleam",
+        "effect": "If there is a Volbeat in play, Light Screen generates 3 tokens, and Illumise has 70 HP.",
+        "type": "passive"
+    },
+    "attacks": [
+        {
+            "name": "Light Screen",
+            "cost": "colorless",
+            "effect": "Create 2 Light Screen tokens. Reduce damage to your Active Pokemon by 10 if there are any Light Screen tokens. At the end of your turn, get rid of a Light Screen Token. You cannot use this attack if you have Light Screen Tokens."
+        },
+        {
+            "name": "Moonlight Dance",
+            "cost": "bug-lightning colorless",
+            "damage": 20,
+            "effect": "You may search your Discard Pile for an Energy card, reveal it, and put it into your hand."
+        }
+    ],
+    "weakness": {
+        "type": "fire",
+        "value": 10
+    },
+    "resistance": {
+        "type": "bug-ground",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "These bugs are beautiful in the night sky. They dance with Volbeat to make even midnight bright."
+}

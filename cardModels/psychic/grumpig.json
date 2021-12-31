@@ -1,0 +1,39 @@
+{
+    "name": "Grumpig",
+    "hp": 80,
+    "stage": "stage1",
+    "evolvesFrom": "Spoink",
+    "evolvesFromImage": "spoink",
+    "type": "psychic",
+    "image": "grumpig",
+    "passive": {
+        "name": "Heart of a Gamer",
+        "effect": "Grumpig has the Heart of a Gamer.",
+        "type": "ability"
+    },
+    "attacks": [
+        {
+            "name": "Psyshock",
+            "cost": "psychic",
+            "damage": 20,
+            "effect": "Flip a coin. If Heads, the Defending Pokemon is now Paralyzed."
+        },
+        {
+            "name": "Gamer Blast",
+            "cost": "psychic colorless colorless",
+            "damage": 40,
+            "effect": "If Grumpig and the Defending Pokemon have the same number of Energies attached to them, the Defending Pokemon is now Confused."
+        }
+    ],
+    "weakness": {
+        "type": "ghost-bug",
+        "value": 10
+    },
+    "resistance": {
+        "type": "fighting-psychic",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 2,
+    "flavor": "These grown hogs haven't forgotten their gamer roots."
+}

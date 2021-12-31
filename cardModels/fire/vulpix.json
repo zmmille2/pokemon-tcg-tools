@@ -1,0 +1,36 @@
+{
+    "name": "Vulpix",
+    "hp": 50,
+    "stage": "basic",
+    "type": "fire",
+    "image": "vulpix",
+    "passive": {
+        "name" : "Playful Fire",
+        "effect": "When you discard any Energies, you may attach a Fire Energy to any Pokemon.",
+        "type": "active ability"
+    },
+    "attacks": [
+        {
+            "name": "Singe",
+            "cost": "fire",
+            "effect": "Flip a coin. If heads, the Defending Pokemon is now Burned."
+        },
+        {
+            "name": "Ember",
+            "cost": "fire colorless",
+            "damage": 30,
+            "effect": "Flip a coin. If tails, discard a Fire Energy attached to Vulpix."
+        }
+    ],
+    "weakness": {
+        "type": "water-ground",
+        "value": 10
+    },
+    "resistance": {
+        "type": "bug-steel",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "If it is attacked by an enemy stronger than itself, it will feign injury to fool it and escape."
+}

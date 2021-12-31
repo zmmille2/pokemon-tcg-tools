@@ -1,0 +1,25 @@
+{
+    "name": "Weedle",
+    "hp": 40,
+    "stage": "basic",
+    "type": "bug",
+    "image": "weedle",
+    "attacks": [
+        {
+            "name": "Hunt",
+            "cost": "bug-poison",
+            "effect": "Search your deck for a Pokemon with the same type as an Energy attached to Weedle, reveal it, and put it into your hand."
+        }
+    ],
+    "weakness": {
+        "type": "rock-flying",
+        "value": 10
+    },
+    "resistance": {
+        "type": "fairy-bug",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "Their little hats have won them critical acclaim."
+}

@@ -1,0 +1,36 @@
+{
+    "name": "Dedenne",
+    "hp": 50,
+    "stage": "basic",
+    "type": "fairy",
+    "image": "dedenne",
+    "passive": {
+        "name": "Cheek Pouch",
+        "type": "ability",
+        "effect": "When Dedenne eats a Berry, in addition to its effects, remove 2 damage counters from Dedenne."
+    },
+    "attacks": [
+        {
+            "name": "Fairy Tail",
+            "cost": "fairy",
+            "damage": 20
+        },
+        {
+            "name": "Tiny Jolt",
+            "cost": "lightning colorless",
+            "damage": "10+",
+            "effect": "If you have any Electric Pokemon on your Bench, this attack does 20 more damage."
+        }
+    ],
+    "weakness": {
+        "type": "ground",
+        "value": 10
+    },
+    "resistance": {
+        "type": "lightning-metal",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "Happy to just eat berries, these Pokemon are sometimes kept by non-Trainers as pets."
+}

@@ -1,0 +1,30 @@
+{
+    "name": "Drowsee",
+    "hp": 50,
+    "stage": "basic",
+    "type": "psychic",
+    "image": "drowsee",
+    "attacks": [
+        {
+            "name": "Confuse Ray",
+            "cost": "psychic",
+            "effect": "The Defending Pokemon is now Confused."
+        },
+        {
+            "name": "Headbutt",
+            "cost": "colorless colorless",
+            "damage": 20
+        }
+    ],
+    "weakness": {
+        "type": "bug-dark",
+        "value": 10
+    },
+    "resistance": {
+        "type": "poison-psychic",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "Drowsee are creeps and if you raise one you're a sick freak. Just calling it like I see it!"
+}

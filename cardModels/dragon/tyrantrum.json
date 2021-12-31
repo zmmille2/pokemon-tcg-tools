@@ -1,0 +1,33 @@
+{
+    "name": "Tyrantrum",
+    "hp": 100,
+    "stage": "stage2",
+    "evolvesFrom": "Tyrunt",
+    "evolvesFromImage": "tyrunt",
+    "type": "dragon",
+    "image": "tyrantrum",
+    "passive": {
+        "name" : "Might of the Tyrant",
+        "effect": "This Pokemon's attacks ignore effects on the Defending Pokemon.",
+        "type": "active ability"
+    },
+    "attacks": [
+        {
+            "name": "Dragon Impact",
+            "cost": "rock-dragon rock-dragon colorless colorless",
+            "damage": 100,
+            "effect": "Tyrantrum cannot attack or retreat next turn."
+        }
+    ],
+    "weakness": {
+        "type": "ice-fairy",
+        "value": 20
+    },
+    "resistance": {
+        "type": "lightning",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "Tyrantrum are terrifying Pokemon. They overwhelm opponents with their massive jaws."
+}

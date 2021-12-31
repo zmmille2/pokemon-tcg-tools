@@ -1,0 +1,38 @@
+{
+    "name": "Ivysaur",
+    "hp": 80,
+    "stage": "stage1",
+    "evolvesFrom": "Bulbasaur",
+    "evolvesFromImage": "bulbasaur",
+    "type": "grass",
+    "image": "ivysaur1",
+    "passive": {
+        "name" : "Deep Roots",
+        "effect": "Whenever you attach a Grass Energy to a Pokemon, you may search your discard pile for a Grass Energy, reveal it, and put it into your hand.",
+        "type": "unique ability"
+    },
+    "attacks": [
+        {
+            "name": "Vine Whip",
+            "cost": "grass",
+            "damage": 30
+        },
+        {
+            "name": "Poison Powder",
+            "cost": "grass-poison grass-poison colorless",
+            "damage": 30,
+            "effect": "The Defending Pokemon is now Poisoned."
+        }
+    ],
+    "weakness": {
+        "type": "psychic-flying",
+        "value": 10
+    },
+    "resistance": {
+        "type": "steel-water",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 2,
+    "flavor": "These Pokemon are not only good for the forest, they are often the centers of them."
+}

@@ -1,0 +1,13 @@
+{
+    "name": "TM 05 - Infestation",
+    "type": "tm",
+    "image": "infestation",
+    "attacks": [
+        {
+            "name": "Infestation",
+            "cost": "bug",
+            "damage": "10x",
+            "effect": "Deal 10 damage times the number of Bug Pokemon on your Bench."
+        }
+    ]
+}

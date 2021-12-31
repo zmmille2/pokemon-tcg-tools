@@ -49,6 +49,9 @@ Make it more color agnostic
 Add Delphox
 More Fairy
 Adjust rarity
+Add Misty's Wrath
+Add Rocket's Zapdos
+Zoroark should get Brock's Ninetails' Shapeshift Ability
 
 Grass Self Love
 Fomantis
@@ -56,5 +59,9 @@ Fomantis
 More Eevee stuff
 Fomantis
 Errata Flourishing Energy only while Active
+
+## Adventure Mode
+
+Alternatively, we can play [Adventure Mode](adventure-mode.md)
 
 ## Updates

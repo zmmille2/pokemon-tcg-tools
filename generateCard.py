@@ -463,12 +463,14 @@ def draw_card(cardType: str, cardData, filename: str):
           weakness = symbolsDict[cardData["weakness"]["type"].lower().strip()]
           weaknessAmount = str(cardData["weakness"]["value"])
           newCard.paste(weakness, (85, 565), weakness)
+          # TODO: Split if two are listed
           draw.text((65, 570), "+" + weaknessAmount, font=weaknessResistanceFont, fill=color)
 
         if "resistance" in cardData:
           resistance = symbolsDict[cardData["resistance"]["type"].lower().strip()]
           resistanceAmount = str(cardData["resistance"]["value"])
           newCard.paste(resistance, (180, 565), resistance)
+          # TODO: Split if two are listed
           draw.text((160, 570), "-" + resistanceAmount, font=weaknessResistanceFont, fill=color)
 
         draw_retreat_symbols(newCard, cardData["retreat"], (134, 595))
@@ -484,12 +486,14 @@ def draw_card(cardType: str, cardData, filename: str):
           weakness = generate_symbol(cardData["weakness"]["type"].lower().strip())
           weaknessAmount = str(cardData["weakness"]["value"])
           newCard.paste(weakness, (60, 555), weakness)
+          # TODO: Split if two are listed
           draw.text((87, 560), "+" + weaknessAmount, font=weaknessResistanceFont, fill=color)
 
         if "resistance" in cardData:
           resistance = generate_symbol(cardData["resistance"]["type"].lower().strip())
           resistanceAmount = str(cardData["resistance"]["value"])
           newCard.paste(resistance, (215, 555), resistance)
+          # TODO: Split if two are listed
           draw.text((242, 560), "-" + resistanceAmount, font=weaknessResistanceFont, fill=color)
 
         draw_retreat_symbols(newCard, cardData["retreat"], (375, 555))

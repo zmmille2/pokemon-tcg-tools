@@ -1,0 +1,38 @@
+{
+    "name": "Hypno",
+    "hp": 80,
+    "stage": "stage1",
+    "evolvesFrom": "Drowsee",
+    "evolvesFromImage": "drowsee",
+    "type": "psychic",
+    "image": "hypno",
+    "passive": {
+        "name": "Pendulum Pull",
+        "effect": "When the Defending Pokemon is Knocked Out, flip a coin. If Heads, you decide which of your opponent's Benched Pokemon switches in.",
+        "type": "active ability"
+    },
+    "attacks": [
+        {
+            "name": "Slap",
+            "cost": "colorless",
+            "damage": "20"
+        },
+        {
+            "name": "Mind Numb",
+            "cost": "psychic colorless colorless",
+            "damage": "20+",
+            "effect": "This attack does 10 more damage for each card in your opponent's hand."
+        }
+    ],
+    "weakness": {
+        "type": "bug-dark",
+        "value": 10
+    },
+    "resistance": {
+        "type": "poison-psychic",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 1,
+    "flavor": "These Pokemon are known for kidnapping children. Somehow no one seems to have a problem with this."
+}

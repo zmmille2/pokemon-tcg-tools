@@ -1,0 +1,31 @@
+{
+    "name": "Pachirisu",
+    "hp": 50,
+    "stage": "basic",
+    "type": "electric",
+    "image": "pachirisu",
+    "attacks": [
+        {
+            "name": "Nuzzle",
+            "cost": "electric",
+            "effect": "Flip a coin. If Heads, the Defending Pokemon is now Paralyzed.",
+            "damage": 10
+        },
+        {
+            "name": "Super Fang",
+            "cost": "colorlesss colorless",
+            "effect": "Does damage equal to half the Defending Pokemon's remaining HP (rounded up to the nearest 10)."
+        }
+    ],
+    "weakness": {
+        "type": "ground",
+        "value": 10
+    },
+    "resistance": {
+        "type": "lightning-flying",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "This Pokemon is a champion! There's a great statue of it in Sejun Park."
+}
