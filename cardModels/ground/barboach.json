@@ -1,0 +1,31 @@
+{
+    "name": "Barboach",
+    "hp": 50,
+    "stage": "basic",
+    "type": "ground",
+    "image": "barboach",
+    "attacks": [
+        {
+            "name": "Bottom Feeder",
+            "cost": "ground-water",
+            "effect": "Draw a card from the bottom of your deck."
+        },
+        {
+            "name": "Mud Slap",
+            "cost": "ground-water",
+            "damage": 20,
+            "effect": "Put a damage counter on an opponent's Benched Pokemon."
+        }
+    ],
+    "weakness": {
+        "type": "grass",
+        "value": 20
+    },
+    "resistance": {
+        "type": "lightning-fire",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "These slippery fish aren't good for eating. Fishers will just throw them back into the water."
+}

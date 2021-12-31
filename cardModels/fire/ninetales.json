@@ -1,0 +1,37 @@
+{
+    "name": "Ninetales",
+    "hp": 80,
+    "stage": "stage1",
+    "evolvesFrom": "Vulpix",
+    "type": "fire",
+    "image": "ninetales",
+    "passive": {
+        "name" : "Quickfire",
+        "effect": "When your Pokemon retreats, if it has a Fire Energy attached, its retreat cost is 1 less.",
+        "type": "passive ability"
+    },
+    "attacks": [
+        {
+            "name": "Flare Up",
+            "cost": "fire",
+            "effect": "You may attach up to 2 Fire Energies from your discard pile to Ninetales."
+        },
+        {
+            "name": "Overheat",
+            "cost": "fire fire colorless",
+            "damage": "70",
+            "effect": "Discard all Fire Energy attached to Ninetales."
+        }
+    ],
+    "weakness": {
+        "type": "water-rock",
+        "value": 10
+    },
+    "resistance": {
+        "type": "grass-fairy",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 2,
+    "flavor": "Ninetales are wicked foxes known for their agility and trickery."
+}

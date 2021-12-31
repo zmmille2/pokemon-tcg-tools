@@ -1,0 +1,37 @@
+{
+    "name": "Groudon",
+    "hp": 80,
+    "stage": "basic",
+    "type": "ground",
+    "image": "groudon",
+    "passive": {
+        "name": "Tectonic Shift",
+        "effect": "Whenever you deal damage to Benched Pokemon, deal 10 extra damage.",
+        "type": "unique ability"
+    },
+    "attacks": [
+        {
+            "name": "Rumble",
+            "cost": "ground colorless",
+            "effect": "Deal 10 damage to all Benched Pokemon."
+        },
+        {
+            "name": "Massive Eruption",
+            "cost": "ground-fire ground-fire ground-fire ground-fire",
+            "damage": 80,
+            "effect": "Deal 20 damage to all Benched Pokemon."
+        }
+    ],
+    "weakness": {
+        "type": "grass",
+        "value": 20
+    },
+    "resistance": {
+        "type": "lightning-water",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 1,
+    "flavor": "This legendary beast helped create the Earth. It has slept deep in its core ever since."
+}
+

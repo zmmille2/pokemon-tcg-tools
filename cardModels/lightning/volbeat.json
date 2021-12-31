@@ -1,0 +1,36 @@
+{
+    "name": "Volbeat",
+    "hp": 40,
+    "stage": "basic",
+    "type": "lightning",
+    "image": "volbeat",
+    "passive": {
+        "name": "Uplifting Glow",
+        "effect": "If there is an Illumise in play, Volbeat's Retreat Cost is 0.",
+        "type": "ability"
+    },
+    "attacks": [
+        {
+            "name": "Tail Glow",
+            "cost": "bug-lightning",
+            "effect": "Draw a card. Signal Beam's base damage next turn is 60."
+        },
+        {
+            "name": "Signal Beam",
+            "cost": "bug-lightning colorless colorless",
+            "damage": 30,
+            "effect": "The Defending Pokemon is now Confused."
+        }
+    ],
+    "weakness": {
+        "type": "flying",
+        "value": 10
+    },
+    "resistance": {
+        "type": "bug-ground",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "These bugs are beautiful in the night sky. They dance with Illumise to make even midnight bright."
+}

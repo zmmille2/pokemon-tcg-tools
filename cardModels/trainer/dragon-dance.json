@@ -1,0 +1,12 @@
+{
+    "name": "TM 09 - Dragon Dance",
+    "type": "tm",
+    "image": "dragon-dance",
+    "attacks": [
+        {
+            "name": "Dragon Dance",
+            "cost": "dragon dragon colorless",
+            "effect": "As long as this remains your Active Pokemon, its attacks that deal damage deal 30 more damage and have the added effect \"Discard the top 3 cards of your deck.\". You cannot add more than 30 damage this way. Benching this Pokemon ends this effect."
+        }
+    ]
+}

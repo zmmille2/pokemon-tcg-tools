@@ -1,0 +1,44 @@
+{
+    "name": "Tyrunt",
+    "hp": 80,
+    "stage": "stage1",
+    "evolvesFrom": "Mysterious Fossil",
+    "evolvesFromImage": "mysterious-fossil",
+    "type": "dragon",
+    "image": "tyrunt",
+    "passive": {
+        "name" : "Ancient Power",
+        "effect": "You may play Tyrunt from your hand as a Basic Pokemon. If you do, place 4 damage counters on it.",
+        "type": "ability"
+    },
+    "attacks": [
+        {
+            "name": "Rock Crunch",
+            "cost": "rock colorless",
+            "damage": 20
+        },
+        {
+            "name": "Dragon Rage",
+            "cost": "dragon colorless",
+            "damage": 30,
+            "effect": "Ignore weakness and resistance for this attack."
+        },
+        {
+            "name": "Temper Tantrum",
+            "cost": "rock-dragon colorless colorless",
+            "damage": 50,
+            "effect": "If Tyrunt has 4 or fewer damage counters on it, this attack does nothing."
+        }
+    ],
+    "weakness": {
+        "type": "ice-fairy",
+        "value": 20
+    },
+    "resistance": {
+        "type": "lightning",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "These dragons eventually evolved into many of the dragon Pokemon we know today."
+}

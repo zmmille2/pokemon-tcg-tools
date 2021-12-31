@@ -1,0 +1,31 @@
+{
+    "name": "Seviper",
+    "hp": 60,
+    "stage": "basic",
+    "type": "poison",
+    "image": "seviper",
+    "attacks": [
+        {
+            "name": "Poison Spray",
+            "cost": "poison",
+            "effect": "The Defending Pokemon is now Poisoned."
+        },
+        { 
+            "name": "Sink In",
+            "cost": "poison colorless",
+            "effect": "If the Defending Pokemon is Poisoned, this attack deals 20 more damage.",
+            "damage": "20+"
+        }
+    ],
+    "weakness": {
+        "type": "ground-psychic",
+        "value": 10
+    },
+    "resistance": { 
+        "type": "steel-fairy",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "These Pokemon can deal with much larger threats, or smaller prey."
+}

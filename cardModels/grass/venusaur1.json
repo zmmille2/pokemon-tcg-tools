@@ -1,0 +1,38 @@
+{
+    "name": "Venusaur",
+    "hp": 100,
+    "stage": "stage2",
+    "evolvesFrom": "Ivysaur",
+    "evolvesFromImage": "ivysaur",
+    "type": "grass",
+    "image": "venusaur",
+    "passive": {
+        "name" : "Sunny Rainforest",
+        "effect": "Your Grass Energies also provide Fire and Water Energy.",
+        "type": "ability"
+    },
+    "attacks": [
+        {
+            "name": "Jungle Storm",
+            "cost": "grass water colorless",
+            "damage": 30,
+            "effect": "You may move 1 damage counter from a Grass Pokemon on your Bench to a non-Grass Pokemon on the opponent's bench."
+        },
+        {
+            "name": "Solar Beam",
+            "cost": "grass fire colorless colorless",
+            "damage": 60
+        }
+    ],
+    "weakness": {
+        "type": "psychic-flying",
+        "value": 10
+    },
+    "resistance": {
+        "type": "fighting-grass",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 1,
+    "flavor": "These big freaks command life in the jungle. Other Pokemon can be seen giving them tribute."
+}

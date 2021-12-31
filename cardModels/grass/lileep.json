@@ -1,0 +1,38 @@
+{
+    "name": "Lileep",
+    "hp": 70,
+    "stage": "stage1",
+    "evolvesFrom": "Mysterious Fossil",
+    "evolvesFromImage": "mysterious-fossil",
+    "type": "grass",
+    "image": "lileep",
+    "passive": {
+        "name" : "Ancient Power",
+        "effect": "You may play Lileep from your hand as a Basic Pokemon. If you do, place 4 damage counters on it.",
+        "type": "ability"
+    },
+    "attacks": [
+        {
+            "name": "Spontaneous Growth",
+            "cost": "colorless",
+            "effect": "Search your deck for up to 2 Pokemon that evolve from Mysterious Fossil. Put them on the Bench (Ancient Power does not activate). Shuffle your deck."
+        },
+        {
+            "name": "Leech Seed",
+            "cost": "grass colorless",
+            "damage": 20,
+            "effect": "Lileep heals for half the amount of damage dealt, rounding down."
+        }
+    ],
+    "weakness": {
+        "type": "ice",
+        "value": 20
+    },
+    "resistance": {
+        "type": "lightning",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "These ancient plants went extinct because of a Minior impact."
+}

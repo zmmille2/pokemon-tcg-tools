@@ -1,0 +1,36 @@
+{
+    "name": "Farfetch'd",
+    "hp": 60,
+    "stage": "basic",
+    "type": "flying",
+    "image": "farfetchd",
+    "passive": {
+        "name": "Improvised Warrior",
+        "effect": "TMs equipped to Farfetch'd that deal damage deal 10 more damage.",
+        "type": "passive"
+    },
+    "attacks": [
+        {
+            "name": "Whirlwind",
+            "cost": "colorless",
+            "effect": "Your opponent switches the Defending Pokemon with one of their Benched Pokemon."
+        },
+        {
+            "name": "Tool Smash",
+            "cost": "flying colorless",
+            "damage": "20+",
+            "effect": "If Farfetch'd has a Tool attached to it (other than a berry), this attack does 20 more damage."
+        }
+    ],
+    "weakness": {
+        "type": "rock-ice",
+        "value": 10
+    },
+    "resistance": {
+        "type": "fighting-ground",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 2,
+    "flavor": "These Pokemon improvise weapons constantly. One time at Christmas one hit me with a tube of cardboard."
+}

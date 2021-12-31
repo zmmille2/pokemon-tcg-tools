@@ -1,0 +1,13 @@
+{
+    "name": "TM 07 - Earthquake",
+    "type": "tm",
+    "image": "earthquake",
+    "attacks": [
+        {
+            "name": "Earthquake",
+            "cost": "ground ground colorless colorless",
+            "damage": 60,
+            "effect": "Damage done by Earthquake is Ground type. Deal 20 damage to all Benched Pokemon."
+        }
+    ]
+}

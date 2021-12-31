@@ -1,0 +1,12 @@
+{
+    "name": "TM 08 - Roost",
+    "type": "tm",
+    "image": "roost",
+    "attacks": [
+        {
+            "name": "Roost",
+            "cost": "flying colorless",
+            "effect": "Remove 4 damage counters from this Pokemon. It cannot retreat during your next turn."
+        }
+    ]
+}

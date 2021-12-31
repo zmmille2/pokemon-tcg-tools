@@ -1,0 +1,36 @@
+{
+    "name": "Kyogre",
+    "hp": 80,
+    "stage": "basic",
+    "type": "water",
+    "image": "kyogre",
+    "passive": {
+        "name": "Tidal Flood",
+        "effect": "Whenever you deal damage to Benched Pokemon, you may apply the lowest amount of damage done (up to 30) to one more Benched Pokemon.",
+        "type": "unique ability"
+    },
+    "attacks": [
+        {
+            "name": "Crashing Wave",
+            "cost": "water colorless",
+            "effect": "Deal 20 damage to a Benched Pokemon."
+        },
+        {
+            "name": "Great Tsunami",
+            "cost": "water water water colorless",
+            "damage": 80,
+            "effect": "Deal 30 damage to a Benched Pokemon."
+        }
+    ],
+    "weakness": {
+        "type": "lightning",
+        "value": 20
+    },
+    "resistance": {
+        "type": "ground-metal",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 1,
+    "flavor": "This legendary beast helped create the Earth. It has slept deep in its core ever since."
+}

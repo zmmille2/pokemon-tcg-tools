@@ -1,0 +1,13 @@
+{
+    "name": "TM 03 - Fire Spin",
+    "type": "tm",
+    "image": "fire-spin",
+    "attacks": [
+        {
+            "name": "Fire Spin",
+            "cost": "fire colorless",
+            "damage": 30,
+            "effect": "Discard a Fire Energy attached to this Pokemon. The Defending Pokemon cannot retreat. Damage done by Fire Spin is Fire type."
+        }
+    ]
+}

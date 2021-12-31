@@ -1,0 +1,38 @@
+{
+    "name": "Cradily",
+    "hp": 100,
+    "stage": "stage2",
+    "evolvesFrom": "Lileep",
+    "evolvesFromImage": "lileep",
+    "type": "grass",
+    "image": "cradily",
+    "passive": {
+        "name" : "Swaying Strangle",
+        "effect": "If the Defending Pokemon is affected by a Special Condition, it cannot retreat.",
+        "type": "active ability"
+    },
+    "attacks": [
+        {
+            "name": "Evolutionary Call",
+            "cost": "grass",
+            "effect": "Search your deck for a Pokemon, reveal it, and put it into your hand. Shuffle your deck."
+        },
+        {
+            "name": "Harsh Acid",
+            "cost": "grass colorless",
+            "damage": 30,
+            "effect": "Flip a coin. If Heads, the Defending Pokemon is now Poisoned. If Tails, the Defending Pokemon is now Burned."
+        }
+    ],
+    "weakness": {
+        "type": "ice",
+        "value": 20
+    },
+    "resistance": {
+        "type": "lightning",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 1,
+    "flavor": "These Pokemon hunted ferociously in their time. It was an ice age that finally killed them, but foolish scientists reintroduced them in the 90s."
+}

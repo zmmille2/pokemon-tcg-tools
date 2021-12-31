@@ -1,0 +1,13 @@
+{
+    "name": "TM 04 - Mega Punch",
+    "type": "tm",
+    "image": "mega-punch",
+    "attacks": [
+        {
+            "name": "Mega Punch",
+            "cost": "fighting",
+            "damage": 30,
+            "effect": "Put 1 damage counter on this Pokemon."
+        }
+    ]
+}

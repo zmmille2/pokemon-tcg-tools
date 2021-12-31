@@ -1,0 +1,32 @@
+{
+    "name": "Kakuna",
+    "hp": 60,
+    "stage": "stage1",
+    "evolvesFrom": "Weedle",
+    "evolvesFromImage": "weedle",
+    "type": "bug",
+    "image": "kakuna",
+    "passive": {
+        "name": "Poisonous Payback",
+        "effect": "Whenever Kakuna takes damage, the Defending Pokemon is now Poisoned.",
+        "type": "active ability"
+    },
+    "attacks": [
+        {
+            "name": "Metamorphosis",
+            "cost": "bug colorless",
+            "effect": "Search your deck for an Evolution card, reveal it, and put it into your hand. Shuffle your deck."
+        }
+    ],
+    "weakness": {
+        "type": "fire-flying",
+        "value": 10
+    },
+    "resistance": {
+        "type": "bug-poison",
+        "value": 10
+    },
+    "retreat": 2,
+    "rarity": 2,
+    "flavor": "Their bodies undergo tremendous change. They lose their hat."
+}
