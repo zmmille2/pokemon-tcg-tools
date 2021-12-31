@@ -3,7 +3,6 @@
     "hp": 80,
     "stage": "stage1",
     "evolvesFrom": "Scyther",
-    "evolvesFromImage": "scyther",
     "type": "bug",
     "image": "kleavor",
     "passive": {

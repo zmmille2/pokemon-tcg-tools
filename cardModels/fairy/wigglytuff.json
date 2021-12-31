@@ -3,7 +3,6 @@
     "hp": 90,
     "stage": "stage1",
     "evolvesFrom": "Jigglypuff",
-    "evolvesFromImage": "jigglypuff",
     "type": "fairy",
     "image": "wigglytuff",
     "attacks": [

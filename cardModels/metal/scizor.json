@@ -1,0 +1,31 @@
+{
+    "name": "Scizor",
+    "hp": 70,
+    "stage": "basic",
+    "type": "fire",
+    "image": "entei",
+    "attacks": [
+        {
+            "name": "Ember",
+            "cost": "fire",
+            "damage": 20
+        },
+        {
+            "name": "Messy Escape",
+            "cost": "fire fire colorless",
+            "damage": 60,
+            "effect": "After dealing damage, if you have any Benched Pokemon, shuffle Entei and all cards attached to it into your deck."
+        }
+    ],
+    "weakness": {
+        "type": "water",
+        "value": 20
+    },
+    "resistance": {
+        "type": "grass",
+        "value": 10
+    },
+    "retreat": 0,
+    "rarity": 1,
+    "flavor": "This is one hot dog!"
+}

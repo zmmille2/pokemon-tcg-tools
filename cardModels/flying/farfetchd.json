@@ -7,7 +7,7 @@
     "passive": {
         "name": "Improvised Warrior",
         "effect": "TMs equipped to Farfetch'd that deal damage deal 10 more damage.",
-        "type": "passive"
+        "type": "passive ability"
     },
     "attacks": [
         {

@@ -3,7 +3,6 @@
     "hp": 110,
     "stage": "stage2",
     "evolvesFrom": "Nidorina",
-    "evolvesFromImage": "nidorina",
     "type": "fairy",
     "image": "nidoqueen1",
     "passive": {

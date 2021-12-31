@@ -3,7 +3,6 @@
     "hp": 100,
     "stage": "stage2",
     "evolvesFrom": "Sealeo",
-    "evolvesFromImage": "sealeo",
     "type": "ice",
     "image": "walrein",
     "passive": {

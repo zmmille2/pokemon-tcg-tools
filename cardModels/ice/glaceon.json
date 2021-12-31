@@ -3,7 +3,6 @@
     "hp": 80,
     "stage": "stage1",
     "evolvesFrom": "Eevee",
-    "evolvesFromImage": "eevee",
     "type": "ice",
     "image": "glaceon",
     "passive": {
@@ -16,7 +15,7 @@
             "name": "Chilling Out",
             "cost": "ice colorless",
             "damage": 30,
-            "effect": "You may generate up to 3 Ice energy and attach them to your opponent's Pokemon in any way you like."
+            "effect": "You may generate up to 3 Ice Energy and attach them to your opponent's Pokemon in any way you like."
         }
     ],
     "weakness": {

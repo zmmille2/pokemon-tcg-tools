@@ -3,7 +3,6 @@
     "hp": 80,
     "stage": "stage1",
     "evolvesFrom": "Spheal",
-    "evolvesFromImage": "spheal",
     "type": "ice",
     "image": "sealeo",
     "attacks": [

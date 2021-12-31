@@ -3,7 +3,6 @@
     "hp": 80,
     "stage": "stage1",
     "evolvesFrom": "Magnemite",
-    "evolvesFromImage": "magnemite",
     "type": "metal",
     "image": "magneton",
     "passive": {
@@ -21,7 +20,7 @@
             "name": "Magnet Pulse",
             "cost": "metal colorless",
             "damage": 30,
-            "effect": "If Magneton has a Lightning energy attached, this attach does 10 more damage."
+            "effect": "If Magneton has a Lightning Energy attached, this attach does 10 more damage."
         }
     ],
     "weakness": {

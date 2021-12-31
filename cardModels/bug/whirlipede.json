@@ -3,7 +3,6 @@
     "hp": 60,
     "stage": "stage1",
     "evolvesFrom": "Venipede",
-    "evolvesFromImage": "venipede",
     "type": "bug",
     "image": "whirlipede",
     "attacks": [
@@ -20,13 +19,13 @@
         },
         {
             "name": "Venom Spit",
-            "cost": "bug poison colorless",
+            "cost": "bug-poison colorless",
             "damage": "20",
             "effect": "The Defending Pokemon is now Poisoned."
         }
     ],
     "weakness": {
-        "type": "flying",
+        "type": "flying-psychic",
         "value": 10
     },
     "resistance": {

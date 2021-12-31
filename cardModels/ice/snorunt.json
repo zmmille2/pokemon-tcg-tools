@@ -6,7 +6,7 @@
     "image": "snorunt",
     "passive": {
         "name": "Sticking Snow",
-        "effect": "If an opponent's Pokemon is not Ice-type, it pays 1 more to retreat for each Ice energy attached to it.",
+        "effect": "If an opponent's Pokemon is not Ice-type, it pays 1 more to retreat for each Ice Energy attached to it.",
         "type": "poke-body"
     },
     "attacks": [

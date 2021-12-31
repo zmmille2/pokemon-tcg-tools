@@ -3,7 +3,6 @@
     "hp": 110,
     "stage": "stage2",
     "evolvesFrom": "Nidorino",
-    "evolvesFromImage": "nidorino",
     "type": "poison",
     "image": "nidoking",
     "attacks": [

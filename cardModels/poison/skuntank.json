@@ -3,7 +3,6 @@
     "hp": 80,
     "stage": "stage1",
     "evolvesFrom": "Stunky",
-    "evolvesFromImage": "stunky",
     "type": "poison",
     "image": "skuntank",
     "passive": {

@@ -3,7 +3,6 @@
     "hp": 110,
     "stage": "stage2",
     "evolvesFrom": "Vibrava",
-    "evolvesFromImage": "vibrava",
     "type": "dragon",
     "image": "flygon",
     "passive": {
@@ -21,7 +20,7 @@
             "name": "Evolutionary Quake",
             "cost": "ground ground colorless colorless",
             "damage": "30+",
-            "effect": "Deal 20 more damage for each Evolved Pokemon on your bench."
+            "effect": "Deal 20 more damage for each Evolved Pokemon on your bench. Deal 10 damage to all Benched Basic Pokemon."
         }
     ],
     "weakness": {

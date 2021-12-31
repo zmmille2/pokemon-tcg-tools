@@ -3,7 +3,6 @@
     "hp": 110,
     "stage": "stage1",
     "evolvesFrom": "Nosepass",
-    "evolvesFromImage": "nosepass",
     "type": "metal",
     "image": "probopass",
     "attacks": [
@@ -16,7 +15,7 @@
             "name": "Magnet Bomb",
             "cost": "metal-lightning colorless",
             "damage": 40,
-            "effect": "If the opposing Active Pokemon retreats next turn, discard an energy you choose from that Pokemon."
+            "effect": "If the opposing Active Pokemon retreats next turn, discard an Energy you choose from that Pokemon."
         }
     ],
     "weakness": {

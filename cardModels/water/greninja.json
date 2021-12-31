@@ -3,7 +3,6 @@
     "hp": 80,
     "stage": "stage2",
     "evolvesFrom": "Frogadier",
-    "evolvesFromImage": "frogadier",
     "type": "water",
     "image": "greninja",
     "passive": {

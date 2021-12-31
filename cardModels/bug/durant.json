@@ -16,6 +16,10 @@
         "type": "fire",
         "value": 20
     },
+    "resistance": {
+        "type": "fairy",
+        "value": 10
+    },
     "retreat": 2,
     "rarity": 2,
     "flavor": "Durant caused a major bridge collapse and killed many people. Strict border controls keep these pests out of cities."

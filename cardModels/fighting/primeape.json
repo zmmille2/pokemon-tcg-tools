@@ -3,7 +3,6 @@
     "hp": 70,
     "stage": "stage1",
     "evolvesFrom": "Mankey",
-    "evolvesFromImage": "mankey",
     "type": "fighting",
     "image": "primeape",
     "attacks": [
@@ -15,9 +14,9 @@
         },
         {
             "name": "Fury Swipes",
-            "cost": "fighting colorless",
-            "damage": "20x",
-            "effect": "Deal 20 damage to the Defending Pokemon twice. Apply effects, weakness, and resistance as if this were two attacks."
+            "cost": "fighting colorless colorless",
+            "damage": "30x",
+            "effect": "Deal 30 damage to the Defending Pokemon twice. Apply effects, weakness, and resistance as if this were two attacks."
         }
     ],
     "weakness": {

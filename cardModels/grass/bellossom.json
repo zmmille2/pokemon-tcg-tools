@@ -3,7 +3,6 @@
     "hp": 90,
     "stage": "stage2",
     "evolvesFrom": "Gloom",
-    "evolvesFromImage": "gloom",
     "type": "grass",
     "image": "bellossom",
     "passive": {
@@ -13,7 +12,7 @@
     },
     "attacks": [
         {
-            "name": "Full Bloom",
+            "name": "Petal Dance",
             "cost": "grass colorless colorless",
             "damage": "30+",
             "effect": "Deal 20 more damage for each Bellossom in play (including this one)."

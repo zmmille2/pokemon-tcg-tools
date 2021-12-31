@@ -3,14 +3,13 @@
     "hp": 80,
     "stage": "stage1",
     "evolvesFrom": "Meditite",
-    "evolvesFromImage": "meditite",
     "type": "fighting",
     "image": "medicham",
     "attacks": [
         {
             "name": "Focus Punch",
             "cost": "fighting colorless",
-            "effect": "Draw a card for each energy attached to Medicham. If Medicham takes no damage next turn, deal 40 damage to the Defending Pokemon."
+            "effect": "Draw a card for each Energy attached to Medicham. If Medicham takes no damage next turn, deal 40 damage to the Defending Pokemon."
         },
         {
             "name": "High Jump Kick",

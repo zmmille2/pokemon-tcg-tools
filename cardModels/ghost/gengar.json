@@ -3,7 +3,6 @@
     "hp": 100,
     "stage": "stage2",
     "evolvesFrom": "Haunter",
-    "evolvesFromImage": "haunter",
     "type": "ghost",
     "image": "gengar",
     "passive": {

@@ -5,7 +5,6 @@
     "type": "ghost",
     "image": "doublade",
     "evolvesFrom": "Honedge",
-    "evolvesFromImage": "honedge",
     "attacks": [
         {
             "name": "Double Slice",

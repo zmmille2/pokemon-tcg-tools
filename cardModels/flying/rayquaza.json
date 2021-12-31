@@ -1,6 +1,6 @@
 {
     "name": "Rayquaza",
-    "hp": 100,
+    "hp": 80,
     "stage": "basic",
     "type": "flying",
     "image": "rayquaza",

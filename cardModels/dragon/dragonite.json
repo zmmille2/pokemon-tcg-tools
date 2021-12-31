@@ -3,7 +3,6 @@
     "hp": 120,
     "stage": "stage2",
     "evolvesFrom": "Dragonair",
-    "evolvesFromImage": "dragonair",
     "type": "dragon",
     "image": "dragonite",
     "passive": {
@@ -16,7 +15,7 @@
             "name": "Rainbow Flurry",
             "cost": "dragon",
             "damage": "20x",
-            "effect": "Discard as many energies as you like attached to Dragonite. For each different type of energy discarded, this attack does 20 damage."
+            "effect": "Discard as many energies as you like attached to Dragonite. For each different type of Energy discarded, this attack does 20 damage."
         },
         {
             "name": "Dragon Claw",

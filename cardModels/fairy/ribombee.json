@@ -3,18 +3,17 @@
     "hp": 60,
     "stage": "stage1",
     "evolvesFrom": "Cutiefly",
-    "evolvesFromImage": "cutiefly",
     "type": "fairy",
     "image": "ribombee",
     "passive": {
         "name" : "Healing Pollen",
         "effect": "Once per turn, you may heal 20 damage from 1 of your Pokemon.",
-        "type": "poke-power"
+        "type": "active ability"
     },
     "attacks": [
         {
             "name": "Fairy Wind",
-            "cost": "fairy",
+            "cost": "fairy-bug",
             "damage": 30,
             "effect": "Switch Ribombee with a Benched Pokemon."
         }

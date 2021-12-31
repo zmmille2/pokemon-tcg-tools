@@ -3,7 +3,6 @@
     "hp": 70,
     "stage": "stage1",
     "evolvesFrom": "Rockruff",
-    "evolvesFromImage": "rockruff",
     "type": "fighting",
     "image": "lycanroc-dusk",
     "passive": {

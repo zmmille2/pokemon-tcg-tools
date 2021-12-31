@@ -3,12 +3,11 @@
     "hp": 80,
     "stage": "stage1",
     "evolvesFrom": "Natu",
-    "evolvesFromImage": "natu",
     "type": "psychic",
     "image": "xatu",
     "passive": {
-        "name" : "Time Seer",
-        "effect": "Play with your deck and Prize Cards face-up.",
+        "name" : "Seer",
+        "effect": "Reveal your Prize Cards.",
         "type": "poke-power"
     },
     "attacks": [
@@ -16,6 +15,12 @@
             "name": "Future Sight",
             "cost": "psychic colorless",
             "effect": "Take the top 3 cards of your opponent's deck, put a Future Sight card on their deck (which deals 50 damage when drawn), rearrange the 3 cards as you like and return them to the top of their deck."
+        },
+        {
+            "name": "Synchronize",
+            "cost": "psychic colorless colorless",
+            "damage": "10x",
+            "effect": "Deal 10 damage times the number of Damage Counters on the Defending Pokemon."
         }
     ],
     "weakness": {

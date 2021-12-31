@@ -3,7 +3,6 @@
     "hp": 140,
     "stage": "stage2",
     "evolvesFrom": "Piloswine",
-    "evolvesFromImage": "piloswine",
     "type": "ground",
     "image": "Mamoswine",
     "attacks": [

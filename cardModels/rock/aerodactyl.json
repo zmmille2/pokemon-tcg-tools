@@ -3,7 +3,6 @@
     "hp": 90,
     "stage": "stage1",
     "evolvesFrom": "Mysterious Fossil",
-    "evolvesFromImage": "mysterious-fossil",
     "type": "rock",
     "image": "aerodactyl",
     "passive": {

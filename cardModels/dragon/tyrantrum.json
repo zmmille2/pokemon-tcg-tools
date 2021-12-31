@@ -3,7 +3,6 @@
     "hp": 100,
     "stage": "stage2",
     "evolvesFrom": "Tyrunt",
-    "evolvesFromImage": "tyrunt",
     "type": "dragon",
     "image": "tyrantrum",
     "passive": {

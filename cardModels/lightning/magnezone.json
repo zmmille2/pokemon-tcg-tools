@@ -3,12 +3,11 @@
     "hp": 90,
     "stage": "stage2",
     "evolvesFrom": "Magneton",
-    "evolvesFromImage": "magneton",
     "type": "lightning",
     "image": "magnezone",
     "passive": {
         "name" : "Super Connectivity",
-        "effect": "As often as you like during your turn, you may a Lightning or Metal energy from one of your Pokemon to another of your Pokemon.",
+        "effect": "You may move a Lightning or Metal Energy from one of your Pokemon to another of your Pokemon up to three times a turn.",
         "type": "ability"
     },
     "attacks": [

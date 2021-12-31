@@ -7,7 +7,7 @@
     "passive": {
         "name" : "Playful Fire",
         "effect": "When you discard any Energies, you may attach a Fire Energy to any Pokemon.",
-        "type": "active ability"
+        "type": "unique ability"
     },
     "attacks": [
         {

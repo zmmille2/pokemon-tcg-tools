@@ -3,7 +3,6 @@
     "hp": 110,
     "stage": "stage1",
     "evolvesFrom": "Dewpider",
-    "evolvesFromImage": "dewpider",
     "type": "water",
     "image": "araquanid",
     "passive": {

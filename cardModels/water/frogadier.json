@@ -3,7 +3,6 @@
     "hp": 60,
     "stage": "stage1",
     "evolvesFrom": "Froakie",
-    "evolvesFromImage": "froakie",
     "type": "water",
     "image": "frogadier",
     "passive": {

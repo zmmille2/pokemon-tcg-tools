@@ -1,6 +1,6 @@
 {
     "name": "Combee",
-    "hp": 30,
+    "hp": 20,
     "stage": "basic",
     "type": "bug",
     "image": "combee",
@@ -18,7 +18,7 @@
     ],
     "weakness": {
         "type": "rock",
-        "value": 10
+        "value": 20
     },
     "resistance": {
         "type": "ground",

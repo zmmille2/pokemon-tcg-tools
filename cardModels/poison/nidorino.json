@@ -3,7 +3,6 @@
     "hp": 80,
     "stage": "stage1",
     "evolvesFrom": "Nidoran M",
-    "evolvesFromImage": "nidoran-m",
     "type": "poison",
     "image": "nidorino",
     "attacks": [

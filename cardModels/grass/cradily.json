@@ -3,7 +3,6 @@
     "hp": 100,
     "stage": "stage2",
     "evolvesFrom": "Lileep",
-    "evolvesFromImage": "lileep",
     "type": "grass",
     "image": "cradily",
     "passive": {

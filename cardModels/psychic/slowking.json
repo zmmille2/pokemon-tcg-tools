@@ -3,7 +3,6 @@
     "hp": 90,
     "stage": "stage1",
     "evolvesFrom": "Slowpoke",
-    "evolvesFromImage": "slowpoke",
     "type": "psychic",
     "image": "slowking",
     "passive": {

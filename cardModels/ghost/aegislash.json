@@ -5,17 +5,16 @@
     "type": "ghost",
     "image": "aegislash",
     "evolvesFrom": "Doublade",
-    "evolvesFromImage": "doublade",
     "attacks": [
         {
             "name": "King's Shield",
             "cost": "metal colorless colorless",
-            "effect": "Aegislash takes 20 less damage during your opponent's next turn. If Aegislash used King's Shield last turn, it takes 40 less instead, and deal any damage prevented to the Defending Pokemon."
+            "effect": "Aegislash takes 40 less damage during your opponent's next turn. Buster Swing places 5 damage counters instead of 8 next turn."
         },
         {
             "name": "Buster Swing",
             "cost": "ghost colorless colorless",
-            "effect": "Put 4 damage counters on the Defending Pokemon. If Aegislash used Buster Swing last turn, put 4 more damage counters on the Defending Pokemon."
+            "effect": "Put 8 damage counters on the Defending Pokemon. Aegislash takes 20 extra damage from attacks next turn."
         }
     ],
     "weakness": {

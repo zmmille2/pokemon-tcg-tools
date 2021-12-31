@@ -12,13 +12,13 @@
         },
         {
             "name": "Venom Spit",
-            "cost": "poison",
+            "cost": "bug-poison",
             "damage": "10",
             "effect": "The Defending Pokemon is now Poisoned."
         }
     ],
     "weakness": {
-        "type": "flying",
+        "type": "flying-psychic",
         "value": 10
     },
     "resistance": {

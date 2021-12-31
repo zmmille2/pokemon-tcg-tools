@@ -3,7 +3,6 @@
     "hp": 70,
     "stage": "stage1",
     "evolvesFrom": "Squirtle",
-    "evolvesFromImage": "squirtle",
     "type": "water",
     "image": "wartortle",
     "attacks": [

@@ -4,16 +4,16 @@
     "stage": "basic",
     "type": "grass",
     "image": "tropius",
+    "passive": {
+        "name": "Harvest",
+        "effect": "When Tropius uses a Berry, flip a coin: If it has a Fire Energy attached, flip 2 coins instead. If any coins flipped are Heads, don't discard the berry, but the effect still activates.",
+        "type": "passive ability"
+    },
     "attacks": [
         {
             "name": "Sunbathe",
             "cost": "grass",
             "effect": "Flip a coin. If heads, generate a Fire Energy and attach it to Tropius."
-        },
-        {
-            "name": "Harvest",
-            "cost": "grass fire",
-            "effect": "Discard a Fire Energy attached to Tropius. If you do, you may search your discard for a Berry and attach it to Tropius, or put it in your hand."
         },
         {
             "name": "Solar Beam",

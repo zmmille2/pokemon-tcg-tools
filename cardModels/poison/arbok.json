@@ -5,7 +5,6 @@
     "image": "arbok",
     "stage": "stage1",
     "evolvesFrom": "ekans",
-    "evolvesFromImage": "ekans",
     "attacks": [
         {
             "name": "Venomous Gaze",

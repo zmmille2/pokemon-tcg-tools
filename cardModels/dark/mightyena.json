@@ -3,12 +3,11 @@
     "hp": 70,
     "stage": "stage1",
     "evolvesFrom": "Poochyena",
-    "evolvesFromImage": "poochyena",
     "type": "dark",
     "image": "mightyena",
     "passive": {
         "name": "Scoundrel",
-        "effect": "Whenever you are supposed to shuffle your deck, flip a coin. If heads, skip that step.",
+        "effect": "Do not shuffle your deck.",
         "type": "poke-body"
     },
     "attacks": [

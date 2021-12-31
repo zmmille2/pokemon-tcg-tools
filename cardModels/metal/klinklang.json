@@ -3,7 +3,6 @@
     "hp": 110,
     "stage": "stage2",
     "evolvesFrom": "Klang",
-    "evolvesFromImage": "klang",
     "type": "metal",
     "image": "klinklang",
     "passive": {

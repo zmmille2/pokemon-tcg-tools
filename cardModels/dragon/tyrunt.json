@@ -3,7 +3,6 @@
     "hp": 80,
     "stage": "stage1",
     "evolvesFrom": "Mysterious Fossil",
-    "evolvesFromImage": "mysterious-fossil",
     "type": "dragon",
     "image": "tyrunt",
     "passive": {

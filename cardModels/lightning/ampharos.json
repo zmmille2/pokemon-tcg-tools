@@ -3,7 +3,6 @@
     "hp": 80,
     "stage": "stage2",
     "evolvesFrom": "Flaaffy",
-    "evolvesFromImage": "flaaffy",
     "type": "lightning",
     "image": "ampharos",
     "passive": {

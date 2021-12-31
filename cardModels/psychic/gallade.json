@@ -3,7 +3,6 @@
     "hp": 90,
     "stage": "stage2",
     "evolvesFrom": "Kirlia",
-    "evolvesFromImage": "kirlia",
     "type": "psychic",
     "image": "gallade",
     "passive": {

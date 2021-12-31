@@ -3,12 +3,11 @@
     "hp": 80,
     "stage": "stage1",
     "evolvesFrom": "Zorua",
-    "evolvesFromImage": "zorua",
     "type": "dark",
     "image": "zoroark",
     "passive": {
         "name" : "Illusion",
-        "effect": "Before your Active Pokemon takes damage, you can switch the highest stage of that card with this card from your hand. Place Zoroark on the lower stage Pokemon (if there is one), and keep all Energies, Tools, Damage Counters, and Special Conditions the same.",
+        "effect": "Once per turn, you may place an Evolution card on Zoroark. This doesn't count as evolving Zoroark. Treat Zoroark as if it were that Pokemon instead. It cannot evolve or use the Pokemon Power of that Pokemon. This effect ends if any Special Condition affects Zoroark, or by choice at any time during your turn.",
         "type": "ability"
     },
     "attacks": [
@@ -16,7 +15,7 @@
             "name": "Sneak Off",
             "cost": "dark",
             "damage": 20,
-            "effect": "Switch Zoroark with a Pokemon from your Bench."
+            "effect": "You may switch Zoroark with a Pokemon from your Bench."
         }
     ],
     "weakness": {

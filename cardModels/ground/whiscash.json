@@ -3,7 +3,6 @@
     "hp": 90,
     "stage": "stage1",
     "evolvesFrom": "Barboach",
-    "evolvesFromImage": "barboach",
     "type": "ground",
     "image": "whiscash",
     "passive": {

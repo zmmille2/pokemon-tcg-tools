@@ -13,7 +13,7 @@
         {
             "name": "Donation",
             "cost": "colorless",
-            "effect": "If Shuckle has a Pokemon Tool attached to it, you may move it to another Pokemon."
+            "effect": "If Shuckle has a Pokemon Tool attached to it, you may move it to another Pokemon. If you do, you may activate Juice Lover immediately."
         },
         {
             "name": "Toxic",

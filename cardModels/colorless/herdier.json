@@ -3,7 +3,6 @@
     "hp": 70,
     "stage": "stage1",
     "evolvesFrom": "Lillipup",
-    "evolvesFromImage": "lillipup",
     "type": "colorless",
     "image": "herdier",
     "attacks": [

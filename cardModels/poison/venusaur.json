@@ -3,7 +3,6 @@
     "hp": 100,
     "stage": "stage2",
     "evolvesFrom": "Ivysaur",
-    "evolvesFromImage": "ivysaur",
     "type": "poison",
     "image": "venusaur",
     "attacks": [

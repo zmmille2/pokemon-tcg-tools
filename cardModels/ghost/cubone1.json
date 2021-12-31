@@ -6,7 +6,7 @@
     "image": "cubone1",
     "passive": {
         "name": "Spooky Energy",
-        "effect": "You can treat Ghost energy as a basic energy of the same type as any Pokemon you have in your discard pile.",
+        "effect": "You can treat Ghost Energy as a basic Energy of the same type as any Pokemon you have in your discard pile.",
         "type": "ability"
     },
     "attacks": [

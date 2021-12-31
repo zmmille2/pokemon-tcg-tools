@@ -3,7 +3,6 @@
     "hp": 70,
     "stage": "stage1",
     "evolvesFrom": "Mysterious Fossil",
-    "evolvesFromImage": "mysterious-fossil",
     "type": "grass",
     "image": "lileep",
     "passive": {

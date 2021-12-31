@@ -3,7 +3,6 @@
     "hp": 80,
     "stage": "stage2",
     "evolvesFrom": "Pidgeotto",
-    "evolvesFromImage": "pidgeotto",
     "type": "flying",
     "image": "pidgeot",
     "passive": {

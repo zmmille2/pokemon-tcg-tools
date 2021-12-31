@@ -3,7 +3,6 @@
     "hp": 80,
     "stage": "stage1",
     "evolvesFrom": "rockruff",
-    "evolvesFromImage": "rockruff",
     "type": "rock",
     "image": "lycanroc",
     "passive": {

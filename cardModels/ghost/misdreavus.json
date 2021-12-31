@@ -8,7 +8,7 @@
         {
             "name": "Vengeful Spirit",
             "cost": "ghost colorless",
-            "damage": 10,
+            "damage": 20,
             "effect": "Place 3 damage counters on your opponent's Prize Cards however you like. When your opponent takes a Prize with damage counters on it, put them on their Active Pokemon."
         }
     ],
@@ -22,5 +22,5 @@
     },
     "retreat": 1,
     "rarity": 3,
-    "flavor": "A Pokemon that startles people in the middle of the night. It gathers fear for energy."
+    "flavor": "A Pokemon that startles people in the middle of the night. It gathers fear for Energy."
 }

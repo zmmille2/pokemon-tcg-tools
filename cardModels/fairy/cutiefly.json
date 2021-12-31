@@ -7,7 +7,7 @@
     "attacks": [ 
         { 
             "name": "Fairy Wind",
-            "cost": "fairy",
+            "cost": "fairy-bug",
             "damage": 10,
             "effect": "You may remove 1 damage counter from one of your other Pokemon." 
         } 

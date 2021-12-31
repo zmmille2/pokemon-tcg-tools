@@ -1,33 +1,32 @@
 {
-    "name": "",
+    "name": "The name of the Pokemon. This is shown at the top, with capitalization preserved.",
     "hp": 0,
-    "stage": "",
-    "evolvesFrom": "",
-    "evolvesFromImage": "",
-    "type": "",
-    "image": "",
+    "stage": "Basic, Stage 1, or Stage 2.",
+    "evolvesFrom": "The name of the Pokemon this Pokemon evolves from. A png (in preEvolutionArt) is loaded from this field (all lowercase), but the text capitalization is preserved.",
+    "type": "The type of this Pokemon. Does not support dual-typing.",
+    "image": "The name of the png in cardArt to load. Converted to all lowercase.",
     "passive": {
-        "name" : "",
-        "effect": "",
-        "type": ""
+        "name" : "The name of the passive.",
+        "effect": "The effect of the passive.",
+        "type": "ability: The most permissive. poke-body: Only one instance of this Pokemon. poke-power: Only if this Pokemon is active."
     },
     "attacks": [
         {
-            "name": "",
-            "cost": "",
+            "name": "The name of an attack.",
+            "cost": "The cost, in space-separated types. Supports dual-typing.",
             "damage": 0,
-            "effect": ""
+            "effect": "The optional effect of the attack."
         }
     ],
     "weakness": {
-        "type": "",
+        "type": "The optional type of this Pokemon's weakness. Does not support dual-typing.",
         "value": 0
     },
     "resistance": {
-        "type": "",
+        "type": "The optional type of this Pokemon's resistance. Does not support dual-typing.",
         "value": 0
     },
     "retreat": 4,
     "rarity": 0,
-    "flavor": ""
+    "flavor": "Flavor text. This is displayed at the bottom of the card. Have fun with it! Accents and apostrophes are particular, so make sure you're using the right stuff."
 }

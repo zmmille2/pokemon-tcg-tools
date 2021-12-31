@@ -3,7 +3,6 @@
     "hp": 130,
     "stage": "stage2",
     "evolvesFrom": "lairon",
-    "evolvesFromImage": "lairon",
     "type": "metal",
     "image": "aggron2",
     "passive": {

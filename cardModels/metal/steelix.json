@@ -3,7 +3,6 @@
     "hp": 110,
     "stage": "stage1",
     "evolvesFrom": "Onix",
-    "evolvesFromImage": "onix",
     "type": "metal",
     "image": "steelix",
     "attacks": [

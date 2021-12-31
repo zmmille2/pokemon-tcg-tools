@@ -3,7 +3,6 @@
     "hp": 100,
     "stage": "stage2",
     "evolvesFrom": "Graveler",
-    "evolvesFromImage": "graveler",
     "type": "ground",
     "image": "golem",
     "attacks": [

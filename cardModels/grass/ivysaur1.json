@@ -3,7 +3,6 @@
     "hp": 80,
     "stage": "stage1",
     "evolvesFrom": "Bulbasaur",
-    "evolvesFromImage": "bulbasaur",
     "type": "grass",
     "image": "ivysaur1",
     "passive": {
@@ -13,9 +12,9 @@
     },
     "attacks": [
         {
-            "name": "Vine Whip",
-            "cost": "grass",
-            "damage": 30
+            "name": "Strike",
+            "cost": "colorless",
+            "damage": 20
         },
         {
             "name": "Poison Powder",

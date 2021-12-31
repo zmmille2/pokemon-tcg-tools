@@ -13,7 +13,7 @@
         {
             "name": "Weather Ball",
             "cost": "colorless",
-            "damage": 10
+            "damage": 20
         },
         {
             "name": "Weather Vane",

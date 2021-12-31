@@ -3,7 +3,6 @@
     "hp": 90,
     "stage": "stage1",
     "evolvesFrom": "Swablu",
-    "evolvesFromImage": "swablu",
     "type": "dragon",
     "image": "altaria",
     "passive": {

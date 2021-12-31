@@ -3,7 +3,6 @@
     "hp": 150,
     "stage": "stage1",
     "evolvesFrom": "Bergmite",
-    "evolvesFromImage": "bergmite",
     "type": "ice",
     "image": "avalugg",
     "passive": {

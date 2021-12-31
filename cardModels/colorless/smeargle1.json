@@ -3,17 +3,28 @@
     "hp": 50,
     "stage": "basic",
     "type": "colorless",
-    "image": "smeargle",
+    "image": "smeargle1",
     "passive": {
-        "name": "Artist",
-        "effect": "Smeargle can use any move from any pokemon on either bench. You must still pay the energy cost for this move.",
-        "type": "poke-power"
+        "name": "Sketch",
+        "effect": "Whenever your opponent plays a Supporter, you may discard an Energy attached to Smeargle. If you do, you may use the effect of that Supporter as well.",
+        "type": "ability"
     },
+    "attacks": [
+        {
+            "name": "Pound",
+            "cost": "colorless colorless",
+            "damage": 20
+        }
+    ],
     "weakness": {
         "type": "fighting",
-        "value": 20
+        "value": 10
+    },
+    "resistance": {
+        "type": "ghost",
+        "value": 10
     },
     "retreat": 1,
     "rarity": 3,
-    "flavor": "Does art imitate life?"
+    "flavor": "It marks its territory by using its tail like a paintbrush. There are more than 5,000 different marks."
 }

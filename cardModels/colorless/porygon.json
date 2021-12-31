@@ -8,7 +8,7 @@
         {
             "name": "Crazy Code",
             "cost": "colorless colorless",
-            "effect": "For each Pokemon on your bench, reveal cards from the top of your deck until you reveal an energy. Attach that energy to that Pokemon. Porygon cannot attack or retreat next turn. Shuffle the other revealed cards into your deck."
+            "effect": "For each Pokemon on your bench, reveal cards from the top of your deck until you reveal an Energy. Attach that Energy to that Pokemon. Porygon cannot attack or retreat next turn. Shuffle the other revealed cards into your deck."
         }
     ],
     "retreat": 2,

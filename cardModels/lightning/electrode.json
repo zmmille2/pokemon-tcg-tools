@@ -3,7 +3,6 @@
     "hp": 80,
     "stage": "stage1",
     "evolvesFrom": "Voltorb",
-    "evolvesFromImage": "voltorb",
     "type": "lightning",
     "image": "electrode",
     "passive": {
@@ -29,5 +28,5 @@
     },
     "retreat": 0,
     "rarity": 2,
-    "flavor": "Electrode hoard energy. Ancient Electrodes would have to survive on sparks of static Energy. Modern ones act like batteries, but frequently suck up more Energy than they can handle."
+    "flavor": "Electrode hoard Energy. Ancient Electrodes would have to survive on sparks of static Energy. Modern ones act like batteries, but frequently suck up more Energy than they can handle."
 }

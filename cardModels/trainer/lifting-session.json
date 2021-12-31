@@ -2,5 +2,5 @@
     "name": "Lifting Session", 
     "type": "tool", 
     "image": "lifting-session", 
-    "effect": "The Pokemon this is attached to is now Fighting type, as well as any other types. It deals 10 more damage with attacks if it has a Fighting energy attached." 
+    "effect": "The Pokemon this is attached to is now Fighting type, as well as any other types. It deals 10 more damage with attacks if it has a Fighting Energy attached." 
 } 

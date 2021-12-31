@@ -8,7 +8,7 @@
         {
             "name": "Night Hunter",
             "cost": "empty",
-            "effect": "Reveal the bottom 7 cards of your deck. Your opponent picks one, then you pick a different one. Put the card you picked into your hand, shuffle the other cards, and put them back on the bottom of your deck."
+            "effect": "Reveal the bottom 7 cards of your deck. Your opponent picks one, then you pick a different one. Put the card you picked into your hand, shuffle the other cards into your deck."
         },
         {
             "name": "Peck",

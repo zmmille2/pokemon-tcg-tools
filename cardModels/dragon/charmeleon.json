@@ -3,12 +3,11 @@
     "hp": 70,
     "stage": "stage1",
     "evolvesFrom": "Charmander",
-    "evolvesFromImage": "charmander",
     "type": "dragon",
     "image": "charmeleon",
     "passive": {
         "name" : "Fire Spreader",
-        "effect": "Once per turn, you may generate a Fire Energy and put it on top of your deck.",
+        "effect": "Once per turn, you may generate a Fire Energy. At the end of your turn, put it into your hand.",
         "type": "ability"
     },
     "attacks": [

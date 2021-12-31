@@ -3,7 +3,6 @@
     "hp": 100,
     "stage": "stage1",
     "evolvesFrom": "Tentacool",
-    "evolvesFromImage": "tentacool",
     "type": "poison",
     "image": "tentacruel",
     "passive": {

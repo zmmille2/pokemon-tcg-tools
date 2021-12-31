@@ -3,12 +3,11 @@
     "hp": 80,
     "stage": "stage1",
     "evolvesFrom": "Rockruff",
-    "evolvesFromImage": "rockruff",
     "type": "dark",
     "image": "lycanroc-midnight",
     "passive": {
         "name" : "Lone Wolf",
-        "effect": "You may shuffle a Benched Pokemon into your deck. If you do, put its damage counters on Lycanroc Midnight, and its attacks deal 20 more damage this turn.",
+        "effect": "You may shuffle a Benched Pokemon into your deck. If you do, put its damage counters on Lycanroc Midnight, and its attacks deal 10 more damage this turn.",
         "type": "poke-power"
     },
     "attacks": [

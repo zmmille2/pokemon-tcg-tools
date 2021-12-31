@@ -3,7 +3,6 @@
     "hp": 110,
     "stage": "stage1",
     "evolvesFrom": "Murkrow",
-    "evolvesFromImage": "murkrow",
     "type": "dark",
     "image": "honchkrow",
     "passive": {

@@ -2,5 +2,5 @@
     "name": "Curse",
     "type": "standard",
     "image": "curse",
-    "effect": "When you draw this card, reveal it and put 2 damage counters on your Active Pokemon."
+    "effect": "When you gain this card, reveal it, put 2 damage counters on your Active Pokemon, and draw a card."
 }

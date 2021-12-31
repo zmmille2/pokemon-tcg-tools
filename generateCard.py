@@ -431,8 +431,8 @@ def draw_card(cardType: str, cardData, filename: str):
       resizedCardArt = cardArt.resize((artWidth, artHeight), Image.BICUBIC)
       newCard.paste(resizedCardArt, (45, 80))
       newCard.paste(resizedBackground, (0, 0), resizedBackground)
-      if "evolvesFromImage" in cardData:
-        preEvolutionFilepath = os.path.join(preEvolutionDirectory, cardData["evolvesFromImage"] + ".png")
+      if "evolvesFrom" in cardData:
+        preEvolutionFilepath = os.path.join(preEvolutionDirectory, str(cardData["evolvesFrom"]).strip().lower().replace(' ', '-') + ".png")
 
         with Image.open(preEvolutionFilepath) as preEvolution:
           resizedPreEvolution = preEvolution.resize((50, 50), Image.BICUBIC)
@@ -549,7 +549,7 @@ def main():
           pokemonData = json.load(pokemonFile)
           try:
             shouldCreate = False
-            outputFilename = pokemonFilename.removesuffix(".json") + ".png"
+            outputFilename = pokemonFilename.replace(".json", ".png")
             outputFilepath = os.path.join(outputDirectory, outputFilename)
             cardArtFilename = os.path.join(cardArtDirectory, f"{pokemonData['image']}.png")
             if arguments.all:

@@ -3,7 +3,6 @@
     "hp": 50,
     "stage": "stage1",
     "evolvesFrom": "Wooloo",
-    "evolvesFromImage": "wooloo",
     "type": "colorless",
     "image": "dubwool",
     "passive": {

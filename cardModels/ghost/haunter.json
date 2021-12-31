@@ -5,7 +5,6 @@
     "type": "ghost",
     "image": "haunter",
     "evolvesFrom": "Gastly",
-    "evolvesFromImage": "gastly",
     "attacks": [
         {
             "name": "Curse",

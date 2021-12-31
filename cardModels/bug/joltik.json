@@ -6,14 +6,14 @@
     "image": "joltik",
     "passive": {
         "name": "Electroweb",
-        "effect": "If the opposing Active Pokemon switches out, the new Active Pokemon's attacks cannot do damage or put status on Joltik.",
+        "effect": "If the Defending Pokemon switches during your opponent's turn, the new Defending Pokemon's attacks have no effect on Joltik, including damage.",
         "type": "poke-power"
     },
     "attacks": [
         {
             "name": "Bug Bite",
             "cost": "bug-lightning",
-            "damage": "10"
+            "damage": "20"
         }
     ],
     "weakness": {
@@ -22,5 +22,5 @@
     },
     "retreat": 0,
     "rarity": 3,
-    "flavor": "While they have their fans, a Joltik infestation can require lightningians to clear."
+    "flavor": "While they have their fans, a Joltik infestation can require electricians to clear."
 }

@@ -3,9 +3,8 @@
     "hp": 100,
     "stage": "stage2",
     "evolvesFrom": "Ivysaur",
-    "evolvesFromImage": "ivysaur",
     "type": "grass",
-    "image": "venusaur",
+    "image": "venusaur1",
     "passive": {
         "name" : "Sunny Rainforest",
         "effect": "Your Grass Energies also provide Fire and Water Energy.",

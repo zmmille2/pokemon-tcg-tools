@@ -3,7 +3,6 @@
     "hp": 60,
     "stage": "stage1",
     "evolvesFrom": "Pidgey",
-    "evolvesFromImage": "pidgey",
     "type": "flying",
     "image": "pidgeotto",
     "attacks": [

@@ -3,7 +3,6 @@
     "hp": 90,
     "stage": "stage1",
     "evolvesFrom": "Rufflet",
-    "evolvesFromImage": "rufflet",
     "type": "flying",
     "image": "braviary",
     "attacks": [

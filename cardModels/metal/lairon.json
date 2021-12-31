@@ -3,7 +3,6 @@
     "hp": 90,
     "stage": "stage1",
     "evolvesFrom": "Aron",
-    "evolvesFromImage": "aron",
     "type": "metal",
     "image": "lairon",
     "attacks": [

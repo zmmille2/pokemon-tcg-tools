@@ -3,7 +3,6 @@
     "hp": 90,
     "stage": "stage1",
     "evolvesFrom": "Misdreavus",
-    "evolvesFromImage": "misdreavus",
     "type": "ghost",
     "image": "mismagius",
     "passive": {
@@ -16,7 +15,7 @@
             "name": "Bitter Reward",
             "cost": "ghost",
             "damage": 20,
-            "effect": "You may choose a random card from your opponent's hand and swap it with one of their Prizes."
+            "effect": "Add a Curse to your opponent's Prizes. Move one of your opponent's Prizes to the Lost Zone. Shuffle your opponent's Prizes."
         },
         {
             "name": "Vengeful Blow",

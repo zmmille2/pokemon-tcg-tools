@@ -4,11 +4,10 @@
     "stage": "stage1",
     "type": "bug",
     "evolvesFrom": "Joltik",
-    "evolvesFromImage": "joltik",
     "image": "galvantula",
     "passive": {
         "name": "Electroweb",
-        "effect": "If the opposing Active Pokemon switches out, the new Active Pokemon's attacks cannot do damage or put status on Galvantula.",
+        "effect": "If the Defending Pokemon switches during your opponent's turn, the new Defending Pokemon's attacks have no effect on Galvantula, including damage.",
         "type": "poke-power"
     },
     "attacks": [
@@ -20,8 +19,8 @@
         {
             "name": "Signal Beam",
             "cost": "bug-lightning bug-lightning colorless",
-            "damage": "70-",
-            "effect": "Deals 70 damage minus 10 for each damage counter on Galvantula."
+            "damage": "80-",
+            "effect": "Deals 80 damage minus 10 for each damage counter on Galvantula."
         }
     ],
     "weakness": {

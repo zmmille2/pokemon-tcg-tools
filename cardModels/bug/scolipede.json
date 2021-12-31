@@ -3,7 +3,6 @@
     "hp": 80,
     "stage": "stage2",
     "evolvesFrom": "Whirlipede",
-    "evolvesFromImage": "whirlipede",
     "type": "bug",
     "image": "Scolipede",
     "passive": {
@@ -14,13 +13,13 @@
     "attacks": [
         {
             "name": "Venom Drench",
-            "cost": "bug poison colorless colorless",
+            "cost": "bug-poison colorless",
             "damage": 40,
             "effect": "The Defending Pokemon is now Poisoned. It takes 20 damage between turns instead of 10."
         }
     ],
     "weakness": {
-        "type": "flying",
+        "type": "flying-psychic",
         "value": 10
     },
     "resistance": {

@@ -3,7 +3,6 @@
     "hp": 70,
     "stage": "stage1",
     "evolvesFrom": "Riolu",
-    "evolvesFromImage": "riolu",
     "type": "fighting",
     "image": "lucario",
     "passive": {
@@ -15,7 +14,7 @@
         {
             "name": "Feint",
             "cost": "colorless",
-            "effect": "Put 3 damage counters on the Defending Pokemon. This number cannot be reduced or increased."
+            "effect": "Put 3 damage counters on the Defending Pokemon. This effect cannot be reduced, increased, or negated."
         },
         {
             "name": "Aura Sphere",

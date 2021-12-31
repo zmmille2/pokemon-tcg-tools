@@ -3,7 +3,6 @@
     "hp": 70,
     "stage": "stage1",
     "evolvesFrom": "Slugma",
-    "evolvesFromImage": "slugma",
     "type": "fire",
     "image": "magcargo",
     "passive": {

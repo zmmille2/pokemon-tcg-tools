@@ -17,7 +17,7 @@
             "effect": "Flip a coin. If Heads, the Defending Pokemon is Paralyzed."
         },
         {
-            "name": "Seek Out",
+            "name": "Order Up!",
             "cost": "colorless colorless",
             "effect": "Reveal the top card of your deck. If it is a Water Pokemon, use the Sushi Sampler passive immediately (even if you've already used it). Otherwise, draw it."
         }

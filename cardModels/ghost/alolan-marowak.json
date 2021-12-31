@@ -3,7 +3,6 @@
     "hp": 70,
     "stage": "stage1",
     "evolvesFrom": "Cubone",
-    "evolvesFromImage": "cubone",
     "type": "ghost",
     "image": "alolan-marowak",
     "attacks": [

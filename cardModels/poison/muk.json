@@ -3,7 +3,6 @@
     "hp": 80,
     "stage": "stage1",
     "evolvesFrom": "Grimer",
-    "evolvesFromImage": "grimer",
     "type": "poison",
     "image": "muk",
     "passive": {

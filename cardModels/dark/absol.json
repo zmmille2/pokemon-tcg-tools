@@ -1,0 +1,31 @@
+{
+    "name": "Absol",
+    "hp": 80,
+    "stage": "basic",
+    "type": "dark",
+    "image": "absol",
+    "passive": {
+        "name": "Oracle of Disaster",
+        "effect": "Whenever your opponent gains a card (through drawing, searching, etc.), they put a damage counter on one of their Pokemon.",
+        "type": "poke-power"
+    },
+    "attacks": [
+        {
+            "name": "Finishing Cut",
+            "cost": "dark colorless",
+            "effect": "Deal 10 more damage for each damage counter on the Defending Pokemon.",
+            "damage": "10+"
+        }
+    ],
+    "weakness": {
+        "type": "fighting",
+        "value": 10
+    },
+    "resistance": {
+        "type": "psychic",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 1,
+    "flavor": "It's impossible to tell if they warn or bring disaster."
+}

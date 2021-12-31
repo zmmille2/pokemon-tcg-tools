@@ -3,7 +3,6 @@
     "hp": 60,
     "stage": "stage1",
     "evolvesFrom": "Ralts",
-    "evolvesFromImage": "ralts",
     "type": "psychic",
     "image": "kirlia",
     "attacks": [

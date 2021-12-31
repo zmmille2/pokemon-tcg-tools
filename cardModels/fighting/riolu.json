@@ -7,7 +7,7 @@
     "passive": {
         "name" : "Learning",
         "effect": "You cannot attach Energy Cards to Riolu normally. If your Active Pokemon's attack deals damage to the Defending Pokemon, you may attach an Energy from your hand to Riolu.",
-        "type": "ability"
+        "type": "unique ability"
     },
     "attacks": [
         {

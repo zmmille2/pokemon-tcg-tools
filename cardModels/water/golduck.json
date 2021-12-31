@@ -5,7 +5,6 @@
     "type": "water",
     "image": "golduck",
     "evolvesFrom": "Psyduck",
-    "evolvesFromImage": "psyduck",
     "attacks": [
         {
             "name": "Mind Blast",
