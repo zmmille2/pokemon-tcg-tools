@@ -6,7 +6,7 @@
         {
             "name": "Dragon Dance",
             "cost": "dragon dragon colorless",
-            "effect": "As long as this remains your Active Pokemon, its attacks that deal damage deal 20 more damage and have the added effect \"Discard the top 3 cards of your deck.\". You cannot add more than 30 damage this way. Benching this Pokemon ends this effect."
+            "effect": "As long as this remains your Active Pokemon, its attacks that deal damage deal 20 more damage and have the added effect \"Discard the top 2 cards of your deck.\". You cannot add more than 30 damage this way. Benching this Pokemon ends this effect."
         }
     ]
 }

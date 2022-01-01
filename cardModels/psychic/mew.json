@@ -1,13 +1,13 @@
 {
     "name": "Mew",
-    "hp": 30,
+    "hp": 50,
     "stage": "Basic",
     "type": "psychic",
     "image": "mew",
     "passive": {
         "name": "Primordial Echo",
         "effect": "Whenever you use a Supporter, create a copy and place it under Mew. The effect of the Supporter is the effect of all the cards under Mew. Whenever Mew is discarded for any reason, move all cards under it to the Lost Zone.",
-        "type": "poke-body"
+        "type": "active ability"
     },
     "attacks": [
         {

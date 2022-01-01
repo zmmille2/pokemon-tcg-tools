@@ -13,7 +13,7 @@
         {
             "name": "Light Screen",
             "cost": "colorless",
-            "effect": "Create 2 Light Screen tokens. Reduce damage to your Active Pokemon by 10 if there are any Light Screen tokens. At the end of your turn, get rid of a Light Screen Token. You cannot use this attack if you have Light Screen Tokens."
+            "effect": "Create 2 Light Screen tokens. Reduce damage to your Active Pokemon by 10 if there are any Light Screen tokens. At the end of your turn, get rid of a Light Screen Token."
         },
         {
             "name": "Moonlight Dance",

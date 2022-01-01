@@ -152,13 +152,13 @@ Poison x Bug x Rock
 1x Herdier
 1x Sentret
 1x Oak
-1x TODO: Poke Ball
-1x TODO: Great Ball
+1x Pokeball
+1x Great Ball
 1x Billie
 2x Lum Berry
-2x TODO: Pluspower
-1x TODO: Defender
-1x TODO: Revive
+2x Pluspower
+1x Defender
+1x Revive
 11x Poison Energy
 3x Rock Energy
 9x Bug Energy
@@ -189,10 +189,10 @@ Water x Grass x Psychic
 1x Stantler
 1x Lickitung
 1x Oak
-1x TODO: Pokeball
+1x Pokeball
 1x Lum Berry
-2x TODO: Defender
-1x TODO: Item Finder
+2x Defender
+1x Item Finder
 1x Computer Search
 1x Oran Berry
 11x Water Energy
@@ -224,11 +224,11 @@ Dragon x Fire x Flying
 1x Dubwool
 1x Oak
 1x Computer Search
-1x TODO: Pluspower
+1x Pluspower
 2x Oran Berry
 2x Lum Berry
 1x Training Court
-1x TODO: Pokeball
+1x Pokeball
 1x Balloon Berry
 10x Dragon Energy
 8x Fire Energy
@@ -246,7 +246,7 @@ Dragon x Fire x Flying
 2x Stantler
 3x Type: Null
 2x Silvally
-1x TODO: Pokeball
+1x Pokeball
 1x Pluspower
 1x Defender
 1x Oak
