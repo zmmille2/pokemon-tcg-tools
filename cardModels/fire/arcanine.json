@@ -7,7 +7,7 @@
     "image": "arcanine",
     "passive": {
         "name" : "Honorbound",
-        "effect": "Place a coin face-up on the table. For all effects that flip a coin, each player uses the face-up side, then flips the coin to the other side.",
+        "effect": "Place a coin heads-up on the table. For all effects that flip a coin, each player uses the face-up side, then flips the coin to the other side.",
         "type": "poke-power"
     },
     "attacks": [

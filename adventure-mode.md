@@ -122,13 +122,13 @@ Master - 2 packs - Really hard
 Player picks a deck.
 
 3 Trainers:
-Hai: Deck player is strong to.
-May: Route 1 Deck.
-Ronald: Deck player is weak to.
 
+Hai: Deck player is strong to.
+Ronald: Route 1 Deck.
+May: Deck player is weak to.
 Leader Oak: Power of Starters
 
-#### Bulbasaur and Friends (Starter Deck)
+#### Bulbasaur and Friends (Starter Deck) ✅
 
 Poison x Bug x Rock
 
@@ -163,7 +163,7 @@ Poison x Bug x Rock
 3x Rock Energy
 9x Bug Energy
 
-#### Squirtle and Friends (Starter Deck)
+#### Squirtle and Friends (Starter Deck) ✅
 
 Water x Grass x Psychic
 
@@ -195,11 +195,12 @@ Water x Grass x Psychic
 1x Item Finder
 1x Computer Search
 1x Oran Berry
+1x Protect
 11x Water Energy
 6x Grass Energy
 8x Psychic Energy
 
-#### Charmander and Friends (Starter Deck)
+#### Charmander and Friends (Starter Deck) ⭕
 
 Dragon x Fire x Flying
 
@@ -234,7 +235,7 @@ Dragon x Fire x Flying
 8x Fire Energy
 6x Flying Energy
 
-#### Route 1 Deck
+#### Route 1 Deck ❌
 
 3x Wooloo
 3x Dubwool
@@ -255,11 +256,11 @@ Dragon x Fire x Flying
 1x Computer Search
 1x Itemfinder
 1x Revive
-1x Computer Search
+1x Boost Shake
 16x Grass Energy
 4x Prism Energy
 
-#### Power of Starters
+#### Power of Starters ❌
 
 3x Charmander
 3x Charmeleon
@@ -281,19 +282,47 @@ Dragon x Fire x Flying
 1x Oran Berry
 1x Lum Berry
 4x Prism Energy
-3x Elemental Energy
 3x Scramble Energy
-3x Dragon Energy
-3x Water Energy
-3x Grass Energy
+4x Dragon Energy
+4x Water Energy
+4x Grass Energy
 
 ### Bug Club
 
 #### Swarm! Deck
 
-Dark Vespiquen
-Beedrill
-Ribombee
+3x Combee
+2x Dark Vespiquen
+4x Weedle
+3x Kakuna
+2x Beedrill
+3x Cutiefly
+2x Ribombee
+1x Dedenne
+2x Joltik
+2x Snubbull
+2x Venipede
+1x Whirlipede
+27/60
+
+1x Hard Berry
+1x Oran Berry
+1x Ulaz Berry
+1x Berry Harvest
+1x Gondra Berry
+1x Defender
+1x Infestation
+1x Oak
+1x Ultra Ball
+1x Bugsy
+1x Cheryl
+11/60
+
+10x Bug Energy
+7x Fairy Energy
+5x Lightning Energy
+22/60
+
 
 #### Exoskeleton Deck
 
@@ -478,9 +507,42 @@ Alolan Marowak
 
 #### Sunflower Deck
 
-Tropius
-Lurantis
-Castform Sun
+2x Tropius
+2x Formantis
+1x Lurantis
+1x Castform Sun
+2x Bulbasaur (Grass)
+1x Ivysaur (Grass)
+1x Venusaur (Grass)
+2x Oddish
+1x Gloom
+1x Bellossom
+1x Growlithe
+1x Arcanine
+2x Vulpix
+2x Wooloo
+1x Lillipup
+2x Castform
+23/60
+
+1x Poke Ball
+1x Great Ball
+1x Revive
+1x Max Revive
+1x Youngster's Wishlist
+1x Fire Spin
+1x Tool Jammer
+1x Escape Rope
+1x Oran Berry
+1x Ulaz Berry
+1x Hard Berry
+1x Berry Harvest
+12/60
+
+15x Grass Energy
+10x Fire Energy
+25/60
+
 
 #### Rainforest Deck
 
@@ -489,8 +551,38 @@ Gloom
 
 #### Sleepy Woad Deck
 
-Shaymin
-Lileep
+2x Oddish
+1x Gloom
+2x Shaymin
+3x Lileep
+2x Cradily
+2x Gastly
+1x Haunter
+2x Misdreavous
+1x Cubone
+1x Absol
+2x Hoothoot
+1x Noctowl
+2x Drowsee
+1x Hypno
+2x Slowpoke
+25/60
+
+3x Mysterious Fossil
+2x Protect
+1x Berry Harvest
+1x Hard Berry
+1x Oak
+1x Rinka Berry
+1x Energy Search
+2x Cursed Shovel
+12/60
+
+8x Grass Energy
+6x Ghost Energy
+5x Dark Energy
+4x Psychic Energy
+23/60
 
 #### Beauty of Nature Deck
 
@@ -556,10 +648,30 @@ Articuno
 
 #### Pikachu Fan Deck
 
-Pachirisu
-Dedenne
-Pikachu
-Cubone
+4x Pachirisu
+4x Dedenne
+4x Pikachu
+4x Chris Kyle's Pikachu
+2x Joltik
+2x Jigglypuff
+1x Wigglytuff
+2x Cutiefly
+1x Ribombee
+24/60
+
+2x Costume Party
+3x Eviolite
+1x Oran Berry
+2x Gondra Berry
+2x Goman Berry
+2x Oak
+1x Pluspower
+1x Defender
+14/60
+
+15x Lightning Energy
+7x Fairy Energy
+22/60
 
 #### Lightning Bug Deck
 

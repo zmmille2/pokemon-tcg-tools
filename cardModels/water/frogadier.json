@@ -7,14 +7,14 @@
     "image": "frogadier",
     "passive": {
         "name" : "Substitute",
-        "effect": "Once per turn, if Frogadier would take damage, you may discard a Trainer card to take half that damage.",
+        "effect": "Once per turn, if Frogadier would take damage, you may discard a Trainer card to take half that damage (rounded up).",
         "type": "ability"
     },
     "attacks": [
         {
             "name": "Water Shuriken",
             "cost": "water colorless",
-            "effect": "Put 2 damage counters on 3 of your opponent's Pokemon."
+            "effect": "Put 2 damage counters on 3 of your opponent's Pokemon (on different Pokemon)."
         }
     ],
     "weakness": {
