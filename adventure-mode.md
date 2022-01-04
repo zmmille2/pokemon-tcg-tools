@@ -659,7 +659,8 @@ Articuno
 1x Ribombee
 24/60
 
-2x Costume Party
+1x Costume Party
+1x Pikachu's Lament
 3x Eviolite
 1x Oran Berry
 2x Gondra Berry

@@ -280,7 +280,7 @@ gradient = mask.resize((symbolWidth, symbolWidth)).rotate(-45)
 def generate_symbol(icon: str):
   if icon in symbolsDict:
     return symbolsDict[icon]
-  elif icon.find("-"):
+  elif icon.find("-") != -1:
     [first, second] = icon.split("-")
     first_symbol = symbolsDict[first].copy()
     second_symbol = symbolsDict[second]
@@ -288,6 +288,9 @@ def generate_symbol(icon: str):
     first_symbol.paste(second_symbol, None, gradient)
 
     return first_symbol
+
+  else:
+    raise Exception(f"I don't know what a {icon} icon is.")
 
 def draw_attack_box(card, draw, attack, textBoxTop, textBoxBottom, color):
   center_y = int((textBoxTop + textBoxBottom) / 2)
