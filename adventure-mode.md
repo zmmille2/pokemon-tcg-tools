@@ -481,7 +481,7 @@ Rayquaza
 
 ### Ghost Club
 
-#### Possessed Tool Deck TOMAKE
+#### Possessed Tool Deck ⭕
 
 3x Honedge
 2x Doublade
@@ -495,7 +495,7 @@ Rayquaza
 1x Pidgey
 1x Pidgeotto
 2x Cubone
-25/60
+24/60
 
 1x Oak
 2x Beach Combing
@@ -508,13 +508,14 @@ Rayquaza
 1x Daring Adventure
 10/60
 
+1x Aurora Energy
 10x Ghost
 7x Lightning
 6x Metal
 2x Flying
-25/60
+26/60
 
-#### Friendly Ghost Deck TOMAKE
+#### Friendly Ghost Deck ⭕
 
 4x Oricorio
 3x Spooky Pikachu
@@ -543,7 +544,7 @@ Rayquaza
 4x Flying
 27/60
 
-#### Skeleton Crew Deck TOMAKE
+#### Skeleton Crew Deck ⭕
 
 3x Tentacool
 2x Tentacruel
@@ -558,8 +559,8 @@ Rayquaza
 2x Sharpedo
 23/60
 
-2x Haunted Cruise
-2x Evil Laugh
+3x Haunted Cruise
+1x Evil Laugh
 1x Oak
 1x Pluspower
 1x Cursed Shovel
@@ -568,13 +569,13 @@ Rayquaza
 1x Misty's Wrath
 11/60
 
-9x Ghost
+8x Ghost
 6x Water
 6x Poison
 6x Dark
-25/60
+26/60
 
-#### Nightmare Deck TOMAKE
+#### Nightmare Deck ⭕
 
 4x Gastly
 3x Haunter
@@ -642,7 +643,7 @@ Rayquaza
 25/60
 
 
-#### Rainforest Deck TOMAKE
+#### Rainforest Deck ⭕
 
 4x Oddish
 3x Gloom
@@ -706,7 +707,7 @@ Rayquaza
 4x Psychic Energy
 23/60
 
-#### Beauty of Nature Deck TOMAKE
+#### Beauty of Nature Deck ⭕
 
 2x Feebas
 2x Milotic
@@ -716,16 +717,16 @@ Rayquaza
 3x Oddish
 2x Gloom
 2x Bellossom
-2x Formantis
-2x Lurantis
-2x Jigglypuff
-1x Wigglytuff
+2x Tropius
+2x Bulbasaur
+2x Ivysaur
+1x Venusaur
 25/60
 
 2x Rare Candy
 2x Energy Search
 1x Oak
-1x Gondra Berry
+1x Goman Berry
 1x Cheryl
 1x Energy Recycler
 1x Lum Berry
@@ -961,7 +962,7 @@ Psyduck
 Hypno
 Farfetch'd
 
-#### Interdimensional Dude Deck TOMAKE
+#### Interdimensional Dude Deck ⭕
 
 3x Birds of Paradise
 3x Black Lotus
@@ -987,16 +988,31 @@ Farfetch'd
 2x Protect
 1x Oran Berry
 1x Tool Jammer
-14/60
+13/60
 
 16x Lightning
 16/60
 
-#### Power of Mewtwo Deck
+#### Power of Mewtwo Deck ⭕
 
-Mewtwo
-Trainers
-Energy
+1x Mewtwo
+1/60
+
+4x Oran Berry
+4x Lum Berry
+4x Hard Berry
+4x Defender
+4x Pluspower
+4x Oak
+2x Winged Strawberry
+3x Shrine of Secrets
+4x Computer Search
+4x Item Finder
+2x Misty's Wrath
+39/60
+
+20x Psychic Energy
+20/60
 
 ### Zach Decks
 
