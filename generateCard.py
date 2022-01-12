@@ -447,7 +447,8 @@ def draw_card(cardType: str, cardData, filename: str):
       # =============================================
       name_offset = 50
       if "evolvesFrom" in cardData:
-        draw.text((100, 30), "Evolves from " + cardData["evolvesFrom"], font=evolvesFromFont, fill=color)
+        evolvesFrom: str = cardData["evolvesFrom"]
+        draw.text((100, 30), "Evolves from " + " ".join(evolvesFrom.split("-")).title(), font=evolvesFromFont, fill=color)
         name_offset += 60
 
       draw.text((name_offset, 45), cardData["name"].strip(), font=pokemonNameFont, fill=color)

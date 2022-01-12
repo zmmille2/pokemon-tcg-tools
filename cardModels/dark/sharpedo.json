@@ -1,0 +1,37 @@
+{
+    "name": "Sharpedo",
+    "hp": 70,
+    "stage": "stage1",
+    "evolvesFrom": "Carvanha",
+    "type": "dark",
+    "image": "sharpedo",
+    "passive": {
+        "name": "Lurk Under",
+        "effect": "When this Pokemon attacks, it may treat any Pokemon on the opponent's Bench as the Defending Pokemon.",
+        "type": "active ability"
+    },
+    "attacks": [
+        {
+            "name": "Tear Chunks",
+            "cost": "dark-water",
+            "damage": 20
+        },
+        {
+            "name": "Rage",
+            "cost": "dark-water dark-water colorless",
+            "damage": "10x",
+            "effect": "This attack does 10 damage times the number of damage counters on Sharpedo."
+        }
+    ],
+    "weakness": {
+        "type": "fairy-lightning",
+        "value": 10
+    },
+    "resistance": {
+        "type": "ghost-fire",
+        "value": 10
+    },
+    "retreat": 0,
+    "rarity": 1,
+    "flavor": "You're going to need a bigger boat..."
+}

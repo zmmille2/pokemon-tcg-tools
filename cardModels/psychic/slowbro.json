@@ -1,0 +1,24 @@
+{
+    "name": "Slowbro",
+    "hp": 80,
+    "stage": "stage1",
+    "evolvesFrom": "Slowpoke",
+    "type": "psychic",
+    "image": "slowbro",
+    "passive": {
+        "name" : "Relax",
+        "effect": "When your turn ends, put a Relaxation token on Slowbro. When Slowbro has 20 Relaxation tokens on it, you win.",
+        "type": "unique ability"
+    },
+    "weakness": {
+        "type": "dark-ghost",
+        "value": 10
+    },
+    "resistance": {
+        "type": "psychic-fire",
+        "value": 10
+    },
+    "retreat": 3,
+    "rarity": 1,
+    "flavor": "What's the rush?"
+}

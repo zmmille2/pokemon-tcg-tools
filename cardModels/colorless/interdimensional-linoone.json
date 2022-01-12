@@ -1,0 +1,16 @@
+{
+    "name": "Interdimensional Linoone",
+    "hp": 80,
+    "stage": "stage1",
+    "type": "colorless",
+    "image": "interdimensional-linoone",
+    "evolvesFrom": "interdimensional-zigzagoon",
+    "passive": {
+        "name": "Concerned Mom",
+        "effect": "Put Interdimensional Linoone in the Lost Zone. It is not Knocked Out.",
+        "type": "ability"
+    },
+    "retreat": 0,
+    "rarity": 1,
+    "flavor": "where is my son"
+}

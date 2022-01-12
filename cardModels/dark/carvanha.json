@@ -1,0 +1,30 @@
+{
+    "name": "Carvanha",
+    "hp": 40,
+    "stage": "basic",
+    "type": "dark",
+    "image": "carvanha",
+    "attacks": [
+        {
+            "name": "Gnaw Through",
+            "cost": "colorless",
+            "effect": "Discard any Pokemon Tool attached to the Defending Pokemon."
+        },
+        {
+            "name": "Hard Bite",
+            "cost": "dark-water",
+            "damage": 10
+        }
+    ],
+    "weakness": {
+        "type": "fairy-lightning",
+        "value": 10
+    },
+    "resistance": {
+        "type": "ghost-fire",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 1,
+    "flavor": "Rivers teem with these hungry creatures. It's a nasty surprise to stumble upon them unprepared! They will eat you alive."
+}

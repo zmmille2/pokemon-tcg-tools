@@ -289,7 +289,7 @@ Dragon x Fire x Flying
 
 ### Bug Club
 
-#### Swarm! Deck
+#### Swarm! Deck ✅
 
 3x Combee
 2x Dark Vespiquen
@@ -481,31 +481,129 @@ Rayquaza
 
 ### Ghost Club
 
-#### Possessed Tool Deck
+#### Possessed Tool Deck TOMAKE
 
-Honedge
-Rotom
+3x Honedge
+2x Doublade
+2x Aegislash
+3x Rotom
+3x Magnemite
+2x Magneton
+2x Oricorio
+2x Farfetch'd
+1x Shuckle
+1x Pidgey
+1x Pidgeotto
+2x Cubone
+25/60
 
-#### Friendly Ghost Deck
+1x Oak
+2x Beach Combing
+1x Eviolite
+1x Cursed Shovel
+1x Lucky Egg
+1x Memory Capsule
+1x Costume Party
+1x Ultra Ball
+1x Daring Adventure
+10/60
 
-Oricorio
-Misdreavous
-Cubone
+10x Ghost
+7x Lightning
+6x Metal
+2x Flying
+25/60
 
-#### Haunted House Deck
+#### Friendly Ghost Deck TOMAKE
 
-Gengar
-Misdreavous
+4x Oricorio
+3x Spooky Pikachu
+3x Misdreavous
+2x Mismagius
+3x Cubone
+1x Alolan Marowak
+3x Natu
+2x Xatu
+2x Smeargle
+23/60
 
-#### Nightmare Deck
+2x Evil Laugh
+2x Costume Party
+1x Oak
+1x Great Ball
+1x Defender
+1x Energy Search
+1x Rainbow Curveball
+1x Daring Adventure
+10/60
 
-Gengar
-Darkrai
-Alolan Marowak
+10x Ghost
+7x Psychic
+6x Lightning
+4x Flying
+27/60
+
+#### Skeleton Crew Deck TOMAKE
+
+3x Tentacool
+2x Tentacruel
+2x Zorua
+1x Zoroark
+3x Gastly
+2x Haunter
+2x Gengar
+2x Squirtle
+1x Wartortle
+3x Carvanha
+2x Sharpedo
+23/60
+
+2x Haunted Cruise
+2x Evil Laugh
+1x Oak
+1x Pluspower
+1x Cursed Shovel
+1x Max Revive
+2x Energy Search
+1x Misty's Wrath
+11/60
+
+9x Ghost
+6x Water
+6x Poison
+6x Dark
+25/60
+
+#### Nightmare Deck TOMAKE
+
+4x Gastly
+3x Haunter
+3x Gengar
+3x Cubone
+2x Alolan Marowak
+2x Darkrai
+2x Absol
+3x Misdreavus
+2x Mismagius
+24/60
+
+2x Evil Laugh
+2x Protect
+2x Revive
+1x Ultraball
+1x Max Revive
+1x Computer Search
+1x Oak
+1x Cursed Shovel
+10/60
+
+25/60
+15x Ghost Energy
+10x Dark Energy
 
 ### Grass Club
 
-#### Sunflower Deck
+#### Sunflower Deck ✅
 
 2x Tropius
 2x Formantis
@@ -544,12 +642,36 @@ Alolan Marowak
 25/60
 
 
-#### Rainforest Deck
+#### Rainforest Deck TOMAKE
 
-Ludicolo
-Gloom
+4x Oddish
+3x Gloom
+3x Dewpider
+2x Araquanid
+3x Lotad
+2x Lombre
+2x Ludicolo
+3x Squirtle
+2x Wartortle
+2x Blastoise
+26/60
 
-#### Sleepy Woad Deck
+2x Big Umbrella
+2x Energy Search
+1x Oak
+1x Gondra Berry
+1x Cheryl
+1x Energy Recycler
+1x Lum Berry
+1x Oran Berry
+1x Defender
+11/60
+
+12x Grass
+11x Water
+23/60
+
+#### Sleepy Woad Deck ✅
 
 2x Oddish
 1x Gloom
@@ -584,12 +706,38 @@ Gloom
 4x Psychic Energy
 23/60
 
-#### Beauty of Nature Deck
+#### Beauty of Nature Deck TOMAKE
 
-Milotic
-Bellossom
-Lurantis
-Ludicolo
+2x Feebas
+2x Milotic
+3x Lotad
+2x Lombre
+2x Ludicolo
+3x Oddish
+2x Gloom
+2x Bellossom
+2x Formantis
+2x Lurantis
+2x Jigglypuff
+1x Wigglytuff
+25/60
+
+2x Rare Candy
+2x Energy Search
+1x Oak
+1x Gondra Berry
+1x Cheryl
+1x Energy Recycler
+1x Lum Berry
+1x Oran Berry
+1x Pluspower
+11/60
+
+8x Grass
+6x Water
+6x Fire
+4x Prism Energy
+24/60
 
 ### Ground Club
 
@@ -646,7 +794,7 @@ Articuno
 
 ### Lightning Club
 
-#### Pikachu Fan Deck
+#### Pikachu Fan Deck ✅
 
 4x Pachirisu
 4x Dedenne
@@ -813,9 +961,36 @@ Psyduck
 Hypno
 Farfetch'd
 
-#### Interdimensional Dude Deck
+#### Interdimensional Dude Deck TOMAKE
 
-Interdimensional Zigzagoon
+3x Birds of Paradise
+3x Black Lotus
+2x Block Spider
+2x Honus Wagner
+2x Uno Reverse
+2x Void Battleguard
+2x Wayne Gretzky
+16/60
+
+3x Interdimensional Zigzagoon
+2x Interdimensional Linoone
+2x Interdimensional Cubone
+2x Interdimensional Psyduck
+3x Interdimensional Pikachu
+2x Interdimensional Raichu
+14/60
+
+3x Pot of Greed
+2x Imakuni
+2x Imposter Oak
+2x Oak
+2x Protect
+1x Oran Berry
+1x Tool Jammer
+14/60
+
+16x Lightning
+16/60
 
 #### Power of Mewtwo Deck
 
@@ -835,7 +1010,7 @@ Tropius
 
 #### Invincible Zach Deck
 
-Flygon
+Rainbow
 
 #### Legendary Zach Deck
 

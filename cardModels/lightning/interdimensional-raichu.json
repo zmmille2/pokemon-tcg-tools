@@ -1,0 +1,23 @@
+{
+    "name": "Interdimensional Raichu",
+    "hp": 40,
+    "stage": "stage1",
+    "type": "lightning",
+    "image": "interdimensional-raichu",
+    "evolvesFrom": "interdimensional-pikachu",
+    "passive": {
+        "name": "You got me man. I really am a Pokemon.",
+        "effect": "Good thing we avoided that whole ethical issue, huh.",
+        "type": "unique ability"
+    },
+    "attacks": [
+        {
+            "name": "Pokemon Slam",
+            "cost": "lightning lightning lightning lightning lightning",
+            "damage": 200
+        }
+    ],
+    "retreat": 1,
+    "rarity": 1,
+    "flavor": "I mean could you imagine if you had kidnapped some kid and forced it to fight animals? Anyways."
+}

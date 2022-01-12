@@ -1,0 +1,30 @@
+{
+    "name": "Interdimensional Cubone",
+    "hp": 50,
+    "stage": "basic",
+    "type": "colorless",
+    "image": "interdimensional-cubone",
+    "attacks": [
+        {
+            "name": "Bark I mean uhhh Cry",
+            "cost": "empty",
+            "effect": "Search your deck for a Basic Pokemon, put it on your Bench, and shuffle your deck."
+        },
+        {
+            "name": "Skull Bash",
+            "cost": "colorless colorless",
+            "damage": 20
+        }
+    ],
+    "weakness": {
+        "type": "water-fighting",
+        "value": 10
+    },
+    "resistance": {
+        "type": "ghost-bug",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 1,
+    "flavor": "It resists bugs due to K9 Advantix. They're not biting: I'm not itching!"
+}

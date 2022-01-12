@@ -1,0 +1,22 @@
+{
+    "name": "Interdimensional Psyduck",
+    "hp": 10,
+    "stage": "basic",
+    "type": "water",
+    "image": "interdimensional-psyduck",
+    "passive": {
+        "name": "Yo it's a shiny!",
+        "effect": "You don't get a Prize for Knocking Out Interdimensional Psyduck. That's animal cruelty.",
+        "type": "passive ability"
+    },
+    "attacks": [
+        {
+            "name": "Quack",
+            "cost": "empty",
+            "effect": "Quack quack quack quack quack"
+        }
+    ],
+    "retreat": 0,
+    "rarity": 1,
+    "flavor": "I'm like 60% sure this is Psyduck. Pikachu, use Thunderbolt!"
+}
