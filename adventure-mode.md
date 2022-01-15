@@ -8,22 +8,22 @@ Beating a leader gives 2 packs.
 
 - [Adventure Mode](#adventure-mode)
   - [Decklists](#decklists)
-    - [Laboratory](#laboratory)
-      - [Bulbasaur and Friends (Starter Deck)](#bulbasaur-and-friends-starter-deck)
-      - [Squirtle and Friends (Starter Deck)](#squirtle-and-friends-starter-deck)
-      - [Charmander and Friends (Starter Deck)](#charmander-and-friends-starter-deck)
-      - [Route 1 Deck](#route-1-deck)
-      - [Power of Starters](#power-of-starters)
-    - [Bug Club](#bug-club)
-      - [Swarm! Deck](#swarm-deck)
-      - [Exoskeleton Deck](#exoskeleton-deck)
-      - [Berry Scary Deck](#berry-scary-deck)
-      - [Infestation Deck](#infestation-deck)
-    - [Dark Club](#dark-club)
-      - [Dirty Fighter Deck](#dirty-fighter-deck)
-      - [Murder of Crows Deck](#murder-of-crows-deck)
-      - [Howl at the Moon Deck](#howl-at-the-moon-deck)
-      - [Cruel Hatred Deck](#cruel-hatred-deck)
+    - [Laboratory - DONE](#laboratory---done)
+      - [Bulbasaur and Friends (Starter Deck) ✅](#bulbasaur-and-friends-starter-deck-)
+      - [Squirtle and Friends (Starter Deck) ✅](#squirtle-and-friends-starter-deck-)
+      - [Charmander and Friends (Starter Deck) ⭕](#charmander-and-friends-starter-deck-)
+      - [Route 1 Deck ❌](#route-1-deck-)
+      - [Power of Starters ❌](#power-of-starters-)
+    - [Bug Club - READY](#bug-club---ready)
+      - [Swarm! Deck ✅](#swarm-deck-)
+      - [Exoskeleton Deck - TOMAKE](#exoskeleton-deck---tomake)
+      - [Berry Scary Deck - TOMAKE](#berry-scary-deck---tomake)
+      - [Bug Zapper Deck - TOMAKE](#bug-zapper-deck---tomake)
+    - [Dark Club - TOMAKE](#dark-club---tomake)
+      - [Dirty Fighter Deck - TOMAKE](#dirty-fighter-deck---tomake)
+      - [Murder of Crows Deck - TOMAKE](#murder-of-crows-deck---tomake)
+      - [Howl at the Moon Deck - TOMAKE](#howl-at-the-moon-deck---tomake)
+      - [Cruel Hatred Deck - TOMAKE](#cruel-hatred-deck---tomake)
     - [Dragon Club](#dragon-club)
       - [Psuedodragon Deck](#psuedodragon-deck)
       - [Dragonbreath Deck](#dragonbreath-deck)
@@ -35,7 +35,7 @@ Beating a leader gives 2 packs.
       - [Cute When You're Mad Deck](#cute-when-youre-mad-deck)
       - [Fairy Tale Deck](#fairy-tale-deck)
     - [Fighting Club](#fighting-club)
-      - [Tag Team Deck](#tag-team-deck)
+      - [Tag Team Deck - TOMAKE](#tag-team-deck---tomake)
       - [Focus Punch Deck](#focus-punch-deck)
       - [Primal Rage Deck](#primal-rage-deck)
       - [Feat of Strength Deck](#feat-of-strength-deck)
@@ -49,16 +49,16 @@ Beating a leader gives 2 packs.
       - [Flock Deck](#flock-deck)
       - [Legendary Birds Deck](#legendary-birds-deck)
       - [Air Power Deck](#air-power-deck)
-    - [Ghost Club](#ghost-club)
-      - [Possessed Tool Deck](#possessed-tool-deck)
-      - [Friendly Ghost Deck](#friendly-ghost-deck)
-      - [Haunted House Deck](#haunted-house-deck)
-      - [Nightmare Deck](#nightmare-deck)
-    - [Grass Club](#grass-club)
-      - [Sunflower Deck](#sunflower-deck)
-      - [Rainforest Deck](#rainforest-deck)
-      - [Sleepy Woad Deck](#sleepy-woad-deck)
-      - [Beauty of Nature Deck](#beauty-of-nature-deck)
+    - [Ghost Club - READY](#ghost-club---ready)
+      - [Possessed Tool Deck ⭕](#possessed-tool-deck-)
+      - [Friendly Ghost Deck ⭕](#friendly-ghost-deck-)
+      - [Skeleton Crew Deck ⭕](#skeleton-crew-deck-)
+      - [Nightmare Deck ⭕](#nightmare-deck-)
+    - [Grass Club - READY](#grass-club---ready)
+      - [Sunflower Deck ✅](#sunflower-deck-)
+      - [Rainforest Deck ⭕](#rainforest-deck-)
+      - [Sleepy Woad Deck ✅](#sleepy-woad-deck-)
+      - [Beauty of Nature Deck ⭕](#beauty-of-nature-deck-)
     - [Ground Club](#ground-club)
       - [Dynamite Deck](#dynamite-deck)
       - [Permafrost Deck](#permafrost-deck)
@@ -70,8 +70,8 @@ Beating a leader gives 2 packs.
       - [Hypothermia Deck](#hypothermia-deck)
       - [Absolute Zero Deck](#absolute-zero-deck)
     - [Lightning Club](#lightning-club)
-      - [Pikachu Fan Deck](#pikachu-fan-deck)
-      - [Lightning Bug Deck](#lightning-bug-deck)
+      - [Pikachu Fan Deck ✅](#pikachu-fan-deck-)
+      - [???](#)
       - [ZAP ZAP ZAP Deck](#zap-zap-zap-deck)
       - [Alternating Current Deck](#alternating-current-deck)
     - [Metal Club](#metal-club)
@@ -85,25 +85,25 @@ Beating a leader gives 2 packs.
       - [Stench Deck](#stench-deck)
       - [Art of Poison Deck](#art-of-poison-deck)
     - [Psychic Club](#psychic-club)
-      - [Ralts Fan Deck](#ralts-fan-deck)
+      - [Relaxation Deck - TOMAKE](#relaxation-deck---tomake)
       - [Ancient Ruins Deck](#ancient-ruins-deck)
       - [Spoink Deck](#spoink-deck)
       - [Mysteries of Mew Deck](#mysteries-of-mew-deck)
     - [Rock Club](#rock-club)
       - [Fossil Excavation Deck](#fossil-excavation-deck)
-      - [Berry Crusher Deck](#berry-crusher-deck)
+      - [Cosmic Bodies Deck](#cosmic-bodies-deck)
       - [Rockruff Fan Deck](#rockruff-fan-deck)
       - [Down to Earth Deck](#down-to-earth-deck)
     - [Water Club](#water-club)
       - [Walk on Water Deck](#walk-on-water-deck)
       - [Weird Ripple Deck](#weird-ripple-deck)
-      - [Water Cycle Deck](#water-cycle-deck)
+      - [Water Cycle Deck TOMAKE](#water-cycle-deck-tomake)
       - [Rain Dance Deck](#rain-dance-deck)
     - [Challenge Decks](#challenge-decks)
-      - [Imakuni? Deck](#imakuni-deck)
-      - [Interdimensional Dude Deck](#interdimensional-dude-deck)
-      - [Power of Mewtwo Deck](#power-of-mewtwo-deck)
-    - [Zach Decks](#zach-decks)
+      - [Interdimensional Dude Deck ⭕](#interdimensional-dude-deck-)
+      - [Power of Mewtwo Deck ⭕](#power-of-mewtwo-deck-)
+    - [Special Decks](#special-decks)
+      - [Imakuni? Deck - TOMAKE](#imakuni-deck---tomake)
       - [I'm Zach Deck](#im-zach-deck)
       - [Powerful Zach Deck](#powerful-zach-deck)
       - [Invincible Zach Deck](#invincible-zach-deck)
@@ -117,7 +117,7 @@ Unique - 1 pack - Medium
 Prized Student - 1 pack - Hard
 Master - 2 packs - Really hard
 
-### Laboratory
+### Laboratory - DONE
 
 Player picks a deck.
 
@@ -287,7 +287,7 @@ Dragon x Fire x Flying
 4x Water Energy
 4x Grass Energy
 
-### Bug Club
+### Bug Club - READY
 
 #### Swarm! Deck ✅
 
@@ -323,45 +323,219 @@ Dragon x Fire x Flying
 5x Lightning Energy
 22/60
 
+#### Exoskeleton Deck - TOMAKE
 
-#### Exoskeleton Deck
+3x Scyther
+1x Scizor
+1x Kleavor
+3x Durant
+3x Dwebble
+2x Crustle
+2x Venipede
+1x Whirlipede
+2x Weedle
+1x Kakuna
+1x Shuckle
+3x Aron
+2x Lairon
+25/60
 
-Scyther
-Durant
+1x Energy Search
+1x Bugsy
+1x Oak
+1x Great Ball
+1x Oran Berry
+1x Infestation
+1x Protect
+1x Revive
+2x Defender
+2x Sunset Pasture
+12/60
 
-#### Berry Scary Deck
+12x Bug
+6x Rock
+5x Steel
+23/60
 
-Venipede
-Shuckle
+#### Berry Scary Deck - TOMAKE
 
-#### Infestation Deck
+4x Venipede
+3x Whirlipede
+2x Scolipede
+3x Shuckle
+2x Fomantis
+1x Lurantis
+2x Tropius
+3x Dedenne
+2x Jigglypuff
+1x Wigglypuff
+23/60
 
-A bunch of that stuff
+3x Berry Harvest
+1x Oran Berry
+1x Ulaz Berry
+1x Hard Berry
+1x Goman Berry
+1x Gondra Berry
+1x Lum Berry
+1x Rinka Berry
+1x Rainbow Curveball
+1x Oak
+1x Itemfinder
+13/60
 
-### Dark Club
+4x Bug
+Grass
+Fairy
+24/60
 
-#### Dirty Fighter Deck
+#### Bug Zapper Deck - TOMAKE
 
-Hitmonchan
-Zoroark
-Hawlucha
+3x Joltik
+2x Galvantula
+2x Volbeat
+2x Illumise
+3x Weedle
+2x Kakuna
+2x Beedrill
+3x Venipede
+2x Whirlipede
+2x Scolipede
+23/60
 
-#### Murder of Crows Deck
+2x Bugsy
+2x Fieldworker
+1x Computer Search
+1x Pluspower
+1x Oran Berry
+1x Lum Berry
+1x Cheryl
+1x Ulaz Berry
+1x Costume Party
+1x Oak
+1x Plain Fields
+13/60
 
-Murkrow
-Noctowl
-Hawlucha
+15x Bug Energy
+9x Lightning Energy
+24/60
 
-#### Howl at the Moon Deck
+### Dark Club - TOMAKE
 
-Lycanroc Midnight
-Mightyena
-Zoroark
+#### Dirty Fighter Deck - TOMAKE
 
-#### Cruel Hatred Deck
+2x Absol
+2x Hitmonchan
+3x Zorua
+2x Zoroark
+3x Hawlucha
+3x Carvanha
+2x Sharpedo
+2x Passimian
+2x Scyther
+2x Lillipup
+1x Herdier
+24/60
 
-Cruel Nidoking
-Darkrai
+2x Lifting Session
+1x Oran Berry
+1x Lum Berry
+1x Roost
+1x Oak
+2x Pluspower
+1x Defender
+1x Mega Punch
+1x Evil Laugh
+1x Protect
+1x Computer Search
+13/60
+
+10x Dark Energy
+8x Fighting Energy
+5x Flying Energy
+23/60
+
+#### Murder of Crows Deck - TOMAKE
+
+3x Murkrow
+2x Honchkrow
+3x Hoothoot
+2x Noctowl
+2x Chatot
+3x Natu
+2x Xatu
+2x Drifloon TOMAKE
+1x Drifblim TOMAKE
+
+22/60
+
+2x Roost
+13/60
+
+11x Dark Energy
+9x Psychic Energy
+5x Flying Energy
+25/60
+
+#### Howl at the Moon Deck - TOMAKE
+
+3x Rockruff
+2x Lycanroc Midnight
+3x Poochyena
+2x Mightyena
+3x Zorua
+2x Zoroark
+4x Lilipup
+3x Herdier
+2x Stoutland
+24/60
+
+2x Nas
+2x Dog Poker
+1x Tool Jammer
+1x Computer Search
+1x Pokeball
+1x Memory Capsule
+1x Costume Party
+1x Eviolite
+1x Protect
+1x Sunset Pasture
+1x Pluspower
+1x Defender
+14/60
+
+22x Dark Energy
+22/60
+
+#### Cruel Hatred Deck - TOMAKE
+
+4x Nidoran
+3x Nidorino
+2x Cruel Nidoking
+3x Darkrai
+2x Shaymin
+3x Murkrow
+2x Honchkrow
+2x Lileep
+1x Cradily
+22/60
+
+2x Fieldworker
+2x Companion Quest
+2x Shrine of Secrets
+2x Swagger
+1x Oran Berry
+1x Lum Berry
+1x Oak
+1x Billie
+1x Venoshock
+1x Mysterious Fossil
+14/60
+
+12x Dark Energy
+7x Poison Energy
+5x Grass Energy
+24/60
 
 ### Dragon Club
 
@@ -397,6 +571,8 @@ Oricorio
 
 #### Crystal Cave Deck
 
+Solrock
+Lunatone
 Carbink
 
 #### Cute When You're Mad Deck
@@ -412,10 +588,34 @@ Zacian
 
 ### Fighting Club
 
-#### Tag Team Deck
+#### Tag Team Deck - TOMAKE
 
-Sawk
-Throh
+2x Sawk
+2x Throh
+2x Hitmonchan TOMAKE
+2x Hitmonlee TOMAKE
+2x Volbeat
+2x Illumise
+2x Tauros
+2x Miltank
+2x Solrock TOMAKE
+2x Lunatone TOMAKE
+2x Oranguru TOMAKE
+2x Passimian TOMAKE
+24/60
+
+2x Lifting Session
+2x Energy Search
+2x Goman Berry
+2x Sunset Pasture
+2x Companion Quest
+2x Balloon Berry
+12/60
+
+10x Fighting
+8x Psychic
+6x Bug
+24/60
 
 #### Focus Punch Deck
 
@@ -479,7 +679,7 @@ Chatot
 Dragonite
 Rayquaza
 
-### Ghost Club
+### Ghost Club - READY
 
 #### Possessed Tool Deck ⭕
 
@@ -602,12 +802,12 @@ Rayquaza
 15x Ghost Energy
 10x Dark Energy
 
-### Grass Club
+### Grass Club - READY
 
 #### Sunflower Deck ✅
 
 2x Tropius
-2x Formantis
+2x Fomantis
 1x Lurantis
 1x Castform Sun
 2x Bulbasaur (Grass)
@@ -641,7 +841,6 @@ Rayquaza
 15x Grass Energy
 10x Fire Energy
 25/60
-
 
 #### Rainforest Deck ⭕
 
@@ -823,11 +1022,9 @@ Articuno
 7x Fairy Energy
 22/60
 
-#### Lightning Bug Deck
+#### ???
 
-Illumise
-Volbeat
-Galvantula
+TBD
 
 #### ZAP ZAP ZAP Deck
 
@@ -892,17 +1089,39 @@ Mega Poison
 
 ### Psychic Club
 
-#### Ralts Fan Deck
+#### Relaxation Deck - TOMAKE
 
-Ralts
+4x Slakoth - TOMAKE
+3x Vigoroth - TOMAKE
+3x Slaking - TOMAKE
+4x Slowpoke
+4x Slowbro
+4x Snorlax - TOMAKE
+22/60
+
+2x Sky Pillar
+2x Big Parasol
+2x Protect
+2x Berry Harvest
+2x Hard Berry
+2x Gondra Berry
+2x Balloon Berry
+1x Oak
+1x Memory Capsule
+16/60
+
+22x Psychic Energy
+22/60
 
 #### Ancient Ruins Deck
 
 Xatu
+Gallade
 
 #### Spoink Deck
 
 Gamer Spoink
+Gardevoir
 
 #### Mysteries of Mew Deck
 
@@ -913,14 +1132,16 @@ Mewtwo
 
 #### Fossil Excavation Deck
 
-Lileep Grass
-Tyrunt Dragon
+Lileep
+Tyrunt
 Aerodactyl
 
-#### Berry Crusher Deck
+#### Cosmic Bodies Deck
 
-Shuckle
-Kleavor
+Solrock
+Lunatone
+Minior
+Carbink
 
 #### Rockruff Fan Deck
 
@@ -943,9 +1164,41 @@ Araquanid
 Golduck
 Slowking
 
-#### Water Cycle Deck
+#### Water Cycle Deck TOMAKE
 
-Castforms
+4x Each Castform Form
+1x Onix (Rock)
+1x Nosepass
+1x Torkoal
+2x Growlithe
+1x Arcanine
+2x Magikarp
+1x Gyrados
+1x Lapras
+3x Eevee
+1x Flareon TOMAKE
+1x Vaporeon TOMAKE
+1x Glaceon
+2x Snom
+1x Frosmoth
+23/60
+
+3x Rainbow Curveball
+1x Oak
+1x Computer Search
+2x Energy Search
+2x Rinka Berry
+1x Eviolite
+1x Costume Party
+1x Fieldworker
+12/60
+
+3x Prism Energy
+7x Water
+5x Rock
+5x Fire
+4x Ice
+25/60
 
 #### Rain Dance Deck
 
@@ -955,12 +1208,9 @@ Light Quagsire
 
 ### Challenge Decks
 
-#### Imakuni? Deck
+This runs every 3 gyms, starting with the 2nd.
 
-Slowpoke
-Psyduck
-Hypno
-Farfetch'd
+2 - 5 - 8 - 11 - 14 - 17
 
 #### Interdimensional Dude Deck ⭕
 
@@ -1014,7 +1264,38 @@ Farfetch'd
 20x Psychic Energy
 20/60
 
-### Zach Decks
+### Special Decks
+
+#### Imakuni? Deck - TOMAKE
+
+4x Slowpoke
+2x Slowbro
+2x Slowking
+3x Farfetch'd
+3x Drowsee
+2x Hypno
+2x Chatot
+2x Psyduck
+1x Golduck
+1x Kecleon
+2x Gamer Spoink
+1x Grumpig
+25/60
+
+2x Imakuni
+2x Youngster's Wishlist
+2x Oran Berry
+1x Lum Berry
+1x Computer Search
+1x Ultra Ball
+1x Hard Berry
+1x Energy Search
+11/60
+
+12x Psychic Energy
+6x Water Energy
+6x Flying Energy
+24/60
 
 #### I'm Zach Deck
 
