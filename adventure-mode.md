@@ -16,19 +16,19 @@ Beating a leader gives 2 packs.
       - [Power of Starters ❌](#power-of-starters-)
     - [Bug Club - READY](#bug-club---ready)
       - [Swarm! Deck ✅](#swarm-deck-)
-      - [Exoskeleton Deck - TOMAKE](#exoskeleton-deck---tomake)
-      - [Berry Scary Deck - TOMAKE](#berry-scary-deck---tomake)
-      - [Bug Zapper Deck - TOMAKE](#bug-zapper-deck---tomake)
+      - [Exoskeleton Deck - ⭕](#exoskeleton-deck---)
+      - [Berry Scary Deck - ⭕](#berry-scary-deck---)
+      - [Bug Zapper Deck - ⭕](#bug-zapper-deck---)
     - [Dark Club - TOMAKE](#dark-club---tomake)
       - [Dirty Fighter Deck - TOMAKE](#dirty-fighter-deck---tomake)
       - [Murder of Crows Deck - TOMAKE](#murder-of-crows-deck---tomake)
       - [Howl at the Moon Deck - TOMAKE](#howl-at-the-moon-deck---tomake)
       - [Cruel Hatred Deck - TOMAKE](#cruel-hatred-deck---tomake)
-    - [Dragon Club](#dragon-club)
-      - [Psuedodragon Deck](#psuedodragon-deck)
-      - [Dragonbreath Deck](#dragonbreath-deck)
-      - [Ground Wyrm Deck](#ground-wyrm-deck)
-      - [Rainbow of Dragons Deck](#rainbow-of-dragons-deck)
+    - [Dragon Club - TOMAKE](#dragon-club---tomake)
+      - [Sea Serpent Deck - TOMAKE](#sea-serpent-deck---tomake)
+      - [Dragonflight Deck - TOMAKE](#dragonflight-deck---tomake)
+      - [Ground Wyrm Deck - TOMAKE](#ground-wyrm-deck---tomake)
+      - [Rainbow of Dragons Deck - TOMAKE](#rainbow-of-dragons-deck---tomake)
     - [Fairy Club](#fairy-club)
       - [Queen Mother Deck](#queen-mother-deck)
       - [Crystal Cave Deck](#crystal-cave-deck)
@@ -323,12 +323,12 @@ Dragon x Fire x Flying
 5x Lightning Energy
 22/60
 
-#### Exoskeleton Deck - TOMAKE
+#### Exoskeleton Deck - ⭕
 
 3x Scyther
 1x Scizor
 1x Kleavor
-3x Durant
+2x Durant
 3x Dwebble
 2x Crustle
 2x Venipede
@@ -336,6 +336,7 @@ Dragon x Fire x Flying
 2x Weedle
 1x Kakuna
 1x Shuckle
+1x Shiny Shuckle
 3x Aron
 2x Lairon
 25/60
@@ -357,7 +358,7 @@ Dragon x Fire x Flying
 5x Steel
 23/60
 
-#### Berry Scary Deck - TOMAKE
+#### Berry Scary Deck - ⭕
 
 4x Venipede
 3x Whirlipede
@@ -384,12 +385,12 @@ Dragon x Fire x Flying
 1x Itemfinder
 13/60
 
-4x Bug
-Grass
-Fairy
+14x Bug
+5x Grass
+5x Fairy
 24/60
 
-#### Bug Zapper Deck - TOMAKE
+#### Bug Zapper Deck - ⭕
 
 3x Joltik
 2x Galvantula
@@ -431,7 +432,7 @@ Fairy
 3x Hawlucha
 3x Carvanha
 2x Sharpedo
-2x Passimian
+2x Passimian TOMAKE
 2x Scyther
 2x Lillipup
 1x Herdier
@@ -537,29 +538,135 @@ Fairy
 5x Grass Energy
 24/60
 
-### Dragon Club
+### Dragon Club - TOMAKE
 
-#### Psuedodragon Deck
+#### Sea Serpent Deck - TOMAKE
 
-Gyrados
-Milotic
+3x Magikarp
+2x Gyrados
+3x Feebas
+2x Milotic
+3x Seviper
+3x Tentacool
+2x Tentacruel
+3x Ekans
+2x Arbok
+23/60
 
-#### Dragonbreath Deck
+2x Billie
+2x Memory Capsule
+1x Oak
+1x Ultraball
+1x Oran Berry
+1x Pluspower
+1x Defender
+1x Tool Jammer
+1x Venoshock
+1x Gondra Berry
+1x Hard Berry
+13/60
 
-Charizard
-Fire types
+14x Water Energy
+10x Poison Energy
+24/60
 
-#### Ground Wyrm Deck
+#### Dragonflight Deck - TOMAKE
 
-Flygon
-Ground types
-Tyrunt
+3x Charmander
+2x Charmeleon
+2x Charizard
+3x Swablu
+2x Altaria
+3x Vulpix
+2x Ninetails
+2x Moltres
+2x Oricorio
+2x Pidgey
+1x Pidgeotto
+24/60
 
-#### Rainbow of Dragons Deck
+2x Goman Berry
+1x Oak
+1x Great Ball
+1x Pluspower
+1x Defender
+1x Fire Spin
+1x Eviolite
+1x Costume Party
+1x Dragon Dance
+1x Roost
+1x Dashing Pouch
+12/60
 
-Kecleon
-Dragonair
-Vibrava
+10x Dragon Energy
+8x Fire Energy
+6x Flying Energy
+24/60
+
+#### Ground Wyrm Deck - TOMAKE
+
+4x Trapinch
+3x Vibrava
+2x Flygon
+3x Tyrunt
+2x Tyrantrum
+4x Onix
+3x Sentret
+2x Furret
+23/60
+
+2x Mysterious Fossil
+1x Earthquake
+1x Dragon Dance
+1x Protect
+1x Oran Berry
+1x Showdown
+1x Tool Jammer
+1x Protection Cube
+1x Oak
+1x Computer Search
+1x Plain Fields
+1x Cheryl
+13/60
+
+11x Dragon Energy
+8x Rock Energy
+5x Ground Energy
+24/60
+
+#### Rainbow of Dragons Deck - TOMAKE
+
+3x Dratini
+2x Dragonair
+3x Trapinch
+2x Vibrava
+2x Kecleon
+2x Smeargle
+3x Swablu
+2x Altaria
+3x Tyrunt
+2x Tyrantrum
+3x Charmander
+2x Charmeleon
+1x Charizard
+24/60
+
+2x Rainbow Curveball
+2x Mysterious Fossil
+2x Energy Search
+2x Training Court
+1x Oak
+1x Computer Search
+1x Rinka Berry
+11/60
+
+3x Aurora Energy
+6x Dragon
+5x Fire
+4x Ground
+4x Rock
+3x Flying
+25/60
 
 ### Fairy Club
 
