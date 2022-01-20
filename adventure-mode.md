@@ -200,7 +200,7 @@ Water x Grass x Psychic
 6x Grass Energy
 8x Psychic Energy
 
-#### Charmander and Friends (Starter Deck) ⭕
+#### Charmander and Friends (Starter Deck) ☑
 
 Dragon x Fire x Flying
 
@@ -788,7 +788,7 @@ Rayquaza
 
 ### Ghost Club - READY
 
-#### Possessed Tool Deck ⭕
+#### Possessed Tool Deck ✅
 
 3x Honedge
 2x Doublade
@@ -822,7 +822,7 @@ Rayquaza
 2x Flying
 26/60
 
-#### Friendly Ghost Deck ⭕
+#### Friendly Ghost Deck ✅✅
 
 4x Oricorio
 3x Spooky Pikachu
@@ -851,7 +851,7 @@ Rayquaza
 4x Flying
 27/60
 
-#### Skeleton Crew Deck ⭕
+#### Skeleton Crew Deck ✅
 
 3x Tentacool
 2x Tentacruel
@@ -882,7 +882,7 @@ Rayquaza
 6x Dark
 26/60
 
-#### Nightmare Deck ⭕
+#### Nightmare Deck ❌❌
 
 4x Gastly
 3x Haunter
@@ -909,7 +909,7 @@ Rayquaza
 15x Ghost Energy
 10x Dark Energy
 
-### Grass Club - READY
+### Grass Club - ✅
 
 #### Sunflower Deck ✅
 
@@ -949,7 +949,7 @@ Rayquaza
 10x Fire Energy
 25/60
 
-#### Rainforest Deck ⭕
+#### Rainforest Deck ✅
 
 4x Oddish
 3x Gloom
@@ -1013,7 +1013,7 @@ Rayquaza
 4x Psychic Energy
 23/60
 
-#### Beauty of Nature Deck ⭕
+#### Beauty of Nature Deck ✅
 
 2x Feebas
 2x Milotic
