@@ -20,7 +20,7 @@
             "name": "Hyper Beam",
             "cost": "colorless colorless colorless",
             "damage": 100,
-            "effect": "Rayquaza is Paralyzed next turn."
+            "effect": "This Pokemon is Paralyzed next turn."
         }
     ],
     "weakness": {

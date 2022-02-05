@@ -6,7 +6,7 @@
     "image": "articuno",
     "passive": {
         "name" : "Quickfreeze",
-        "effect": "When you put Articuno into play (except during setup) flip a coin. If heads, the Defending Pokemon is now Paralyzed.",
+        "effect": "When you put this Pokemon into play (except during setup) flip a coin. If heads, the Defending Pokemon is now Paralyzed.",
         "type": "ability"
     },
     "attacks": [

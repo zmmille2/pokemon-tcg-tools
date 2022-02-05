@@ -9,13 +9,13 @@
             "name": "Water Gun",
             "cost": "water colorless",
             "damage": "20+",
-            "effect": "Deals 10 more damage for each additional Water Energy attached to Wooper not used to pay for this attack's cost, up to 20."
+            "effect": "Deals 10 more damage for each additional Water Energy attached to this Pokemon not used to pay for this attack's cost, up to 20."
         },
         {
             "name": "Mud Shot",
             "cost": "ground colorless",
             "damage": 20,
-            "effect": "Treat this damage as if Wooper were Ground type."
+            "effect": "This attack deals Ground-type damage."
         }
     ],
     "weakness": {

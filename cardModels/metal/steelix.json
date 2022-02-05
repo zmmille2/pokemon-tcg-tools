@@ -9,7 +9,7 @@
         {
             "name": "Screech",
             "cost": "colorless colorless",
-            "effect": "Next turn, Steelix takes half damage from all sources, rounded up."
+            "effect": "Next turn, this Pokemon takes half damage from all sources, rounded up."
         },
         {
             "name": "Heavy Slam",

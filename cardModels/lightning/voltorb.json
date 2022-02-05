@@ -6,7 +6,7 @@
     "image": "voltorb",
     "passive": {
         "name" : "Magnetic Field",
-        "effect": "When you move an Energy to or from Voltorb, you may draw a card.",
+        "effect": "Once per turn, when you move an Energy to or from this Pokemon, you may draw a card.",
         "type": "ability"
     },
     "attacks": [
@@ -14,7 +14,7 @@
             "name": "Discharge",
             "cost": "lightning lightning",
             "damage": 20,
-            "effect": "Move a Lightning Energy from Voltorb to a Benched Pokemon."
+            "effect": "Move a Lightning Energy from this Pokemon to a Benched Pokemon."
         }
     ],
     "weakness": {

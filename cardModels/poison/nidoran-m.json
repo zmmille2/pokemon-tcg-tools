@@ -6,7 +6,7 @@
     "image": "nidoran-m",
     "passive": {
         "name" : "Poison Point",
-        "effect": "When Nidoran M takes damage, flip a coin. If heads, the Defending Pokemon is Poisoned.",
+        "effect": "When this Pokemon takes damage, flip a coin. If heads, the Defending Pokemon is Poisoned.",
         "type": "poke-power"
     },
     "attacks": [

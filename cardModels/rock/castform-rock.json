@@ -6,7 +6,7 @@
     "image": "castform-sand",
     "passive": {
         "name": "Sandstorm",
-        "effect": "When someone attaches an Energy to a Pokemon, deal 10 damage to that Pokemon, unless it is a Ground, Rock, or Metal Energy. When you attach an Energy to Castform, you may search your deck for another card named Castform, replace it with this one, and shuffle your deck.",
+        "effect": "When someone attaches an Energy to a Pokemon, deal 10 damage to that Pokemon, unless it is a Ground, Rock, or Metal Energy. When you attach an Energy to this Pokemon, you may search your deck for a card named Castform, replace it with this one, and shuffle your deck.",
         "type": "poke-body"
     },
     "attacks": [

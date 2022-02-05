@@ -6,7 +6,7 @@
     "image": "dwebble",
     "passive": {
         "name" : "Sturdy",
-        "effect": "If Dwebble has no damage counters on it, reduce any damage it takes above 30 to 30, and it cannot be Knocked Out.",
+        "effect": "If this Pokemon has no damage counters on it, if it would be Knocked Out, it takes 30 damage instead.",
         "type": "ability"
     },
     "attacks": [

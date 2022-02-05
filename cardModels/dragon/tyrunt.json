@@ -7,7 +7,7 @@
     "image": "tyrunt",
     "passive": {
         "name" : "Ancient Power",
-        "effect": "You may play Tyrunt from your hand as a Basic Pokemon. If you do, place 4 damage counters on it.",
+        "effect": "You may play this Pokemon from your hand as a Basic Pokemon. If you do, place 4 damage counters on it.",
         "type": "ability"
     },
     "attacks": [
@@ -20,7 +20,7 @@
             "name": "Dragon Rage",
             "cost": "dragon colorless",
             "damage": 30,
-            "effect": "Ignore weakness and resistance for this attack."
+            "effect": "Ignore Weakness and Resistance for this attack."
         },
         {
             "name": "Temper Tantrum",

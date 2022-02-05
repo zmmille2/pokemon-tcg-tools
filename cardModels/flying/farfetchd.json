@@ -6,7 +6,7 @@
     "image": "farfetchd",
     "passive": {
         "name": "Improvised Warrior",
-        "effect": "TMs equipped to Farfetch'd that deal damage deal 10 more damage.",
+        "effect": "TMs equipped to this Pokemon that deal damage deal 10 more damage.",
         "type": "passive ability"
     },
     "attacks": [
@@ -19,7 +19,7 @@
             "name": "Tool Smash",
             "cost": "flying colorless",
             "damage": "20+",
-            "effect": "If Farfetch'd has a Tool attached to it (other than a berry), this attack does 20 more damage."
+            "effect": "If this Pokemon has a Tool attached to it (other than a berry), this attack does 20 more damage."
         }
     ],
     "weakness": {

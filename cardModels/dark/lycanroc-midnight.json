@@ -7,7 +7,7 @@
     "image": "lycanroc-midnight",
     "passive": {
         "name" : "Lone Wolf",
-        "effect": "You may shuffle a Benched Pokemon into your deck. If you do, put its damage counters on Lycanroc Midnight, and its attacks deal 10 more damage this turn.",
+        "effect": "You may shuffle a Benched Pokemon into your deck. If you do, put its damage counters on this Pokemon, and its attacks deal 10 more damage this turn.",
         "type": "poke-power"
     },
     "attacks": [
@@ -19,7 +19,7 @@
         {
             "name": "Scary Face",
             "cost": "colorless colorless",
-            "effect": "If the Defending Pokemon's retreat cost is 1 or less, switch the Defending Pokemon with a Pokemon on the opponent's bench."
+            "effect": "If the Defending Pokemon's retreat cost is 1 or less, switch the Defending Pokemon with a Pokemon on the opponent's Bench."
         },
         {
             "name": "Dark Fang",

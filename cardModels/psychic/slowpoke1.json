@@ -6,7 +6,7 @@
     "image": "slowpoke",
     "passive": {
         "name" : "Unaware",
-        "effect": "When your opponent's attacks target Slowpoke, they don't have any additional effects.",
+        "effect": "When your opponent's attacks target this Pokemon, they don't have any additional effects.",
         "type": "ability"
     },
     "attacks": [

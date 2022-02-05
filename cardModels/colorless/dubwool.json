@@ -7,7 +7,7 @@
     "image": "dubwool",
     "passive": {
         "name" : "Springy Wool",
-        "effect": "If Dubwool takes damage from an attack, the opponent switches the Defending Pokemon. Dubwool takes 20 less damage from attacks.",
+        "effect": "If this Pokemon takes damage from an attack, the opponent switches the Defending Pokemon. This Pokemon takes 20 less damage from attacks.",
         "type": "poke-power"
     },
     "attacks": [

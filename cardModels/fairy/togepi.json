@@ -1,0 +1,31 @@
+{
+    "name": "Togepi",
+    "hp": 40,
+    "stage": "basic",
+    "type": "fairy",
+    "image": "togepi",
+    "passive": {
+        "name": "Incubate",
+        "effect": "When you attach a Fire Energy to this Pokemon, or whenever there are two Fire Energy attached to your Active Pokemon, you may search your deck for a Togetic and put it on this Pokemon, evolving it.",
+        "type": "passive"
+    },
+    "attacks": [
+        {
+            "name": "Sweet Kiss",
+            "cost": "colorless",
+            "damage": "10",
+            "effect": "Your opponent draws a card."
+        }
+    ],
+    "weakness": {
+        "type": "poison-metal",
+        "value": 10
+    },
+    "resistance": {
+        "type": "dragon-fight",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "They're probably too kind for their own good in a battle."
+}

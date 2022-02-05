@@ -1,0 +1,26 @@
+{
+    "name": "Snorlax",
+    "hp": 120,
+    "stage": "basic",
+    "type": "colorless",
+    "image": "snorlax",
+    "attacks": [
+        {
+            "name": "Giant Press",
+            "cost": "colorless colorless colorless colorless colorless",
+            "damage": 70
+        }
+    ],
+    "weakness": {
+        "type": "fighting",
+        "value": 10
+    },
+    "resistance": {
+        "type": "ghost",
+        "value": 10
+    },
+    "retreat": 4,
+    "rarity": 2,
+    "flavor": "Sleeping all day, they are notoriously lazy. Sometimes that's underappreciated."
+}
+

@@ -20,7 +20,7 @@
             "name": "Evolutionary Quake",
             "cost": "ground ground colorless colorless",
             "damage": "30+",
-            "effect": "Deal 20 more damage for each Evolved Pokemon on your bench. Deal 10 damage to all Benched Basic Pokemon."
+            "effect": "Deal 20 more damage for each Evolved Pokemon on your Bench. Deal 10 damage to all Benched Basic Pokemon."
         }
     ],
     "weakness": {

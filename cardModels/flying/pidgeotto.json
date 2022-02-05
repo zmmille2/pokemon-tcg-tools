@@ -9,13 +9,13 @@
         {
             "name": "Roost",
             "cost": "flying",
-            "effect": "Remove 2 damage counters and any Special Conditions from Pidgeotto. It loses its resistance this turn."
+            "effect": "Remove 2 damage counters and any Special Conditions from this Pokemon. It loses its Resistance this turn."
         },
         {
             "name": "Tailwind",
             "cost": "flying colorless",
             "damage": 30,
-            "effect": "Next turn, Pidgeotto can retreat for free."
+            "effect": "Next turn, this Pokemon can retreat for free."
         }
     ],
     "weakness": {

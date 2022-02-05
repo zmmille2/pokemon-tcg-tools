@@ -6,7 +6,7 @@
     "image": "volbeat",
     "passive": {
         "name": "Uplifting Glow",
-        "effect": "If there is an Illumise in play, Volbeat's Retreat Cost is 0.",
+        "effect": "If there is an Illumise in play, this Pokemon's Retreat Cost is 0.",
         "type": "ability"
     },
     "attacks": [
@@ -18,7 +18,7 @@
         {
             "name": "Signal Beam",
             "cost": "bug-lightning colorless colorless",
-            "damage": 30,
+            "damage": 20,
             "effect": "The Defending Pokemon is now Confused."
         }
     ],

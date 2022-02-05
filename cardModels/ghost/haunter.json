@@ -9,7 +9,7 @@
         {
             "name": "Curse",
             "cost": "ghost colorless",
-            "effect": "Deal 20 damage to Haunter. Shuffle 5 Curses into your opponent's deck, which deal damage when drawn."
+            "effect": "Deal 20 damage to this Pokemon. Shuffle 5 Curses into your opponent's deck, which deal damage when drawn."
         },
         {
             "name": "Shadow Punch",

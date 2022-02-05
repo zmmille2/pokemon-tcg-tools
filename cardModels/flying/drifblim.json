@@ -1,0 +1,32 @@
+{
+    "name": "Drifblim",
+    "hp": 110,
+    "stage": "stage1",
+    "evolvesFrom": "drifloon",
+    "type": "flying",
+    "image": "drifblim",
+    "attacks": [
+        {
+            "name": "Dirigiblast",
+            "cost": "colorless colorless",
+            "damage": 50,
+            "effect": "Put 3 damage counters on this Pokemon."
+        },
+        {
+            "name": "Carry Off",
+            "cost": "ghost-flying colorless colorless",
+            "effect": "Your opponent shuffles the Defending Pokemon and all cards attached to it into their deck. Then, shuffle this Pokemon and all cards attached to it into your deck."
+        }
+    ],
+    "weakness": {
+        "type": "dark-lightning",
+        "value": 10
+    },
+    "resistance": {
+        "type": "ground-normal",
+        "value": 10
+    },
+    "retreat": 0,
+    "rarity": 1,
+    "flavor": "Oh the humanity!"
+}

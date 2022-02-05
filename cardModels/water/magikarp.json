@@ -6,7 +6,7 @@
     "image": "magikarp",
     "passive": {
         "name" : "Jump the Waterfall",
-        "effect": "You may only attach Energies to Magikarp while it is your Active Pokemon. When Magikarp has 3 Water Energies attached to it, you may search your deck for a Gyrados and place it on Magikarp, evolving it.",
+        "effect": "You may only attach Energies to this Pokemon while it is your Active Pokemon. When this Pokemon has 3 Water Energies attached to it, you may search your deck for a Gyrados and place it on this Pokemon, evolving it.",
         "type": "ability"
     },
     "attacks": [
@@ -14,7 +14,7 @@
             "name": "Flail",
             "cost": "colorless",
             "damage": "10x",
-            "effect": "Deal 10 damage times the number of damage counters on Magikarp."
+            "effect": "Deal 10 damage times the number of damage counters on this Pokemon."
         }
     ],
     "weakness": {

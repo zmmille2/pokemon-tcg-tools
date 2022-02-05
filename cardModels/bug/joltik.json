@@ -6,7 +6,7 @@
     "image": "joltik",
     "passive": {
         "name": "Electroweb",
-        "effect": "If the Defending Pokemon switches during your opponent's turn, the new Defending Pokemon's attacks have no effect on Joltik, including damage.",
+        "effect": "If the Defending Pokemon switches during your opponent's turn, the new Defending Pokemon's attacks have no effect on this Pokemon, including damage.",
         "type": "poke-power"
     },
     "attacks": [

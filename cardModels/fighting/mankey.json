@@ -7,7 +7,7 @@
     "attacks": [
         {
             "name": "Fury Swipes",
-            "effect": "Deal 10 damage to the Defending Pokemon twice. Apply effects, weakness, and resistance as if this were two attacks.",
+            "effect": "Deal 10 damage to the Defending Pokemon twice. Apply effects, weakness, and Resistance as if this were two attacks.",
             "cost": "colorless",
             "damage": "10x"
         }

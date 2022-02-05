@@ -7,7 +7,7 @@
     "image": "electrode",
     "passive": {
         "name" : "Dangerous Charge",
-        "effect": "Once per turn, you may attach as many Energy as you like to Electrode from your discard. If you do, flip a coin: If tails, Electrode takes 10 damage for each Energy gained this way. If Electrode loses an Energy, it takes 10 damage.",
+        "effect": "Once per turn, you may attach as many Energy as you like to this Pokemon from your discard. If you do, flip a coin: If tails, this Pokemon takes 10 damage for each Energy gained this way. If this Pokemon loses an Energy, it takes 10 damage.",
         "type": "ability"
     },
     "attacks": [
@@ -15,7 +15,7 @@
             "name": "Explode",
             "cost": "lightning",
             "damage": "10x",
-            "effect": "Deal 10 damage times the number of Energy attached to Electrode to Electrode and to the Defending Pokemon"
+            "effect": "This Pokemon deals 10 damage times the number of Energy attached to it to itself and to the Defending Pokemon."
         }
     ],
     "weakness": {

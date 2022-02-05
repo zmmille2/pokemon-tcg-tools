@@ -10,7 +10,7 @@
             "name": "Super Psywave",
             "cost": "psychic colorless colorless",
             "damage": "40+",
-            "effect": "If Kirlia and the Defending Pokemon have the same number of Energy attached to them, this attack does 20 more damage."
+            "effect": "If this Pokemon and the Defending Pokemon have the same number of Energy attached to them, this attack does 20 more damage."
         }
     ],
     "weakness": {

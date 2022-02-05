@@ -8,7 +8,7 @@
         {
             "name": "Light Screen",
             "cost": "metal",
-            "effect": "Create 3 Light Screen tokens. Reduce damage to your active Pokemon by 10 if there are any Light Screen tokens. At the end of your turn, get rid of a Light Screen Token."
+            "effect": "Create 3 Light Screen tokens. Reduce damage to your Active Pokemon by 10 if there are any Light Screen tokens. At the end of your turn, get rid of a Light Screen token."
         },
         {
             "name": "Flash",
@@ -23,5 +23,5 @@
     },
     "retreat": 1,
     "rarity": 3,
-    "flavor": "They pulsate with magnetic power"
+    "flavor": "They pulsate with magnetic power."
 }

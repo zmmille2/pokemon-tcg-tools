@@ -7,7 +7,7 @@
     "image": "greninja",
     "passive": {
         "name" : "Substitute",
-        "effect": "Once per turn, if Greninja would take damage, you may discard a Trainer card to take half that damage.",
+        "effect": "Once per turn, if this Pokemon would take damage, you may discard a Trainer card to take half that damage (rounded up).",
         "type": "ability"
     },
     "attacks": [
@@ -19,7 +19,7 @@
         {
             "name": "Assassinate",
             "cost": "water water water water",
-            "effect": "You may shuffle Greninja and all cards attached to it into your deck. If you do, Knock Out the Defending Pokemon."
+            "effect": "You may shuffle this Pokemon and all cards attached to it into your deck. If you do, the Defending Pokemon is Knocked Out."
         }
     ],
     "weakness": {

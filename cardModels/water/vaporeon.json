@@ -1,0 +1,37 @@
+{
+    "name": "Vaporeon",
+    "hp": 80,
+    "stage": "stage1",
+    "evolvesFrom": "Eevee",
+    "type": "water",
+    "image": "vaporeon",
+    "passive": {
+        "name" : "Unstable Genes",
+        "effect": "You may treat Water Energy cards as Basic Energy cards with the type of any Pokemon with the \"Unstable Genes\" ability.",
+        "type": "ability"
+    },
+    "attacks": [
+        {
+            "name": "Bite",
+            "cost": "colorless",
+            "damage": 20
+        },
+        {
+            "name": "Water Gun",
+            "cost": "water colorless colorless",
+            "damage": "30+",
+            "effect": "Deal 10 more damage for each Water Energy attached to this Pokemon not used to pay for this attack's cost, up to 30."
+        }
+    ],
+    "weakness": {
+        "type": "lightning-grass",
+        "value": 10
+    },
+    "resistance": {
+        "type": "fire-water",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 1,
+    "flavor": "A scientist wanted their Eevee to be able to swim underwater with them and gave them a water stone. Eevee reacted to this experiment in a very unexpected way."
+}

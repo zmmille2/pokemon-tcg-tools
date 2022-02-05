@@ -6,7 +6,7 @@
     "image": "hawlucha",
     "passive": {
         "name" : "Si Rudo Si Technico",
-        "effect": "If Hawlucha has a Dark Energy and no Fighting Energy attached to it, you may shuffle it into your deck at any time. Discard any attached cards if you do this.",
+        "effect": "If this Pokemon has a Dark Energy and no Fighting Energy attached to it, you may shuffle it into your deck at any time. Discard any attached cards if you do this.",
         "type": "ability"
     },
     "attacks": [
@@ -14,7 +14,7 @@
             "name": "Rage",
             "cost": "flying colorless",
             "damage": "20+",
-            "effect": "Deal 10 more damage for each damage counter on Hawlucha."
+            "effect": "Deal 10 more damage for each damage counter on this Pokemon."
         },
         {
             "name": "Flying Press",

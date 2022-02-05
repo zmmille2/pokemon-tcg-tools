@@ -6,7 +6,7 @@
     "image": "feebas",
     "passive": {
         "name" : "Glow Up",
-        "effect": "When you attach a Fairy Energy to Feebas, you may search your deck for a Milotic, reveal it to your opponent, and add it to your hand. Shuffle your deck afterwards.",
+        "effect": "When you attach a Fairy Energy to this Pokemon, you may search your deck for a Milotic, reveal it to your opponent, and add it to your hand. Shuffle your deck afterwards.",
         "type": "ability"
     },
     "weakness": {

@@ -6,7 +6,7 @@
     "image": "interdimensional-zigzagoon",
     "passive": {
         "name": "Wrong Place, Wrong Time",
-        "effect": "Interdimensional Zigzagoon is confused. If Interdimensional Zigzagoon is Knocked Out, it goes to the Lost Zone.",
+        "effect": "This Pokemon is Confused. If this Pokemon is Knocked Out, it goes to the Lost Zone.",
         "type": "ability"
     },
     "attacks": [

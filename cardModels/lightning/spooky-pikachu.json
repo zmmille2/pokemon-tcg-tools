@@ -6,14 +6,14 @@
     "image": "pikachu3",
     "passive": {
         "name": "Halloween Costume",
-        "effect": "If Pikachu has a Ghost Energy attached to it, treat it as a Ghost-type Pokemon as well as a Lightning-type Pokemon.",
+        "effect": "If this Pokemon has a Ghost Energy attached to it, treat it as a Ghost-type Pokemon as well as a Lightning-type Pokemon.",
         "type": "ability"
     },
     "attacks": [
         {
             "name": "Spooky Seance",
             "cost": "colorless",
-            "effect": "Take a Lightning Energy from your discard and put it into your hand. If Pikachu has a Ghost Energy attached to it, you may take a Lightning-type Pokemon, too."
+            "effect": "Take a Lightning Energy from your discard and put it into your hand. If this Pokemon has a Ghost Energy attached to it, you may take a Lightning-type Pokemon, too."
         },
         {
             "name": "Shocking Tackle",

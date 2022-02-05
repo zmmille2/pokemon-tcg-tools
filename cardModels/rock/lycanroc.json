@@ -7,7 +7,7 @@
     "image": "lycanroc",
     "passive": {
         "name" : "Pack Howl",
-        "effect": "Once during your turn, for each Rockruff on your bench, you may reveal the top 5 cards of your deck. If any of them have Lycanroc in the name, you can evolve only one Rockruff immediately. Shuffle the other cards back into your deck.",
+        "effect": "Once during your turn, for each Rockruff on your Bench, you may reveal the top 5 cards of your deck. If any of them have Lycanroc in the name, you can evolve only one Rockruff immediately. Shuffle the other cards back into your deck.",
         "type": "poke-power"
     },
     "attacks": [

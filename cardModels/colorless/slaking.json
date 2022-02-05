@@ -1,0 +1,32 @@
+{
+    "name": "Slaking",
+    "hp": 120,
+    "stage": "stage2",
+    "evolvesFrom": "vigoroth",
+    "type": "colorless",
+    "image": "slaking",
+    "passive": {
+        "name": "Lethargic",
+        "type": "active",
+        "effect": "Your opponent's Pokemon have no abilities, except for Lethargic. If this Pokemon attacked last turn, it cannot attack this turn."
+    },
+    "attacks": [
+        {
+            "name": "Heavy Impact",
+            "cost": "colorless colorless colorless colorless",
+            "damage": 100,
+            "effect": "Discard an Energy attached to this Pokemon."
+        }
+    ],
+    "weakness": {
+        "type": "fighting",
+        "value": 10
+    },
+    "resistance": {
+        "type": "ghost",
+        "value": 10
+    },
+    "retreat": 3,
+    "rarity": 1,
+    "flavor": "Huge fat dumb oaf. They've outgrown their aggressive stages in life, but the muscle is still there."
+}

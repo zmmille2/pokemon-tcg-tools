@@ -19,7 +19,7 @@
             "name": "Candy Club",
             "cost": "colorless",
             "damage": "10",
-            "effect": "Remove a damage counter from Cubone."
+            "effect": "Remove a damage counter from this Pokemon."
         }
     ],
     "resistance": {

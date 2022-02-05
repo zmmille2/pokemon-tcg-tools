@@ -8,12 +8,12 @@
         {
             "name": "Rumble",
             "cost": "lightning",
-            "effect": "Search your discard for up to two Energies and attach them to Zapdos."
+            "effect": "Search your discard for up to two Energies and attach them to this Pokemon."
         },
         {
             "name": "Thunderstorm",
             "cost": "lightning lightning lightning",
-            "effect": "Discard all Energies attached to Zapdos. For each Energy discarded this way, deal 20 damage to a random Pokemon other than Zapdos. This attach ignores Weakness and Resistance."
+            "effect": "Discard all Energies attached to this Pokemon. For each Energy discarded this way, deal 20 damage to a random Pokemon other than this Pokemon. This attach ignores Weakness and Resistance."
         }
     ],
     "weakness": {

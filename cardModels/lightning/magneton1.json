@@ -7,7 +7,7 @@
     "image": "magneton1",
     "passive": {
         "name": "Current Capacitor",
-        "effect": "Once per turn, if you moved 3 Energies to or from Magneton this turn, deal 30 damage to an opponent's Benched Pokemon.",
+        "effect": "Once per turn, if you moved 3 Energies to or from this Pokemon this turn, deal 30 damage to an opponent's Benched Pokemon.",
         "type": "poke-body"
     },
     "attacks": [

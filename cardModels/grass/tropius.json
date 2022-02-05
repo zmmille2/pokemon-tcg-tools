@@ -6,20 +6,20 @@
     "image": "tropius",
     "passive": {
         "name": "Harvest",
-        "effect": "When Tropius uses a Berry, flip a coin: If it has a Fire Energy attached, flip 2 coins instead. If any coins flipped are Heads, don't discard the berry, but the effect still activates.",
+        "effect": "When this Pokemon uses a Berry, flip a coin: If it has a Fire Energy attached, flip 2 coins instead. If any coins flipped are heads, don't discard the Berry, but the effect still activates.",
         "type": "passive ability"
     },
     "attacks": [
         {
             "name": "Sunbathe",
             "cost": "grass",
-            "effect": "Flip a coin. If heads, generate a Fire Energy and attach it to Tropius."
+            "effect": "Flip a coin. If heads, generate a Fire Energy and attach it to this Pokemon."
         },
         {
             "name": "Solar Beam",
             "cost": "grass fire colorless",
             "damage": 50,
-            "effect": "Discard a Fire Energy attached to Tropius to use this attack."
+            "effect": "Discard a Fire Energy attached to this Pokemon to use this attack."
         }
     ],
     "weakness": {

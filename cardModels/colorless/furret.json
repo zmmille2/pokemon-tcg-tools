@@ -9,7 +9,7 @@
         {
             "name": "Pickup",
             "cost": "colorless",
-            "effect": "Open a new pack from the current set. Add one card to your hand and add the rest to your board."
+            "effect": "Open a new pack from the current set. In draft, add one card to your hand and add the rest to your board. In adventure, add one card to your hand and delete the rest."
         },
         {
             "name": "He Walk",

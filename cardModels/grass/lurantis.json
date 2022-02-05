@@ -7,7 +7,7 @@
     "image": "lurantis",
     "passive": {
         "name" : "Solar Power",
-        "effect": "Whenever a Fire Energy is discarded, remove 1 damage counter from Lurantis.",
+        "effect": "Whenever a Fire Energy is discarded, remove 1 damage counter from this Pokemon.",
         "type": "ability"
     },
     "attacks": [

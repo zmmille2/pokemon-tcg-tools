@@ -6,7 +6,7 @@
     "image": "interdimensional-psyduck",
     "passive": {
         "name": "Yo it's a shiny!",
-        "effect": "You don't get a Prize for Knocking Out Interdimensional Psyduck. That's animal cruelty.",
+        "effect": "You don't get a Prize for Knocking Out this Pokemon. That's animal cruelty.",
         "type": "passive ability"
     },
     "attacks": [

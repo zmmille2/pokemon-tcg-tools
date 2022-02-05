@@ -10,13 +10,13 @@
             "name": "Ice Ball",
             "cost": "ice",
             "damage": "10x",
-            "effect": "Deal 10 damage times the number of Ice Energy attached to Sealeo."
+            "effect": "Deal 10 damage times the number of Ice Energy attached to this Pokemon."
         },
         {
             "name": "Cold Slide",
             "cost": "ice colorless",
             "damage": 30,
-            "effect": "You may switch Sealeo with one of your Benched Pokemon."
+            "effect": "You may switch this Pokemon with one of your Benched Pokemon."
         }
     ],
     "weakness": {

@@ -15,7 +15,7 @@
             "name": "Agua Fiesta",
             "cost": "grass-water grass-water colorless",
             "damage": "30+",
-            "effect": "For each Water Energy attached to Ludicolo not used to pay for this attack's cost, this attack deals 10 more damage."
+            "effect": "For each Water Energy attached to this Pokemon not used to pay for this attack's cost, this attack deals 10 more damage."
         }
     ],
     "weakness": {

@@ -8,13 +8,13 @@
         {
             "name": "Acid Armor",
             "cost": "poison",
-            "effect": "Discard an Energy attached to Grimer. It takes 30 damage less next turn."
+            "effect": "Discard an Energy attached to this Pokemon. It takes 30 damage less next turn."
         },
         {
             "name": "Slime Goo",
             "cost": "poison colorless",
             "damage": 10,
-            "effect": "Flip a coin: If Heads, the Defending Pokemon is now poisoned. If Tails, the Defending Pokemon is now confused."
+            "effect": "Flip a coin: If heads, the Defending Pokemon is now Poisoned. If tails, the Defending Pokemon is now Confused."
         }
     ],
     "weakness": {

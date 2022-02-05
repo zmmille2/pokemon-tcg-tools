@@ -6,7 +6,7 @@
     "image": "castform-hail",
     "passive": {
         "name": "Hail",
-        "effect": "Whenever you generate any Ice Energy, you may generate one more. When you attach an Energy to Castform, you may search your deck for another card named Castform, replace it with this one, and shuffle your deck.",
+        "effect": "Whenever you generate any Ice Energy, you may generate one more. When you attach an Energy to this Pokemon, you may search your deck for a card named Castform, replace it with this one, and shuffle your deck.",
         "type": "poke-body"
     },
     "attacks": [

@@ -6,7 +6,7 @@
     "image": "oricorio",
     "passive": {
         "name": "Dancer",
-        "effect": "When your Active Pokemon (other than this Oricorio) uses an attack or passive with \"Dance\" in its name, Oricorio may also use that attack or passive as if it were the Active Pokemon.",
+        "effect": "When your Active Pokemon (other than this Pokemon) uses an attack or passive with \"Dance\" in its name, this Pokemon may also use that attack or passive as if it were the Active Pokemon.",
         "type": "poke-body"
     },
     "attacks": [
@@ -20,7 +20,7 @@
             "name": "Hypnotizing Dance",
             "cost": "flying",
             "damage": 10,
-            "effect": "If Oricorio has a Ghost Energy attached to it, you may put 2 Curses on top of the opponent's deck, then shuffle it. If Oricorio has a Fairy Energy attached to it, you may heal 20 damage from one of your Benched Pokemon."
+            "effect": "If this Pokemon has a Ghost Energy attached to it, you may put 2 Curses on top of the opponent's deck, then shuffle it. If this Pokemon has a Fairy Energy attached to it, you may heal 20 damage from one of your Benched Pokemon."
         }
     ],
     "weakness": {

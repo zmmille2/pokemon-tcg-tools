@@ -6,7 +6,7 @@
     "image": "moltres",
     "passive": {
         "name" : "Firegiver",
-        "effect": "When you put Moltres into play (except during setup) roll a d4. Generate that many Fire Energies and put them into your hand.",
+        "effect": "When you put this Pokemon into play (except during setup) roll a d4. Generate that many Fire Energies and put them into your hand.",
         "type": "ability"
     },
     "attacks": [

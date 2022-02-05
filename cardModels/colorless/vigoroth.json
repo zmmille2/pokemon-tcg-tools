@@ -1,0 +1,36 @@
+{
+    "name": "Vigoroth",
+    "hp": 80,
+    "stage": "stage1",
+    "evolvesFrom": "slakoth",
+    "type": "colorless",
+    "image": "vigoroth",
+    "passive": {
+        "name": "Pure Adrenaline",
+        "type": "passive",
+        "effect": "If this Pokemon is Knocked Out, it remains in play and is instead Knocked Out at the end of the turn (even if it is healed, evolved, etc). If it is removed from play, your opponent still gets a Prize Card."
+    },
+    "attacks": [
+        {
+            "name": "Focus Energy",
+            "cost": "colorless",
+            "effect": "During your next turn, the base power of this Pokemon's Slash attack is 90."
+        },
+        {
+            "name": "Slash",
+            "cost": "colorless colorless colorless",
+            "damage": 40
+        }
+    ],
+    "weakness": {
+        "type": "fighting",
+        "value": 10
+    },
+    "resistance": {
+        "type": "ghost",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 1,
+    "flavor": "While evolving, the rapid growth they need hyperstimulates their aggression."
+}

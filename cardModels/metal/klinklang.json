@@ -15,7 +15,7 @@
             "name": "Smoke and Industry",
             "cost": "metal-lightning metal-fire metal-psychic",
             "damage": "100-",
-            "effect": "This attack deals 10 less damage for each Metal Energy attached to Klinklang."
+            "effect": "This attack deals 10 less damage for each Metal Energy attached to this Pokemon."
         }
     ],
     "weakness": {

@@ -15,7 +15,7 @@
             "name": "Leech Seed",
             "cost": "poison poison colorless",
             "damage": 30,
-            "effect": "You may remove 1 damage counter from Ivysaur."
+            "effect": "You may remove 1 damage counter from this Pokemon."
         }
     ],
     "weakness": {

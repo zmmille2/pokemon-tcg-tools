@@ -6,7 +6,7 @@
     "image": "ralts",
     "passive": {
         "name" : "Teleport",
-        "effect": "You may search your deck for a Basic Pokemon. If you find a Basic Pokemon, shuffle Ralts and all attached cards into your deck, and that becomes your new Active Pokemon.",
+        "effect": "You may search your deck for a Basic Pokemon. If you find a Basic Pokemon, shuffle this Pokemon and all attached cards into your deck, and that becomes your new Active Pokemon.",
         "type": "poke-power"
     },
     "attacks": [

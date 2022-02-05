@@ -1,0 +1,32 @@
+{
+    "name": "Passimian",
+    "hp": 60,
+    "stage": "basic",
+    "type": "fighting",
+    "image": "passimian",
+    "attacks": [
+        {
+            "name": "Swipe",
+            "cost": "fighting",
+            "damage": 20,
+            "effect": "If the Defending Pokemon has a Tool attached to it, discard it, create a copy, and attach the copy to this Pokemon."
+        },
+        {
+            "name": "Fling",
+            "cost": "fighting colorless",
+            "damage": "20+",
+            "effect": "You may target a Benched Pokemon with this attack. Either way, you may discard a Tool attached to this Pokemon. If you do, this attack does 20 more damage."
+        }
+    ],
+    "weakness": {
+        "type": "psychic-fairy",
+        "value": 10
+    },
+    "resistance": {
+        "type": "ghost-dark",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 2,
+    "flavor": "Throwing things around rudely is their favorite."
+}

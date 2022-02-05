@@ -9,13 +9,13 @@
         {
             "name": "Focus Punch",
             "cost": "fighting colorless",
-            "effect": "Draw a card for each Energy attached to Medicham. If Medicham takes no damage next turn, deal 40 damage to the Defending Pokemon."
+            "effect": "Draw a card for each Energy attached to this Pokemon. If this Pokemon takes no damage next turn, deal 40 damage to the Defending Pokemon."
         },
         {
             "name": "High Jump Kick",
             "cost": "fighting colorless colorless",
             "damage": 60,
-            "effect": "Flip 2 coins. If both are tails, deal 30 damage to Medicham."
+            "effect": "Flip 2 coins. If both are tails, deal 30 damage to this Pokemon."
         }
     ],
     "weakness": {

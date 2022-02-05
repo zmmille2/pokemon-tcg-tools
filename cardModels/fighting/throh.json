@@ -14,7 +14,7 @@
             "name": "Toprope Slam",
             "cost": "fighting colorless",
             "damage": "10+",
-            "effect": "If Throh switched in this or last turn, deal 20 more damage."
+            "effect": "If this Pokemon switched in this or last turn, deal 20 more damage."
         }
     ],
     "weakness": {

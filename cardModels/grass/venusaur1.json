@@ -15,7 +15,7 @@
             "name": "Jungle Storm",
             "cost": "grass water colorless",
             "damage": 30,
-            "effect": "You may move 1 damage counter from a Grass Pokemon on your Bench to a non-Grass Pokemon on the opponent's bench."
+            "effect": "You may move 1 damage counter from a Grass Pokemon on your Bench to a non-Grass Pokemon on the opponent's Bench."
         },
         {
             "name": "Solar Beam",

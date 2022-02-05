@@ -15,7 +15,7 @@
             "name": "Pack Tactics",
             "cost": "dark colorless",
             "damage": "20+",
-            "effect": "Deal 10 more damage for each Electrike, Entei, Growlithe, Houndoor, Lillipup, Poochyena, Raikou, Riolu, Rockruff, Snubbull, Suicune, Zacien, Zamazenta, or Zorua on your bench, or for any card that evolves from them."
+            "effect": "Deal 10 more damage for each Electrike, Entei, Growlithe, Houndoor, Lillipup, Poochyena, Raikou, Riolu, Rockruff, Snubbull, Suicune, Zacien, Zamazenta, or Zorua on your Bench, or for any card that evolves from them."
         }
     ],
     "weakness": {

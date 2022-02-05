@@ -10,12 +10,12 @@
             "name": "Hypnosis",
             "cost": "ghost",
             "damage": 20,
-            "effect": "If the current Defending Pokemon retreats during your opponent's next turn, it has to pay 1 more."
+            "effect": "The Defending Pokemon has to pay 1 more energy to retreat during your opponent's next turn."
         },
         {
             "name": "Dream Eater",
             "cost": "ghost colorless",
-            "effect": "You can't use this attack unless you used Hypnosis on the current Defending Pokemon last turn, or the Defending Pokemon is asleep. Your opponent discards a card from their hand.",
+            "effect": "If you used Hypnosis on the current Defending Pokemon last turn, or the Defending Pokemon is asleep, your opponent discards a card from their hand. Otherwise, this attack does nothing (not even damage).",
             "damage": 40
         }
     ],

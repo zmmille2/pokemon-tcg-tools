@@ -7,7 +7,7 @@
     "image": "aerodactyl",
     "passive": {
         "name" : "Ancient Power",
-        "effect": "You may play Aerodactyl from your hand as a Basic Pokemon. If you do, place 4 damage counters on it. It has a retreat cost of 0.",
+        "effect": "You may play this Pokemon from your hand as a Basic Pokemon. If you do, place 4 damage counters on it, and it has a retreat cost of 0.",
         "type": "ability"
     },
     "attacks": [

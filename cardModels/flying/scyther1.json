@@ -8,7 +8,7 @@
         {
             "name": "Tailwind",
             "cost": "flying-bug",
-            "effect": "Scyther's next Slice deals 60 damage instead of 30."
+            "effect": "This Pokemon's next Slice deals 60 damage instead of 30."
         },
         {
             "name": "Slice",

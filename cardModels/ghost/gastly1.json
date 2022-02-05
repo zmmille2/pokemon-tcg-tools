@@ -8,7 +8,7 @@
         {
             "name": "Haunt",
             "cost": "ghost",
-            "effect": "Poison and Scar the Defending Pokemon. That Pokemon stays poisoned and scarred even if it is no longer the Defending Pokemon. If Gastly is Knocked Out, that Pokemon is no longer poisoned or scarred."
+            "effect": "Poison and Scar the Defending Pokemon. That Pokemon stays Poisoned and Scarred even if it is no longer the Defending Pokemon. If this Pokemon is Knocked Out, that Pokemon is no longer Poisoned or Scarred."
         }
     ],
     "weakness": {

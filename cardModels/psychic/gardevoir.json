@@ -14,7 +14,7 @@
         {
             "name": "Pain Split",
             "cost": "psychic psychic",
-            "effect": "Combine the damage counters between Gardevoir and the Defending Pokemon. Gardevoir takes half rounded down. The Defending Pokemon takes half rounded up."
+            "effect": "Combine the damage counters between this Pokemon and the Defending Pokemon. This Pokemon takes half rounded down. The Defending Pokemon takes half rounded up."
         },
         {
             "name": "Black Hole",

@@ -9,7 +9,7 @@
             "name": "Sudden Chomp",
             "cost": "colorless",
             "damage": 20,
-            "effect": "Growlithe can't use Sudden Chomp next turn."
+            "effect": "This Pokemon can't use Sudden Chomp next turn."
         },
         {
             "name": "Flame Wheel",

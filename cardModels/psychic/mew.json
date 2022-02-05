@@ -6,14 +6,14 @@
     "image": "mew",
     "passive": {
         "name": "Primordial Echo",
-        "effect": "Whenever you use a Supporter, create a copy and place it under Mew. The effect of the Supporter is the effect of all the cards under Mew. Whenever Mew is discarded for any reason, move all cards under it to the Lost Zone.",
+        "effect": "Whenever you use a Supporter, create a copy and place it under this Pokemon. The effect of the Supporter is the effect of all the cards under this Pokemon. Whenever this Pokemon is discarded for any reason, move all cards under it to the Lost Zone.",
         "type": "active ability"
     },
     "attacks": [
         {
             "name": "Mind Melt",
             "cost": "psychic colorless",
-            "effect": "Deal 10 damage for each Supporter under Mew.",
+            "effect": "Deal 10 damage for each Supporter under this Pokemon.",
             "damage": "10x"
         }
     ],

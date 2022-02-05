@@ -6,7 +6,7 @@
     "image": "smeargle1",
     "passive": {
         "name": "Sketch",
-        "effect": "Whenever your opponent plays a Supporter, you may discard an Energy attached to Smeargle. If you do, you may use the effect of that Supporter as well.",
+        "effect": "Whenever your opponent plays a Supporter, you may discard an Energy attached to this Pokemon. If you do, you may use the effect of that Supporter as well.",
         "type": "ability"
     },
     "attacks": [

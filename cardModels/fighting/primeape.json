@@ -10,13 +10,13 @@
             "name": "Rage",
             "cost": "colorless colorless",
             "damage": "20+",
-            "effect": "Deal 10 more damage per damage counter on Primeape."
+            "effect": "Deal 10 more damage per damage counter on this Pokemon."
         },
         {
             "name": "Fury Swipes",
             "cost": "fighting colorless colorless",
             "damage": "30x",
-            "effect": "Deal 30 damage to the Defending Pokemon twice. Apply effects, weakness, and resistance as if this were two attacks."
+            "effect": "Deal 30 damage to the Defending Pokemon twice. Apply effects, weakness, and Resistance as if this were two attacks."
         }
     ],
     "weakness": {

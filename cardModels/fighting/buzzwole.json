@@ -1,0 +1,35 @@
+{
+    "name": "Buzzwole",
+    "hp": 70,
+    "stage": "basic",
+    "type": "fighting",
+    "image": "buzzwole",
+    "passive": {
+        "name" : "Beast Boost",
+        "effect": "This Pokemon's attacks deal 10 more damage for each Prize Card you have taken.",
+        "type": "ability"
+    },
+    "attacks": [
+        {
+            "name": "Pick On",
+            "cost": "bug-fighting",
+            "effect": "Put 2 damage counters on a Pokemon with 50 HP or less."
+        },
+        {
+            "name": "Finishing Blow",
+            "cost": "bug-fighting bug-fighting colorless",
+            "damage": 30
+        }
+    ],
+    "weakness": {
+        "type": "flying-fire",
+        "value": 10
+    },
+    "resistance": {
+        "type": "fight-bug",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 1,
+    "flavor": "From another dimension, these alien invaders love to pick on the weak and show off their strength."
+}

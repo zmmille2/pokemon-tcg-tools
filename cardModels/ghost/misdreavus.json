@@ -9,7 +9,7 @@
             "name": "Vengeful Spirit",
             "cost": "ghost colorless",
             "damage": 20,
-            "effect": "Place 3 damage counters on your opponent's Prize Cards however you like. When your opponent takes a Prize with damage counters on it, put them on their Active Pokemon."
+            "effect": "Place 3 damage counters on your opponent's Prize Cards however you like. When your opponent takes a Prize with damage counters on it, put them on the Defending Pokemon."
         }
     ],
     "weakness": {

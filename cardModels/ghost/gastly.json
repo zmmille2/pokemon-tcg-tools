@@ -9,13 +9,13 @@
             "name": "Lick",
             "cost": "colorless",
             "damage": 10,
-            "effect": "Flip a coin. If heads, the Defending Pokemon is paralyzed."
+            "effect": "Flip a coin. If heads, the Defending Pokemon is Paralyzed."
         },
         {
             "name": "Spite",
             "cost": "ghost colorless",
             "damage": "10x",
-            "effect": "Deal 10 damage times the number of Prizes the Opponent has taken."
+            "effect": "Deal 10 damage times the number of Prizes the opponent has taken."
         }
     ],
     "weakness": {

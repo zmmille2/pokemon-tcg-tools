@@ -7,7 +7,7 @@
     "image": "slowbro",
     "passive": {
         "name" : "Relax",
-        "effect": "When your turn ends, put a Relaxation token on Slowbro. When Slowbro has 20 Relaxation tokens on it, you win.",
+        "effect": "When your turn ends, put a Relaxation token on this Pokemon. When this Pokemon has 20 Relaxation tokens on it, you win.",
         "type": "unique ability"
     },
     "weakness": {

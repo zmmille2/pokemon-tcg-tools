@@ -21,7 +21,7 @@
             "name": "Flamethrower",
             "cost": "fire fire colorless colorless",
             "damage": 60,
-            "effect": "Flip a coin. If tails, discard a Fire Energy attached to Arcanine."
+            "effect": "Flip a coin. If tails, discard a Fire Energy attached to this Pokemon."
         }
     ],
     "weakness": {

@@ -15,7 +15,7 @@
             "name": "Magnet Bomb",
             "cost": "metal-lightning colorless",
             "damage": 40,
-            "effect": "If the opposing Active Pokemon retreats next turn, discard an Energy you choose from that Pokemon."
+            "effect": "If the Defending Pokemon retreats next turn, discard an Energy you choose from that Pokemon."
         }
     ],
     "weakness": {

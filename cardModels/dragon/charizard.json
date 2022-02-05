@@ -15,7 +15,7 @@
             "name": "Flamethrower",
             "cost": "fire fire colorless colorless",
             "damage": 80,
-            "effect": "Discard all Fire Energies attached to Charizard. Reveal the top 3 cards of your deck. Attach any Fire Energies you find to Charizard and discard the rest."
+            "effect": "Discard all Fire Energies attached to this Pokemon. Reveal the top 3 cards of your deck. Attach any Fire Energies you find to this Pokemon and discard the rest."
         }
     ],
     "weakness": {

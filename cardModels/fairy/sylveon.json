@@ -1,0 +1,37 @@
+{
+    "name": "Sylveon",
+    "hp": 70,
+    "stage": "stage1",
+    "evolvesFrom": "Eevee",
+    "type": "fairy",
+    "image": "sylveon",
+    "passive": {
+        "name" : "Unstable Genes",
+        "effect": "You may treat Fairy Energy cards as Basic Energy cards with the type of any Pokemon with the \"Unstable Genes\" ability.",
+        "type": "ability"
+    },
+    "attacks": [
+        {
+            "name": "Magical Ribbon",
+            "cost": "fairy",
+            "damage": 20
+        },
+        {
+            "name": "Disarming Cry",
+            "cost": "fairy colorless colorless",
+            "damage": 40,
+            "effect": "The Defending Pokemon is now Confused."
+        }
+    ],
+    "weakness": {
+        "type": "metal-poison",
+        "value": 10
+    },
+    "resistance": {
+        "type": "dark-fighting",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 1,
+    "flavor": "A scientist tried to genetically alter her Eevee to be beautiful. Eevee reacted to this experiment in a very unexpected way."
+}

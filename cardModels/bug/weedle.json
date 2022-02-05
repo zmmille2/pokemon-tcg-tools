@@ -8,7 +8,7 @@
         {
             "name": "Hunt",
             "cost": "bug-poison",
-            "effect": "Search your deck for a Pokemon with the same type as an Energy attached to Weedle, reveal it, and put it into your hand."
+            "effect": "Search your deck for a Pokemon with the same type as an Energy attached to this Pokemon, reveal it, and put it into your hand."
         }
     ],
     "weakness": {

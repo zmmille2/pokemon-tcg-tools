@@ -10,13 +10,13 @@
             "name": "Giga Drain",
             "cost": "poison poison colorless",
             "damage": 40,
-            "effect": "You may remove up to 2 damage counters from Venusaur."
+            "effect": "You may remove up to 2 damage counters from this Pokemon."
         },
         {
             "name": "Pollen Bomb",
             "cost": "poison poison colorless colorless",
             "damage": 60,
-            "effect": "The Defending Pokemon must pay 2 more in order to retreat."
+            "effect": "The Defending Pokemon must pay 2 more in order to retreat next turn."
         }
     ],
     "weakness": {

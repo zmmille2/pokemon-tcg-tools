@@ -7,7 +7,7 @@
     "image": "grumpig",
     "passive": {
         "name": "Heart of a Gamer",
-        "effect": "Grumpig has the Heart of a Gamer.",
+        "effect": "This Pokemon has the Heart of a Gamer.",
         "type": "ability"
     },
     "attacks": [
@@ -15,13 +15,13 @@
             "name": "Psyshock",
             "cost": "psychic",
             "damage": 20,
-            "effect": "Flip a coin. If Heads, the Defending Pokemon is now Paralyzed."
+            "effect": "Flip a coin. If heads, the Defending Pokemon is now Paralyzed."
         },
         {
             "name": "Gamer Blast",
             "cost": "psychic colorless colorless",
             "damage": 40,
-            "effect": "If Grumpig and the Defending Pokemon have the same number of Energies attached to them, the Defending Pokemon is now Confused."
+            "effect": "If this Pokemon and the Defending Pokemon have the same number of Energies attached to them, the Defending Pokemon is now Confused."
         }
     ],
     "weakness": {

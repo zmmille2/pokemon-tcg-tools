@@ -9,7 +9,7 @@
             "name": "One-Two Punch",
             "cost": "fighting",
             "damage": 10,
-            "effect": "You may switch Sawk with a Benched Pokemon."
+            "effect": "You may switch this Pokemon with a Benched Pokemon."
         },
         {
             "name": "Chop Through",

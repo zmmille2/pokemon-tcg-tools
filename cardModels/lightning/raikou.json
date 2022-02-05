@@ -1,0 +1,25 @@
+{
+    "name": "Raikou",
+    "hp": 70,
+    "stage": "basic",
+    "type": "lightning",
+    "image": "raikou",
+    "attacks": [
+        {
+            "name": "Discharge",
+            "cost": "lightning lightning lightning",
+            "effect": "Roll a d6. Roll that many d12s. Unless that Pokemon is Lightning type or has 2 Lightning Energies attached, put d4 damage counters (roll individually) on the Pokemon in each corresponding spot. If there is no Pokemon there, reroll."
+        }
+    ],
+    "weakness": {
+        "type": "ground",
+        "value": 10
+    },
+    "resistance": {
+        "type": "metal-flying",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 1,
+    "flavor": "Power plants and power lines attract these Pokemon. Once considered a legendary dog, they're now just seen as pests."
+}

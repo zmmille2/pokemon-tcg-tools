@@ -7,7 +7,7 @@
     "image": "avalugg",
     "passive": {
         "name" : "Unmoveable Object",
-        "effect": "Avalugg cannot move or be returned to the bench.",
+        "effect": "This Pokemon cannot move or be returned to the Bench.",
         "type": "poke-power"
     },
     "attacks": [
@@ -15,13 +15,13 @@
             "name": "Slam",
             "cost": "colorless colorless",
             "damage": "10x",
-            "effect": "Deals 10 damage times the difference in Avalugg and the Defending Pokemon's retreat cost."
+            "effect": "Deals 10 damage times the difference in this Pokemon and the Defending Pokemon's retreat cost."
         },
         {
             "name": "Avalanche",
             "cost": "ice ice ice ice colorless",
             "damage": "50+",
-            "effect": "If Avalugg has 30 or less HP left, deal 40 more damage."
+            "effect": "If this Pokemon has 30 or less HP left, deal 40 more damage."
         }
     ],
     "weakness": {

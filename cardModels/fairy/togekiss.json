@@ -1,0 +1,37 @@
+{
+    "name": "Togekiss",
+    "hp": 100,
+    "stage": "stage2",
+    "evolvesFrom": "Togetic",
+    "type": "fairy",
+    "image": "togekiss",
+    "passive": {
+        "name": "Shared Destiny",
+        "effect": "Once per turn, if you have less cards in your hand than your opponent, draw cards until you have the same number of cards in your hands.",
+        "type": "unique"
+    },
+    "attacks": [
+        {
+            "name": "Blessed Wings",
+            "cost": "fairy-flying colorless",
+            "effect": "Remove all damage counters from all of your Pokemon. Shuffle this Pokemon and all cards attached to it into your deck."
+        },
+        {
+            "name": "Superglide",
+            "cost": "fairy-flying fairy-flying colorless",
+            "damage": 50,
+            "effect": "You may search your deck for a card and put it into your hand. If you do, shuffle your deck."
+        }
+    ],
+    "weakness": {
+        "type": "poison-lightning",
+        "value": 10
+    },
+    "resistance": {
+        "type": "darkness-ground",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 1,
+    "flavor": "Pure love from its trainer has literally lifted this Pokemon to the highest heights."
+}

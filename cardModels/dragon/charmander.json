@@ -14,7 +14,7 @@
             "name": "Fire Spit",
             "cost": "fire",
             "damage": 20,
-            "effect": "Discard a Fire Energy attached to Charmander to use this attack."
+            "effect": "Discard a Fire Energy attached to this Pokemon to use this attack."
         }
     ],
     "weakness": {

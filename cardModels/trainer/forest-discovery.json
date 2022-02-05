@@ -1,0 +1,6 @@
+{ 
+    "name": "Forest Discovery", 
+    "image": "forest-discovery", 
+    "type": "supporter", 
+    "effect": "Reveal the bottom card of your deck. If it is a Basic Pokemon and you have room, play it onto your Bench. If it is a Pokemon that evolves from a Pokemon you have in play, you may put it on that card (even if it is your first turn, even if that Pokemon was just played this turn). If it is an Energy card, you may attach it to a Pokemon immediately. Otherwise, draw that card and draw a card." 
+} 

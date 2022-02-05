@@ -14,7 +14,7 @@
             "name": "Rest",
             "cost": "colorless colorless",
             "damage": "10+",
-            "effect": "Flip 3 coins. For each heads, this attack deals 10 more damage. Jigglypuff is now asleep."
+            "effect": "Flip 3 coins. For each heads, this attack deals 10 more damage. This Pokemon is now asleep."
         }
     ],
     "weakness": {

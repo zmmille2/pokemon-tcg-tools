@@ -7,7 +7,7 @@
     "image": "gallade",
     "passive": {
         "name" : "Counterattack",
-        "effect": "When Gallade takes damage from any attack, deal 20 damage to the Defending Pokemon.",
+        "effect": "When this Pokemon takes damage from any attack, deal 20 damage to the Defending Pokemon.",
         "type": "poke-power"
     },
     "attacks": [

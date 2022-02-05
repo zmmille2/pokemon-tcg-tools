@@ -8,13 +8,13 @@
         {
             "name": "Focus",
             "cost": "colorless",
-            "effect": "Draw a card for each Energy attached to Meditite."
+            "effect": "Draw a card for each Energy attached to this Pokemon."
         },
         {
             "name": "Jump Kick",
             "cost": "fighting colorless",
             "damage": 20,
-            "effect": "Flip 2 coins. If both are tails, deal 20 damage to Meditite."
+            "effect": "Flip 2 coins. If both are tails, deal 20 damage to this Pokemon."
         }
     ],
     "weakness": {

@@ -1,0 +1,31 @@
+{
+    "name": "Falinks",
+    "hp": 40,
+    "stage": "basic",
+    "type": "fighting",
+    "image": "falinks",
+    "passive": {
+        "name" : "Battle Formation",
+        "effect": "When you put a Pokemon named Falinks on the Bench, put it in play under this Pokemon instead. This Pokemon has 30 more HP for each Falinks underneath it.",
+        "type": "unique"
+    },
+    "attacks": [
+        {
+            "name": "Team Attack",
+            "cost": "fighting",
+            "damage": "20x",
+            "effect": "This attack costs 1 colorless more for each Falinks you have in play (including this one). Deal 20 damage times the number of Falinks you have in play (including this one)."
+        }
+    ],
+    "weakness": {
+        "type": "fairy-psychic",
+        "value": 10
+    },
+    "resistance": {
+        "type": "dark-ghost",
+        "value": 10
+    },
+    "retreat": 4,
+    "rarity": 1,
+    "flavor": "Brave warriors that never shy away from battle. Convincing them to retreat is hard."
+}

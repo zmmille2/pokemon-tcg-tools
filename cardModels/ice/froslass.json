@@ -7,7 +7,7 @@
     "image": "froslass",
     "passive": {
         "name" : "Freezing Gaze",
-        "effect": "When Froslass takes damage, attach an Ice Energy to the Defending Pokemon. If the Defending Pokemon is not Ice Type, Froslass takes 10 less damage for each Ice Energy attached to the Defending Pokemon.",
+        "effect": "When this Pokemon takes damage, attach an Ice Energy to the Defending Pokemon. If the Defending Pokemon is not Ice Type, this Pokemon takes 10 less damage for each Ice Energy attached to the Defending Pokemon.",
         "type": "poke-power"
     },
     "attacks": [

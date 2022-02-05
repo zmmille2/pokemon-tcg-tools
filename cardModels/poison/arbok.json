@@ -8,7 +8,7 @@
     "attacks": [
         {
             "name": "Venomous Gaze",
-            "effect": "The defending Pokemon is Poisoned. It cannot retreat next turn.",
+            "effect": "The Defending Pokemon is Poisoned. It cannot retreat next turn.",
             "cost": "poison colorless"
         },
         {

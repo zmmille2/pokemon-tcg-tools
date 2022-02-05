@@ -6,7 +6,7 @@
     "image": "onix1",
     "passive": {
         "name" : "Stealth Rocks",
-        "effect": "When the opponent's Active Pokemon changes, deal 20 damage to that Pokemon (apply weakness and resistance for this damage as if it were Rock-type damage).",
+        "effect": "When the Defending Pokemon changes, deal 20 damage to the new Defending Pokemon (apply Weakness and Resistance for this damage as if it were Rock-type damage).",
         "type": "poke-power"
     },
     "attacks": [
@@ -19,7 +19,7 @@
             "name": "Concrete Clash",
             "cost": "rock colorless colorless",
             "damage": 30,
-            "effect": "During your opponent's next turn, reduce damage done to Onix by 10 for every 2 more it has in its Retreat Cost than the opponent's Active Pokemon."
+            "effect": "During your opponent's next turn, reduce damage done to this Pokemon by 10 for every 2 more it has in its Retreat Cost than the Defending Pokemon."
         }
     ],
     "weakness": {

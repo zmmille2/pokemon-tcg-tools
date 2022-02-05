@@ -9,7 +9,7 @@
             "name": "Starfall",
             "cost": "rock",
             "damage": "20+",
-            "effect": "If Minior has less than 30 HP remaining, this attack does 20 more damage. Either way, deal 10 damage to Minior."
+            "effect": "If this Pokemon has less than 30 HP remaining, this attack does 20 more damage. Either way, deal 10 damage to this Pokemon."
         }
     ],
     "weakness": {

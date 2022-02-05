@@ -15,7 +15,7 @@
             "name": "Dragon Impact",
             "cost": "rock-dragon rock-dragon colorless colorless",
             "damage": 100,
-            "effect": "Tyrantrum cannot attack or retreat next turn."
+            "effect": "This Pokemon cannot attack or retreat next turn."
         }
     ],
     "weakness": {

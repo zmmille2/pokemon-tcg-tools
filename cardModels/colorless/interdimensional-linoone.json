@@ -7,7 +7,7 @@
     "evolvesFrom": "interdimensional-zigzagoon",
     "passive": {
         "name": "Concerned Mom",
-        "effect": "Put Interdimensional Linoone in the Lost Zone. It is not Knocked Out.",
+        "effect": "Put this Pokemon in the Lost Zone. It is not Knocked Out.",
         "type": "ability"
     },
     "retreat": 0,

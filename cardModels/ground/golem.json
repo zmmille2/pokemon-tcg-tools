@@ -10,7 +10,7 @@
             "name": "Explode",
             "cost": "colorless colorless",
             "damage": 120,
-            "effect": "Golem deals 120 damage to itself. Deal 20 damage to all Benched Pokemon. Do not apply Weakness and Resistance for Benched Pokemon."
+            "effect": "This Pokemon deals 120 damage to itself. Deal 20 damage to all Benched Pokemon. Do not apply Weakness and Resistance for Benched Pokemon."
         },
         {
             "name": "Massive Quake",

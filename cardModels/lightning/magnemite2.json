@@ -6,7 +6,7 @@
     "image": "magnemite2",
     "passive": {
         "name" : "Magnetic Evolution",
-        "effect": "If there are two other Magnemite on your bench, you may discard them to search your deck for a Magneton and put it on this card, evolving it. If you do, move their damage counters to the Magneton.",
+        "effect": "If there are two Magnemite on your Bench, you may discard them to search your deck for a Magneton and put it on this card, evolving it. If you do, move their damage counters to the Magneton.",
         "type": "ability"
     },
     "attacks": [
@@ -20,7 +20,7 @@
             "name": "Self-destruct",
             "cost": "metal-lightning colorless",
             "damage": 40,
-            "effect": "Deal 10 damage to all Benched Pokemon. You may move an Energy from Magnemite. Either way, it deals 50 damage to itself."
+            "effect": "Deal 10 damage to all Benched Pokemon. You may move an Energy from this Pokemon. Either way, it deals 50 damage to itself."
         }
     ],
     "weakness": {

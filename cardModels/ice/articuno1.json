@@ -14,7 +14,7 @@
             "name": "Wing Attack",
             "cost": "colorless colorless",
             "damage": 30,
-            "effect": "If Articuno has a Flying Energy attached, it takes 10 less damage from all sources next turn."
+            "effect": "If this Pokemon has a Flying Energy attached, it takes 10 less damage from all sources next turn."
         },
         {
             "name": "Blizzard",

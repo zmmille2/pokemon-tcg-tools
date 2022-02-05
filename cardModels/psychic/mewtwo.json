@@ -8,12 +8,12 @@
         {
             "name": "Energy Absorbtion",
             "cost": "psychic",
-            "effect": "You may attach up to 2 Psychic Energy cards from your discard pile to Mewtwo."
+            "effect": "You may attach up to 2 Psychic Energy cards from your discard pile to this Pokemon."
         },
         {
             "name": "Psychic",
             "cost": "psychic psychic colorless",
-            "damage": "40"
+            "damage": 40
         }
     ],
     "weakness": {

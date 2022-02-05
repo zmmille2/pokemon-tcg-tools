@@ -9,13 +9,13 @@
         {
             "name": "Shell Smash",
             "cost": "colorless",
-            "effect": "Wartortle deals 20 damage to itself. Search your deck for 2 Water Energies, attach them to Wartortle, and shuffle your deck."
+            "effect": "This Pokemon deals 20 damage to itself. Search your deck for 2 Water Energies, attach them to this Pokemon, and shuffle your deck."
         },
         {
             "name": "Water Gun",
             "cost": "water colorless",
             "damage": "30+",
-            "effect": "Deal 10 more damage for each Water Energy attached to Wartortle not used to pay for this attack's cost, up to 20."
+            "effect": "Deal 10 more damage for each Water Energy attached to this Pokemon not used to pay for this attack's cost, up to 20."
         }
     ],
     "weakness": {

@@ -9,7 +9,7 @@
             "name": "Nuzzle",
             "cost": "lightning",
             "damage": 10,
-            "effect": "Flip a coin. If Heads, the Defending Pokemon is now Paralyzed."
+            "effect": "Flip a coin. If heads, the Defending Pokemon is now Paralyzed."
         },
         {
             "name": "Super Fang",

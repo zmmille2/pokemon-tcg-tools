@@ -7,7 +7,7 @@
     "image": "magcargo",
     "passive": {
         "name" : "Burning Hunger",
-        "effect": "Attach discarded cards to Magcargo instead. You may only move cards from Magcargo via Inferno. Pokemon are Basic Energies of their type. Trainers are Colorless.",
+        "effect": "Attach discarded cards to this Pokemon instead. You may only move cards from this Pokemon via Inferno. Pokemon are Basic Energies of their type. Trainers are Colorless.",
         "type": "ability"
     },
     "attacks": [
@@ -15,7 +15,7 @@
             "name": "Inferno",
             "cost": "fire rock colorless",
             "damage": "30+",
-            "effect": "You may move up to 10 cards attached to Magcargo to the Lost Zone. This attack deals 10 more damage for every 2 cards moved this way."
+            "effect": "You may move up to 10 cards attached to this Pokemon to the Lost Zone. This attack deals 10 more damage for every 2 cards moved this way."
         }
     ],
     "weakness": {

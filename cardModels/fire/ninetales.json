@@ -14,13 +14,13 @@
         {
             "name": "Flare Up",
             "cost": "fire",
-            "effect": "You may attach up to 2 Fire Energies from your discard pile to Ninetales."
+            "effect": "You may attach up to 2 Fire Energies from your discard pile to this Pokemon."
         },
         {
             "name": "Overheat",
             "cost": "fire fire colorless",
             "damage": "70",
-            "effect": "Discard all Fire Energy attached to Ninetales."
+            "effect": "Discard all Fire Energy attached to this Pokemon."
         }
     ],
     "weakness": {

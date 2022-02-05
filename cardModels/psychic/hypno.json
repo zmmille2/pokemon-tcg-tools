@@ -7,7 +7,7 @@
     "image": "hypno",
     "passive": {
         "name": "Pendulum Pull",
-        "effect": "When the Defending Pokemon is Knocked Out, flip a coin. If Heads, you decide which of your opponent's Benched Pokemon switches in.",
+        "effect": "When the Defending Pokemon is Knocked Out, flip a coin. If heads, you decide which of your opponent's Benched Pokemon switches in.",
         "type": "active ability"
     },
     "attacks": [

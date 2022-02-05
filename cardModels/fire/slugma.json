@@ -6,7 +6,7 @@
     "image": "slugma",
     "passive": {
         "name" : "Burning Hunger",
-        "effect": "Attach discarded Energies to Slugma instead. You may not move cards from Slugma.",
+        "effect": "Attach discarded Energies to this Pokemon instead. You may not move cards from this Pokemon.",
         "type": "ability"
     },
     "attacks": [

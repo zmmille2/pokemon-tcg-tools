@@ -7,7 +7,7 @@
     "image": "lileep",
     "passive": {
         "name" : "Ancient Power",
-        "effect": "You may play Lileep from your hand as a Basic Pokemon. If you do, place 4 damage counters on it.",
+        "effect": "You may play this Pokemon from your hand as a Basic Pokemon. If you do, place 4 damage counters on it.",
         "type": "ability"
     },
     "attacks": [
@@ -20,7 +20,7 @@
             "name": "Leech Seed",
             "cost": "grass colorless",
             "damage": 20,
-            "effect": "Lileep heals for half the amount of damage dealt, rounding down."
+            "effect": "This Pokemon heals for half the amount of damage dealt, rounding down."
         }
     ],
     "weakness": {

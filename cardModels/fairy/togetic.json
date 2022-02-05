@@ -1,0 +1,32 @@
+{
+    "name": "Togetic",
+    "hp": 70,
+    "stage": "stage1",
+    "evolvesFrom": "Togepi",
+    "type": "fairy",
+    "image": "togetic",
+    "attacks": [
+        {
+            "name": "Metronome",
+            "cost": "colorless",
+            "effect": "Pick an attack from any Pokemon in play, except this Pokemon. This attack copies that attack. If this Pokemon cannot pay for its Energy cost, flip a coin. If heads, you may use the attack without paying its cost."
+        },
+        {
+            "name": "Fey Wind",
+            "cost": "fairy-flying colorless colorless",
+            "damage": 30,
+            "effect": "You may draw a card. Either way, your opponent draws a card."
+        }
+    ],
+    "weakness": {
+        "type": "poison-lightning",
+        "value": 10
+    },
+    "resistance": {
+        "type": "darkness-ground",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 2,
+    "flavor": "Fear of abandonment leaves them attached to their shells."
+}

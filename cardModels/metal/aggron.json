@@ -7,7 +7,7 @@
     "image": "aggron2",
     "passive": {
         "name" : "Hard Armor",
-        "effect": "When Aggron takes damage, you may draw a card.",
+        "effect": "When this Pokemon takes damage, you may draw a card.",
         "type": "ability"
     },
     "attacks": [

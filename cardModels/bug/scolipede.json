@@ -7,7 +7,7 @@
     "image": "Scolipede",
     "passive": {
         "name": "Towering Menace",
-        "effect": "Defending Basic Pokemon deal 10 less damage to Scolipede.",
+        "effect": "Defending Basic Pokemon deal 10 less damage to this Pokemon.",
         "type": "poke-power"
     },
     "attacks": [

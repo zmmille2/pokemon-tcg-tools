@@ -15,7 +15,7 @@
             "name": "Thrash",
             "cost": "dark-poison dark-poison colorless",
             "damage": "40+",
-            "effect": "This attack does 10 more damage for each damage counter on Cruel Nidoking."
+            "effect": "This attack does 10 more damage for each damage counter on this Pokemon."
         }
     ],
     "weakness": {

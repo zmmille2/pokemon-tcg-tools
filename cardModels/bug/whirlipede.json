@@ -10,7 +10,7 @@
             "name": "Rollout",
             "cost": "rock",
             "damage": "10x",
-            "effect": "Deals 10 damage for each Rock Energy on Whirlipede. You may search your deck for a Rock Energy and attach it to Whirlipede. If you do, shuffle your deck."
+            "effect": "Deals 10 damage for each Rock Energy on this Pokemon. You may search your deck for a Rock Energy and attach it to this Pokemon. If you do, shuffle your deck."
         },
         {
             "name": "Curl Up",

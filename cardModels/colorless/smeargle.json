@@ -6,7 +6,7 @@
     "image": "smeargle",
     "passive": {
         "name": "Artist",
-        "effect": "Smeargle can use any move from any Pokemon on either bench. You must still pay the Energy cost for this move.",
+        "effect": "This Pokemon can use any move from any Pokemon on either Bench. You must still pay the Energy cost for this move.",
         "type": "poke-power"
     },
     "weakness": {

@@ -9,7 +9,7 @@
             "name": "Head Bash",
             "cost": "flying colorless",
             "damage": 30,
-            "effect": "Rufflet does 10 damage to itself."
+            "effect": "This Pokemon does 10 damage to itself."
         }
     ],
     "weakness": {

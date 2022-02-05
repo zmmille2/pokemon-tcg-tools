@@ -6,7 +6,7 @@
     "image": "bergmite1",
     "passive": {
         "name": "Pure Cold",
-        "effect": "If Bergmite has an Ice Energy attached to it, Frost Bite also does 10 damage.",
+        "effect": "If this Pokemon has an Ice Energy attached to it, Frost Bite also does 10 damage.",
         "type": "ability"
     },
     "attacks": [

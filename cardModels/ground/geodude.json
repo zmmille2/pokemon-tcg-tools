@@ -6,7 +6,7 @@
     "image": "geodude",
     "passive": {
         "name" : "Sturdy",
-        "effect": "If Geodude has no damage counters on it, if it would be Knocked Out, it takes 40 damage instead.",
+        "effect": "If this Pokemon has no damage counters on it, if it would be Knocked Out, it takes 40 damage instead.",
         "type": "ability"
     },
     "attacks": [
@@ -14,7 +14,7 @@
             "name": "Smack Down",
             "cost": "ground",
             "damage": "20+",
-            "effect": "If the Defending Pokemon resists Ground Type, this attack ignores resistance and deals 10 more damage."
+            "effect": "If the Defending Pokemon resists Ground Type, this attack ignores Resistance and deals 10 more damage."
         }
     ],
     "weakness": {

@@ -6,7 +6,7 @@
     "image": "pikachu1",
     "passive": {
         "name" : "Lightning Rod",
-        "effect": "Whenever you discard an Energy attached to 1 of your other Pokemon, flip a coin. If heads, attached it to Pikachu instead.",
+        "effect": "Whenever you discard an Energy attached to 1 of your other Pokemon, flip a coin. If heads, attach it to this Pokemon instead.",
         "type": "ability"
     },
     "attacks": [
@@ -14,7 +14,7 @@
             "name": "Volt Tackle",
             "cost": "lightning lightning colorless",
             "damage": 60,
-            "effect": "You may discard 3 Energies attached to Pikachu. If you don't, move 2 Energies from Pikachu and Pikachu does 40 damage to itself."
+            "effect": "You may discard 3 Energies attached to this Pokemon. If you don't, move 2 Energies from this Pokemon and it does 40 damage to itself."
         }
     ],
     "weakness": {

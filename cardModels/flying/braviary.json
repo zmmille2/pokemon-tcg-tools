@@ -16,7 +16,7 @@
             "name": "Dive Bomb",
             "cost": "flying flying colorless",
             "damage": 80,
-            "effect": "Braviary deals 20 damage to itself."
+            "effect": "This Pokemon deals 20 damage to itself."
         }
     ],
     "weakness": {

@@ -1,0 +1,42 @@
+{
+    "name": "Hitmonchan",
+    "hp": 60,
+    "stage": "basic",
+    "type": "fighting",
+    "image": "hitmonchan",
+    "passive": {
+        "name": "One-Two Punch",
+        "effect": "When this Pokemon attacks, it may attack twice. If it attacks with a TM, that attack does half damage (rounded down).",
+        "type": "active"
+    },
+    "attacks": [
+        {
+            "name": "Feint",
+            "cost": "fighting",
+            "effect": "Put a damage counter on the Defending Pokemon."
+        },
+        {
+            "name": "Elemental Cross",
+            "cost": "fighting colorless",
+            "damage": 10,
+            "effect": "Treat this attack's damage as any Energy attached to this Pokemon."
+        },
+        {
+            "name": "Uppercut",
+            "cost": "fighting colorless",
+            "damage": 20,
+            "effect": "You can only use one Uppercut per turn. If this attack Knocks Out the Defending Pokemon, draw 2 cards."
+        }
+    ],
+    "weakness": {
+        "type": "psychic-flying",
+        "value": 10
+    },
+    "resistance": {
+        "type": "ghost-dark",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 2,
+    "flavor": "Training never stops for these champs: Their punches come fast after thousands of hours of honing their skills."
+}

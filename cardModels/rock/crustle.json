@@ -7,14 +7,14 @@
     "image": "crustle",
     "passive": {
         "name": "Strudy",
-        "effect": "If Crustle has no damage counters on it, reduce any damage it takes above 40 to 40, and it cannot be Knocked Out.",
+        "effect": "If this Pokemon has no damage counters on it, reduce any damage it takes above 40 to 40, and it cannot be Knocked Out.",
         "type": "ability"
     },
     "attacks": [
         {
             "name": "Rest",
             "cost": "colorless colorless",
-            "effect": "Remove 6 damage counters from Crustle. Next turn, Crustle is paralyzed."
+            "effect": "Remove 6 damage counters from this Pokemon. Next turn, this Pokemon is Paralyzed."
         },
         {
             "name": "Rock Toss",

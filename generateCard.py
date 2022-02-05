@@ -236,15 +236,15 @@ def get_wrapped_text(text: str, font: ImageFont.ImageFont,
   return lines
 
 def draw_passive_box(draw, passive, textBoxTop, textBoxBottom, color):
-  prefix = passive["type"].title().strip() + ": "
+  prefix = passive["type"].title().strip()
 
-  if prefix == "Passive Ability: " or prefix == "Ability: ": # No restrictions
+  if prefix == "Passive Ability" or prefix == "Ability" or prefix == "Passive": # No restrictions
     passive_color = blue
     prefix = "Passive Ability: "
-  elif prefix == "Unique Ability: " or prefix == "Poke-Body: ": # Unique to this pokemon
+  elif prefix == "Unique Ability" or prefix == "Poke-Body" or prefix == "Unique": # Unique to this pokemon
     passive_color = green
     prefix = "Unique Ability: "
-  elif prefix == "Active Ability: " or prefix == "Poke-Power: ": # Unique to this pokemon while Active
+  elif prefix == "Active Ability" or prefix == "Poke-Power" or prefix == "Active": # Unique to this pokemon while Active
     passive_color = red
     prefix = "Active Ability: "
   else:

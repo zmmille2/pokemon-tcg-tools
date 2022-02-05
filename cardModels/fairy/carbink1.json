@@ -9,7 +9,7 @@
             "name": "Scrape Swarm",
             "cost": "fairy colorless",
             "damage": "10+",
-            "effect": "If you have 1 other Carbink in play, deal 20 more damage. If you have 3 other Carbink in play, deal 40 more damage."
+            "effect": "If you have 2 Carbink in play, deal 20 more damage. If you have 4 Carbink in play, deal 40 more damage."
         }
     ],
     "weakness": {

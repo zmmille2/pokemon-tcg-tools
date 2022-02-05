@@ -20,7 +20,7 @@
             "name": "Dark Fire",
             "cost": "dark fire colorless",
             "damage": "30+",
-            "effect": "Discard all Fire Energy attached to Houndoom to use this attack. For each Energy discarded this way, this attack deals 10 more damage."
+            "effect": "Discard all Fire Energy attached to this Pokemon to use this attack. For each Energy discarded this way, this attack deals 10 more damage."
         }
     ],
     "weakness": {

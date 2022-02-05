@@ -7,7 +7,7 @@
     "image": "whiscash",
     "passive": {
         "name": "Submerge",
-        "effect": "While Whiscash is on the Bench, it is immune to all effects of attacks.",
+        "effect": "While this Pokemon is on the Bench, it is immune to all effects of attacks.",
         "type": "ability"
     },
     "attacks": [

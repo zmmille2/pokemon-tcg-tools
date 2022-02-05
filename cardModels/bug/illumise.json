@@ -6,7 +6,7 @@
     "image": "illumise",
     "passive": {
         "name": "Encouraging Gleam",
-        "effect": "If there is a Volbeat in play, Light Screen generates 4 tokens, and Illumise has 70 HP.",
+        "effect": "If there is a Volbeat in play, Light Screen generates 4 tokens, and this Pokemon has 70 HP.",
         "type": "passive ability"
     },
     "attacks": [

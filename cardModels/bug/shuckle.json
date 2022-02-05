@@ -6,14 +6,14 @@
     "image": "shuckle",
     "passive": {
         "name" : "Juice Lover",
-        "effect": "Once per turn, you may search your deck for a card with Berry in its name and attach it to Shuckle. If you do, shuffle your deck. When Shuckle uses a Berry, in addition to its effect, remove 2 damage counters from Shuckle.",
+        "effect": "Once per turn, you may search your deck for a card with Berry in its name and attach it to this Pokemon. If you do, shuffle your deck. When this Pokemon uses a Berry, in addition to its effect, remove 2 damage counters from this Pokemon.",
         "type": "ability"
     },
     "attacks": [
         {
             "name": "Donation",
             "cost": "colorless",
-            "effect": "If Shuckle has a Pokemon Tool attached to it, you may move it to another Pokemon. If you do, you may activate Juice Lover immediately."
+            "effect": "If this Pokemon has a Pokemon Tool attached to it, you may move it to another Pokemon. If you do, you may activate Juice Lover immediately."
         },
         {
             "name": "Toxic",

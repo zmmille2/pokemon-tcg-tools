@@ -7,15 +7,15 @@
     "image": "ampharos",
     "passive": {
         "name" : "Lightningrod",
-        "effect": "When you would discard a Lightning Energy from any attack (except by Ampharos's Discharge), you may move it instead. All moved Energies must go to Ampharos.",
-        "type": "ability"
+        "effect": "Once per turn, when you would discard a Lightning Energy from any attack (except attacks called Discharge), you may move it to this Pokemon instead.",
+        "type": "unique"
     },
     "attacks": [
         {
             "name": "Discharge",
             "cost": "lightning",
             "damage": "30x",
-            "effect": "Discard 3 Lightning Energies from Ampharos. Deal 30 damage for each Energy discarded this way."
+            "effect": "Discard up to 3 Lightning Energies from this Pokemon. Deal 30 damage for each Energy discarded this way."
         }
     ],
     "weakness": {

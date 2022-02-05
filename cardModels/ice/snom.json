@@ -6,7 +6,7 @@
     "image": "snom",
     "passive": {
         "name" : "Rapid Evolution",
-        "effect": "Snom can evolve the same turn it is played, even on your first turn.",
+        "effect": "This Pokemon can evolve the same turn it is played, even on your first turn.",
         "type": "ability"
     },
     "attacks": [

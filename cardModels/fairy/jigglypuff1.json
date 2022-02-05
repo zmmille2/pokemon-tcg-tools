@@ -6,7 +6,7 @@
     "image": "jigglypuff2",
     "passive": {
         "name" : "Puffball",
-        "effect": "When Jigglypuff takes damage from any attack, you may draw a card.",
+        "effect": "When this Pokemon takes damage from any attack, you may draw a card.",
         "type": "ability"
     },
     "attacks": [
@@ -14,7 +14,7 @@
             "name": "Curl Up",
             "cost": "fairy",
             "damage": 10,
-            "effect": "Reduce damage done to Jigglypuff next turn by 10."
+            "effect": "Reduce damage done to this Pokemon next turn by 10."
         }
     ],
     "weakness": {

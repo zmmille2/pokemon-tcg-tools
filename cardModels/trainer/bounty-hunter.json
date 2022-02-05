@@ -1,0 +1,6 @@
+{
+    "name": "Bounty Hunter",
+    "type": "supporter",
+    "image": "bounty-hunter",
+    "effect": "Discard 2 cards. Count your Prize Cards, then look at them. You may take up to 2 of them. Either way, you may shuffle the rest into your deck or discard them as a group. Either way, place new Prize Cards from the top of your deck until you have the same amount of Prizes as the original count."
+}

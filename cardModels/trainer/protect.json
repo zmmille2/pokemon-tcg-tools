@@ -6,7 +6,7 @@
         {
             "name": "Protect",
             "cost": "colorless",
-            "effect": "Flip a coin for each Protect token on this Pokemon. If they are all Heads, put a Protect token on this Pokemon and prevent all effects of attacks (including damage) done to this Pokemon during your opponent's next turn. Otherwise, this attack does nothing. At the end of your turn, if this attack failed or wasn't used, remove all Protect tokens from this Pokemon."
+            "effect": "If your Active Pokemon didn't successfully use Protect last turn, remove all Protect tokens from it. Flip a coin for each Protect token on this Pokemon. If any are tails, this attack does nothing. Otherwise, put a Protect token on this Pokemon and prevent all effects (including damage) of any attacks targeting this Pokemon during your opponent's next turn. When this Pokemon retreats, put Protect tokens on the new Active Pokemon."
         }
     ]
 }

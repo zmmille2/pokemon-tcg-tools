@@ -6,7 +6,7 @@
     "image": "aron",
     "passive": {
         "name" : "Metal Hunger",
-        "effect": "If you attach a Metal Energy to Aron and it already has a Metal Energy attached to it, you may search your deck for a Lairon and evolve Aron. Shuffle your deck afterwards.",
+        "effect": "If you attach a Metal Energy to Aron and it already has a Metal Energy attached to it, you may search your deck for a Lairon and put it on this card, evolving it. If you do, shuffle your deck.",
         "type": "ability"
     },
     "attacks": [

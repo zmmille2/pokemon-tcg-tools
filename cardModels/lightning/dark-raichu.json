@@ -14,7 +14,7 @@
         {
             "name": "Sheer Shock",
             "cost": "lightning",
-            "effect": "Deal 20 damage to a random Pokemon that isn't Lightning type for each Lightning Energy attached to Raichu."
+            "effect": "Deal 20 damage to a random Pokemon that isn't Lightning type for each Lightning Energy attached to this Pokemon."
         }
     ],
     "weakness": {

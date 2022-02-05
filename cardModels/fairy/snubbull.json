@@ -14,7 +14,7 @@
             "name": "Play Rough",
             "cost": "fairy",
             "damage": "10+",
-            "effect": "Flip a coin. If heads, deal 10 more damage. If tails, Snubbull takes 10 less damage from all sources next turn."
+            "effect": "Flip a coin. If heads, deal 10 more damage. If tails, this Pokemon takes 10 less damage from all sources next turn."
         }
     ],
     "weakness": {

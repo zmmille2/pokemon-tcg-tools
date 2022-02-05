@@ -8,7 +8,7 @@
         {
             "name": "Buddy System",
             "cost": "colorless",
-            "effect": "If another Pokemon Evolved this turn, you may search your deck for a card that evolves from Eevee that is the same type as that Pokemon. Put that card on Eevee, evolving it."
+            "effect": "If another Pokemon Evolved this turn, you may search your deck for a card that evolves from Eevee. Put that card on this Pokemon, evolving it."
         }
     ],
     "weakness": {

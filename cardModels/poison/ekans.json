@@ -7,7 +7,7 @@
     "attacks": [
         {
             "name": "Swallow",
-            "effect": "If the Defending Pokemon has less HP remaining than Ekans, it is Knocked Out. Otherwise, deal damage normally.",
+            "effect": "If the Defending Pokemon has less HP remaining than this Pokemon, it is Knocked Out. Otherwise, deal damage normally.",
             "cost": "colorless",
             "damage": "10"
         }

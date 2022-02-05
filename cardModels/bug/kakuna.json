@@ -7,7 +7,7 @@
     "image": "kakuna",
     "passive": {
         "name": "Poisonous Payback",
-        "effect": "Whenever Kakuna takes damage, the Defending Pokemon is now Poisoned.",
+        "effect": "Whenever this Pokemon takes damage, the Defending Pokemon is now Poisoned.",
         "type": "active ability"
     },
     "attacks": [

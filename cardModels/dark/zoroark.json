@@ -7,7 +7,7 @@
     "image": "zoroark",
     "passive": {
         "name" : "Illusion",
-        "effect": "Unless there is one there already, you may place an Evolution card on Zoroark. This doesn't count as evolving Zoroark. Treat Zoroark as if it were that Pokemon instead. It cannot evolve or use the Pokemon Power of that Pokemon. This effect ends if any Special Condition affects Zoroark, or by choice at any time during your turn.",
+        "effect": "Unless there is one there already, you may place an Evolution card on this Pokemon. This doesn't count as evolving this Pokemon. Treat this Pokemon as if it were that Pokemon instead. It cannot evolve or use the Pokemon Power of that Pokemon. This effect ends if any Special Condition affects this Pokemon, or by choice at any time during your turn.",
         "type": "ability"
     },
     "attacks": [
@@ -15,7 +15,7 @@
             "name": "Sneak Off",
             "cost": "dark",
             "damage": 20,
-            "effect": "You may switch Zoroark with a Pokemon from your Bench."
+            "effect": "You may switch this Pokemon with a Pokemon from your Bench."
         }
     ],
     "weakness": {

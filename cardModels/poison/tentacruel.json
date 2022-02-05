@@ -7,7 +7,7 @@
     "image": "tentacruel",
     "passive": {
         "name" : "Toxic Behavior",
-        "effect": "As long as Tentacruel has any damage counters on it, whenever a Pokemon takes damage from Poison, you may remove 1 damage counter from Tentacruel.",
+        "effect": "As long as this Pokemon has any damage counters on it, whenever a Pokemon takes damage from Poison, you may remove 1 damage counter from this Pokemon.",
         "type": "poke-body"
     },
     "attacks": [
@@ -15,7 +15,7 @@
             "name": "Sludge Wave",
             "cost": "poison colorless",
             "damage": 30,
-            "effect": "This attack does 10 damage to all of your opponent's Benched Pokemon"
+            "effect": "This attack does 10 damage to all of your opponent's Benched Pokemon."
         }
     ],
     "weakness": {

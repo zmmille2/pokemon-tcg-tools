@@ -13,7 +13,7 @@
         {
             "name": "Rest",
             "cost": "colorless",
-            "effect": "Remove all damage counters and special conditions from Shaymin. Shaymin is now asleep. You cannot use Rest next turn."
+            "effect": "Remove all damage counters and special conditions from this Pokemon. This Pokemon is now asleep. You cannot use Rest next turn."
         },
         {
             "name": "Soothing Scent",

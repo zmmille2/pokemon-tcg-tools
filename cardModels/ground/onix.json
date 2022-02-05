@@ -9,13 +9,13 @@
             "name": "Iron Tail",
             "cost": "ground colorless",
             "damage": 20,
-            "effect": "Onix takes 10 less damage from attacks next turn."
+            "effect": "This Pokemon takes 10 less damage from attacks next turn."
         },
         {
             "name": "Magnitude",
             "cost": "ground colorless",
             "damage": "30",
-            "effect": "Deal 10 damage to Benched Pokemon that are not Ground Type. Apply weakness and Resistance to this attack."
+            "effect": "Deal 10 damage to Benched Pokemon that are not Ground Type. Apply Weakness and Resistance to this attack."
         }
     ],
     "weakness": {

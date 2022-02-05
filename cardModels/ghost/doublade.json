@@ -10,7 +10,7 @@
             "name": "Double Slice",
             "cost": "metal colorless",
             "damage": "20x",
-            "effect": "Deal 20 damage to the Defending Pokemon twice. Apply effects, weakness, and resistance as if this were two attacks."
+            "effect": "Deal 20 damage to the Defending Pokemon twice. Apply effects, weakness, and Resistance as if this were two attacks."
         },
         {
             "name": "Haunted Harry",

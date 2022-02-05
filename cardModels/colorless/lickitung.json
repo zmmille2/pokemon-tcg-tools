@@ -6,7 +6,7 @@
     "image": "lickitung",
     "passive": {
         "name" : "Sushi Sampler",
-        "effect": "Once per turn, you may discard a Water Pokemon from your hand. If you do, remove 2 damage counters from Lickitung.",
+        "effect": "Once per turn, you may discard a Water Pokemon from your hand. If you do, remove 2 damage counters from this Pokemon.",
         "type": "ability"
     },
     "attacks": [
@@ -14,7 +14,7 @@
             "name": "Lick",
             "cost": "colorless",
             "damage": 10,
-            "effect": "Flip a coin. If Heads, the Defending Pokemon is Paralyzed."
+            "effect": "Flip a coin. If heads, the Defending Pokemon is Paralyzed."
         },
         {
             "name": "Order Up!",

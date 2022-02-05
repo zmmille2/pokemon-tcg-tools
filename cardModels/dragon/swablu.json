@@ -8,7 +8,7 @@
         {
             "name": "Yawn",
             "cost": "colorless",
-            "effect": "Swablu and the opposing Pokemon are now asleep."
+            "effect": "This Pokemon and the Defending Pokemon are now asleep."
         }
     ],
     "weakness": {

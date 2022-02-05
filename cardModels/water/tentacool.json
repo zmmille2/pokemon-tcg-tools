@@ -14,7 +14,7 @@
             "name": "Poison Sting",
             "cost": "poison colorless",
             "damage": 20,
-            "effect": "Your opponent's Active Pokemon is now Poisoned."
+            "effect": "The Defending Pokemon is now Poisoned."
         }
     ],
     "weakness": {

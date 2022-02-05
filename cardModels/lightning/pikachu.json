@@ -14,7 +14,7 @@
             "name": "Discharge",
             "cost": "lightning",
             "damage": 30,
-            "effect": "You may move an Energy from Pikachu. If you don't, this attack does nothing."
+            "effect": "You may move an Energy from this Pokemon. If you don't, this attack does nothing."
         }
     ],
     "weakness": {

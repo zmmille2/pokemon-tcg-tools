@@ -15,7 +15,7 @@
             "name": "Spiral Drain",
             "cost": "grass colorless",
             "damage": 30,
-            "effect": "Remove 1 damage counter from Gloom."
+            "effect": "Remove 1 damage counter from this Pokemon."
         }
     ],
     "weakness": {

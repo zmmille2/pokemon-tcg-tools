@@ -6,7 +6,7 @@
     "image": "kecleon",
     "passive": {
         "name" : "Color Change",
-        "effect": "Once during your turn, you can pick one of your Pokemon. Kecleon also has the passive, and exclusively the type, weakness, and resistance of that Pokemon.",
+        "effect": "Once during your turn, you can pick one of your Pokemon. This Pokemon also has the passive, and exclusively the type, weakness, and Resistance of that Pokemon.",
         "type": "poke-body"
     },
     "attacks": [

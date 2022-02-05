@@ -9,7 +9,7 @@
             "name": "Murder of Crows",
             "cost": "dark-flying",
             "damage": "10+",
-            "effect": "Deal 10 more damage for each Basic Dark or Flying type or Honchkrow you have on the Bench."
+            "effect": "Deal 10 more damage for each Basic Dark or Flying type Pokemon you have on the Bench. Deal 10 more damage for each Honchkrow you have on the Bench."
         }
     ],
     "weakness": {

@@ -15,7 +15,7 @@
             "name": "Thief",
             "cost": "dark",
             "damage": 20,
-            "effect": "If the Defending Pokemon has a Tool attached, you may discard it and attach a copy to Honchkrow."
+            "effect": "If the Defending Pokemon has a Tool attached, you may discard it and attach a copy to this Pokemon."
         },
         {
             "name": "Harass",

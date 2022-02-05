@@ -7,7 +7,7 @@
     "image": "flaaffy",
     "passive": {
         "name" : "Cotton Spore",
-        "effect": "Whenever the Defending Pokemon deals damage to Flaaffy, flip a coin. If heads, the Defending Pokemon is now Paralyzed.",
+        "effect": "Whenever the Defending Pokemon deals damage to this Pokemon, flip a coin. If heads, the Defending Pokemon is Paralyzed next turn.",
         "type": "poke-power"
     },
     "attacks": [

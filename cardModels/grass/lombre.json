@@ -7,7 +7,7 @@
     "image": "lombre",
     "passive": {
         "name" : "Rain Dish",
-        "effect": "Whenever a Water Energy is attached to Lombre, remove 1 damage counter from Lombre.",
+        "effect": "Whenever a Water Energy is attached to this Pokemon, remove 1 damage counter from it.",
         "type": "ability"
     },
     "attacks": [

@@ -7,7 +7,7 @@
     "image": "frogadier",
     "passive": {
         "name" : "Substitute",
-        "effect": "Once per turn, if Frogadier would take damage, you may discard a Trainer card to take half that damage (rounded up).",
+        "effect": "Once per turn, if this Pokemon would take damage, you may discard a Trainer card to take half that damage (rounded up).",
         "type": "ability"
     },
     "attacks": [

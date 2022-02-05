@@ -1,0 +1,37 @@
+{
+    "name": "Lunatone",
+    "hp": 70,
+    "stage": "basic",
+    "type": "psychic",
+    "image": "lunatone",
+    "passive": {
+        "name": "Moonlight",
+        "effect": "Once per turn, if your hand is empty, you may generate a Psychic Energy to your hand. If you have a Solrock in play, it can be an Energy of any type instead.",
+        "type": "unique"
+    },
+    "attacks": [
+        {
+            "name": "Lunar Glow",
+            "cost": "rock-psychic",
+            "damage": 10,
+            "effect": "Remove a damage counter from one of your Pokemon with a Psychic Energy attached. If you have a Solrock in play, it can be an Energy of any type instead."
+        },
+        {
+            "name": "Meteor Shower",
+            "cost": "rock-psychic rock-psychic colorless",
+            "damage": "30x",
+            "effect": "Discard up to 3 Energies from your hand. Move an equal number of Energy cards from your discard to the Lost Zone. This attack does 30 damage for each Energy moved to the Lost Zone this way."
+        }
+    ],
+    "weakness": {
+        "type": "grass-dark",
+        "value": 10
+    },
+    "resistance": {
+        "type": "ground-bug",
+        "value": 10
+    },
+    "retreat": 3,
+    "rarity": 2,
+    "flavor": "Moon fans rejoice - here's a rock for you!"
+}

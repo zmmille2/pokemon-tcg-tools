@@ -25,7 +25,7 @@
             "name": "Sheer Cold",
             "cost": "ice ice ice ice",
             "damage": "20+",
-            "effect": "Deal 10 more damage for each damage counter on Walrein."
+            "effect": "Deal 10 more damage for each damage counter on this Pokemon."
         }
     ],
     "weakness": {

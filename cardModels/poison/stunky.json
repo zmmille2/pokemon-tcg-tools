@@ -8,7 +8,7 @@
         {
             "name": "Spray and Walk Away",
             "cost": "colorless",
-            "effect": "You may switch Stunky with a Benched Pokemon. If you do, draw two cards, then discard one."
+            "effect": "You may switch this Pokemon with a Benched Pokemon. If you do, draw two cards, then discard one."
         },
         { 
             "name": "Poison Gas",

@@ -1,0 +1,36 @@
+{
+    "name": "Oranguru",
+    "hp": 70,
+    "stage": "basic",
+    "type": "psychic",
+    "image": "oranguru",
+    "passive": {
+        "name": "Instruct",
+        "effect": "Once per turn, you may draw cards until you have 3 cards in your hand.",
+        "type": "passive"
+    },
+    "attacks": [
+        {
+            "name": "Forest Fix",
+            "cost": "colorless",
+            "effect": "Put up to 3 Pokemon Tools from your discard pile into your hand."
+        },
+        {
+            "name": "Monkey's Paw",
+            "cost": "psychic colorless colorless",
+            "effect": "If there are no cards under this Pokemon, put up to 3 cards from your hand under it. Otherwise, return a card under this Pokemon to your hand.",
+            "damage": 40
+        }
+    ],
+    "weakness": {
+        "type": "dark-bug",
+        "value": 10
+    },
+    "resistance": {
+        "type": "ghost-poison",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 2,
+    "flavor": "Sitting around nicely is their favorite."
+}

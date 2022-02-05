@@ -7,20 +7,20 @@
     "image": "Vespiquen",
     "passive": {
         "name": "Hive Guard",
-        "effect": "Whenever Vespiquen would receive 20 damage or less from any effect, you may deal that damage to a Pokemon with \"bee\" in its name on your bench, instead.",
+        "effect": "Whenever this Pokemon would receive 20 damage or less from any effect, you may deal that damage to a Pokemon with \"bee\" in its name on your Bench, instead.",
         "type": "poke-power"
     },
     "attacks": [
         {
             "name": "Medic Drones",
             "cost": "bug",
-            "effect": "You may move 1 damage counter from Vespiquen to each Pokemon with \"bee\" in its name on your bench. Decide independently for each Pokemon."
+            "effect": "You may move 1 damage counter from this Pokemon to each Pokemon with \"bee\" in its name on your Bench. Decide independently for each Pokemon."
         },
         {
             "name": "Swarm",
             "cost": "bug colorless",
             "damage": "20+",
-            "effect": "Deal 10 more damage for each Pokemon with \"bee\" in its name. You may search your deck for a Pokemon with \"bee\" in its name, reveal it to your opponent, and put it on your bench."
+            "effect": "Deal 10 more damage for each Pokemon with \"bee\" in its name. You may search your deck for a Pokemon with \"bee\" in its name, reveal it to your opponent, and put it on your Bench."
         }
     ],
     "weakness": {

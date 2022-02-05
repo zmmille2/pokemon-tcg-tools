@@ -1,0 +1,36 @@
+{
+    "name": "Hitmonlee",
+    "hp": 50,
+    "stage": "basic",
+    "type": "fighting",
+    "image": "hitmonlee",
+    "passive": {
+        "name": "Flying Foot",
+        "effect": "You may put a damage counter on this Pokemon to attack with it from the Bench. Doing so ends your turn.",
+        "type": "passive"
+    },
+    "attacks": [
+        {
+            "name": "Heel Kick",
+            "cost": "fighting colorless",
+            "damage": 20
+        },
+        {
+            "name": "Jump Kick",
+            "cost": "fighting fighting colorless",
+            "damage": 40,
+            "effect": "Put a damage counter on this Pokemon."
+        }
+    ],
+    "weakness": {
+        "type": "fairy-psychic",
+        "value": 10
+    },
+    "resistance": {
+        "type": "ghost-dark",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 2,
+    "flavor": "Training never stops for these champs: Their kicks come fast after thousands of hours of honing their skills."
+}

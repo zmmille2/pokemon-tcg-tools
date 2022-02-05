@@ -7,7 +7,7 @@
     "image": "crystal-steelix",
     "passive": {
         "name": "Crystal Shell",
-        "effect": "When Crystal Steelix is Knocked Out, you may discard Crystal Steelix and remove all damage counters and status effects from the Basic Pokemon. Crystal Steelix is still knocked out.",
+        "effect": "When this Pokemon is Knocked Out, you may discard this Pokemon and remove all damage counters and status effects from the Basic or Stage 1 Pokemon. This Pokemon is still knocked out.",
         "type": "ability"
     },
     "attacks": [
@@ -15,7 +15,7 @@
             "name": "Cold Revenge",
             "cost": "ice colorless",
             "damage": "10x",
-            "effect": "Deal 10 damage for each damage counter on Crystal Steelix."
+            "effect": "Deal 10 damage for each damage counter on this Pokemon."
         },
         {
             "name": "Avalanche",

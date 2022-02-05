@@ -7,7 +7,7 @@
     "passive": {
         "name": "Cheek Pouch",
         "type": "ability",
-        "effect": "When Dedenne eats a Berry, in addition to its effects, remove 2 damage counters from Dedenne."
+        "effect": "When this Pokemon eats a Berry, in addition to its effects, remove 2 damage counters from this Pokemon."
     },
     "attacks": [
         {

@@ -1,0 +1,37 @@
+{
+    "name": "Flareon",
+    "hp": 70,
+    "stage": "stage1",
+    "evolvesFrom": "Eevee",
+    "type": "fire",
+    "image": "flareon",
+    "passive": {
+        "name" : "Unstable Genes",
+        "effect": "You may treat Fire Energy cards as Basic Energy cards with the type of any Pokemon with the \"Unstable Genes\" ability.",
+        "type": "ability"
+    },
+    "attacks": [
+        {
+            "name": "Ember",
+            "cost": "fire",
+            "effect": "The Defending Pokemon is now Burned."
+        },
+        {
+            "name": "Flamethrower",
+            "cost": "fire colorless colorless",
+            "damage": 50,
+            "effect": "Discard a Fire Energy attached to this Pokemon to use this attack."
+        }
+    ],
+    "weakness": {
+        "type": "ground-water",
+        "value": 10
+    },
+    "resistance": {
+        "type": "fairy-ice",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 1,
+    "flavor": "A scientist wanted his Eevee to always be warm and gave it a fire stone. Eevee reacted to this experiment in a very unexpected way."
+}

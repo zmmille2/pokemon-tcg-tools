@@ -6,21 +6,30 @@
     "type": "ice",
     "image": "glaceon",
     "passive": {
-        "name" : "Crystal Genome",
-        "effect": "Attacks from Pokemon that evolve from Eevee are not affected by Weakness, Resistance, or other abilities on your opponent's Pokemon.",
+        "name" : "Unstable Genes",
+        "effect": "You may treat Ice Energy cards as Basic Energy cards with the type of any Pokemon with the \"Unstable Genes\" ability.",
         "type": "ability"
     },
     "attacks": [
         {
-            "name": "Chilling Out",
-            "cost": "ice colorless",
-            "damage": 30,
-            "effect": "You may generate up to 3 Ice Energy and attach them to your opponent's Pokemon in any way you like."
+            "name": "Hail",
+            "cost": "ice",
+            "effect": "Put a damage counter on the Defending Pokemon. Put a damage counter on your opponent's Benched Pokemon."
+        },
+        {
+            "name": "Ice Out",
+            "cost": "ice colorless colorless",
+            "damage": "30+",
+            "effect": "Choose up to 3 cards without looking from your opponent's hand and set them aside until the end of their turn. They may instead return the cards to their hand immediately; if they do, this attack deals 30 more damage."
         }
     ],
     "weakness": {
-        "type": "metal",
-        "value": 20
+        "type": "metal-fire",
+        "value": 10
+    },
+    "resistance": {
+        "type": "grass-water",
+        "value": 10
     },
     "retreat": 2,
     "rarity": 1,

@@ -13,7 +13,7 @@
         {
             "name": "Ascension",
             "cost": "dark",
-            "effect": "Search your deck for a Zoroark and put it on this card, evolving it."
+            "effect": "Search your deck for a Zoroark and put it on this Pokemon, evolving it."
         }
     ],
     "weakness": {

@@ -7,7 +7,7 @@
     "image": "lycanroc-dusk",
     "passive": {
         "name" : "Resilient",
-        "effect": "Lycanroc Dusk takes 10 less damage from attacks for each time the Defending Pokemon has evolved.",
+        "effect": "This Pokemon takes 10 less damage from attacks for each time the Defending Pokemon has evolved.",
         "type": "poke-power"
     },
     "attacks": [

@@ -10,7 +10,7 @@
             "name": "Ancient Power",
             "cost": "ground colorless colorless",
             "damage": "30+",
-            "effect": "Flip 3 coins. If all of them are heads, this attack does 30 more damage, and remove 2 damage counters from Mamoswine."
+            "effect": "Flip 3 coins. If all of them are heads, this attack does 30 more damage, and remove 2 damage counters from this Pokemon."
         },
         {
             "name": "Earthquake",

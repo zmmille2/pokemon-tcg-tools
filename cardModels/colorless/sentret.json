@@ -6,7 +6,7 @@
     "image": "sentret",
     "passive": {
         "name" : "Alert",
-        "effect": "When a new Defending Pokemon comes in or when the Defending Pokemon evolves, Sentret may retreat immediately without paying its retreat cost.",
+        "effect": "When a new Defending Pokemon comes in or when the Defending Pokemon evolves, this Pokemon may retreat immediately without paying its retreat cost.",
         "type": "ability"
     },
     "attacks": [

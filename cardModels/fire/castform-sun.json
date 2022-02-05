@@ -6,7 +6,7 @@
     "image": "castform-sun",
     "passive": {
         "name": "Sunny Day",
-        "effect": "When you discard a Fire Energy, you may add it to your hand instead. When you attach an Energy to Castform, you may search your deck for another card named Castform, replace it with this one, and shuffle your deck.",
+        "effect": "When you discard a Fire Energy, you may add it to your hand instead. When you attach an Energy to this Pokemon, you may search your deck for a card named Castform, replace it with this one, and shuffle your deck.",
         "type": "poke-body"
     },
     "attacks": [
@@ -19,7 +19,7 @@
             "name": "Flamethrower",
             "cost": "fire fire colorless",
             "damage": 50,
-            "effect": "Discard a Fire Energy to use this attack."
+            "effect": "Discard a Fire Energy attached to this Pokemon to use this attack."
         }
     ],
     "weakness": {

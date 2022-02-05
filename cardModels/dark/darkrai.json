@@ -6,7 +6,7 @@
     "image": "darkrai",
     "passive": {
         "name": "Waking Nightmare",
-        "effect": "To play Darkrai, you must discard 3 Pokemon (they are not knocked out). Distribute their damage counters among your remaining Pokemon. While Darkrai is your Active Pokemon, if an effect says your opponent may do something, if they do not, put 4 damage counters on the Defending Pokemon.",
+        "effect": "To play this Pokemon, you must discard 3 Pokemon (they are not knocked out). Distribute their damage counters among your remaining Pokemon. While Darkrai is your Active Pokemon, if an effect says your opponent may do something, if they do not, put 4 damage counters on the Defending Pokemon.",
         "type": "ability"
     },
     "attacks": [

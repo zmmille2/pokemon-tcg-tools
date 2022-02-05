@@ -6,14 +6,14 @@
     "image": "zapdos",
     "passive": {
         "name" : "Peal of Thunder",
-        "effect": "When you put Zapdos into play (except during setup), do 30 damage to a Pokemon other than Zapdos chosen at random (use a d6).",
+        "effect": "When you put this Pokemon into play (except during setup), deal 30 damage to a Pokemon other than this Pokemon chosen at random (use a d12).",
         "type": "ability"
     },
     "attacks": [
         {
             "name": "Big Thunder",
             "cost": "lightning lightning lightning",
-            "effect": "Choose a Pokemon other than Zapdos at random. This attack does 70 damage to that Pokemon."
+            "effect": "This attack does 70 damage to a random Pokemon other than this one (use a d12)."
         }
     ],
     "weakness": {

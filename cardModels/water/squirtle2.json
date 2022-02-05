@@ -14,7 +14,7 @@
             "name": "Water Gun",
             "cost": "water colorless",
             "damage": "10+",
-            "effect": "Deal 10 more damage for each Water Energy attached to Squirtle not used to pay for this attack's cost, up to 20."
+            "effect": "Deal 10 more damage for each Water Energy attached to this Pokemon not used to pay for this attack's cost, up to 20."
         }
     ],
     "weakness": {

@@ -1,0 +1,30 @@
+{
+    "name": "Alolan Vulpix",
+    "hp": 40,
+    "stage": "basic",
+    "type": "fairy",
+    "image": "alolan-vulpix",
+    "attacks": [
+        {
+            "name": "Gather Snow",
+            "cost": "empty",
+            "effect": "Flip a coin: If heads, the Defending Pokemon is now Asleep. If tails, draw a card."
+        },
+        {
+            "name": "Snow Sparkle",
+            "cost": "fairy-ice",
+            "damage": 20
+        }
+    ],
+    "weakness": {
+        "type": "metal-poison",
+        "value": 10
+    },
+    "resistance": {
+        "type": "grass-dark",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "When a great mountain separated a continent, different climates meant Vulpix adapted in different ways."
+}

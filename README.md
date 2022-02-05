@@ -43,26 +43,14 @@ In between games, you'll have 7 minutes to make changes to your deck.
 
 After each set, you'll keep your deck the other cards you've pulled, so adapt!
 
-## TODO:
+## TODO
 
-Get existing shit on curve
-Make it more color agnostic
-Add Delphox
 Adjust rarity
-Meditite
-Slowpoke
-
-Fomantis
 Ice swap prizes
 Ice is on the brink
 Frostbite energy cannot be used for attacks
 Frostbite energy cannot be used to retreat or for attacks
 Kill frostbitten users
-
-Fighting type love
-
-More Eevee stuff
-Errata Flourishing Energy only while Active
 
 ## Adventure Mode
 
@@ -70,6 +58,4 @@ Alternatively, we can play [Adventure Mode](adventure-mode.md)
 
 ## Updates
 
-Frozen Field
-Dog Poker Night
 Remake the cards we made in the past

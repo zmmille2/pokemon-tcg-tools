@@ -6,7 +6,7 @@
     "image": "ditto",
     "passive": {
         "name" : "Aspirational",
-        "effect": "You may treat Ditto as any Basic Pokemon when evolving. If you do, put 2 damage counters on the Evolved Pokemon.",
+        "effect": "You may treat this Pokemon as any Basic Pokemon when evolving. If you do, put 2 damage counters on the Evolved Pokemon.",
         "type": "ability"
     },
     "attacks": [

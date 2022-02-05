@@ -8,13 +8,13 @@
         {
             "name": "Roll",
             "cost": "colorless",
-            "effect": "You may switch Spheal with a Pokemon on your bench."
+            "effect": "You may switch this Pokemon with a Pokemon on your Bench."
         },
         {
             "name": "Ice Ball",
             "cost": "ice",
             "damage": "10x",
-            "effect": "Deal 10 damage times the number of Ice Energy attached to Spheal."
+            "effect": "Deal 10 damage times the number of Ice Energy attached to this Pokemon."
         }
     ],
     "weakness": {

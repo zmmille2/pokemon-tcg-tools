@@ -16,7 +16,7 @@
             "name": "Take Down",
             "cost": "ground colorless",
             "damage": 50,
-            "effect": "Piloswine does 10 damage to itself."
+            "effect": "This Pokemon does 10 damage to itself."
         }
     ],
     "weakness": {
