@@ -452,7 +452,11 @@ def draw_card(cardType: str, cardData, filename: str):
         name_offset += 60
 
       draw.text((name_offset, 45), cardData["name"].strip(), font=pokemonNameFont, fill=color)
-      draw.text((350, 45), str(cardData["hp"]) + " HP", font=hpFont, fill=color)
+      hp = cardData["hp"]
+      if hp < 100:
+        draw.text((350, 45), str(hp) + " HP", font=hpFont, fill=color)
+      else:
+        draw.text((335, 45), str(hp) + " HP", font=hpFont, fill=color)
 
       draw_boxes(newCard, draw, cardData, color)
 
@@ -464,14 +468,14 @@ def draw_card(cardType: str, cardData, filename: str):
         newCard.paste(fairy, (405, 25), fairy)
 
         if "weakness" in cardData:
-          weakness = symbolsDict[cardData["weakness"]["type"].lower().strip()]
+          weakness = generate_symbol(cardData["weakness"]["type"].lower().strip())
           weaknessAmount = str(cardData["weakness"]["value"])
           newCard.paste(weakness, (85, 565), weakness)
           # TODO: Split if two are listed
           draw.text((65, 570), "+" + weaknessAmount, font=weaknessResistanceFont, fill=color)
 
         if "resistance" in cardData:
-          resistance = symbolsDict[cardData["resistance"]["type"].lower().strip()]
+          resistance = generate_symbol(cardData["resistance"]["type"].lower().strip())
           resistanceAmount = str(cardData["resistance"]["value"])
           newCard.paste(resistance, (180, 565), resistance)
           # TODO: Split if two are listed

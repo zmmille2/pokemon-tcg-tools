@@ -3,7 +3,7 @@
     "hp": 60,
     "stage": "basic",
     "type": "fighting",
-    "image": "hitmonchan",
+    "image": "hitmonchan1",
     "passive": {
         "name": "One-Two Punch",
         "effect": "When this Pokemon attacks, it may attack twice. If it attacks with a TM, that attack does half damage (rounded down).",

@@ -26,7 +26,7 @@
         "value": 10
     },
     "resistance": {
-        "type": "fight-bug",
+        "type": "fighting-bug",
         "value": 10
     },
     "retreat": 1,

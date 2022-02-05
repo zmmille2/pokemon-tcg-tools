@@ -19,7 +19,7 @@
         }
     ],
     "weakness": {
-        "type": "poison-lightning",
+        "type": "lightning-poison",
         "value": 10
     },
     "resistance": {

@@ -24,7 +24,7 @@
         }
     ],
     "weakness": {
-        "type": "metal-poison",
+        "type": "poison-metal",
         "value": 10
     },
     "resistance": {
