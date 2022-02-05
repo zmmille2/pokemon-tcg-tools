@@ -14,7 +14,7 @@
         {
             "name": "Light Screen",
             "cost": "fairy-ice",
-            "effect": "Create 5 Light Screen tokens. Reduce damage to your active Pokemon by 10 if there are any Light Screen tokens. At the end of your turn, get rid of a Light Screen Token."
+            "effect": "Create 5 Light Screen tokens. Reduce damage to your Active Pokemon by 10 if there are any Light Screen tokens. At the end of your turn, get rid of a Light Screen Token."
         },
         {
             "name": "Aurora Break",
