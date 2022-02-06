@@ -421,9 +421,9 @@ Dragon x Fire x Flying
 9x Lightning Energy
 24/60
 
-### Dark Club - TOMAKE
+### Dark Club - ⭕
 
-#### Dirty Fighter Deck - TOMAKE
+#### Dirty Fighter Deck - ⭕
 
 2x Absol
 2x Hitmonchan
@@ -456,7 +456,7 @@ Dragon x Fire x Flying
 5x Flying Energy
 23/60
 
-#### Murder of Crows Deck - TOMAKE
+#### Murder of Crows Deck - ⭕
 
 3x Murkrow
 2x Honchkrow
@@ -467,10 +467,20 @@ Dragon x Fire x Flying
 2x Xatu
 2x Drifloon
 1x Drifblim
-
+2x Farfetch'd
 22/60
 
 2x Roost
+2x Tool Jammer
+1x Oak
+1x Computer Search
+1x Misty's Wrath
+1x Energy Search
+1x Hard Berry
+1x Oran Berry
+1x Big Parasol
+1x Lucky Egg
+1x Balloon Berry
 13/60
 
 11x Dark Energy
@@ -478,7 +488,7 @@ Dragon x Fire x Flying
 5x Flying Energy
 25/60
 
-#### Howl at the Moon Deck - TOMAKE
+#### Howl at the Moon Deck - ⭕
 
 3x Rockruff
 2x Lycanroc Midnight
@@ -508,7 +518,7 @@ Dragon x Fire x Flying
 22x Dark Energy
 22/60
 
-#### Cruel Hatred Deck - TOMAKE
+#### Cruel Hatred Deck - ⭕
 
 4x Nidoran
 3x Nidorino
