@@ -11,7 +11,7 @@ Beating a leader gives 2 packs.
     - [Laboratory - DONE](#laboratory---done)
       - [Bulbasaur and Friends (Starter Deck) ✅](#bulbasaur-and-friends-starter-deck-)
       - [Squirtle and Friends (Starter Deck) ✅](#squirtle-and-friends-starter-deck-)
-      - [Charmander and Friends (Starter Deck) ☑](#charmander-and-friends-starter-deck-)
+      - [Charmander and Friends (Starter Deck) ✅](#charmander-and-friends-starter-deck-)
       - [Route 1 Deck ❌](#route-1-deck-)
       - [Power of Starters ❌](#power-of-starters-)
     - [Bug Club - READY](#bug-club---ready)
@@ -24,21 +24,21 @@ Beating a leader gives 2 packs.
       - [Murder of Crows Deck - ⭕](#murder-of-crows-deck---)
       - [Howl at the Moon Deck - ⭕](#howl-at-the-moon-deck---)
       - [Cruel Hatred Deck - ⭕](#cruel-hatred-deck---)
-    - [Dragon Club - TOMAKE](#dragon-club---tomake)
-      - [Sea Serpent Deck - TOMAKE](#sea-serpent-deck---tomake)
-      - [Dragonflight Deck - TOMAKE](#dragonflight-deck---tomake)
-      - [Ground Wyrm Deck - TOMAKE](#ground-wyrm-deck---tomake)
-      - [Rainbow of Dragons Deck - TOMAKE](#rainbow-of-dragons-deck---tomake)
-    - [Fairy Club - TOMAKE](#fairy-club---tomake)
-      - [Queen Mother Deck - TOMAKE](#queen-mother-deck---tomake)
-      - [Crystal Cave Deck - TOMAKE](#crystal-cave-deck---tomake)
-      - [Cute When You're Mad Deck - TOMAKE](#cute-when-youre-mad-deck---tomake)
-      - [Fairy Tale Deck - TOMAKE](#fairy-tale-deck---tomake)
-    - [Fighting Club - TOMAKE](#fighting-club---tomake)
-      - [Tag Team Deck - TOMAKE](#tag-team-deck---tomake)
-      - [Focus Punch Deck - TOMAKE](#focus-punch-deck---tomake)
-      - [Primal Rage Deck - TOMAKE](#primal-rage-deck---tomake)
-      - [Feat of Strength Deck - TOMAKE](#feat-of-strength-deck---tomake)
+    - [Dragon Club - ⭕](#dragon-club---)
+      - [Sea Serpent Deck - ⭕](#sea-serpent-deck---)
+      - [Dragonflight Deck - ⭕](#dragonflight-deck---)
+      - [Ground Wyrm Deck - ⭕](#ground-wyrm-deck---)
+      - [Rainbow of Dragons Deck - ⭕](#rainbow-of-dragons-deck---)
+    - [Fairy Club - ⭕](#fairy-club---)
+      - [Queen Mother Deck - ⭕](#queen-mother-deck---)
+      - [Crystal Cave Deck - ⭕](#crystal-cave-deck---)
+      - [Cute When You're Mad Deck - ⭕](#cute-when-youre-mad-deck---)
+      - [Fairy Tale Deck - ⭕](#fairy-tale-deck---)
+    - [Fighting Club - ⭕](#fighting-club---)
+      - [Tag Team Deck - ⭕](#tag-team-deck---)
+      - [Focus Punch Deck - ⭕](#focus-punch-deck---)
+      - [Primal Rage Deck - ⭕](#primal-rage-deck---)
+      - [Feat of Strength Deck - ⭕](#feat-of-strength-deck---)
     - [Fire Club - TOMAKE](#fire-club---tomake)
       - [Slug On My Deck - TOMAKE](#slug-on-my-deck---tomake)
       - [Hot Dog Deck - TOMAKE](#hot-dog-deck---tomake)
@@ -94,11 +94,11 @@ Beating a leader gives 2 packs.
       - [Weightless Deck - TOMAKE](#weightless-deck---tomake)
       - [Rockruff Fan Deck - TOMAKE](#rockruff-fan-deck---tomake)
       - [Down to Earth Deck - TOMAKE](#down-to-earth-deck---tomake)
-    - [Water Club - TOMAKE](#water-club---tomake)
-      - [Walk on Water Deck - TOMAKE](#walk-on-water-deck---tomake)
-      - [Weird Ripple Deck - TOMAKE](#weird-ripple-deck---tomake)
-      - [Water Cycle Deck TOMAKE](#water-cycle-deck-tomake)
-      - [Rain Dance Deck - TOMAKE](#rain-dance-deck---tomake)
+    - [Water Club - ⭕](#water-club---)
+      - [Water Skimmer Deck - ⭕](#water-skimmer-deck---)
+      - [Weird Ripple Deck - ⭕](#weird-ripple-deck---)
+      - [Water Cycle Deck - ⭕](#water-cycle-deck---)
+      - [Rain Dance Deck - ⭕](#rain-dance-deck---)
     - [Challenge Decks](#challenge-decks)
       - [Interdimensional Dude Deck ⭕](#interdimensional-dude-deck-)
       - [Power of Mewtwo Deck ⭕](#power-of-mewtwo-deck-)
@@ -200,7 +200,7 @@ Water x Grass x Psychic
 6x Grass Energy
 8x Psychic Energy
 
-#### Charmander and Friends (Starter Deck) ☑
+#### Charmander and Friends (Starter Deck) ✅
 
 Dragon x Fire x Flying
 
@@ -548,9 +548,9 @@ Dragon x Fire x Flying
 5x Grass Energy
 24/60
 
-### Dragon Club - TOMAKE
+### Dragon Club - ⭕
 
-#### Sea Serpent Deck - TOMAKE
+#### Sea Serpent Deck - ⭕
 
 3x Magikarp
 2x Gyrados
@@ -580,7 +580,7 @@ Dragon x Fire x Flying
 10x Poison Energy
 24/60
 
-#### Dragonflight Deck - TOMAKE
+#### Dragonflight Deck - ⭕
 
 3x Charmander
 2x Charmeleon
@@ -593,7 +593,8 @@ Dragon x Fire x Flying
 2x Oricorio
 2x Pidgey
 1x Pidgeotto
-24/60
+1x Farfetch'd
+25/60
 
 2x Goman Berry
 1x Oak
@@ -605,15 +606,14 @@ Dragon x Fire x Flying
 1x Costume Party
 1x Dragon Dance
 1x Roost
-1x Dashing Pouch
-12/60
+11/60
 
 10x Dragon Energy
 8x Fire Energy
 6x Flying Energy
 24/60
 
-#### Ground Wyrm Deck - TOMAKE
+#### Ground Wyrm Deck - ⭕
 
 4x Trapinch
 3x Vibrava
@@ -644,20 +644,20 @@ Dragon x Fire x Flying
 5x Ground Energy
 24/60
 
-#### Rainbow of Dragons Deck - TOMAKE
+#### Rainbow of Dragons Deck - ⭕
 
 3x Dratini
 2x Dragonair
-3x Trapinch
-2x Vibrava
+2x Trapinch
+1x Vibrava
 2x Kecleon
 2x Smeargle
 3x Swablu
 2x Altaria
-3x Tyrunt
-2x Tyrantrum
-3x Charmander
-2x Charmeleon
+2x Tyrunt
+1x Tyrantrum
+2x Charmander
+1x Charmeleon
 1x Charizard
 24/60
 
@@ -678,9 +678,9 @@ Dragon x Fire x Flying
 3x Flying Energy
 25/60
 
-### Fairy Club - TOMAKE
+### Fairy Club - ⭕
 
-#### Queen Mother Deck - TOMAKE
+#### Queen Mother Deck - ⭕
 
 3x Cutiefly
 2x Ribombee
@@ -708,12 +708,12 @@ Dragon x Fire x Flying
 1x Costume Party
 11/60
 
-8x Fairy
-8x Bug
-8x Poison
+8x Fairy Energy
+8x Bug Energy
+8x Poison Energy
 24/60
 
-#### Crystal Cave Deck - TOMAKE
+#### Crystal Cave Deck - ⭕
 
 4x Carbink (3-1 Fairy, Rock)
 3x Solrock
@@ -726,10 +726,10 @@ Dragon x Fire x Flying
 2x Wigglytuff
 25/60
 
-2x Energy Recycle
 2x Energy Search
 2x Rainbow Curveball
-2x Fieldworker
+1x Energy Recycle
+1x Fieldworker
 1x Shrine of Secrets
 1x Oak
 1x Cheryl
@@ -745,7 +745,7 @@ Dragon x Fire x Flying
 4x Psychic
 23/60
 
-#### Cute When You're Mad Deck - TOMAKE
+#### Cute When You're Mad Deck - ⭕
 
 3x Snubbull
 2x Granbull
@@ -773,26 +773,29 @@ Dragon x Fire x Flying
 1x Youngster's Wishlist
 12/60
 
-9x Fairy
-6x Dark
-5x Fighting
-4x Flying
+9x Fairy Energy
+6x Dark Energy
+5x Fighting Energy
+4x Flying Energy
 24/60
 
-#### Fairy Tale Deck - TOMAKE
+#### Fairy Tale Deck - ⭕
 
 3x Togepi
 2x Togetic
 1x Togekiss
-3x Feebas
-2x Milotic
+2x Feebas
+1x Milotic
+2x Alolan Vulpix
+1x Alolan Ninetales
 2x Vulpix
 1x Ninetales
 4x Eevee
 1x Vaporeon
 1x Flareon
-2x Sylveon
-2x Ditto
+1x Glaceon
+1x Sylveon
+1x Ditto
 1x Zacian
 1x Honedge
 26/60
@@ -808,14 +811,15 @@ Dragon x Fire x Flying
 1x Lucky Egg
 10/60
 
-10x Fairy Energy
-7x Fire Energy
-7x Water Energy
+8x Fairy Energy
+6x Fire Energy
+6x Water Energy
+4x Ice Energy
 24/60
 
-### Fighting Club - TOMAKE
+### Fighting Club - ⭕
 
-#### Tag Team Deck - TOMAKE
+#### Tag Team Deck - ⭕
 
 2x Sawk
 2x Throh
@@ -844,7 +848,7 @@ Dragon x Fire x Flying
 6x Bug
 24/60
 
-#### Focus Punch Deck - TOMAKE
+#### Focus Punch Deck - ⭕
 
 4x Meditite
 3x Medicham
@@ -856,10 +860,9 @@ Dragon x Fire x Flying
 2x Oranguru
 2x Lunatone
 2x Passimian
-25/60
+24/60
 
 2x Lifting Session
-2x Apocalypse
 2x Oak
 2x Tool Jammer
 2x Mega Punch
@@ -867,13 +870,13 @@ Dragon x Fire x Flying
 1x Oran Berry
 1x Computer Search
 1x Item Finder
-15/60
+13/60
 
-10x Fighting Energy
-10x Psychic Energy
-20/60
+12x Fighting Energy
+11x Psychic Energy
+23/60
 
-#### Primal Rage Deck - TOMAKE
+#### Primal Rage Deck - ⭕
 
 4x Mankey
 3x Primape
@@ -901,7 +904,7 @@ Dragon x Fire x Flying
 7x Fire Energy
 24/60
 
-#### Feat of Strength Deck - TOMAKE
+#### Feat of Strength Deck - ⭕
 
 4x Riolu
 4x Lucario
@@ -2258,9 +2261,9 @@ Dragon x Fire x Flying
 6x Metal Energy
 24/60
 
-### Water Club - TOMAKE
+### Water Club - ⭕
 
-#### Walk on Water Deck - TOMAKE
+#### Water Skimmer Deck - ⭕
 
 3x Froakie
 2x Frogadier
@@ -2271,6 +2274,8 @@ Dragon x Fire x Flying
 3x Pidgey
 2x Pidgeotto
 2x Pidgeot
+2x Lapras
+1x Castform Rain
 25/60
 
 2x Rare Candy
@@ -2289,7 +2294,7 @@ Dragon x Fire x Flying
 11x Flying Energy
 24/60
 
-#### Weird Ripple Deck - TOMAKE
+#### Weird Ripple Deck - ⭕
 
 4x Psyduck
 3x Golduck
@@ -2307,7 +2312,7 @@ Dragon x Fire x Flying
 1x Pluspower
 1x Oak
 1x Great Ball
-1x Great Adventure
+1x Daring Adventure
 1x Costume Party
 1x Swagger
 13/60
@@ -2316,7 +2321,7 @@ Dragon x Fire x Flying
 12x Psychic Energy
 24/60
 
-#### Water Cycle Deck TOMAKE
+#### Water Cycle Deck - ⭕
 
 4x Each Castform Form (except rock)
 1x Torkoal
@@ -2341,15 +2346,15 @@ Dragon x Fire x Flying
 1x Eviolite
 1x Costume Party
 1x Fieldworker
-13/60
+12/60
 
 4x Prism Energy
 8x Water
 7x Fire
-6x Ice
+7x Ice
 26/60
 
-#### Rain Dance Deck - TOMAKE
+#### Rain Dance Deck - ⭕
 
 3x Lapras
 3x Lotad
@@ -2372,8 +2377,8 @@ Dragon x Fire x Flying
 1x Protect
 14/60
 
-16x Water Energy
-8x Grass Energy
+18x Water Energy
+6x Grass Energy
 24/60
 
 ### Challenge Decks
