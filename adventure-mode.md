@@ -39,14 +39,14 @@ Beating a leader gives 2 packs.
       - [Focus Punch Deck - ⭕](#focus-punch-deck---)
       - [Primal Rage Deck - ⭕](#primal-rage-deck---)
       - [Feat of Strength Deck - ⭕](#feat-of-strength-deck---)
-    - [Fire Club - TOMAKE](#fire-club---tomake)
-      - [Slug On My Deck - TOMAKE](#slug-on-my-deck---tomake)
-      - [Hot Dog Deck - TOMAKE](#hot-dog-deck---tomake)
-      - [Red Sun Deck - TOMAKE](#red-sun-deck---tomake)
-      - [Steam Bath Deck - TOMAKE](#steam-bath-deck---tomake)
+    - [Fire Club - ⭕](#fire-club---)
+      - [Slug On My Deck - ⭕](#slug-on-my-deck---)
+      - [Hot Dog Deck - ⭕](#hot-dog-deck---)
+      - [Red Sun Deck - ⭕](#red-sun-deck---)
+      - [Steam Bath Deck - ⭕](#steam-bath-deck---)
     - [Flying Club - TOMAKE](#flying-club---tomake)
-      - [Birds of a Feather Deck - TOMAKE](#birds-of-a-feather-deck---tomake)
-      - [Dense Flock Deck - TOMAKE](#dense-flock-deck---tomake)
+      - [Birds of a Feather Deck - ⭕](#birds-of-a-feather-deck---)
+      - [Dense Flock Deck - ⭕](#dense-flock-deck---)
       - [Legendary Birds Deck - TOMAKE](#legendary-birds-deck---tomake)
       - [Air Power Deck - TOMAKE](#air-power-deck---tomake)
     - [Ghost Club - READY](#ghost-club---ready)
@@ -926,9 +926,9 @@ Dragon x Fire x Flying
 16x Fighting Energy
 20/60
 
-### Fire Club - TOMAKE
+### Fire Club - ⭕
 
-#### Slug On My Deck - TOMAKE
+#### Slug On My Deck - ⭕
 
 4x Slugma
 4x Magcargo
@@ -957,7 +957,7 @@ Dragon x Fire x Flying
 4x Bug Energy
 24/60
 
-#### Hot Dog Deck - TOMAKE
+#### Hot Dog Deck - ⭕
 
 3x Entei
 3x Houndour
@@ -966,7 +966,7 @@ Dragon x Fire x Flying
 2x Arcanine
 3x Vulpix
 2x Ninetales
-3x Lilipup
+3x Lillipup
 2x Herdier
 1x Stoutland
 24/60
@@ -986,7 +986,7 @@ Dragon x Fire x Flying
 23x Fire Energy
 24/60
 
-#### Red Sun Deck - TOMAKE
+#### Red Sun Deck - ⭕
 
 3x Oricorio
 3x Moltres
@@ -1019,7 +1019,7 @@ Dragon x Fire x Flying
 7x Flying Energy
 24/60
 
-#### Steam Bath Deck - TOMAKE
+#### Steam Bath Deck - ⭕
 
 3x Eevee
 1x Flareon
@@ -1053,18 +1053,18 @@ Dragon x Fire x Flying
 
 ### Flying Club - TOMAKE
 
-#### Birds of a Feather Deck - TOMAKE
+#### Birds of a Feather Deck - ⭕
 
 4x Oricorio
 3x Togepi
 2x Togetic
 1x Togekiss
-2x Rotom
+1x Rotom
 2x Cubone
 1x Alolan Marowak
 2x Jigglypuff
 1x Wigglytuff
-2x Dedenne
+1x Dedenne
 2x Illumise
 2x Volbeat
 2x Growlithe
@@ -1075,7 +1075,8 @@ Dragon x Fire x Flying
 2x Oak
 2x Computer Search
 2x Rinka Berry
-2x Roost
+1x Roost
+1x Fire Spin
 1x Hard Berry
 11/60
 
@@ -1088,7 +1089,7 @@ Dragon x Fire x Flying
 4x Fire Energy
 24/60
 
-#### Dense Flock Deck - TOMAKE
+#### Dense Flock Deck - ⭕
 
 3x Rufflet
 2x Braviary
