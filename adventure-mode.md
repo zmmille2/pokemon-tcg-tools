@@ -44,70 +44,70 @@ Beating a leader gives 2 packs.
       - [Hot Dog Deck - ⭕](#hot-dog-deck---)
       - [Red Sun Deck - ⭕](#red-sun-deck---)
       - [Steam Bath Deck - ⭕](#steam-bath-deck---)
-    - [Flying Club - TOMAKE](#flying-club---tomake)
-      - [Birds of a Feather Deck - ⭕](#birds-of-a-feather-deck---)
-      - [Dense Flock Deck - ⭕](#dense-flock-deck---)
-      - [Legendary Birds Deck - TOMAKE](#legendary-birds-deck---tomake)
-      - [Air Power Deck - TOMAKE](#air-power-deck---tomake)
+    - [Flying Club - ⭕](#flying-club---)
+      - [Birds of a Feather Deck - ✅](#birds-of-a-feather-deck---)
+      - [Dense Flock Deck - ❌](#dense-flock-deck---)
+      - [Legendary Birds Deck - ⭕](#legendary-birds-deck---)
+      - [Air Power Deck - ✅](#air-power-deck---)
     - [Ghost Club - READY](#ghost-club---ready)
       - [Possessed Tool Deck ✅](#possessed-tool-deck-)
       - [Friendly Ghost Deck ✅✅](#friendly-ghost-deck-)
       - [Skeleton Crew Deck ✅](#skeleton-crew-deck-)
-      - [Nightmare Deck ❌❌](#nightmare-deck-)
+      - [Nightmare Deck ❌❌✅](#nightmare-deck-)
     - [Grass Club - ✅](#grass-club---)
       - [Sunflower Deck ✅](#sunflower-deck-)
       - [Rainforest Deck ✅](#rainforest-deck-)
       - [Sleepy Woad Deck ✅](#sleepy-woad-deck-)
       - [Beauty of Nature Deck ✅](#beauty-of-nature-deck-)
-    - [Ground Club - TOMAKE](#ground-club---tomake)
-      - [Dynamite Deck - TOMAKE](#dynamite-deck---tomake)
-      - [Permafrost Deck - TOMAKE](#permafrost-deck---tomake)
-      - [Muddy Swamp Deck - TOMAKE](#muddy-swamp-deck---tomake)
-      - [Biomes of Earth Deck - TOMAKE](#biomes-of-earth-deck---tomake)
-    - [Ice Club - TOMAKE](#ice-club---tomake)
-      - [Glacier Deck - TOMAKE](#glacier-deck---tomake)
-      - [Aurora Borealis Deck - TOMAKE](#aurora-borealis-deck---tomake)
-      - [Hypothermia Deck - TOMAKE](#hypothermia-deck---tomake)
-      - [Absolute Zero Deck - TOMAKE](#absolute-zero-deck---tomake)
-    - [Lightning Club - TOMAKE](#lightning-club---tomake)
+    - [Ground Club - ⭕](#ground-club---)
+      - [Dynamite Deck - ⭕](#dynamite-deck---)
+      - [Permafrost Deck - ⭕](#permafrost-deck---)
+      - [Muddy Swamp Deck - ⭕](#muddy-swamp-deck---)
+      - [Biomes of Earth Deck - ⭕](#biomes-of-earth-deck---)
+    - [Ice Club - ⭕](#ice-club---)
+      - [Glacier Deck - ⭕](#glacier-deck---)
+      - [Aurora Borealis Deck - ⭕](#aurora-borealis-deck---)
+      - [Hypothermia Deck - ⭕](#hypothermia-deck---)
+      - [Absolute Zero Deck - ⭕](#absolute-zero-deck---)
+    - [Lightning Club - ⭕](#lightning-club---)
       - [Pikachu Fan Deck ✅](#pikachu-fan-deck-)
-      - [Nasty Shock Deck - TOMAKE](#nasty-shock-deck---tomake)
-      - [Thunderstruck Deck - TOMAKE](#thunderstruck-deck---tomake)
-      - [Alternating Current Deck - TOMAKE](#alternating-current-deck---tomake)
-    - [Metal Club - TOMAKE](#metal-club---tomake)
-      - [Electromagnet Deck - TOMAKE](#electromagnet-deck---tomake)
-      - [Heavy Metal Deck - TOMAKE](#heavy-metal-deck---tomake)
-      - [Industrial Age Deck - TOMAKE](#industrial-age-deck---tomake)
-      - [Pure Steel Deck - TOMAKE](#pure-steel-deck---tomake)
-    - [Poison Club - TOMAKE](#poison-club---tomake)
-      - [Prey on the Weak Deck - TOMAKE](#prey-on-the-weak-deck---tomake)
-      - [Nido Deck - TOMAKE](#nido-deck---tomake)
-      - [Stench Deck - TOMAKE](#stench-deck---tomake)
-      - [Art of Poison Deck - TOMAKE](#art-of-poison-deck---tomake)
-    - [Psychic Club - TOMAKE](#psychic-club---tomake)
-      - [Relaxation Deck - TOMAKE](#relaxation-deck---tomake)
-      - [Ancient Ape Deck - TOMAKE](#ancient-ape-deck---tomake)
-      - [Average DnD Group Deck - TOMAKE](#average-dnd-group-deck---tomake)
-      - [Mysteries of Mew Deck - TOMAKE](#mysteries-of-mew-deck---tomake)
-    - [Rock Club - TOMAKE](#rock-club---tomake)
-      - [Fossil Excavation Deck - TOMAKE](#fossil-excavation-deck---tomake)
-      - [Weightless Deck - TOMAKE](#weightless-deck---tomake)
-      - [Rockruff Fan Deck - TOMAKE](#rockruff-fan-deck---tomake)
-      - [Down to Earth Deck - TOMAKE](#down-to-earth-deck---tomake)
+      - [Nasty Shock Deck - ⭕](#nasty-shock-deck---)
+      - [Thunderstruck Deck - ⭕](#thunderstruck-deck---)
+      - [Alternating Current Deck - ⭕](#alternating-current-deck---)
+    - [Metal Club - ⭕](#metal-club---)
+      - [Electromagnet Deck - ⭕](#electromagnet-deck---)
+      - [Heavy Metal Deck - ⭕](#heavy-metal-deck---)
+      - [Industrial Age Deck - ⭕](#industrial-age-deck---)
+      - [Pure Steel Deck - ⭕](#pure-steel-deck---)
+    - [Poison Club - ⭕](#poison-club---)
+      - [Prey on the Weak Deck - ⭕](#prey-on-the-weak-deck---)
+      - [Nido Deck - ⭕](#nido-deck---)
+      - [Stench Deck - ⭕](#stench-deck---)
+      - [Art of Poison Deck - ⭕](#art-of-poison-deck---)
+    - [Psychic Club - ⭕](#psychic-club---)
+      - [Relaxation Deck - ⭕](#relaxation-deck---)
+      - [Ancient Ape Deck - ⭕](#ancient-ape-deck---)
+      - [Average DnD Group Deck - ⭕](#average-dnd-group-deck---)
+      - [Mysteries of Mew Deck - ⭕](#mysteries-of-mew-deck---)
+    - [Rock Club - ⭕](#rock-club---)
+      - [Fossil Excavation Deck - ⭕](#fossil-excavation-deck---)
+      - [Weightless Deck - ⭕](#weightless-deck---)
+      - [Rockruff Fan Deck - ⭕](#rockruff-fan-deck---)
+      - [Down to Earth Deck - ⭕](#down-to-earth-deck---)
     - [Water Club - ⭕](#water-club---)
       - [Water Skimmer Deck - ⭕](#water-skimmer-deck---)
       - [Weird Ripple Deck - ⭕](#weird-ripple-deck---)
       - [Water Cycle Deck - ⭕](#water-cycle-deck---)
       - [Rain Dance Deck - ⭕](#rain-dance-deck---)
     - [Challenge Decks](#challenge-decks)
-      - [Interdimensional Dude Deck ⭕](#interdimensional-dude-deck-)
-      - [Power of Mewtwo Deck ⭕](#power-of-mewtwo-deck-)
+      - [Interdimensional Dude Deck ✅](#interdimensional-dude-deck-)
+      - [Power of Mewtwo Deck ✅](#power-of-mewtwo-deck-)
     - [Special Decks](#special-decks)
-      - [Imakuni? Deck - TOMAKE](#imakuni-deck---tomake)
-      - [I'm Zach Deck - TOMAKE](#im-zach-deck---tomake)
-      - [Powerful Zach Deck](#powerful-zach-deck)
-      - [Invincible Zach Deck](#invincible-zach-deck)
-      - [Legendary Zach Deck](#legendary-zach-deck)
+      - [Imakuni? Deck - ⭕](#imakuni-deck---)
+      - [I'm Zach Deck - ⭕](#im-zach-deck---)
+      - [Powerful Zach Deck - TODO](#powerful-zach-deck---todo)
+      - [Invincible Zach Deck - TODO](#invincible-zach-deck---todo)
+      - [Legendary Zach Deck - TODO](#legendary-zach-deck---todo)
 
 ## Decklists
 
@@ -1051,9 +1051,9 @@ Dragon x Fire x Flying
 10x Fire Energy
 23/60
 
-### Flying Club - TOMAKE
+### Flying Club - ⭕
 
-#### Birds of a Feather Deck - ⭕
+#### Birds of a Feather Deck - ✅
 
 4x Oricorio
 3x Togepi
@@ -1089,7 +1089,7 @@ Dragon x Fire x Flying
 4x Fire Energy
 24/60
 
-#### Dense Flock Deck - ⭕
+#### Dense Flock Deck - ❌
 
 3x Rufflet
 2x Braviary
@@ -1118,7 +1118,7 @@ Dragon x Fire x Flying
 10x Dark Energy
 24/60
 
-#### Legendary Birds Deck - TOMAKE
+#### Legendary Birds Deck - ⭕
 
 4x Pidgey
 2x Pidgeotto
@@ -1126,6 +1126,9 @@ Dragon x Fire x Flying
 3x Zapdos
 3x Moltres
 3x Articuno
+2x Chatot
+2x Rufflet
+1x Braviary
 24/60
 
 3x Fujis Apprentice
@@ -1143,7 +1146,7 @@ Dragon x Fire x Flying
 5x Fire
 24/60
 
-#### Air Power Deck - TOMAKE
+#### Air Power Deck - ✅
 
 3x Chatot
 2x Rayquaza
@@ -1168,8 +1171,8 @@ Dragon x Fire x Flying
 1x Hard Berry
 11/60
 
-20x Flying Energy
-4x Dragon Energy
+17x Flying Energy
+7x Dragon Energy
 24/60
 
 ### Ghost Club - READY
@@ -1268,7 +1271,7 @@ Dragon x Fire x Flying
 6x Dark
 26/60
 
-#### Nightmare Deck ❌❌
+#### Nightmare Deck ❌❌✅
 
 4x Gastly
 3x Haunter
@@ -1432,9 +1435,9 @@ Dragon x Fire x Flying
 4x Prism Energy
 24/60
 
-### Ground Club - TOMAKE
+### Ground Club - ⭕
 
-#### Dynamite Deck - TOMAKE
+#### Dynamite Deck - ⭕
 
 4x Geodude
 3x Graveler
@@ -1463,7 +1466,7 @@ Dragon x Fire x Flying
 7x Lightning Energy
 24/60
 
-#### Permafrost Deck - TOMAKE
+#### Permafrost Deck - ⭕
 
 4x Swinub
 3x Piloswine
@@ -1495,7 +1498,7 @@ Dragon x Fire x Flying
 10x Ice Energy
 24/60
 
-#### Muddy Swamp Deck - TOMAKE
+#### Muddy Swamp Deck - ⭕
 
 4x Wooper
 3x Quagsire
@@ -1527,7 +1530,7 @@ Dragon x Fire x Flying
 5x Poison Energy
 24/60
 
-#### Biomes of Earth Deck - TOMAKE
+#### Biomes of Earth Deck - ⭕
 
 3x Geodude
 2x Graveler
@@ -1559,9 +1562,9 @@ Dragon x Fire x Flying
 6x Ice Energy
 24/60
 
-### Ice Club - TOMAKE
+### Ice Club - ⭕
 
-#### Glacier Deck - TOMAKE
+#### Glacier Deck - ⭕
 
 4x Bergmite
 3x Avalugg
@@ -1586,7 +1589,7 @@ Dragon x Fire x Flying
 22x Ice Energy
 22/60
 
-#### Aurora Borealis Deck - TOMAKE
+#### Aurora Borealis Deck - ⭕
 
 4x Snom
 4x Frosmoth
@@ -1612,7 +1615,7 @@ Dragon x Fire x Flying
 24 Ice Energy
 24/60
 
-#### Hypothermia Deck - TOMAKE
+#### Hypothermia Deck - ⭕
 
 3x Castform Hail
 3x Snorunt
@@ -1643,7 +1646,7 @@ Dragon x Fire x Flying
 12x Ghost Energy
 24/60
 
-#### Absolute Zero Deck - TOMAKE
+#### Absolute Zero Deck - ⭕
 
 3x Spheal
 2x Sealeo
@@ -1672,7 +1675,7 @@ Dragon x Fire x Flying
 24x Ice Energy
 24/60
 
-### Lightning Club - TOMAKE
+### Lightning Club - ⭕
 
 #### Pikachu Fan Deck ✅
 
@@ -1702,7 +1705,7 @@ Dragon x Fire x Flying
 7x Fairy Energy
 22/60
 
-#### Nasty Shock Deck - TOMAKE
+#### Nasty Shock Deck - ⭕
 
 4x Pachirisu
 4x Natu
@@ -1731,7 +1734,7 @@ Dragon x Fire x Flying
 8x Fire Energy
 24/60
 
-#### Thunderstruck Deck - TOMAKE
+#### Thunderstruck Deck - ⭕
 
 3x Oricorio
 3x Zapdos
@@ -1760,7 +1763,7 @@ Dragon x Fire x Flying
 9x Flying Energy
 24/60
 
-#### Alternating Current Deck - TOMAKE
+#### Alternating Current Deck - ⭕
 
 3x Mareep
 2x Flaafy
@@ -1788,9 +1791,9 @@ Dragon x Fire x Flying
 22x Lightning Energy
 22/60
 
-### Metal Club - TOMAKE
+### Metal Club - ⭕
 
-#### Electromagnet Deck - TOMAKE
+#### Electromagnet Deck - ⭕
 
 4x Nosepass
 3x Probopass
@@ -1819,7 +1822,7 @@ Dragon x Fire x Flying
 11x Lightning Energy
 24/60
 
-#### Heavy Metal Deck - TOMAKE
+#### Heavy Metal Deck - ⭕
 
 4x Carbink
 4x Onix
@@ -1847,7 +1850,7 @@ Dragon x Fire x Flying
 10x Rock Energy
 24/60
 
-#### Industrial Age Deck - TOMAKE
+#### Industrial Age Deck - ⭕
 
 4x Skarmory
 4x Klink
@@ -1878,10 +1881,10 @@ Dragon x Fire x Flying
 8x Metal Energy
 7x Fire Energy
 6x Lightning Energy
-4x Psychic
+4x Psychic Energy
 25/60
 
-#### Pure Steel Deck - TOMAKE
+#### Pure Steel Deck - ⭕
 
 4x Aron
 3x Lairon
@@ -1904,12 +1907,13 @@ Dragon x Fire x Flying
 1x Oran Berry
 14/60
 
-24x Metal Energy
+19x Metal Energy
+5x Rock Energy
 24/60
 
-### Poison Club - TOMAKE
+### Poison Club - ⭕
 
-#### Prey on the Weak Deck - TOMAKE
+#### Prey on the Weak Deck - ⭕
 
 3x Ekans
 2x Arbok
@@ -1939,7 +1943,7 @@ Dragon x Fire x Flying
 20x Poison Energy
 20/60
 
-#### Nido Deck - TOMAKE
+#### Nido Deck - ⭕
 
 4x Nidoran M
 4x Nidorino
@@ -1962,7 +1966,7 @@ Dragon x Fire x Flying
 20x Poison Energy
 20/60
 
-#### Stench Deck - TOMAKE
+#### Stench Deck - ⭕
 
 3x Stunky
 2x Skuntank
@@ -1990,7 +1994,7 @@ Dragon x Fire x Flying
 7x Grass Energy
 24/60
 
-#### Art of Poison Deck - TOMAKE
+#### Art of Poison Deck - ⭕
 
 3x Smeargle
 3x Stunky
@@ -2017,9 +2021,9 @@ Dragon x Fire x Flying
 20x Poison Energy
 20/60
 
-### Psychic Club - TOMAKE
+### Psychic Club - ⭕
 
-#### Relaxation Deck - TOMAKE
+#### Relaxation Deck - ⭕
 
 4x Slakoth
 3x Vigoroth
@@ -2044,7 +2048,7 @@ Dragon x Fire x Flying
 20x Psychic Energy
 20/60
 
-#### Ancient Ape Deck - TOMAKE
+#### Ancient Ape Deck - ⭕
 
 3x Natu
 2x Xatu
@@ -2059,8 +2063,9 @@ Dragon x Fire x Flying
 
 2x Lifting Session
 2x Mega Punch
-2x Apocalypse
 1x Oak
+1x Item Finder
+1x Computer Search
 1x Great Ball
 1x Hard Berry
 1x Oran Berry
@@ -2074,7 +2079,7 @@ Dragon x Fire x Flying
 10x Fighting Energy
 24/60
 
-#### Average DnD Group Deck - TOMAKE
+#### Average DnD Group Deck - ⭕
 
 3x Spoink
 2x Grumpig
@@ -2086,7 +2091,7 @@ Dragon x Fire x Flying
 2x Zorua
 1x Zoroark
 2x Oranguru
-23/60
+24/60
 
 2x Sunset Pasture
 2x Protect
@@ -2105,7 +2110,7 @@ Dragon x Fire x Flying
 8x Dark Energy
 23/60
 
-#### Mysteries of Mew Deck - TOMAKE
+#### Mysteries of Mew Deck - ⭕
 
 4x Mew
 4x Mewtwo
@@ -2116,10 +2121,10 @@ Dragon x Fire x Flying
 2x Noctowl
 2x Smeargle
 2x Shaymin
-22/60
+24/60
 
-2x Great Ball
-2x Shrine of Secrets
+1x Great Ball
+1x Shrine of Secrets
 1x Oran Berry
 1x Lum Berry
 1x Companion Quest
@@ -2131,15 +2136,15 @@ Dragon x Fire x Flying
 1x Sunset Pasture
 1x Fieldworker
 1x Youngster's Wishlist
-15/60
+13/60
 
 17x Psychic Energy
 6x Grass Energy
 23/60
 
-### Rock Club - TOMAKE
+### Rock Club - ⭕
 
-#### Fossil Excavation Deck - TOMAKE
+#### Fossil Excavation Deck - ⭕
 
 4x Lileep
 3x Cradily
@@ -2161,10 +2166,10 @@ Dragon x Fire x Flying
 
 9x Rock
 8x Dragon
-6x Grass
+7x Grass
 24/60
 
-#### Weightless Deck - TOMAKE
+#### Weightless Deck - ⭕
 
 4x Carbink
 2x Solrock
@@ -2195,12 +2200,12 @@ Dragon x Fire x Flying
 6x Fighting Energy
 22/60
 
-#### Rockruff Fan Deck - TOMAKE
+#### Rockruff Fan Deck - ⭕
 
 4x Rockruff
 1x Lycanroc
 1x Lycanroc Dusk
-1x Lycanroc Dawn
+1x Lycanroc Midnight
 2x Houndour
 1x Houndoom
 2x Poochyena
@@ -2210,8 +2215,8 @@ Dragon x Fire x Flying
 2x Lillipup
 1x Herdier
 1x Stoutland
-2x Riolu
-1x Lucario
+2x Snubbull
+1x Granbull
 2x Zorua
 1x Zoroark
 26/60
@@ -2220,15 +2225,17 @@ Dragon x Fire x Flying
 3x Dog Poker
 1x Oak
 1x Energy Search
+1x Oran Berry
+1x Swagger
 10/60
 
 8x Rock
-7x Fire
-5x Dark
-4x Fighting
+6x Fire
+6x Dark
+4x Fairy
 24/60
 
-#### Down to Earth Deck - TOMAKE
+#### Down to Earth Deck - ⭕
 
 4x Dwebble
 3x Crustle
@@ -2238,7 +2245,7 @@ Dragon x Fire x Flying
 3x Geodude
 2x Graveler
 1x Golem
-3x Castform Rock
+3x Castform Sand
 22/60
 
 1x Pluspower
@@ -2388,7 +2395,7 @@ This runs every 3 gyms, starting with the 2nd.
 
 2 - 5 - 8 - 11 - 14 - 17
 
-#### Interdimensional Dude Deck ⭕
+#### Interdimensional Dude Deck ✅
 
 3x Birds of Paradise
 3x Black Lotus
@@ -2419,7 +2426,7 @@ This runs every 3 gyms, starting with the 2nd.
 16x Lightning
 16/60
 
-#### Power of Mewtwo Deck ⭕
+#### Power of Mewtwo Deck ✅
 
 1x Mewtwo
 1/60
@@ -2442,7 +2449,7 @@ This runs every 3 gyms, starting with the 2nd.
 
 ### Special Decks
 
-#### Imakuni? Deck - TOMAKE
+#### Imakuni? Deck - ⭕
 
 4x Slowpoke
 2x Slowbro
@@ -2454,7 +2461,7 @@ This runs every 3 gyms, starting with the 2nd.
 2x Psyduck
 1x Golduck
 1x Kecleon
-2x Gamer Spoink
+2x Spoink
 1x Grumpig
 25/60
 
@@ -2473,7 +2480,7 @@ This runs every 3 gyms, starting with the 2nd.
 6x Flying Energy
 24/60
 
-#### I'm Zach Deck - TOMAKE
+#### I'm Zach Deck - ⭕
 
 4x Eevee
 1x Flareon
@@ -2491,13 +2498,16 @@ This runs every 3 gyms, starting with the 2nd.
 4x Energy Search
 3x Training Court
 2x Oak
-2x Misty's Wrath
+2x Eviolite
+1x Misty's Wrath
 1x Rainbow Curveball
-1x Ulaz Berry
-13/60
+1x Computer Search
+1x Companion Quest
+15/60
 
-3x Scramble Energy
-4x Prism Energy
+2x Scramble Energy
+2x Prism Energy
+3x Aurora Energy
 1x Bug Energy
 1x Dark Energy
 1x Dragon Energy
@@ -2515,16 +2525,16 @@ This runs every 3 gyms, starting with the 2nd.
 1x Psychic Energy
 1x Rock Energy
 1x Water Energy
-26/60
+24/60
 
-#### Powerful Zach Deck
+#### Powerful Zach Deck - TODO
 
 Tropius
 
-#### Invincible Zach Deck
+#### Invincible Zach Deck - TODO
 
 Flying
 
-#### Legendary Zach Deck
+#### Legendary Zach Deck - TODO
 
 Legendary Birds

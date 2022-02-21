@@ -1,0 +1,25 @@
+{
+    "name": "Spoink",
+    "hp": 50,
+    "stage": "basic",
+    "type": "psychic",
+    "image": "spoink",
+    "attacks": [
+        {
+            "name": "Bounce",
+            "cost": "colorless",
+            "damage": 10
+        }
+    ],
+    "weakness": {
+        "type": "dark-bug",
+        "value": 10
+    },
+    "resistance": {
+        "type": "psychic-fighting",
+        "value": 10
+    },
+    "retreat": 1,
+    "rarity": 3,
+    "flavor": "They protect their pearl like a prized game in their gaming collection."
+}
