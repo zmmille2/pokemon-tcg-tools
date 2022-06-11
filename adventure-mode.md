@@ -35,7 +35,7 @@ Beating a leader gives 2 packs.
       - [Cute When You're Mad Deck - ⭕](#cute-when-youre-mad-deck---)
       - [Fairy Tale Deck - ⭕](#fairy-tale-deck---)
     - [Fighting Club - ⭕](#fighting-club---)
-      - [Tag Team Deck - ⭕](#tag-team-deck---)
+      - [Tag Team Deck - ✅](#tag-team-deck---)
       - [Focus Punch Deck - ⭕](#focus-punch-deck---)
       - [Primal Rage Deck - ⭕](#primal-rage-deck---)
       - [Feat of Strength Deck - ⭕](#feat-of-strength-deck---)
@@ -75,7 +75,7 @@ Beating a leader gives 2 packs.
       - [Thunderstruck Deck - ⭕](#thunderstruck-deck---)
       - [Alternating Current Deck - ⭕](#alternating-current-deck---)
     - [Metal Club - ⭕](#metal-club---)
-      - [Electromagnet Deck - ⭕](#electromagnet-deck---)
+      - [Electromagnet Deck - ✅](#electromagnet-deck---)
       - [Heavy Metal Deck - ⭕](#heavy-metal-deck---)
       - [Industrial Age Deck - ⭕](#industrial-age-deck---)
       - [Pure Steel Deck - ⭕](#pure-steel-deck---)
@@ -96,15 +96,15 @@ Beating a leader gives 2 packs.
       - [Down to Earth Deck - ⭕](#down-to-earth-deck---)
     - [Water Club - ⭕](#water-club---)
       - [Water Skimmer Deck - ⭕](#water-skimmer-deck---)
-      - [Weird Ripple Deck - ⭕](#weird-ripple-deck---)
+      - [Weird Ripple Deck - ✅](#weird-ripple-deck---)
       - [Water Cycle Deck - ⭕](#water-cycle-deck---)
       - [Rain Dance Deck - ⭕](#rain-dance-deck---)
     - [Challenge Decks](#challenge-decks)
       - [Interdimensional Dude Deck ✅](#interdimensional-dude-deck-)
       - [Power of Mewtwo Deck ✅](#power-of-mewtwo-deck-)
     - [Special Decks](#special-decks)
-      - [Imakuni? Deck - ⭕](#imakuni-deck---)
-      - [I'm Zach Deck - ⭕](#im-zach-deck---)
+      - [Imakuni? Deck - ✅](#imakuni-deck---)
+      - [I'm Zach Deck - ❌](#im-zach-deck---)
       - [Powerful Zach Deck - TODO](#powerful-zach-deck---todo)
       - [Invincible Zach Deck - TODO](#invincible-zach-deck---todo)
       - [Legendary Zach Deck - TODO](#legendary-zach-deck---todo)
@@ -819,7 +819,7 @@ Dragon x Fire x Flying
 
 ### Fighting Club - ⭕
 
-#### Tag Team Deck - ⭕
+#### Tag Team Deck - ✅
 
 2x Sawk
 2x Throh
@@ -1793,7 +1793,7 @@ Dragon x Fire x Flying
 
 ### Metal Club - ⭕
 
-#### Electromagnet Deck - ⭕
+#### Electromagnet Deck - ✅
 
 4x Nosepass
 3x Probopass
@@ -2302,7 +2302,7 @@ Dragon x Fire x Flying
 11x Flying Energy
 24/60
 
-#### Weird Ripple Deck - ⭕
+#### Weird Ripple Deck - ✅
 
 4x Psyduck
 3x Golduck
@@ -2449,7 +2449,7 @@ This runs every 3 gyms, starting with the 2nd.
 
 ### Special Decks
 
-#### Imakuni? Deck - ⭕
+#### Imakuni? Deck - ✅
 
 4x Slowpoke
 2x Slowbro
@@ -2480,7 +2480,7 @@ This runs every 3 gyms, starting with the 2nd.
 6x Flying Energy
 24/60
 
-#### I'm Zach Deck - ⭕
+#### I'm Zach Deck - ❌
 
 4x Eevee
 1x Flareon
