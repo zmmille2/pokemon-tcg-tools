@@ -7,8 +7,18 @@ These docs should give you everything you need to know to start making your own 
 To get started, install python.
 Create a python environment and install the dependencies.
 
-```
-(env) zach $ python -m pip install -r requirements.txt
+```Powershell
+# Create the environment
+py -3.8 -m venv env
+
+# Activate the envrionment
+.\env\bin\activate
+
+# Assert python version 3.8.x (required for PIL)
+py --version
+
+# Install dependencies.
+py -m pip install -r requirements.txt
 ```
 
 To generate cards, make a new card in `./cardModels`.
