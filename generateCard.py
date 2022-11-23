@@ -1,10 +1,11 @@
 import argparse
 import json
-from typing import Dict, Tuple
+from typing import Any, Dict, Tuple
 from PIL import Image, ImageDraw, ImageFont
 import os
 import shutil
-import sys
+
+from cardData import Attack, CardData, Passive, TrainerCardData, WeakRes, PokemonData
 
 # ===========================
 # COLORS
@@ -41,79 +42,81 @@ y3 = 147
 # top row of symbols.png
 with Image.open(symbolsFilepath) as symbols:
     symbolsDict["grass"] = symbols.crop((85, y0, 147, y1)).resize(
-        (symbolWidth, symbolWidth), Image.BICUBIC
+        (symbolWidth, symbolWidth), Image.Resampling.BICUBIC
     )
     symbolsDict["fire"] = symbols.crop((159, y0, 221, y1)).resize(
-        (symbolWidth, symbolWidth), Image.BICUBIC
+        (symbolWidth, symbolWidth), Image.Resampling.BICUBIC
     )
     symbolsDict["water"] = symbols.crop((233, y0, 295, y1)).resize(
-        (symbolWidth, symbolWidth), Image.BICUBIC
+        (symbolWidth, symbolWidth), Image.Resampling.BICUBIC
     )
     symbolsDict["lightning"] = symbols.crop((307, y0, 369, y1)).resize(
-        (symbolWidth, symbolWidth), Image.BICUBIC
+        (symbolWidth, symbolWidth), Image.Resampling.BICUBIC
     )
     symbolsDict["electric"] = symbols.crop((307, y0, 369, y1)).resize(
-        (symbolWidth, symbolWidth), Image.BICUBIC
+        (symbolWidth, symbolWidth), Image.Resampling.BICUBIC
     )
     symbolsDict["psychic"] = symbols.crop((381, y0, 443, y1)).resize(
-        (symbolWidth, symbolWidth), Image.BICUBIC
+        (symbolWidth, symbolWidth), Image.Resampling.BICUBIC
     )
     symbolsDict["fighting"] = symbols.crop((455, y0, 517, y1)).resize(
-        (symbolWidth, symbolWidth), Image.BICUBIC
+        (symbolWidth, symbolWidth), Image.Resampling.BICUBIC
     )
     symbolsDict["dark"] = symbols.crop((529, y0, 591, y1)).resize(
-        (symbolWidth, symbolWidth), Image.BICUBIC
+        (symbolWidth, symbolWidth), Image.Resampling.BICUBIC
     )
     symbolsDict["darkness"] = symbols.crop((529, y0, 591, y1)).resize(
-        (symbolWidth, symbolWidth), Image.BICUBIC
+        (symbolWidth, symbolWidth), Image.Resampling.BICUBIC
     )
     symbolsDict["metal"] = symbols.crop((603, y0, 665, y1)).resize(
-        (symbolWidth, symbolWidth), Image.BICUBIC
+        (symbolWidth, symbolWidth), Image.Resampling.BICUBIC
     )
     symbolsDict["steel"] = symbols.crop((603, y0, 665, y1)).resize(
-        (symbolWidth, symbolWidth), Image.BICUBIC
+        (symbolWidth, symbolWidth), Image.Resampling.BICUBIC
     )
     symbolsDict["fairy"] = symbols.crop((677, y0, 739, y1)).resize(
-        (symbolWidth, symbolWidth), Image.BICUBIC
+        (symbolWidth, symbolWidth), Image.Resampling.BICUBIC
     )
     symbolsDict["dragon"] = symbols.crop((751, y0, 813, y1)).resize(
-        (symbolWidth, symbolWidth), Image.BICUBIC
+        (symbolWidth, symbolWidth), Image.Resampling.BICUBIC
     )
     symbolsDict["colorless"] = symbols.crop((825, y0, 887, y1)).resize(
-        (symbolWidth, symbolWidth), Image.BICUBIC
+        (symbolWidth, symbolWidth), Image.Resampling.BICUBIC
     )
     symbolsDict["normal"] = symbols.crop((825, y0, 887, y1)).resize(
-        (symbolWidth, symbolWidth), Image.BICUBIC
+        (symbolWidth, symbolWidth), Image.Resampling.BICUBIC
     )
 
     # bottom row of symbols.png
     symbolsDict["poison"] = symbols.crop((195, y2, 257, y3)).resize(
-        (symbolWidth, symbolWidth), Image.BICUBIC
+        (symbolWidth, symbolWidth), Image.Resampling.BICUBIC
     )
     symbolsDict["flying"] = symbols.crop((269, y2, 331, y3)).resize(
-        (symbolWidth, symbolWidth), Image.BICUBIC
+        (symbolWidth, symbolWidth), Image.Resampling.BICUBIC
     )
     symbolsDict["bug"] = symbols.crop((343, y2, 405, y3)).resize(
-        (symbolWidth, symbolWidth), Image.BICUBIC
+        (symbolWidth, symbolWidth), Image.Resampling.BICUBIC
     )
     symbolsDict["ground"] = symbols.crop((417, y2, 479, y3)).resize(
-        (symbolWidth, symbolWidth), Image.BICUBIC
+        (symbolWidth, symbolWidth), Image.Resampling.BICUBIC
     )
     symbolsDict["rock"] = symbols.crop((491, y2, 553, y3)).resize(
-        (symbolWidth, symbolWidth), Image.BICUBIC
+        (symbolWidth, symbolWidth), Image.Resampling.BICUBIC
     )
     symbolsDict["ice"] = symbols.crop((565, y2, 627, y3)).resize(
-        (symbolWidth, symbolWidth), Image.BICUBIC
+        (symbolWidth, symbolWidth), Image.Resampling.BICUBIC
     )
     symbolsDict["ghost"] = symbols.crop((639, y2, 701, y3)).resize(
-        (symbolWidth, symbolWidth), Image.BICUBIC
+        (symbolWidth, symbolWidth), Image.Resampling.BICUBIC
     )
     symbolsDict["dragon2"] = symbols.crop((713, y2, 775, y3)).resize(
-        (symbolWidth, symbolWidth), Image.BICUBIC
+        (symbolWidth, symbolWidth), Image.Resampling.BICUBIC
     )
 
 with Image.open(emptyFilepath) as empty:
-    symbolsDict["empty"] = empty.resize((symbolWidth, symbolWidth), Image.BICUBIC)
+    symbolsDict["empty"] = empty.resize(
+        (symbolWidth, symbolWidth), Image.Resampling.BICUBIC
+    )
 
 # ===========================
 # FONTS
@@ -217,18 +220,18 @@ def draw_title_and_description(
     x_limit = limit[0]
     y_limit = limit[1]
 
-    titleOffset = titleFont.getsize(title)[0]
+    titleOffset = titleFont.getwidth(title)
     wrappedText = get_wrapped_text(
         description, descriptionFont, x_limit, titleOffset + location[0]
     )
     firstLine = wrappedText[0]
     lines = "\n".join(wrappedText[1:])
 
-    projected_absolute_y_end = descriptionFont.getsize(lines)[1] + location[1]
+    projected_absolute_y_end = descriptionFont.getheight(lines) + location[1]
     about_midway = ((y_limit - location[1]) / 2) + location[1]
 
     if projected_absolute_y_end + 50 > y_limit:  # shrink it tiny
-        titleOffset = smallTitleFont.getsize(title)[0]
+        titleOffset = smallTitleFont.getwidth(title)
         wrappedText = get_wrapped_text(
             description, smallDescriptionFont, x_limit, titleOffset + location[0]
         )
@@ -252,7 +255,7 @@ def draw_title_and_description(
         )
 
     elif projected_absolute_y_end + 70 > y_limit:  # shrink it medium
-        titleOffset = mediumTitleFont.getsize(title)[0]
+        titleOffset = mediumTitleFont.getwidth(title)
         wrappedText = get_wrapped_text(
             description, mediumDescriptionFont, x_limit, titleOffset + location[0]
         )
@@ -321,6 +324,16 @@ def draw_retreat_symbols(card: Image.Image, retreat_cost: int, location: tuple([
         card.paste(symbol, (location[0] + 60, y), symbol)
 
 
+def getwidth(self: ImageFont.ImageFont, line: str) -> int:
+    left, _, right, _ = self.getbbox(line)
+    return right - left
+
+
+def getheight(self: ImageFont.ImageFont, line: str) -> int:
+    _, top, _, bottom = self.getbbox(line)
+    return top - bottom
+
+
 # Adapted from https://stackoverflow.com/questions/8257147/wrap-text-in-pil
 def get_wrapped_text(
     text: str, font: ImageFont.ImageFont, line_length: int, prefix: int = 0
@@ -331,7 +344,7 @@ def get_wrapped_text(
         limit = line_length
         if len(lines) == 1:
             limit -= prefix
-        if font.getsize(line)[0] <= limit:
+        if font.getwidth(line) <= limit:
             lines[-1] = line
         else:
             lines.append(word)
@@ -531,67 +544,68 @@ def draw_boxes(card: Image.Image, draw: ImageDraw.ImageDraw, cardData, color):
         print("Currently up to 4 attacks or 3 attacks with 1 passive are supported.")
 
 
-def draw_card(cardType: str, cardData, filename: str):
+def draw_trainer(cardData):
+    trainerType = "trainer" + cardData["type"].strip()
+    cardBackgroundFilepath = os.path.join(blanksDirectory, trainerType + ".png")
+    cardArtFilepath = os.path.join(
+        cardArtDirectory, cardData["image"].lower().strip() + ".png"
+    )
+
+    newCard = Image.new("RGBA", (cardWidth, cardHeight))
+
+    with Image.open(cardBackgroundFilepath) as cardBackground:
+        resizedBackground = cardBackground.resize(
+            (cardWidth, cardHeight), Image.Resampling.BICUBIC
+        )
+        with Image.open(cardArtFilepath) as cardArt:
+            resizedCardArt = cardArt.resize(
+                (trainerArtWidth, trainerArtHeight), Image.Resampling.BICUBIC
+            )
+            newCard.paste(resizedCardArt, (40, 150))
+            newCard.paste(resizedBackground, (0, 0), resizedBackground)
+
+            draw = ImageDraw.Draw(newCard)
+            draw.text((50, 110), cardData["name"], font=trainerTitleFont, fill=black)
+
+            if cardData["type"].strip() in ["tm"]:
+                draw_boxes(newCard, draw, cardData, black)
+            else:
+
+                description = get_wrapped_text(
+                    cardData["effect"], attackEffectFont, 375
+                )
+                if cardData["type"].strip() in ["supporter", "stadium"]:
+                    draw.text(
+                        (50, 470),
+                        "\n".join(description),
+                        font=attackEffectFont,
+                        fill=black,
+                    )
+                else:
+                    draw.text(
+                        (50, 420),
+                        "\n".join(description),
+                        font=attackEffectFont,
+                        fill=black,
+                    )
+
+            print(
+                "\tGenerating "
+                + cardData["name"]
+                + " as "
+                + cardData["type"]
+                + " "
+                + "trainer"
+            )
+            outputFilename = os.path.join(outputDirectory, cardData["name"])
+            newCard.save(outputFilename + ".png", "png")
+
+
+def draw_card(cardType: str, cardData: PokemonData, filename: str):
     color = black
     if cardType == "trainer":
-        trainerType = cardType + cardData["type"].strip()
-        cardBackgroundFilepath = os.path.join(blanksDirectory, trainerType + ".png")
-        cardArtFilepath = os.path.join(
-            cardArtDirectory, cardData["image"].lower().strip() + ".png"
-        )
-
-        newCard = Image.new("RGBA", (cardWidth, cardHeight))
-
-        with Image.open(cardBackgroundFilepath) as cardBackground:
-            resizedBackground = cardBackground.resize(
-                (cardWidth, cardHeight), Image.BICUBIC
-            )
-            with Image.open(cardArtFilepath) as cardArt:
-                resizedCardArt = cardArt.resize(
-                    (trainerArtWidth, trainerArtHeight), Image.BICUBIC
-                )
-                newCard.paste(resizedCardArt, (40, 150))
-                newCard.paste(resizedBackground, (0, 0), resizedBackground)
-
-                draw = ImageDraw.Draw(newCard)
-                draw.text(
-                    (50, 110), cardData["name"], font=trainerTitleFont, fill=black
-                )
-
-                if cardData["type"].strip() in ["tm"]:
-                    draw_boxes(newCard, draw, cardData, black)
-                else:
-
-                    description = get_wrapped_text(
-                        cardData["effect"], attackEffectFont, 375
-                    )
-                    if cardData["type"].strip() in ["supporter", "stadium"]:
-                        draw.text(
-                            (50, 470),
-                            "\n".join(description),
-                            font=attackEffectFont,
-                            fill=black,
-                        )
-                    else:
-                        draw.text(
-                            (50, 420),
-                            "\n".join(description),
-                            font=attackEffectFont,
-                            fill=black,
-                        )
-
-                print(
-                    "\tGenerating "
-                    + cardData["name"]
-                    + " as "
-                    + cardData["type"]
-                    + " "
-                    + cardType
-                )
-                outputFilename = os.path.join(outputDirectory, cardData["name"])
-                newCard.save(outputFilename + ".png", "png")
-
-                return
+        draw_trainer(cardData)
+        return
 
     if cardType == "dark" or cardType == "ghost":
         color = white
@@ -607,10 +621,12 @@ def draw_card(cardType: str, cardData, filename: str):
 
     with Image.open(cardBackgroundFilepath) as cardBackground:
         resizedBackground = cardBackground.resize(
-            (cardWidth, cardHeight), Image.BICUBIC
+            (cardWidth, cardHeight), Image.Resampling.BICUBIC
         )
         with Image.open(cardArtFilepath) as cardArt:
-            resizedCardArt = cardArt.resize((artWidth, artHeight), Image.BICUBIC)
+            resizedCardArt = cardArt.resize(
+                (artWidth, artHeight), Image.Resampling.BICUBIC
+            )
             newCard.paste(resizedCardArt, (45, 80))
             newCard.paste(resizedBackground, (0, 0), resizedBackground)
             if "evolvesFrom" in cardData:
@@ -621,7 +637,9 @@ def draw_card(cardType: str, cardData, filename: str):
                 )
 
                 with Image.open(preEvolutionFilepath) as preEvolution:
-                    resizedPreEvolution = preEvolution.resize((50, 50), Image.BICUBIC)
+                    resizedPreEvolution = preEvolution.resize(
+                        (50, 50), Image.Resampling.BICUBIC
+                    )
                     newCard.paste(resizedPreEvolution, (26, 45), resizedPreEvolution)
             draw = ImageDraw.Draw(newCard)
 
@@ -659,7 +677,7 @@ def draw_card(cardType: str, cardData, filename: str):
             if cardData["type"].lower() == "fairy" and cardData[
                 "stage"
             ].lower().startswith("stage"):
-                fairy = symbolsDict["fairy"].resize((40, 40), Image.BICUBIC)
+                fairy = symbolsDict["fairy"].resize((40, 40), Image.Resampling.BICUBIC)
                 newCard.paste(fairy, (405, 25), fairy)
 
                 if "weakness" in cardData:
@@ -698,7 +716,9 @@ def draw_card(cardType: str, cardData, filename: str):
                 )
             else:
                 if cardData["type"].lower() == "flying":
-                    flying = symbolsDict["flying"].resize((35, 35), Image.BICUBIC)
+                    flying = symbolsDict["flying"].resize(
+                        (35, 35), Image.Resampling.BICUBIC
+                    )
                     newCard.paste(flying, (388, 33), flying)
 
                 if "weakness" in cardData:
@@ -748,32 +768,43 @@ def draw_card(cardType: str, cardData, filename: str):
     newCard.save(outputFilename, "png")
 
 
-# ===========================
-# MAIN
-# ===========================
-def main():
-    parser = argparse.ArgumentParser()
+def shouldRecreate(
+    pokemonFilepath: str, outputFilepath: str, cardArtFilename: str
+) -> bool:
+    if not os.path.exists(outputFilepath):
+        print(
+            f"Creating new card {pokemonFilepath} at {outputFilepath} because it does not exist yet."
+        )
+        return True
+    elif os.path.getmtime("./generateCard.py") > os.path.getmtime(outputFilepath):
+        print(
+            f"Creating {pokemonFilepath} at {outputFilepath} because generateCard.py is newer."
+        )
+        return True
+    elif os.path.getmtime(cardArtFilename) > os.path.getmtime(outputFilepath):
+        print(
+            f"Creating {pokemonFilepath} at {outputFilepath} because there is new card art."
+        )
+        return True
+    elif os.path.getmtime(pokemonFilepath) > os.path.getmtime(outputFilepath):
+        print(
+            f"Creating {pokemonFilepath} at {outputFilepath} because the model was updated/created."
+        )
+        return True
 
-    parser.add_argument(
-        "-a",
-        "--all",
-        help="Should cards all be refreshed? Defaults to false.",
-        action="store_true",
+    print(
+        f"Skipping {pokemonFilepath} due to collision with preexisting {outputFilepath}"
     )
+    return False
 
-    arguments = parser.parse_args()
-    if not os.path.exists(outputDirectory):
-        os.mkdir(outputDirectory)
 
-    if arguments.all:
-        print(f"Recreating all files.")
-
+def copyPremadeCards(recopyIsForced: bool):
     for _, _, premadeFilenames in os.walk(premadeDirectory):
         for premadeFilename in premadeFilenames:
             premadeFilepath = os.path.join(premadeDirectory, premadeFilename)
             outputFilepath = os.path.join(outputDirectory, premadeFilename)
             shouldCopy = False
-            if arguments.all or not os.path.exists(outputFilepath):
+            if recopyIsForced or not os.path.exists(outputFilepath):
                 shouldCopy = True
             elif os.path.getmtime("./generateCard.py") > os.path.getmtime(
                 outputFilepath
@@ -786,6 +817,22 @@ def main():
             if shouldCopy:
                 shutil.copy(premadeFilepath, outputDirectory)
 
+
+def parseObjectDictToCard(jsondict: dict) -> PokemonData:
+    print(jsondict)
+    if "type" not in jsondict.keys():
+        return Attack(**jsondict)
+    elif "value" in jsondict.keys():
+        return WeakRes(**jsondict)
+    elif "hp" in jsondict.keys():
+        return CardData(**jsondict)
+    elif "image" in jsondict.keys():
+        return TrainerCardData(**jsondict)
+    else:
+        return Passive(**jsondict)
+
+
+def createNewCards(recreateIsForced: bool):
     for _, subdirectories, _ in os.walk(cardModelsDirectory):
         for subdirectory in subdirectories:
             print("Generating cards in " + subdirectory + " subdirectory")
@@ -797,53 +844,62 @@ def main():
                         cardModelsDirectory, subdirectory, pokemonFilename
                     )
                     pokemonFile = open(pokemonFilepath)
-                    pokemonData = json.load(pokemonFile)
+                    pokemonData: PokemonData = json.load(
+                        pokemonFile, object_hook=parseObjectDictToCard
+                    )
                     try:
-                        shouldCreate = False
                         outputFilename = pokemonFilename.replace(".json", ".png")
+
                         outputFilepath = os.path.join(outputDirectory, outputFilename)
                         cardArtFilename = os.path.join(
                             cardArtDirectory, f"{pokemonData['image']}.png"
                         )
-                        if arguments.all:
-                            shouldCreate = True
-                        # update outputFilename
-                        elif not os.path.exists(outputFilepath):
-                            print(
-                                f"Creating new card {pokemonFilepath} at {outputFilepath} because generateCard.py is newer than {outputFilename}."
-                            )
-                            shouldCreate = True
-                        elif os.path.getmtime("./generateCard.py") > os.path.getmtime(
-                            outputFilepath
-                        ):
-                            print(
-                                f"Creating {pokemonFilepath} at {outputFilepath} because generateCard.py is newer than {outputFilename}."
-                            )
-                            shouldCreate = True
-                        elif os.path.getmtime(cardArtFilename) > os.path.getmtime(
-                            outputFilepath
-                        ):
-                            print(
-                                f"Creating {pokemonFilepath} at {outputFilepath} because there is new card art."
-                            )
-                            shouldCreate = True
-                        elif os.path.getmtime(pokemonFilepath) > os.path.getmtime(
-                            outputFilepath
-                        ):
-                            print(
-                                f"Creating {pokemonFilepath} at {outputFilepath} because the model was updated/created."
-                            )
-                            shouldCreate = True
-                        else:
-                            print(
-                                f"Skipping {pokemonFilepath} due to collision with preexisting {outputFilepath}"
-                            )
 
-                        if shouldCreate:
+                        if recreateIsForced or shouldRecreate(
+                            pokemonFilepath, outputFilepath, cardArtFilename
+                        ):
                             draw_card(subdirectory, pokemonData, outputFilename)
                     except Exception as e:
                         print(e)
                         print(f"Could not create {pokemonFilepath}, skipping")
+
+
+# ===========================
+# MAIN
+# ===========================
+def main():
+    parser = argparse.ArgumentParser()
+
+    parser.add_argument(
+        "-a",
+        "--all",
+        help="Should cards all be force refreshed? Defaults to false.",
+        action="store_true",
+    )
+
+    parser.add_argument(
+        "-n",
+        "--new",
+        help="Should new cards be force refreshed? Defaults to false.",
+        action="store_true",
+    )
+
+    parser.add_argument(
+        "-p",
+        "--premade",
+        help="Should premade cards be force refreshed? Defaults to false.",
+        action="store_true",
+    )
+
+    arguments = parser.parse_args()
+    if not os.path.exists(outputDirectory):
+        os.mkdir(outputDirectory)
+
+    if arguments.all:
+        print(f"Recreating all files.")
+
+    # copyPremadeCards(arguments.all or arguments.premade)
+    createNewCards(arguments.all or arguments.new)
 
 
 if __name__ == "__main__":

@@ -12,3 +12,4 @@ premade/
 .DS_Store/
 .venv
 output.txt
+__pycache__/

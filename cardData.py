@@ -1,5 +1,4 @@
-from typing import List, NamedTuple
-
+from typing import List, NamedTuple, Optional
 
 class WeakRes(NamedTuple):
     type: str
@@ -8,9 +7,9 @@ class WeakRes(NamedTuple):
 
 class Attack(NamedTuple):
     name: str
-    cost: str
-    damage: int
-    effect: str
+    effect: Optional[str] = None
+    cost: Optional[str] = None
+    damage: Optional[int] = None
 
 
 class Passive(NamedTuple):
@@ -19,17 +18,28 @@ class Passive(NamedTuple):
     type: str
 
 
+class TrainerCardData(NamedTuple):
+    name: str
+    image: str
+    type: str
+    effect: Optional[str] = None
+    attacks: Optional[List[Attack]] = None
+
+
 class CardData(NamedTuple):
     name: str
     hp: int
     stage: str
-    evolvesFrom: str
     type: str
     image: str
-    passive: Passive
-    attacks: List[Attack]
-    weakness: WeakRes
-    resistance: WeakRes
     retreat: int
     rarity: int
     flavor: str
+    evolvesFrom: Optional[str] = None
+    passive: Optional[Passive] = None
+    attacks: Optional[List[Attack]] = None
+    weakness: Optional[WeakRes] = None
+    resistance: Optional[WeakRes] = None
+
+PokemonData = Attack | CardData | Passive | TrainerCardData | WeakRes
+
