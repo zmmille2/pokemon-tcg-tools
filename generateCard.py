@@ -1,11 +1,47 @@
 import argparse
 import json
-from typing import Any, Dict, Tuple
+from typing import Dict, Literal
 from PIL import Image, ImageDraw, ImageFont
 import os
 import shutil
 
-from cardData import Attack, CardData, Passive, TrainerCardData, WeakRes, PokemonData
+from cardData import (
+    TM,
+    Ability,
+    AbilityType,
+    Active,
+    Attack,
+    Bug,
+    CardData,
+    Dark,
+    Dragon,
+    Electric,
+    Fairy,
+    Fighting,
+    Fire,
+    Flying,
+    Ghost,
+    Grass,
+    Ground,
+    Ice,
+    Normal,
+    Passive,
+    Poison,
+    PokemonCardData,
+    PokemonType,
+    Psychic,
+    Rock,
+    Stadium,
+    Stage1,
+    Stage2,
+    Steel,
+    Supporter,
+    TrainerCardData,
+    Unique,
+    Water,
+    WeakRes,
+    PokemonData,
+)
 
 # ===========================
 # COLORS
@@ -32,12 +68,13 @@ preEvolutionDirectory = "preEvolutionArt"
 # ===========================
 emptyFilepath = "empty.png"
 symbolsFilepath = "symbols.png"
-symbolsDict: Dict[str, Image.Image] = {}
+symbolsDict: Dict[PokemonType, Image.Image] = {}
 symbolWidth = 25
 y0 = 12
 y1 = 72
 y2 = 87
 y3 = 147
+
 
 # top row of symbols.png
 with Image.open(symbolsFilepath) as symbols:
@@ -48,9 +85,6 @@ with Image.open(symbolsFilepath) as symbols:
         (symbolWidth, symbolWidth), Image.Resampling.BICUBIC
     )
     symbolsDict["water"] = symbols.crop((233, y0, 295, y1)).resize(
-        (symbolWidth, symbolWidth), Image.Resampling.BICUBIC
-    )
-    symbolsDict["lightning"] = symbols.crop((307, y0, 369, y1)).resize(
         (symbolWidth, symbolWidth), Image.Resampling.BICUBIC
     )
     symbolsDict["electric"] = symbols.crop((307, y0, 369, y1)).resize(
@@ -65,56 +99,47 @@ with Image.open(symbolsFilepath) as symbols:
     symbolsDict["dark"] = symbols.crop((529, y0, 591, y1)).resize(
         (symbolWidth, symbolWidth), Image.Resampling.BICUBIC
     )
-    symbolsDict["darkness"] = symbols.crop((529, y0, 591, y1)).resize(
-        (symbolWidth, symbolWidth), Image.Resampling.BICUBIC
-    )
-    symbolsDict["metal"] = symbols.crop((603, y0, 665, y1)).resize(
-        (symbolWidth, symbolWidth), Image.Resampling.BICUBIC
-    )
     symbolsDict["steel"] = symbols.crop((603, y0, 665, y1)).resize(
         (symbolWidth, symbolWidth), Image.Resampling.BICUBIC
     )
     symbolsDict["fairy"] = symbols.crop((677, y0, 739, y1)).resize(
         (symbolWidth, symbolWidth), Image.Resampling.BICUBIC
     )
-    symbolsDict["dragon"] = symbols.crop((751, y0, 813, y1)).resize(
+    symbolsDict[Dragon] = symbols.crop((751, y0, 813, y1)).resize(
         (symbolWidth, symbolWidth), Image.Resampling.BICUBIC
     )
-    symbolsDict["colorless"] = symbols.crop((825, y0, 887, y1)).resize(
-        (symbolWidth, symbolWidth), Image.Resampling.BICUBIC
-    )
-    symbolsDict["normal"] = symbols.crop((825, y0, 887, y1)).resize(
+    symbolsDict[Normal] = symbols.crop((825, y0, 887, y1)).resize(
         (symbolWidth, symbolWidth), Image.Resampling.BICUBIC
     )
 
     # bottom row of symbols.png
-    symbolsDict["poison"] = symbols.crop((195, y2, 257, y3)).resize(
+    symbolsDict[Poison] = symbols.crop((195, y2, 257, y3)).resize(
         (symbolWidth, symbolWidth), Image.Resampling.BICUBIC
     )
-    symbolsDict["flying"] = symbols.crop((269, y2, 331, y3)).resize(
+    symbolsDict[Flying] = symbols.crop((269, y2, 331, y3)).resize(
         (symbolWidth, symbolWidth), Image.Resampling.BICUBIC
     )
-    symbolsDict["bug"] = symbols.crop((343, y2, 405, y3)).resize(
+    symbolsDict[Bug] = symbols.crop((343, y2, 405, y3)).resize(
         (symbolWidth, symbolWidth), Image.Resampling.BICUBIC
     )
-    symbolsDict["ground"] = symbols.crop((417, y2, 479, y3)).resize(
+    symbolsDict[Ground] = symbols.crop((417, y2, 479, y3)).resize(
         (symbolWidth, symbolWidth), Image.Resampling.BICUBIC
     )
-    symbolsDict["rock"] = symbols.crop((491, y2, 553, y3)).resize(
+    symbolsDict[Rock] = symbols.crop((491, y2, 553, y3)).resize(
         (symbolWidth, symbolWidth), Image.Resampling.BICUBIC
     )
-    symbolsDict["ice"] = symbols.crop((565, y2, 627, y3)).resize(
+    symbolsDict[Ice] = symbols.crop((565, y2, 627, y3)).resize(
         (symbolWidth, symbolWidth), Image.Resampling.BICUBIC
     )
-    symbolsDict["ghost"] = symbols.crop((639, y2, 701, y3)).resize(
+    symbolsDict[Ghost] = symbols.crop((639, y2, 701, y3)).resize(
         (symbolWidth, symbolWidth), Image.Resampling.BICUBIC
     )
-    symbolsDict["dragon2"] = symbols.crop((713, y2, 775, y3)).resize(
-        (symbolWidth, symbolWidth), Image.Resampling.BICUBIC
-    )
+    # symbolsDict["dragon2"] = symbols.crop((713, y2, 775, y3)).resize(
+    #     (symbolWidth, symbolWidth), Image.Resampling.BICUBIC
+    # )
 
 with Image.open(emptyFilepath) as empty:
-    symbolsDict["empty"] = empty.resize(
+    symbolsDict[None] = empty.resize(
         (symbolWidth, symbolWidth), Image.Resampling.BICUBIC
     )
 
@@ -202,15 +227,15 @@ def dissect_symbols():
 
 
 def draw_title_and_description(
-    draw: ImageDraw.Draw,
+    draw: ImageDraw.ImageDraw,
     title: str,
     titleFont: ImageFont.FreeTypeFont,
     description: str,
     descriptionFont: ImageFont.FreeTypeFont,
-    location: Tuple[int, int],
-    limit: Tuple[int, int],
-    color: Tuple[int, int, int, int],
-    titleFill: Tuple[int, int, int, int],
+    location: tuple[int, int],
+    limit: tuple[int, int],
+    color: tuple[int, int, int, int],
+    titleFill: tuple[int, int, int, int],
     smallTitleFont: ImageFont.FreeTypeFont,
     smallDescriptionFont: ImageFont.FreeTypeFont,
     mediumTitleFont: ImageFont.FreeTypeFont,
@@ -305,8 +330,10 @@ def draw_title_and_description(
         )
 
 
-def draw_retreat_symbols(card: Image.Image, retreat_cost: int, location: tuple([int])):
-    symbol = symbolsDict["colorless"]
+def draw_retreat_symbols(
+    card: Image.Image, retreat_cost: int, location: tuple[int, int]
+):
+    symbol = symbolsDict[Normal]
     y = location[1]
     if retreat_cost == 1 or retreat_cost == 3 or retreat_cost == 5:
         card.paste(symbol, location, symbol)
@@ -351,32 +378,30 @@ def get_wrapped_text(
     return lines
 
 
-def draw_passive_box(draw, passive, textBoxTop, textBoxBottom, color):
-    prefix = passive["type"].title().strip()
-
-    if (
-        prefix == "Passive Ability" or prefix == "Ability" or prefix == "Passive"
-    ):  # No restrictions
+def draw_passive_box(
+    draw: ImageDraw.ImageDraw,
+    passive: AbilityType,
+    textBoxTop: int,
+    textBoxBottom: int,
+    color: tuple[int, int, int, int],
+):
+    if passive.type == Passive:  # No restrictions
         passive_color = blue
         prefix = "Passive Ability: "
-    elif (
-        prefix == "Unique Ability" or prefix == "Poke-Body" or prefix == "Unique"
-    ):  # Unique to this pokemon
+    elif passive.type == Unique:  # Unique to this pokemon
         passive_color = green
         prefix = "Unique Ability: "
-    elif (
-        prefix == "Active Ability" or prefix == "Poke-Power" or prefix == "Active"
-    ):  # Unique to this pokemon while Active
+    elif passive.type == Active:  # Unique to this pokemon while Active
         passive_color = red
         prefix = "Active Ability: "
     else:
-        raise Exception(f"I don't know what a {prefix} is")
+        raise Exception(f"I don't know what a {passive.type} passive is")
 
     draw_title_and_description(
         draw,
-        prefix + passive["name"].title().strip(),
+        prefix + passive.name,
         passiveNameFont,
-        passive["effect"].strip(),
+        passive.effect,
         passiveEffectFont,
         (60, textBoxTop),
         (cardWidth - 100, textBoxBottom),
@@ -401,11 +426,11 @@ for x in range(symbolWidth):
 gradient = mask.resize((symbolWidth, symbolWidth)).rotate(-45)
 
 
-def generate_symbol(icon: str):
-    if icon in symbolsDict:
+def generate_symbol(icon: PokemonType | tuple[PokemonType, PokemonType]) -> Image.Image:
+    if type(icon) is PokemonType:
         return symbolsDict[icon]
-    elif icon.find("-") != -1:
-        [first, second] = icon.split("-")
+    elif type(icon) is tuple[PokemonType, PokemonType]:
+        first, second = icon
         first_symbol = symbolsDict[first].copy()
         second_symbol = symbolsDict[second]
 
@@ -417,15 +442,22 @@ def generate_symbol(icon: str):
         raise Exception(f"I don't know what a {icon} icon is.")
 
 
-def draw_attack_box(card, draw, attack, textBoxTop, textBoxBottom, color):
+def draw_attack_box(
+    card: Image.Image,
+    draw: ImageDraw.ImageDraw,
+    attack: Attack,
+    textBoxTop: int,
+    textBoxBottom: int,
+    color: tuple[int, int, int, int],
+):
     center_y = int((textBoxTop + textBoxBottom) / 2)
 
-    if "effect" in attack:
+    if attack.effect is not None:
         draw_title_and_description(
             draw,
-            attack["name"],
+            attack.name,
             attackNameEffectFont,
-            attack["effect"],
+            attack.effect,
             attackEffectFont,
             (80, textBoxTop),
             (cardWidth - 160, textBoxBottom),
@@ -439,15 +471,14 @@ def draw_attack_box(card, draw, attack, textBoxTop, textBoxBottom, color):
     else:
         draw.text(
             (cardWidth / 2, center_y),
-            attack["name"],
+            attack.name,
             font=attackNameNoEffectFont,
             fill=color,
             anchor="mm",
         )
 
-    if "cost" in attack:
-        cost = attack["cost"]
-        icons = cost.split()
+    if attack.cost is not None:
+        icons = attack.cost.split()
         symbol_center = center_y - 12
 
         num_icons = len(icons)
@@ -475,30 +506,35 @@ def draw_attack_box(card, draw, attack, textBoxTop, textBoxBottom, color):
             card.paste(symbols[3], (25, symbol_center + 20), symbols[3])
             card.paste(symbols[4], (55, symbol_center + 20), symbols[4])
 
-    if "damage" in attack:
+    if attack.damage is not None:
         draw.text(
             (390, center_y),
-            str(attack["damage"]),
+            attack.damage,
             font=damageFont,
             fill=color,
             anchor="lm",
         )
 
 
-def draw_boxes(card: Image.Image, draw: ImageDraw.ImageDraw, cardData, color):
+def draw_boxes(
+    card: Image.Image,
+    draw: ImageDraw.ImageDraw,
+    cardData: CardData,
+    color: tuple[int, int, int, int],
+):
     count = 0
-    if "passive" in cardData:
+    if cardData.passive is not None:
         count += 1
-    if "attacks" in cardData:
-        count += len(cardData["attacks"])
+    if cardData.attacks is not None:
+        count += len(cardData.attacks)
 
     if count == 0:
         print("No abilities or attacks found. Do you have a typo?")
     elif count == 1:
-        if "passive" in cardData:
+        if cardData.passive is not None:
             draw_passive_box(
                 draw,
-                cardData["passive"],
+                cardData.passive,
                 absoluteTextBoxTop,
                 absoluteTextBoxBottom,
                 color,
@@ -507,7 +543,7 @@ def draw_boxes(card: Image.Image, draw: ImageDraw.ImageDraw, cardData, color):
             draw_attack_box(
                 card,
                 draw,
-                cardData["attacks"][0],
+                cardData.attacks[0],
                 absoluteTextBoxTop,
                 absoluteTextBoxBottom,
                 color,
@@ -518,10 +554,8 @@ def draw_boxes(card: Image.Image, draw: ImageDraw.ImageDraw, cardData, color):
         textBoxBottom = interval + absoluteTextBoxTop
         attack_index = 0
 
-        if "passive" in cardData:
-            draw_passive_box(
-                draw, cardData["passive"], textBoxTop, textBoxBottom, color
-            )
+        if cardData.passive is not None:
+            draw_passive_box(draw, cardData.passive, textBoxTop, textBoxBottom, color)
             draw.rectangle((60, textBoxBottom, 380, textBoxBottom + 1), fill=color)
             textBoxTop += interval
             textBoxBottom += interval
@@ -532,7 +566,7 @@ def draw_boxes(card: Image.Image, draw: ImageDraw.ImageDraw, cardData, color):
             draw_attack_box(
                 card,
                 draw,
-                cardData["attacks"][attack_index],
+                cardData.attacks[attack_index],
                 textBoxTop,
                 textBoxBottom,
                 color,
@@ -544,12 +578,10 @@ def draw_boxes(card: Image.Image, draw: ImageDraw.ImageDraw, cardData, color):
         print("Currently up to 4 attacks or 3 attacks with 1 passive are supported.")
 
 
-def draw_trainer(cardData):
-    trainerType = "trainer" + cardData["type"].strip()
+def draw_trainer(cardData: TrainerCardData):
+    trainerType = "trainer" + cardData.type.strip()
     cardBackgroundFilepath = os.path.join(blanksDirectory, trainerType + ".png")
-    cardArtFilepath = os.path.join(
-        cardArtDirectory, cardData["image"].lower().strip() + ".png"
-    )
+    cardArtFilepath = os.path.join(cardArtDirectory, cardData.image + ".png")
 
     newCard = Image.new("RGBA", (cardWidth, cardHeight))
 
@@ -565,16 +597,13 @@ def draw_trainer(cardData):
             newCard.paste(resizedBackground, (0, 0), resizedBackground)
 
             draw = ImageDraw.Draw(newCard)
-            draw.text((50, 110), cardData["name"], font=trainerTitleFont, fill=black)
+            draw.text((50, 110), cardData.name, font=trainerTitleFont, fill=black)
 
-            if cardData["type"].strip() in ["tm"]:
+            if cardData.type is TM:
                 draw_boxes(newCard, draw, cardData, black)
             else:
-
-                description = get_wrapped_text(
-                    cardData["effect"], attackEffectFont, 375
-                )
-                if cardData["type"].strip() in ["supporter", "stadium"]:
+                description = get_wrapped_text(cardData.effect, attackEffectFont, 375)
+                if cardData.type in [Supporter, Stadium]:
                     draw.text(
                         (50, 470),
                         "\n".join(description),
@@ -591,31 +620,23 @@ def draw_trainer(cardData):
 
             print(
                 "\tGenerating "
-                + cardData["name"]
+                + cardData.name
                 + " as "
-                + cardData["type"]
+                + cardData.type
                 + " "
                 + "trainer"
             )
-            outputFilename = os.path.join(outputDirectory, cardData["name"])
+            outputFilename = os.path.join(outputDirectory, cardData.name)
             newCard.save(outputFilename + ".png", "png")
 
 
-def draw_card(cardType: str, cardData: PokemonData, filename: str):
-    color = black
-    if cardType == "trainer":
-        draw_trainer(cardData)
-        return
-
-    if cardType == "dark" or cardType == "ghost":
-        color = white
+def draw_pokemon(cardData: PokemonCardData, filename: str):
+    color = black if cardData.type is Dark or cardData.type is Ghost else white
 
     # calculate filenames
-    cardStageAndType = cardType + cardData["stage"].lower().strip() + ".png"
+    cardStageAndType = cardData.type + cardData.stage + ".png"
     cardBackgroundFilepath = os.path.join(blanksDirectory, cardStageAndType)
-    cardArtFilepath = os.path.join(
-        cardArtDirectory, cardData["image"].lower().strip() + ".png"
-    )
+    cardArtFilepath = os.path.join(cardArtDirectory, cardData.image + ".png")
 
     newCard = Image.new("RGBA", (cardWidth, cardHeight))
 
@@ -629,11 +650,10 @@ def draw_card(cardType: str, cardData: PokemonData, filename: str):
             )
             newCard.paste(resizedCardArt, (45, 80))
             newCard.paste(resizedBackground, (0, 0), resizedBackground)
-            if "evolvesFrom" in cardData:
+            if cardData.evolvesFrom is not None:
                 preEvolutionFilepath = os.path.join(
                     preEvolutionDirectory,
-                    str(cardData["evolvesFrom"]).strip().lower().replace(" ", "-")
-                    + ".png",
+                    cardData.evolvesFrom.replace(" ", "-") + ".png",
                 )
 
                 with Image.open(preEvolutionFilepath) as preEvolution:
@@ -647,11 +667,10 @@ def draw_card(cardType: str, cardData: PokemonData, filename: str):
             # TEXT
             # =============================================
             name_offset = 50
-            if "evolvesFrom" in cardData:
-                evolvesFrom: str = cardData["evolvesFrom"]
+            if cardData.evolvesFrom is not None:
                 draw.text(
                     (100, 30),
-                    "Evolves from " + " ".join(evolvesFrom.split("-")).title(),
+                    "Evolves from " + " ".join(cardData.evolvesFrom.split("-")).title(),
                     font=evolvesFromFont,
                     fill=color,
                 )
@@ -659,105 +678,91 @@ def draw_card(cardType: str, cardData: PokemonData, filename: str):
 
             draw.text(
                 (name_offset, 45),
-                cardData["name"].strip(),
+                cardData.name,
                 font=pokemonNameFont,
                 fill=color,
             )
-            hp = cardData["hp"]
-            if hp < 100:
-                draw.text((350, 45), str(hp) + " HP", font=hpFont, fill=color)
+            hp = str(cardData.hp)
+            if cardData.hp < 100:
+                draw.text((350, 45), hp + " HP", font=hpFont, fill=color)
             else:
-                draw.text((335, 45), str(hp) + " HP", font=hpFont, fill=color)
+                draw.text((335, 45), hp + " HP", font=hpFont, fill=color)
 
             draw_boxes(newCard, draw, cardData, color)
 
             # =============================================
             # WEAKNESS, RESISTANCE, RETREAT, AND FLAVOR
             # =============================================
-            if cardData["type"].lower() == "fairy" and cardData[
-                "stage"
-            ].lower().startswith("stage"):
-                fairy = symbolsDict["fairy"].resize((40, 40), Image.Resampling.BICUBIC)
+            if cardData.type == Fairy and cardData.stage in [Stage1, Stage2]:
+                fairy = symbolsDict[Fairy].resize((40, 40), Image.Resampling.BICUBIC)
                 newCard.paste(fairy, (405, 25), fairy)
 
-                if "weakness" in cardData:
-                    weakness = generate_symbol(
-                        cardData["weakness"]["type"].lower().strip()
-                    )
-                    weaknessAmount = str(cardData["weakness"]["value"])
+                if cardData.weakness is not None:
+                    weakness = generate_symbol(cardData.weakness.type)
                     newCard.paste(weakness, (85, 565), weakness)
-                    # TODO: Split if two are listed
+                    # TODO: Support for Union Types
                     draw.text(
                         (65, 570),
-                        "+" + weaknessAmount,
+                        "+" + str(cardData.weakness.value),
                         font=weaknessResistanceFont,
                         fill=color,
                     )
 
-                if "resistance" in cardData:
-                    resistance = generate_symbol(
-                        cardData["resistance"]["type"].lower().strip()
-                    )
-                    resistanceAmount = str(cardData["resistance"]["value"])
+                if cardData.resistance is not None:
+                    resistance = generate_symbol(cardData.resistance.type)
                     newCard.paste(resistance, (180, 565), resistance)
-                    # TODO: Split if two are listed
+                    # TODO: Support for Union Types
                     draw.text(
                         (160, 570),
-                        "-" + resistanceAmount,
+                        "-" + str(cardData.resistance.value),
                         font=weaknessResistanceFont,
                         fill=color,
                     )
 
-                draw_retreat_symbols(newCard, cardData["retreat"], (134, 595))
+                draw_retreat_symbols(newCard, cardData.retreat, (134, 595))
 
-                description = get_wrapped_text(cardData["flavor"], pokedexFont, 175)
+                description = get_wrapped_text(cardData.flavor, pokedexFont, 175)
                 draw.text(
                     (242, 560), "\n".join(description), font=pokedexFont, fill=color
                 )
             else:
-                if cardData["type"].lower() == "flying":
-                    flying = symbolsDict["flying"].resize(
+                if cardData.type == Flying:
+                    flying = symbolsDict[Flying].resize(
                         (35, 35), Image.Resampling.BICUBIC
                     )
                     newCard.paste(flying, (388, 33), flying)
 
-                if "weakness" in cardData:
-                    weakness = generate_symbol(
-                        cardData["weakness"]["type"].lower().strip()
-                    )
-                    weaknessAmount = str(cardData["weakness"]["value"])
+                if cardData.weakness is not None:
+                    weakness = generate_symbol(cardData.weakness.type)
                     newCard.paste(weakness, (60, 555), weakness)
-                    # TODO: Split if two are listed
+                    # TODO: Support for Union Types
                     draw.text(
                         (87, 560),
-                        "+" + weaknessAmount,
+                        "+" + str(cardData.weakness.value),
                         font=weaknessResistanceFont,
                         fill=color,
                     )
 
-                if "resistance" in cardData:
-                    resistance = generate_symbol(
-                        cardData["resistance"]["type"].lower().strip()
-                    )
-                    resistanceAmount = str(cardData["resistance"]["value"])
+                if cardData.resistance is not None:
+                    resistance = generate_symbol(cardData.resistance.type)
                     newCard.paste(resistance, (215, 555), resistance)
-                    # TODO: Split if two are listed
+                    # TODO: Support for Union Types
                     draw.text(
                         (242, 560),
-                        "-" + resistanceAmount,
+                        "-" + str(cardData.resistance.value),
                         font=weaknessResistanceFont,
                         fill=color,
                     )
 
-                draw_retreat_symbols(newCard, cardData["retreat"], (375, 555))
+                draw_retreat_symbols(newCard, cardData.retreat, (375, 555))
 
-                description = get_wrapped_text(cardData["flavor"], pokedexFont, 375)
+                description = get_wrapped_text(cardData.flavor, pokedexFont, 375)
                 draw.text(
                     (45, 590), "\n".join(description), font=pokedexFont, fill=color
                 )
 
     print(
-        "\tGenerating " + cardData["name"] + " as " + cardData["stage"] + " " + cardType
+        "\tGenerating " + cardData.name + " as " + cardData.stage + " " + cardData.type
     )
     outputFilename = os.path.join(outputDirectory, filename)
 
@@ -766,6 +771,14 @@ def draw_card(cardType: str, cardData: PokemonData, filename: str):
 
     print("\tSaving to " + outputFilename)
     newCard.save(outputFilename, "png")
+
+
+def draw_card(cardData: CardData, filename: str):
+    if type(cardData) is TrainerCardData:
+        draw_trainer(cardData)
+        return
+    elif type(cardData) is PokemonCardData:
+        draw_pokemon(cardData, filename)
 
 
 def shouldRecreate(
@@ -821,15 +834,17 @@ def copyPremadeCards(recopyIsForced: bool):
 def parseObjectDictToCard(jsondict: dict) -> PokemonData:
     print(jsondict)
     if "type" not in jsondict.keys():
+        # TODO: Fix type parsing here
         return Attack(**jsondict)
     elif "value" in jsondict.keys():
         return WeakRes(**jsondict)
     elif "hp" in jsondict.keys():
-        return CardData(**jsondict)
+        return PokemonCardData(**jsondict)
     elif "image" in jsondict.keys():
         return TrainerCardData(**jsondict)
     else:
-        return Passive(**jsondict)
+        # TODO: Fix ability parsing here
+        return Ability(**jsondict)
 
 
 def createNewCards(recreateIsForced: bool):
@@ -844,7 +859,7 @@ def createNewCards(recreateIsForced: bool):
                         cardModelsDirectory, subdirectory, pokemonFilename
                     )
                     pokemonFile = open(pokemonFilepath)
-                    pokemonData: PokemonData = json.load(
+                    pokemonData: CardData = json.load(
                         pokemonFile, object_hook=parseObjectDictToCard
                     )
                     try:
@@ -852,13 +867,13 @@ def createNewCards(recreateIsForced: bool):
 
                         outputFilepath = os.path.join(outputDirectory, outputFilename)
                         cardArtFilename = os.path.join(
-                            cardArtDirectory, f"{pokemonData['image']}.png"
+                            cardArtDirectory, f"{pokemonData.image}.png"
                         )
 
                         if recreateIsForced or shouldRecreate(
                             pokemonFilepath, outputFilepath, cardArtFilename
                         ):
-                            draw_card(subdirectory, pokemonData, outputFilename)
+                            draw_card(pokemonData, outputFilename)
                     except Exception as e:
                         print(e)
                         print(f"Could not create {pokemonFilepath}, skipping")

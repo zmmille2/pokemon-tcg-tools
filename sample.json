@@ -1,0 +1,89 @@
+{
+    "schemaType": "vriz",
+    "schemaVersion": "1.0.0",
+    "gameName": "Game name: snake noice",
+    "gameVersion": "The version of this game.",
+    "symbols": {
+        "symbolsPath": "An optional path to a separate symbols json file. If found, that file is preferred, and these options are ignored.",
+        "imagePath": "An optional path to a symbols file containing every symbol from this set.",
+        "symbolName": {
+            "imagePath": "An optional path to a file containing just this symbol.",
+            "location": {
+                "x": "The x location within the imagePath. Defaults to 0.",
+                "y": "The y location within the imagePath. Defaults to 0.",
+                "width": "The width of the image within the imagePath. Defaults to 0.",
+                "height": "The height of the image within the imagePath. Defaults to 0."
+            }
+        },
+        "_synonyms": {
+            "synonym1": "A symbolName that synonym1 should resolve to.",
+            "synonym2": "A symbolName that synonym2 should resolve to."
+        },
+        "_mappings": {
+            "[d]": "symbolName"
+        }
+    },
+    "fonts": {
+        "fontsPath": "An optional path to a separate fonts json file. If found, that file is preferred, and these options are ignored.",
+        "name": {
+            "fontLocation": "A path to this font.",
+            "size": 0
+        }
+    },
+    "cardFormats": {
+        "cardFormat": [
+            {
+                "type": "staticimage",
+                "subtype": "static",
+                "path": "The path to the image. This will be drawn on every card.",
+                "location": {
+                    "x": "The x location of the image. Defaults to 0.",
+                    "y": "The y location of the image. Defaults to 0.",
+                    "width": "The width of the image. Defaults to 0.",
+                    "height": "The height of the image. Defaults to 0."
+                }
+            },
+            {
+                "type": "text",
+                "subtype": "static",
+                "content": "The text to write. This will be written on every card.",
+                "location": {
+                    "x": "The x location of the text. Defaults to 0.",
+                    "y": "The y location of the text. Defaults to 0.",
+                    "width": "The width of the text. Defaults to 0.",
+                    "height": "The height of the text. Defaults to 0."
+                }
+            },
+            {
+                "type": "image",
+                "subtype": "dynamic",
+                "property": "The property to read from the card definition.",
+                "location": {
+                    "x": "The x location of the image. Defaults to 0.",
+                    "y": "The y location of the image. Defaults to 0.",
+                    "width": "The width of the image. Defaults to 0.",
+                    "height": "The height of the image. Defaults to 0."
+                }
+            },
+            {
+                "type": "text",
+                "subtype": "dynamic",
+                "property": "The property to read from the card definition.",
+                "location": {
+                    "x": "The x location of the text. Defaults to 0.",
+                    "y": "The y location of the text. Defaults to 0.",
+                    "width": "The width of the text. Defaults to 0.",
+                    "height": "The height of the text. Defaults to 0."
+                }
+            },
+            {
+                "type": "cardFormat",
+                "subtype": "static",
+                "name": "The other cardFormat to draw."
+            },
+            {
+                "type": "cardFormatFile"
+            }
+        ]
+    }
+}
